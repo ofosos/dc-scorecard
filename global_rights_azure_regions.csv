@@ -1,0 +1,58 @@
+Region,Country_Code,Country,Rating
+australiacentral,AU,Australia,2
+australiacentral2,AU,Australia,2
+australiaeast,AU,Australia,2
+australiasoutheast,AU,Australia,2
+austriaeast,AT,Austria,1
+belgiumcentral,BE,Belgium,3
+brazilsouth,BR,Brazil,4
+brazilsoutheast,BR,Brazil,4
+canadacentral,CA,Canada,3
+canadaeast,CA,Canada,3
+centralindia,IN,India,5
+centralus,US,United States of America,4
+chilecentral,CL,Chile,3
+denmarkeast,DK,Denmark,1
+eastasia,HK,Hong Kong,5
+eastus,US,United States of America,4
+eastus2,US,United States of America,4
+francecentral,FR,France,3
+francesouth,FR,France,3
+germanynorth,DE,Germany,1
+germanywestcentral,DE,Germany,1
+indiasouthcentral,IN,India,5
+indonesiacentral,ID,Indonesia,5
+israelcentral,IL,Israel,4
+italynorth,IT,Italy,2
+japaneast,JP,Japan,2
+japanwest,JP,Japan,2
+koreacentral,KR,Korea (Republic of),5
+koreasouth,KR,Korea (Republic of),5
+malaysiawest,MY,Malaysia,5
+mexicocentral,MX,Mexico,3
+newzealandnorth,NZ,New Zealand,2
+northcentralus,US,United States of America,4
+northeurope,IE,Ireland,1
+norwayeast,NO,Norway,1
+norwaywest,NO,Norway,1
+polandcentral,PL,Poland,3
+qatarcentral,QA,Qatar,5
+southafricanorth,ZA,South Africa,3
+southafricawest,ZA,South Africa,3
+southcentralus,US,United States of America,4
+southindia,IN,India,5
+southeastasia,SG,Singapore,2
+spaincentral,ES,Spain,2
+swedencentral,SE,Sweden,1
+switzerlandnorth,CH,Switzerland,3
+switzerlandwest,CH,Switzerland,3
+uaecentral,AE,United Arab Emirates,5
+uaenorth,AE,United Arab Emirates,5
+uksouth,GB,United Kingdom,3
+ukwest,GB,United Kingdom,3
+westcentralus,US,United States of America,4
+westeurope,NL,Netherlands,2
+westindia,IN,India,5
+westus,US,United States of America,4
+westus2,US,United States of America,4
+westus3,US,United States of America,4

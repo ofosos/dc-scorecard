@@ -1,0 +1,152 @@
+Country,Country_Code,Rating
+Afghanistan,AF,5+
+Burundi,BI,5+
+Central African Republic,CF,5+
+Haiti,HT,5+
+Libya,LY,5+
+Myanmar,MM,5+
+Palestine,PS,5+
+Somalia,SO,5+
+South Sudan,SS,5+
+Sudan,SD,5+
+Syria,SY,5+
+Yemen,YE,5+
+Algeria,DZ,5
+Argentina,AR,5
+Bahrain,BH,5
+Bangladesh,BD,5
+Belarus,BY,5
+Cambodia,KH,5
+China,CN,5
+Colombia,CO,5
+Ecuador,EC,5
+Egypt,EG,5
+Eritrea,ER,5
+Eswatini,SZ,5
+Guatemala,GT,5
+Honduras,HN,5
+Hong Kong,HK,5
+India,IN,5
+Indonesia,ID,5
+Iran,IR,5
+Iraq,IQ,5
+Jordan,JO,5
+Kazakhstan,KZ,5
+Korea (Republic of),KR,5
+Kuwait,KW,5
+Kyrgyzstan,KG,5
+Laos,LA,5
+Malaysia,MY,5
+Mauritania,MR,5
+Nigeria,NG,5
+Pakistan,PK,5
+Panama,PA,5
+Philippines,PH,5
+Qatar,QA,5
+Russian Federation,RU,5
+Saudi Arabia,SA,5
+Thailand,TH,5
+Tunisia,TN,5
+Türkiye,TR,5
+Ukraine,UA,5
+United Arab Emirates,AE,5
+Venezuela,VE,5
+Zimbabwe,ZW,5
+Albania,AL,4
+Angola,AO,4
+Benin,BJ,4
+Brazil,BR,4
+Burkina Faso,BF,4
+Cameroon,CM,4
+Chad,TD,4
+Congo (Democratic Republic of),CD,4
+Costa Rica,CR,4
+Djibouti,DJ,4
+El Salvador,SV,4
+Ethiopia,ET,4
+Fiji,FJ,4
+Georgia,GE,4
+Greece,GR,4
+Guinea,GN,4
+Guinea-Bissau,GW,4
+Hungary,HU,4
+Israel,IL,4
+Kenya,KE,4
+Lebanon,LB,4
+Lesotho,LS,4
+Liberia,LR,4
+Madagascar,MG,4
+Mali,ML,4
+Niger,NE,4
+North Macedonia,MK,4
+Peru,PE,4
+Senegal,SN,4
+Serbia,RS,4
+Sierra Leone,SL,4
+Sri Lanka,LK,4
+Tanzania,TZ,4
+Trinidad and Tobago,TT,4
+Uganda,UG,4
+United States of America,US,4
+Vietnam,VN,4
+Zambia,ZM,4
+Armenia,AM,3
+Bahamas,BS,3
+Belgium,BE,3
+Belize,BZ,3
+Bolivia,BO,3
+Bosnia and Herzegovina,BA,3
+Botswana,BW,3
+Bulgaria,BG,3
+Canada,CA,3
+Chile,CL,3
+Congo (Republic of),CG,3
+Côte d'Ivoire,CI,3
+France,FR,3
+Gabon,GA,3
+Jamaica,JM,3
+Mauritius,MU,3
+Mexico,MX,3
+Montenegro,ME,3
+Morocco,MA,3
+Mozambique,MZ,3
+Namibia,NA,3
+Nepal,NP,3
+Oman,OM,3
+Paraguay,PY,3
+Poland,PL,3
+Romania,RO,3
+Rwanda,RW,3
+South Africa,ZA,3
+Switzerland,CH,3
+Togo,TG,3
+United Kingdom,GB,3
+Australia,AU,2
+Barbados,BB,2
+Croatia,HR,2
+Czechia,CZ,2
+Dominican Republic,DO,2
+Estonia,EE,2
+Finland,FI,2
+Ghana,GH,2
+Italy,IT,2
+Japan,JP,2
+Latvia,LV,2
+Lithuania,LT,2
+Malawi,MW,2
+Moldova (Republic of),MD,2
+Netherlands,NL,2
+New Zealand,NZ,2
+Portugal,PT,2
+Singapore,SG,2
+Slovakia,SK,2
+Spain,ES,2
+Taiwan,TW,2
+Austria,AT,1
+Denmark,DK,1
+Germany,DE,1
+Iceland,IS,1
+Ireland,IE,1
+Norway,NO,1
+Sweden,SE,1
+Uruguay,UY,1
