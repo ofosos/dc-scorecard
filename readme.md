@@ -136,6 +136,18 @@ Script: `files_pricing.py`
 
 Output: `files_pricing.csv`
 
+## Pricing summary
+
+Per-offering statistics (top, bottom, median, average, top/bottom decile
+price, number of regions including `na`, number of regions with a price,
+percentage of regions offered in, and the regions carrying the top and
+bottom prices) for the compute, blob, block and Files pricing matrices,
+written as one markdown table per offering.
+
+Script: `pricing_summary.py`
+
+Output: `pricing-summary.md`
+
 ## Requirements
 
  - Azure CLI
@@ -154,3 +166,4 @@ Output: `files_pricing.csv`
  - `blob_storage_pricing.csv` blob storage price per GB (tier/performance/redundancy)
  - `block_storage_pricing.csv` block storage (managed disk) price per GB (performance/redundancy)
  - `files_pricing.csv` Azure Files price per GB (performance/redundancy)
+ - `pricing-summary.md` per-offering pricing statistics across regions
