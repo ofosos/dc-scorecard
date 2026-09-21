@@ -20,8 +20,8 @@ Standard_F4s_v2):
 
 Usage
 -----
-    python3 az_vm_prices_availability.py
-    python3 az_vm_prices_availability.py \\
+    python3 compute_prices_availability.py
+    python3 compute_prices_availability.py \\
         --regions-file az_regions_annotated.json \\
         --output azure_vm_prices_availability.csv \\
         --instances Standard_B4ms Standard_D4s_v3

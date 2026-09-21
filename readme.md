@@ -91,7 +91,7 @@ types across all regions in `az_regions_annotated.json`.
 
     pip install requests pandas numpy azure-identity azure-mgmt-compute
     export AZURE_SUBSCRIPTION_ID=<subscription-id>
-    python3 az_vm_prices_availability.py
+    python3 compute_prices_availability.py
 
 Without Azure credentials the script still returns prices and marks
 availability as `unknown`.
