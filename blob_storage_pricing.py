@@ -23,7 +23,7 @@ Dimension mapping (Azure does not sell every combination):
     LRS / GRS / ZRS (read-access RA-GRS/RA-GZRS and geo-zone GZRS
                     SKUs are not requested and are skipped)
 
-Cells Azure does not sell are written with an empty price:
+Cells Azure does not sell are written with the string "na":
 - Premium Block Blob is only offered with LRS and ZRS (no GRS).
 - Premium Block Blob has no access tiers; its price is listed under
   "Hot Tier" only.
@@ -253,7 +253,7 @@ def main() -> int:
         parser.error("no regions selected")
 
     df = fetch_all(regions, args.currency.upper())
-    df.to_csv(args.output, index=False)
+    df.to_csv(args.output, index=False, na_rep="na")
 
     total = len(df)
     missing = int(df[PRICE_COLUMN].isna().sum())
