@@ -88,9 +88,10 @@ Script: `ged-analysis.py`
 Availability (Resource SKUs API, like `az vm list-skus --location <region> --size <instance>`)
 and Linux/spot retail prices (Retail Prices API) for selected instance
 types across all regions in `az_regions_annotated.json`. Default
-instances: Standard_B4ms, the D series across generations (D4s_v3,
-D4_v2, DS4_v2, D4), the E series (E2s_v3, E2_v3; the E series starts
-at v3) and the F series (F4s_v2, F4s, F4).
+instances: Standard_B4ms, the D series across generations (D4s_v3/v4/
+v5/v6, D4_v2, DS4_v2, D4), the E series (E2s_v3/v4/v5/v6, E2_v3; the E
+series starts at v3) and the F series (F4s_v2, F4s, F4, plus its
+successor FX4mds; the F series ends at v2).
 
     pip install requests pandas numpy azure-identity azure-mgmt-compute
     export AZURE_SUBSCRIPTION_ID=<subscription-id>
