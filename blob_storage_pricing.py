@@ -12,8 +12,8 @@ Dimension mapping (Azure does not sell every combination):
 
 - Access frequency:
     Hot Tier     -> "Hot" SKUs
-    Cold Tier    -> "Cold" SKUs, falling back to "Cool" where Cold is
-                    not offered in a region
+    Cold Tier    -> "Cool" SKUs (the classic cool tier, not the newer
+                    "Cold" SKU)
     Archive Tier -> "Archive" SKUs
 - Performance:
     Standard SSD -> General Block Blob v2 (standard performance,
@@ -64,10 +64,10 @@ ACCESS_TIERS = ("Hot Tier", "Cold Tier", "Archive Tier")
 PERFORMANCE_TIERS = ("Premium SSD", "Standard SSD")
 REDUNDANCIES = ("LRS", "GRS", "ZRS")
 
-# Access tier -> SKU tier names in preference order (fallback last).
+# Access tier -> the SKU tier names it maps to.
 TIER_SKUS = {
     "Hot Tier": ("Hot",),
-    "Cold Tier": ("Cold", "Cool"),
+    "Cold Tier": ("Cool",),
     "Archive Tier": ("Archive",),
 }
 
