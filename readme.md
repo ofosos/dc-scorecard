@@ -120,6 +120,21 @@ Script: `block_storage_pricing.py`
 
 Output: `block_storage_pricing.csv`
 
+## Azure Files pricing
+
+Per GB Azure Files (file share) prices from the Azure Retail Prices
+API, for the full (performance, redundancy) matrix per region: Standard
+HDD and Premium SSD, each with LRS, GRS, ZRS and GZRS. Standard HDD
+prices come from the "Files v2" standard share "Data Stored" meters
+(classic "Files" product as fallback), Premium SSD from the
+"Premium Files" provisioned share meters. Combinations Azure does not
+sell (Premium GRS/GZRS, ZRS/GZRS in regions without availability zones)
+are written as `na`.
+
+Script: `files_pricing.py`
+
+Output: `files_pricing.csv`
+
 ## Requirements
 
  - Azure CLI
@@ -137,3 +152,4 @@ Output: `block_storage_pricing.csv`
  - `compute_prices_availability.csv` VM availability and prices per region
  - `blob_storage_pricing.csv` blob storage price per GB (tier/performance/redundancy)
  - `block_storage_pricing.csv` block storage (managed disk) price per GB (performance/redundancy)
+ - `files_pricing.csv` Azure Files price per GB (performance/redundancy)
