@@ -2,8 +2,16 @@
 """Availability and retail prices for selected Azure VM instance types.
 
 For every region in az_regions_annotated.json, report for each instance
-type (default: Standard_B4ms, Standard_D4s_v3, Standard_E2s_v3,
-Standard_F4s_v2):
+type. Defaults, per series across generations:
+
+- Standard_B4ms
+- D series: Standard_D4s_v3, Standard_D4_v2, Standard_DS4_v2, Standard_D4
+  (earlier) and Standard_D4s_v4, Standard_D4s_v5, Standard_D4s_v6 (later;
+  the D v6 is only sold as the "s" variant)
+- E series: Standard_E2s_v3, Standard_E2_v3 (the E series starts at v3)
+  and Standard_E2s_v4, Standard_E2s_v5, Standard_E2s_v6
+- F series: Standard_F4s_v2, Standard_F4s, Standard_F4 (the F series
+  ends at v2) plus its successor, the FX series (Standard_FX4mds)
 
   - Availability from the Azure Resource SKUs API, queried through the
     Python SDK (azure-mgmt-compute), i.e. the same data source as
@@ -52,9 +60,22 @@ RETAIL_PRICES_URL = "https://prices.azure.com/api/retail/prices"
 
 DEFAULT_INSTANCES = [
     "Standard_B4ms",
+    "Standard_D4s_v6",
+    "Standard_D4s_v5",
+    "Standard_D4s_v4",
     "Standard_D4s_v3",
+    "Standard_D4_v2",
+    "Standard_DS4_v2",
+    "Standard_D4",
+    "Standard_E2s_v6",
+    "Standard_E2s_v5",
+    "Standard_E2s_v4",
     "Standard_E2s_v3",
+    "Standard_E2_v3",
+    "Standard_FX4mds",
     "Standard_F4s_v2",
+    "Standard_F4s",
+    "Standard_F4",
 ]
 
 log = logging.getLogger(__name__)
