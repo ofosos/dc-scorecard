@@ -95,6 +95,14 @@ types across all regions in `az_regions_annotated.json`.
 
 Without Azure credentials the script still returns prices and marks
 availability as `unknown`.
+## Azure blob storage pricing
+
+Per GB blob storage prices from the Azure Retail Prices API, for the full
+(access frequency, performance, redundancy) matrix per region.
+
+Script: `blob_storage_pricing.py`
+
+Output: `blob_storage_pricing.csv`
 
 ## Requirements
 
@@ -110,4 +118,5 @@ availability as `unknown`.
  - `ged-azure.csv` armed conflict data (UU GED)
  - `gdacs_events_by_regions.json` natural disasters
  - `azure_carbon_intensity.csv` carbon intensity
-- `compute_prices_availability.csv` VM availability and prices per region
+ - `compute_prices_availability.csv` VM availability and prices per region
+ - `blob_storage_pricing.csv` blob storage price per GB (tier/performance/redundancy)
