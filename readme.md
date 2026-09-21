@@ -67,8 +67,6 @@ The txt file contains the full text extract from the 2026 ITUC Global Right Inde
 | 5 | No guarantee of rights |
 | 5+ | No guarantee of rights due to the breakdown of the rule of law |
 
-
-
 ## GDACS data
 
 Natural disasters.
@@ -76,7 +74,7 @@ Natural disasters.
 API:
 https://www.gdacs.org/gdacsapi/api/events/geteventlist/SEARCH
 
-Script: `gdacs_region_events.py`
+Script: `gdacs_az_regions.py`
 
 
 ## GED data
@@ -90,3 +88,12 @@ Script: `ged-analysis.py`
  - Azure CLI
  - Python w/ Pipenv
 
+## Outputs
+
+ - `az_regions_annotated.json` AZ regions with ISO country code and coords
+ - `region_temperatures_sweatscore.csv` sweat score (high temps)
+ - `ilo_azure_regions.csv` signed ILO core conventions
+ - `global_rights_azure_regions.csv` ITUC global rights index
+ - `ged-azure.csv` armed conflict data (UU GED)
+ - `gdacs_events_by_regions.json` natural disasters
+ - `azure_carbon_intensity.csv` carbon intensity
