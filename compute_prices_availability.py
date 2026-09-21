@@ -74,11 +74,8 @@ def load_regions(regions_file):
             {
                 "region": region.get("name"),
                 "displayName": region.get("displayName"),
-                "regionalDisplayName": region.get("regionalDisplayName"),
                 "regionCategory": metadata.get("regionCategory"),
                 "isoCountryCode": metadata.get("isoCountryCode"),
-                "latitude": metadata.get("latitude"),
-                "longitude": metadata.get("longitude"),
             }
         )
     return pd.DataFrame(rows)
@@ -362,9 +359,6 @@ def main(argv=None):
         "spot_discount_pct",
         "currencyCode",
         "unitOfMeasure",
-        "effectiveStartDate",
-        "latitude",
-        "longitude",
     ]
     columns = [c for c in columns if c in frame.columns]
     frame = frame[columns].sort_values(["region", "instance"])
