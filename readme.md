@@ -104,6 +104,22 @@ Script: `blob_storage_pricing.py`
 
 Output: `blob_storage_pricing.csv`
 
+## Azure block storage pricing
+
+Per GB managed disk (block storage) prices from the Azure Retail Prices
+API, for the full (performance, redundancy) matrix per region:
+Standard HDD, Standard SSD, Premium SSD and Ultra Disk, each with LRS
+and ZRS. Azure does not publish a per-GB meter for managed disks other
+than Ultra Disk, so the per-GB price is derived from the 1 TiB disk
+tiers (S30/E30/P30, 1024 GiB) and the Ultra per-GiB/hour capacity
+meter (730 h/month). Combinations Azure does not sell (e.g. Standard
+HDD ZRS, Ultra Disk ZRS, ZRS in regions without availability zones) are
+written as `na`.
+
+Script: `block_storage_pricing.py`
+
+Output: `block_storage_pricing.csv`
+
 ## Requirements
 
  - Azure CLI
@@ -120,3 +136,4 @@ Output: `blob_storage_pricing.csv`
  - `azure_carbon_intensity.csv` carbon intensity
  - `compute_prices_availability.csv` VM availability and prices per region
  - `blob_storage_pricing.csv` blob storage price per GB (tier/performance/redundancy)
+ - `block_storage_pricing.csv` block storage (managed disk) price per GB (performance/redundancy)
