@@ -9,6 +9,8 @@ gdacs-api = "*"
 pandas = "*"
 numpy = "*"
 requests = "*"
+azure-identity = "*"
+azure-mgmt-compute = "*"
 
 [dev-packages]
 

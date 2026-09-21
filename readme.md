@@ -83,6 +83,18 @@ Armed conflict.
 
 Script: `ged-analysis.py`
 
+## Azure VM availability and prices
+
+Availability (Resource SKUs API, like `az vm list-skus --location <region> --size <instance>`)
+and Linux/spot retail prices (Retail Prices API) for selected instance
+types across all regions in `az_regions_annotated.json`.
+
+    pip install requests pandas numpy azure-identity azure-mgmt-compute
+    export AZURE_SUBSCRIPTION_ID=<subscription-id>
+    python3 compute_prices_availability.py
+
+Without Azure credentials the script still returns prices and marks
+availability as `unknown`.
 ## Azure blob storage pricing
 
 Per GB blob storage prices from the Azure Retail Prices API, for the full
@@ -106,4 +118,5 @@ Output: `blob_storage_pricing.csv`
  - `ged-azure.csv` armed conflict data (UU GED)
  - `gdacs_events_by_regions.json` natural disasters
  - `azure_carbon_intensity.csv` carbon intensity
+ - `compute_prices_availability.csv` VM availability and prices per region
  - `blob_storage_pricing.csv` blob storage price per GB (tier/performance/redundancy)
