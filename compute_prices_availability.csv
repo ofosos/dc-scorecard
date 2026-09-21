@@ -1,229 +1,571 @@
 region,displayName,isoCountryCode,regionCategory,instance,available,restriction_type,restriction_reason,sku_capacity,linux_price_hourly,spot_price_hourly,spot_discount_pct,currencyCode,unitOfMeasure
 australiacentral,Australia Central,AU,Recommended,Standard_B4ms,unknown,,,,0.211,,,USD,1 Hour
+australiacentral,Australia Central,AU,Recommended,Standard_D4,unknown,,,,,,,,
+australiacentral,Australia Central,AU,Recommended,Standard_D4_v2,unknown,,,,0.673,0.135,79.9,USD,1 Hour
 australiacentral,Australia Central,AU,Recommended,Standard_D4s_v3,unknown,,,,0.25,0.0462,81.5,USD,1 Hour
+australiacentral,Australia Central,AU,Recommended,Standard_DS4_v2,unknown,,,,0.673,0.137023,79.6,USD,1 Hour
+australiacentral,Australia Central,AU,Recommended,Standard_E2_v3,unknown,,,,0.16,0.029568,81.5,USD,1 Hour
 australiacentral,Australia Central,AU,Recommended,Standard_E2s_v3,unknown,,,,0.16,0.029568,81.5,USD,1 Hour
+australiacentral,Australia Central,AU,Recommended,Standard_F4,unknown,,,,0.26,0.052,80.0,USD,1 Hour
+australiacentral,Australia Central,AU,Recommended,Standard_F4s,unknown,,,,0.26,0.052936,79.6,USD,1 Hour
 australiacentral,Australia Central,AU,Recommended,Standard_F4s_v2,unknown,,,,0.222,0.034,84.7,USD,1 Hour
 australiacentral2,Australia Central 2,AU,Recommended,Standard_B4ms,unknown,,,,0.211,,,USD,1 Hour
+australiacentral2,Australia Central 2,AU,Recommended,Standard_D4,unknown,,,,,,,,
+australiacentral2,Australia Central 2,AU,Recommended,Standard_D4_v2,unknown,,,,0.673,0.0673,90.0,USD,1 Hour
 australiacentral2,Australia Central 2,AU,Recommended,Standard_D4s_v3,unknown,,,,0.25,0.025,90.0,USD,1 Hour
+australiacentral2,Australia Central 2,AU,Recommended,Standard_DS4_v2,unknown,,,,0.673,0.0673,90.0,USD,1 Hour
+australiacentral2,Australia Central 2,AU,Recommended,Standard_E2_v3,unknown,,,,0.16,0.016,90.0,USD,1 Hour
 australiacentral2,Australia Central 2,AU,Recommended,Standard_E2s_v3,unknown,,,,0.16,0.016,90.0,USD,1 Hour
+australiacentral2,Australia Central 2,AU,Recommended,Standard_F4,unknown,,,,0.26,0.026,90.0,USD,1 Hour
+australiacentral2,Australia Central 2,AU,Recommended,Standard_F4s,unknown,,,,0.26,0.026,90.0,USD,1 Hour
 australiacentral2,Australia Central 2,AU,Recommended,Standard_F4s_v2,unknown,,,,0.222,0.0222,90.0,USD,1 Hour
 australiaeast,Australia East,AU,Recommended,Standard_B4ms,unknown,,,,0.211,,,USD,1 Hour
+australiaeast,Australia East,AU,Recommended,Standard_D4,unknown,,,,0.744,0.149,80.0,USD,1 Hour
+australiaeast,Australia East,AU,Recommended,Standard_D4_v2,unknown,,,,0.673,0.135,79.9,USD,1 Hour
 australiaeast,Australia East,AU,Recommended,Standard_D4s_v3,unknown,,,,0.25,0.0462,81.5,USD,1 Hour
+australiaeast,Australia East,AU,Recommended,Standard_DS4_v2,unknown,,,,0.673,0.137023,79.6,USD,1 Hour
+australiaeast,Australia East,AU,Recommended,Standard_E2_v3,unknown,,,,0.16,0.029568,81.5,USD,1 Hour
 australiaeast,Australia East,AU,Recommended,Standard_E2s_v3,unknown,,,,0.16,0.029568,81.5,USD,1 Hour
+australiaeast,Australia East,AU,Recommended,Standard_F4,unknown,,,,0.26,0.052,80.0,USD,1 Hour
+australiaeast,Australia East,AU,Recommended,Standard_F4s,unknown,,,,0.26,0.052936,79.6,USD,1 Hour
 australiaeast,Australia East,AU,Recommended,Standard_F4s_v2,unknown,,,,0.222,0.034,84.7,USD,1 Hour
 australiasoutheast,Australia Southeast,AU,Recommended,Standard_B4ms,unknown,,,,0.211,,,USD,1 Hour
+australiasoutheast,Australia Southeast,AU,Recommended,Standard_D4,unknown,,,,0.744,0.149,80.0,USD,1 Hour
+australiasoutheast,Australia Southeast,AU,Recommended,Standard_D4_v2,unknown,,,,0.623,0.125,79.9,USD,1 Hour
 australiasoutheast,Australia Southeast,AU,Recommended,Standard_D4s_v3,unknown,,,,0.25,0.0462,81.5,USD,1 Hour
+australiasoutheast,Australia Southeast,AU,Recommended,Standard_DS4_v2,unknown,,,,0.623,0.126843,79.6,USD,1 Hour
+australiasoutheast,Australia Southeast,AU,Recommended,Standard_E2_v3,unknown,,,,0.16,0.029568,81.5,USD,1 Hour
 australiasoutheast,Australia Southeast,AU,Recommended,Standard_E2s_v3,unknown,,,,0.16,0.029568,81.5,USD,1 Hour
+australiasoutheast,Australia Southeast,AU,Recommended,Standard_F4,unknown,,,,0.26,0.052,80.0,USD,1 Hour
+australiasoutheast,Australia Southeast,AU,Recommended,Standard_F4s,unknown,,,,0.26,0.052936,79.6,USD,1 Hour
 australiasoutheast,Australia Southeast,AU,Recommended,Standard_F4s_v2,unknown,,,,0.223,0.034,84.8,USD,1 Hour
 austriaeast,Austria East,AT,Recommended,Standard_B4ms,unknown,,,,0.192,,,USD,1 Hour
+austriaeast,Austria East,AT,Recommended,Standard_D4,unknown,,,,,,,,
+austriaeast,Austria East,AT,Recommended,Standard_D4_v2,unknown,,,,,,,,
 austriaeast,Austria East,AT,Recommended,Standard_D4s_v3,unknown,,,,,,,,
+austriaeast,Austria East,AT,Recommended,Standard_DS4_v2,unknown,,,,,,,,
+austriaeast,Austria East,AT,Recommended,Standard_E2_v3,unknown,,,,,,,,
 austriaeast,Austria East,AT,Recommended,Standard_E2s_v3,unknown,,,,,,,,
+austriaeast,Austria East,AT,Recommended,Standard_F4,unknown,,,,0.227,0.0454,80.0,USD,1 Hour
+austriaeast,Austria East,AT,Recommended,Standard_F4s,unknown,,,,0.227,0.04624,79.6,USD,1 Hour
 austriaeast,Austria East,AT,Recommended,Standard_F4s_v2,unknown,,,,0.194,0.035851,81.5,USD,1 Hour
 belgiumcentral,Belgium Central,BE,Recommended,Standard_B4ms,unknown,,,,0.192,,,USD,1 Hour
+belgiumcentral,Belgium Central,BE,Recommended,Standard_D4,unknown,,,,,,,,
+belgiumcentral,Belgium Central,BE,Recommended,Standard_D4_v2,unknown,,,,,,,,
 belgiumcentral,Belgium Central,BE,Recommended,Standard_D4s_v3,unknown,,,,,,,,
+belgiumcentral,Belgium Central,BE,Recommended,Standard_DS4_v2,unknown,,,,,,,,
+belgiumcentral,Belgium Central,BE,Recommended,Standard_E2_v3,unknown,,,,,,,,
 belgiumcentral,Belgium Central,BE,Recommended,Standard_E2s_v3,unknown,,,,,,,,
+belgiumcentral,Belgium Central,BE,Recommended,Standard_F4,unknown,,,,0.228,0.0456,80.0,USD,1 Hour
+belgiumcentral,Belgium Central,BE,Recommended,Standard_F4s,unknown,,,,0.228,0.046421,79.6,USD,1 Hour
 belgiumcentral,Belgium Central,BE,Recommended,Standard_F4s_v2,unknown,,,,0.194,0.035851,81.5,USD,1 Hour
 brazilsouth,Brazil South,BR,Recommended,Standard_B4ms,unknown,,,,0.269,,,USD,1 Hour
+brazilsouth,Brazil South,BR,Recommended,Standard_D4,unknown,,,,0.76,0.152,80.0,USD,1 Hour
+brazilsouth,Brazil South,BR,Recommended,Standard_D4_v2,unknown,,,,0.685,0.137,80.0,USD,1 Hour
 brazilsouth,Brazil South,BR,Recommended,Standard_D4s_v3,unknown,,,,0.318,0.055109,82.7,USD,1 Hour
+brazilsouth,Brazil South,BR,Recommended,Standard_DS4_v2,unknown,,,,0.685,0.139466,79.6,USD,1 Hour
+brazilsouth,Brazil South,BR,Recommended,Standard_E2_v3,unknown,,,,0.235,0.040726,82.7,USD,1 Hour
 brazilsouth,Brazil South,BR,Recommended,Standard_E2s_v3,unknown,,,,0.235,0.040726,82.7,USD,1 Hour
+brazilsouth,Brazil South,BR,Recommended,Standard_F4,unknown,,,,0.287,0.0574,80.0,USD,1 Hour
+brazilsouth,Brazil South,BR,Recommended,Standard_F4s,unknown,,,,0.287,0.058462,79.6,USD,1 Hour
 brazilsouth,Brazil South,BR,Recommended,Standard_F4s_v2,unknown,,,,0.262,0.034,87.0,USD,1 Hour
 brazilsoutheast,Brazil Southeast,BR,Recommended,Standard_B4ms,unknown,,,,0.349,,,USD,1 Hour
+brazilsoutheast,Brazil Southeast,BR,Recommended,Standard_D4,unknown,,,,0.988,0.198,80.0,USD,1 Hour
+brazilsoutheast,Brazil Southeast,BR,Recommended,Standard_D4_v2,unknown,,,,0.89,0.178,80.0,USD,1 Hour
 brazilsoutheast,Brazil Southeast,BR,Recommended,Standard_D4s_v3,unknown,,,,0.413,0.076322,81.5,USD,1 Hour
+brazilsoutheast,Brazil Southeast,BR,Recommended,Standard_DS4_v2,unknown,,,,0.89,0.181204,79.6,USD,1 Hour
+brazilsoutheast,Brazil Southeast,BR,Recommended,Standard_E2_v3,unknown,,,,0.306,0.056549,81.5,USD,1 Hour
 brazilsoutheast,Brazil Southeast,BR,Recommended,Standard_E2s_v3,unknown,,,,0.306,0.056549,81.5,USD,1 Hour
+brazilsoutheast,Brazil Southeast,BR,Recommended,Standard_F4,unknown,,,,0.373,0.0747,80.0,USD,1 Hour
+brazilsoutheast,Brazil Southeast,BR,Recommended,Standard_F4s,unknown,,,,0.373,0.075943,79.6,USD,1 Hour
 brazilsoutheast,Brazil Southeast,BR,Recommended,Standard_F4s_v2,unknown,,,,0.341,0.063017,81.5,USD,1 Hour
 canadacentral,Canada Central,CA,Recommended,Standard_B4ms,unknown,,,,0.185,,,USD,1 Hour
+canadacentral,Canada Central,CA,Recommended,Standard_D4,unknown,,,,0.597,0.119,80.1,USD,1 Hour
+canadacentral,Canada Central,CA,Recommended,Standard_D4_v2,unknown,,,,0.56,0.112,80.0,USD,1 Hour
 canadacentral,Canada Central,CA,Recommended,Standard_D4s_v3,unknown,,,,0.222,0.079543,64.2,USD,1 Hour
+canadacentral,Canada Central,CA,Recommended,Standard_DS4_v2,unknown,,,,0.56,0.271936,51.4,USD,1 Hour
+canadacentral,Canada Central,CA,Recommended,Standard_E2_v3,unknown,,,,0.146,0.029,80.1,USD,1 Hour
 canadacentral,Canada Central,CA,Recommended,Standard_E2s_v3,unknown,,,,0.146,0.052312,64.2,USD,1 Hour
+canadacentral,Canada Central,CA,Recommended,Standard_F4,unknown,,,,0.207,0.041,80.2,USD,1 Hour
+canadacentral,Canada Central,CA,Recommended,Standard_F4s,unknown,,,,0.207,0.100519,51.4,USD,1 Hour
 canadacentral,Canada Central,CA,Recommended,Standard_F4s_v2,unknown,,,,0.185,0.034,81.6,USD,1 Hour
 canadaeast,Canada East,CA,Recommended,Standard_B4ms,unknown,,,,0.186,,,USD,1 Hour
+canadaeast,Canada East,CA,Recommended,Standard_D4,unknown,,,,0.598,0.12,79.9,USD,1 Hour
+canadaeast,Canada East,CA,Recommended,Standard_D4_v2,unknown,,,,0.56,0.112,80.0,USD,1 Hour
 canadaeast,Canada East,CA,Recommended,Standard_D4s_v3,unknown,,,,0.222,0.041026,81.5,USD,1 Hour
+canadaeast,Canada East,CA,Recommended,Standard_DS4_v2,unknown,,,,0.56,0.114016,79.6,USD,1 Hour
+canadaeast,Canada East,CA,Recommended,Standard_E2_v3,unknown,,,,0.146,0.026981,81.5,USD,1 Hour
 canadaeast,Canada East,CA,Recommended,Standard_E2s_v3,unknown,,,,0.146,0.026981,81.5,USD,1 Hour
+canadaeast,Canada East,CA,Recommended,Standard_F4,unknown,,,,0.218,0.0437,80.0,USD,1 Hour
+canadaeast,Canada East,CA,Recommended,Standard_F4s,unknown,,,,0.218,0.044385,79.6,USD,1 Hour
 canadaeast,Canada East,CA,Recommended,Standard_F4s_v2,unknown,,,,0.185,0.034,81.6,USD,1 Hour
 centralindia,Central India,IN,Recommended,Standard_B4ms,unknown,,,,0.179,,,USD,1 Hour
+centralindia,Central India,IN,Recommended,Standard_D4,unknown,,,,0.564,0.113,80.0,USD,1 Hour
+centralindia,Central India,IN,Recommended,Standard_D4_v2,unknown,,,,0.675,0.135,80.0,USD,1 Hour
 centralindia,Central India,IN,Recommended,Standard_D4s_v3,unknown,,,,0.21,0.038808,81.5,USD,1 Hour
+centralindia,Central India,IN,Recommended,Standard_DS4_v2,unknown,,,,0.675,0.13743,79.6,USD,1 Hour
+centralindia,Central India,IN,Recommended,Standard_E2_v3,unknown,,,,0.137,0.025318,81.5,USD,1 Hour
 centralindia,Central India,IN,Recommended,Standard_E2s_v3,unknown,,,,0.137,0.025318,81.5,USD,1 Hour
+centralindia,Central India,IN,Recommended,Standard_F4,unknown,,,,0.198,0.0395,80.1,USD,1 Hour
+centralindia,Central India,IN,Recommended,Standard_F4s,unknown,,,,0.198,0.040313,79.6,USD,1 Hour
 centralindia,Central India,IN,Recommended,Standard_F4s_v2,unknown,,,,0.17,0.031416,81.5,USD,1 Hour
 centralus,Central US,US,Recommended,Standard_B4ms,unknown,,,,0.2,,,USD,1 Hour
+centralus,Central US,US,Recommended,Standard_D4,unknown,,,,0.616,0.119381,80.6,USD,1 Hour
+centralus,Central US,US,Recommended,Standard_D4_v2,unknown,,,,0.585,0.113373,80.6,USD,1 Hour
 centralus,Central US,US,Recommended,Standard_D4s_v3,unknown,,,,0.22,0.036762,83.3,USD,1 Hour
+centralus,Central US,US,Recommended,Standard_DS4_v2,unknown,,,,0.585,0.113373,80.6,USD,1 Hour
+centralus,Central US,US,Recommended,Standard_E2_v3,unknown,,,,0.146,0.024397,83.3,USD,1 Hour
 centralus,Central US,US,Recommended,Standard_E2s_v3,unknown,,,,0.146,0.024397,83.3,USD,1 Hour
+centralus,Central US,US,Recommended,Standard_F4,unknown,,,,0.219,0.042442,80.6,USD,1 Hour
+centralus,Central US,US,Recommended,Standard_F4s,unknown,,,,0.219,0.042442,80.6,USD,1 Hour
 centralus,Central US,US,Recommended,Standard_F4s_v2,unknown,,,,0.204,0.034,83.3,USD,1 Hour
 chilecentral,Chile Central,CL,Recommended,Standard_B4ms,unknown,,,,0.233,,,USD,1 Hour
+chilecentral,Chile Central,CL,Recommended,Standard_D4,unknown,,,,,,,,
+chilecentral,Chile Central,CL,Recommended,Standard_D4_v2,unknown,,,,,,,,
 chilecentral,Chile Central,CL,Recommended,Standard_D4s_v3,unknown,,,,,,,,
+chilecentral,Chile Central,CL,Recommended,Standard_DS4_v2,unknown,,,,,,,,
+chilecentral,Chile Central,CL,Recommended,Standard_E2_v3,unknown,,,,,,,,
 chilecentral,Chile Central,CL,Recommended,Standard_E2s_v3,unknown,,,,,,,,
+chilecentral,Chile Central,CL,Recommended,Standard_F4,unknown,,,,0.278,0.0557,80.0,USD,1 Hour
+chilecentral,Chile Central,CL,Recommended,Standard_F4s,unknown,,,,0.278,0.056601,79.6,USD,1 Hour
 chilecentral,Chile Central,CL,Recommended,Standard_F4s_v2,unknown,,,,0.237,0.043798,81.5,USD,1 Hour
 denmarkeast,Denmark East,DK,Recommended,Standard_B4ms,unknown,,,,,,,,
+denmarkeast,Denmark East,DK,Recommended,Standard_D4,unknown,,,,,,,,
+denmarkeast,Denmark East,DK,Recommended,Standard_D4_v2,unknown,,,,,,,,
 denmarkeast,Denmark East,DK,Recommended,Standard_D4s_v3,unknown,,,,,,,,
+denmarkeast,Denmark East,DK,Recommended,Standard_DS4_v2,unknown,,,,,,,,
+denmarkeast,Denmark East,DK,Recommended,Standard_E2_v3,unknown,,,,,,,,
 denmarkeast,Denmark East,DK,Recommended,Standard_E2s_v3,unknown,,,,,,,,
+denmarkeast,Denmark East,DK,Recommended,Standard_F4,unknown,,,,,,,,
+denmarkeast,Denmark East,DK,Recommended,Standard_F4s,unknown,,,,,,,,
 denmarkeast,Denmark East,DK,Recommended,Standard_F4s_v2,unknown,,,,,,,,
 eastasia,East Asia,HK,Recommended,Standard_B4ms,unknown,,,,0.234,,,USD,1 Hour
+eastasia,East Asia,HK,Recommended,Standard_D4,unknown,,,,0.902,0.18,80.0,USD,1 Hour
+eastasia,East Asia,HK,Recommended,Standard_D4_v2,unknown,,,,0.857,0.171,80.0,USD,1 Hour
 eastasia,East Asia,HK,Recommended,Standard_D4s_v3,unknown,,,,0.264,0.048787,81.5,USD,1 Hour
+eastasia,East Asia,HK,Recommended,Standard_DS4_v2,unknown,,,,0.857,0.174571,79.6,USD,1 Hour
+eastasia,East Asia,HK,Recommended,Standard_E2_v3,unknown,,,,0.167,0.030862,81.5,USD,1 Hour
 eastasia,East Asia,HK,Recommended,Standard_E2s_v3,unknown,,,,0.167,0.030862,81.5,USD,1 Hour
+eastasia,East Asia,HK,Recommended,Standard_F4,unknown,,,,0.289,0.0578,80.0,USD,1 Hour
+eastasia,East Asia,HK,Recommended,Standard_F4s,unknown,,,,0.289,0.05884,79.6,USD,1 Hour
 eastasia,East Asia,HK,Recommended,Standard_F4s_v2,unknown,,,,0.216,0.0392,81.9,USD,1 Hour
 eastus,East US,US,Recommended,Standard_B4ms,unknown,,,,0.166,,,USD,1 Hour
+eastus,East US,US,Recommended,Standard_D4,unknown,,,,0.616,0.123,80.0,USD,1 Hour
+eastus,East US,US,Recommended,Standard_D4_v2,unknown,,,,0.585,0.117,80.0,USD,1 Hour
 eastus,East US,US,Recommended,Standard_D4s_v3,unknown,,,,0.192,0.037632,80.4,USD,1 Hour
+eastus,East US,US,Recommended,Standard_DS4_v2,unknown,,,,0.585,0.12636,78.4,USD,1 Hour
+eastus,East US,US,Recommended,Standard_E2_v3,unknown,,,,0.126,0.024696,80.4,USD,1 Hour
 eastus,East US,US,Recommended,Standard_E2s_v3,unknown,,,,0.126,0.024696,80.4,USD,1 Hour
+eastus,East US,US,Recommended,Standard_F4,unknown,,,,0.199,0.0398,80.0,USD,1 Hour
+eastus,East US,US,Recommended,Standard_F4s,unknown,,,,0.199,0.042984,78.4,USD,1 Hour
 eastus,East US,US,Recommended,Standard_F4s_v2,unknown,,,,0.169,0.0338,80.0,USD,1 Hour
 eastus2,East US 2,US,Recommended,Standard_B4ms,unknown,,,,0.166,,,USD,1 Hour
+eastus2,East US 2,US,Recommended,Standard_D4,unknown,,,,0.536,0.107,80.0,USD,1 Hour
+eastus2,East US 2,US,Recommended,Standard_D4_v2,unknown,,,,0.458,0.0916,80.0,USD,1 Hour
 eastus2,East US 2,US,Recommended,Standard_D4s_v3,unknown,,,,0.192,0.09193,52.1,USD,1 Hour
+eastus2,East US 2,US,Recommended,Standard_DS4_v2,unknown,,,,0.458,0.281762,38.5,USD,1 Hour
+eastus2,East US 2,US,Recommended,Standard_E2_v3,unknown,,,,0.133,0.0252,81.1,USD,1 Hour
 eastus2,East US 2,US,Recommended,Standard_E2s_v3,unknown,,,,0.133,0.06368,52.1,USD,1 Hour
+eastus2,East US 2,US,Recommended,Standard_F4,unknown,,,,0.199,0.0398,80.0,USD,1 Hour
+eastus2,East US 2,US,Recommended,Standard_F4s,unknown,,,,0.199,0.122425,38.5,USD,1 Hour
 eastus2,East US 2,US,Recommended,Standard_F4s_v2,unknown,,,,0.169,0.0338,80.0,USD,1 Hour
 francecentral,France Central,FR,Recommended,Standard_B4ms,unknown,,,,0.189,,,USD,1 Hour
+francecentral,France Central,FR,Recommended,Standard_D4,unknown,,,,0.77,0.154,80.0,USD,1 Hour
+francecentral,France Central,FR,Recommended,Standard_D4_v2,unknown,,,,0.702,0.14,80.1,USD,1 Hour
 francecentral,France Central,FR,Recommended,Standard_D4s_v3,unknown,,,,0.224,0.041395,81.5,USD,1 Hour
+francecentral,France Central,FR,Recommended,Standard_DS4_v2,unknown,,,,0.702,0.142997,79.6,USD,1 Hour
+francecentral,France Central,FR,Recommended,Standard_E2_v3,unknown,,,,0.156,0.028829,81.5,USD,1 Hour
 francecentral,France Central,FR,Recommended,Standard_E2s_v3,unknown,,,,0.156,0.028829,81.5,USD,1 Hour
+francecentral,France Central,FR,Recommended,Standard_F4,unknown,,,,0.202,0.0404,80.0,USD,1 Hour
+francecentral,France Central,FR,Recommended,Standard_F4s,unknown,,,,0.202,0.041147,79.6,USD,1 Hour
 francecentral,France Central,FR,Recommended,Standard_F4s_v2,unknown,,,,0.202,0.034,83.2,USD,1 Hour
 francesouth,France South,FR,Recommended,Standard_B4ms,unknown,,,,0.27,,,USD,1 Hour
+francesouth,France South,FR,Recommended,Standard_D4,unknown,,,,,,,,
+francesouth,France South,FR,Recommended,Standard_D4_v2,unknown,,,,0.912,0.182,80.0,USD,1 Hour
 francesouth,France South,FR,Recommended,Standard_D4s_v3,unknown,,,,0.291,0.053777,81.5,USD,1 Hour
+francesouth,France South,FR,Recommended,Standard_DS4_v2,unknown,,,,0.912,0.185774,79.6,USD,1 Hour
+francesouth,France South,FR,Recommended,Standard_E2_v3,unknown,,,,0.2028,0.037477,81.5,USD,1 Hour
 francesouth,France South,FR,Recommended,Standard_E2s_v3,unknown,,,,0.2028,0.037477,81.5,USD,1 Hour
+francesouth,France South,FR,Recommended,Standard_F4,unknown,,,,0.262,0.0525,80.0,USD,1 Hour
+francesouth,France South,FR,Recommended,Standard_F4s,unknown,,,,0.262,0.053369,79.6,USD,1 Hour
 francesouth,France South,FR,Recommended,Standard_F4s_v2,unknown,,,,0.262,0.034,87.0,USD,1 Hour
 germanynorth,Germany North,DE,Recommended,Standard_B4ms,unknown,,,,0.25,,,USD,1 Hour
+germanynorth,Germany North,DE,Recommended,Standard_D4,unknown,,,,,,,,
+germanynorth,Germany North,DE,Recommended,Standard_D4_v2,unknown,,,,0.697,0.141979,79.6,USD,1 Hour
 germanynorth,Germany North,DE,Recommended,Standard_D4s_v3,unknown,,,,0.299,0.055255,81.5,USD,1 Hour
+germanynorth,Germany North,DE,Recommended,Standard_DS4_v2,unknown,,,,0.697,0.141979,79.6,USD,1 Hour
+germanynorth,Germany North,DE,Recommended,Standard_E2_v3,unknown,,,,0.198,0.03659,81.5,USD,1 Hour
 germanynorth,Germany North,DE,Recommended,Standard_E2s_v3,unknown,,,,0.198,0.03659,81.5,USD,1 Hour
+germanynorth,Germany North,DE,Recommended,Standard_F4,unknown,,,,0.296,0.0593,80.0,USD,1 Hour
+germanynorth,Germany North,DE,Recommended,Standard_F4s,unknown,,,,0.296,0.060295,79.6,USD,1 Hour
 germanynorth,Germany North,DE,Recommended,Standard_F4s_v2,unknown,,,,0.252,0.04657,81.5,USD,1 Hour
 germanywestcentral,Germany West Central,DE,Recommended,Standard_B4ms,unknown,,,,0.192,,,USD,1 Hour
+germanywestcentral,Germany West Central,DE,Recommended,Standard_D4,unknown,,,,,,,,
+germanywestcentral,Germany West Central,DE,Recommended,Standard_D4_v2,unknown,,,,0.532,0.108368,79.6,USD,1 Hour
 germanywestcentral,Germany West Central,DE,Recommended,Standard_D4s_v3,unknown,,,,0.23,0.042504,81.5,USD,1 Hour
+germanywestcentral,Germany West Central,DE,Recommended,Standard_DS4_v2,unknown,,,,0.532,0.108368,79.6,USD,1 Hour
+germanywestcentral,Germany West Central,DE,Recommended,Standard_E2_v3,unknown,,,,0.152,0.02809,81.5,USD,1 Hour
 germanywestcentral,Germany West Central,DE,Recommended,Standard_E2s_v3,unknown,,,,0.152,0.02809,81.5,USD,1 Hour
+germanywestcentral,Germany West Central,DE,Recommended,Standard_F4,unknown,,,,0.227,0.045,80.2,USD,1 Hour
+germanywestcentral,Germany West Central,DE,Recommended,Standard_F4s,unknown,,,,0.227,0.04624,79.6,USD,1 Hour
 germanywestcentral,Germany West Central,DE,Recommended,Standard_F4s_v2,unknown,,,,0.194,0.035851,81.5,USD,1 Hour
 indiasouthcentral,India South Central,IN,Recommended,Standard_B4ms,unknown,,,,,,,,
+indiasouthcentral,India South Central,IN,Recommended,Standard_D4,unknown,,,,,,,,
+indiasouthcentral,India South Central,IN,Recommended,Standard_D4_v2,unknown,,,,,,,,
 indiasouthcentral,India South Central,IN,Recommended,Standard_D4s_v3,unknown,,,,0.283,0.05128,81.9,USD,1 Hour
+indiasouthcentral,India South Central,IN,Recommended,Standard_DS4_v2,unknown,,,,,,,,
+indiasouthcentral,India South Central,IN,Recommended,Standard_E2_v3,unknown,,,,0.182,0.032978,81.9,USD,1 Hour
 indiasouthcentral,India South Central,IN,Recommended,Standard_E2s_v3,unknown,,,,0.182,0.032978,81.9,USD,1 Hour
+indiasouthcentral,India South Central,IN,Recommended,Standard_F4,unknown,,,,,,,,
+indiasouthcentral,India South Central,IN,Recommended,Standard_F4s,unknown,,,,,,,,
 indiasouthcentral,India South Central,IN,Recommended,Standard_F4s_v2,unknown,,,,,,,,
 indonesiacentral,Indonesia Central,ID,Recommended,Standard_B4ms,unknown,,,,0.19,,,USD,1 Hour
+indonesiacentral,Indonesia Central,ID,Recommended,Standard_D4,unknown,,,,,,,,
+indonesiacentral,Indonesia Central,ID,Recommended,Standard_D4_v2,unknown,,,,0.584,0.117,80.0,USD,1 Hour
 indonesiacentral,Indonesia Central,ID,Recommended,Standard_D4s_v3,unknown,,,,0.225,0.04158,81.5,USD,1 Hour
+indonesiacentral,Indonesia Central,ID,Recommended,Standard_DS4_v2,unknown,,,,0.584,0.118902,79.6,USD,1 Hour
+indonesiacentral,Indonesia Central,ID,Recommended,Standard_E2_v3,unknown,,,,0.144,0.026611,81.5,USD,1 Hour
 indonesiacentral,Indonesia Central,ID,Recommended,Standard_E2s_v3,unknown,,,,0.144,0.026611,81.5,USD,1 Hour
+indonesiacentral,Indonesia Central,ID,Recommended,Standard_F4,unknown,,,,0.208,0.0416,80.0,USD,1 Hour
+indonesiacentral,Indonesia Central,ID,Recommended,Standard_F4s,unknown,,,,0.208,0.042349,79.6,USD,1 Hour
 indonesiacentral,Indonesia Central,ID,Recommended,Standard_F4s_v2,unknown,,,,0.176,0.032525,81.5,USD,1 Hour
 israelcentral,Israel Central,IL,Recommended,Standard_B4ms,unknown,,,,0.192,,,USD,1 Hour
+israelcentral,Israel Central,IL,Recommended,Standard_D4,unknown,,,,,,,,
+israelcentral,Israel Central,IL,Recommended,Standard_D4_v2,unknown,,,,0.548,0.11,79.9,USD,1 Hour
 israelcentral,Israel Central,IL,Recommended,Standard_D4s_v3,unknown,,,,0.224,0.041395,81.5,USD,1 Hour
+israelcentral,Israel Central,IL,Recommended,Standard_DS4_v2,unknown,,,,0.548,0.111573,79.6,USD,1 Hour
+israelcentral,Israel Central,IL,Recommended,Standard_E2_v3,unknown,,,,0.148,0.02735,81.5,USD,1 Hour
 israelcentral,Israel Central,IL,Recommended,Standard_E2s_v3,unknown,,,,0.148,0.02735,81.5,USD,1 Hour
+israelcentral,Israel Central,IL,Recommended,Standard_F4,unknown,,,,0.239,0.0478,80.0,USD,1 Hour
+israelcentral,Israel Central,IL,Recommended,Standard_F4s,unknown,,,,0.239,0.04866,79.6,USD,1 Hour
 israelcentral,Israel Central,IL,Recommended,Standard_F4s_v2,unknown,,,,0.202,0.03733,81.5,USD,1 Hour
 italynorth,Italy North,IT,Recommended,Standard_B4ms,unknown,,,,0.192,0.0384,80.0,USD,1 Hour
+italynorth,Italy North,IT,Recommended,Standard_D4,unknown,,,,,,,,
+italynorth,Italy North,IT,Recommended,Standard_D4_v2,unknown,,,,0.543,0.109,79.9,USD,1 Hour
 italynorth,Italy North,IT,Recommended,Standard_D4s_v3,unknown,,,,0.224,0.041395,81.5,USD,1 Hour
+italynorth,Italy North,IT,Recommended,Standard_DS4_v2,unknown,,,,0.543,0.110555,79.6,USD,1 Hour
+italynorth,Italy North,IT,Recommended,Standard_E2_v3,unknown,,,,0.148,0.02735,81.5,USD,1 Hour
 italynorth,Italy North,IT,Recommended,Standard_E2s_v3,unknown,,,,0.148,0.02735,81.5,USD,1 Hour
+italynorth,Italy North,IT,Recommended,Standard_F4,unknown,,,,0.227,0.045,80.2,USD,1 Hour
+italynorth,Italy North,IT,Recommended,Standard_F4s,unknown,,,,0.227,0.04624,79.6,USD,1 Hour
 italynorth,Italy North,IT,Recommended,Standard_F4s_v2,unknown,,,,0.194,0.035968,81.5,USD,1 Hour
 japaneast,Japan East,JP,Recommended,Standard_B4ms,unknown,,,,0.218,,,USD,1 Hour
+japaneast,Japan East,JP,Recommended,Standard_D4,unknown,,,,0.883,0.177,80.0,USD,1 Hour
+japaneast,Japan East,JP,Recommended,Standard_D4_v2,unknown,,,,0.818,0.164,80.0,USD,1 Hour
 japaneast,Japan East,JP,Recommended,Standard_D4s_v3,unknown,,,,0.258,0.047678,81.5,USD,1 Hour
+japaneast,Japan East,JP,Recommended,Standard_DS4_v2,unknown,,,,0.818,0.166545,79.6,USD,1 Hour
+japaneast,Japan East,JP,Recommended,Standard_E2_v3,unknown,,,,0.16,0.029568,81.5,USD,1 Hour
 japaneast,Japan East,JP,Recommended,Standard_E2s_v3,unknown,,,,0.16,0.029568,81.5,USD,1 Hour
+japaneast,Japan East,JP,Recommended,Standard_F4,unknown,,,,0.252,0.05,80.2,USD,1 Hour
+japaneast,Japan East,JP,Recommended,Standard_F4s,unknown,,,,0.252,0.051332,79.6,USD,1 Hour
 japaneast,Japan East,JP,Recommended,Standard_F4s_v2,unknown,,,,0.214,0.034,84.1,USD,1 Hour
 japanwest,Japan West,JP,Recommended,Standard_B4ms,unknown,,,,0.24,,,USD,1 Hour
+japanwest,Japan West,JP,Recommended,Standard_D4,unknown,,,,0.768,0.154,79.9,USD,1 Hour
+japanwest,Japan West,JP,Recommended,Standard_D4_v2,unknown,,,,0.729,0.146,80.0,USD,1 Hour
 japanwest,Japan West,JP,Recommended,Standard_D4s_v3,unknown,,,,0.258,0.047678,81.5,USD,1 Hour
+japanwest,Japan West,JP,Recommended,Standard_DS4_v2,unknown,,,,0.729,0.148424,79.6,USD,1 Hour
+japanwest,Japan West,JP,Recommended,Standard_E2_v3,unknown,,,,0.16,0.029568,81.5,USD,1 Hour
 japanwest,Japan West,JP,Recommended,Standard_E2s_v3,unknown,,,,0.16,0.029568,81.5,USD,1 Hour
+japanwest,Japan West,JP,Recommended,Standard_F4,unknown,,,,0.252,0.05,80.2,USD,1 Hour
+japanwest,Japan West,JP,Recommended,Standard_F4s,unknown,,,,0.252,0.051332,79.6,USD,1 Hour
 japanwest,Japan West,JP,Recommended,Standard_F4s_v2,unknown,,,,0.235,0.034,85.5,USD,1 Hour
 koreacentral,Korea Central,KR,Recommended,Standard_B4ms,unknown,,,,0.208,,,USD,1 Hour
+koreacentral,Korea Central,KR,Recommended,Standard_D4,unknown,,,,,,,,
+koreacentral,Korea Central,KR,Recommended,Standard_D4_v2,unknown,,,,0.66,0.132,80.0,USD,1 Hour
 koreacentral,Korea Central,KR,Recommended,Standard_D4s_v3,unknown,,,,0.246,0.045461,81.5,USD,1 Hour
+koreacentral,Korea Central,KR,Recommended,Standard_DS4_v2,unknown,,,,0.66,0.134376,79.6,USD,1 Hour
+koreacentral,Korea Central,KR,Recommended,Standard_E2_v3,unknown,,,,0.16,0.029568,81.5,USD,1 Hour
 koreacentral,Korea Central,KR,Recommended,Standard_E2s_v3,unknown,,,,0.16,0.029568,81.5,USD,1 Hour
+koreacentral,Korea Central,KR,Recommended,Standard_F4,unknown,,,,0.204,0.0408,80.0,USD,1 Hour
+koreacentral,Korea Central,KR,Recommended,Standard_F4s,unknown,,,,0.204,0.041534,79.6,USD,1 Hour
 koreacentral,Korea Central,KR,Recommended,Standard_F4s_v2,unknown,,,,0.192,0.034,82.3,USD,1 Hour
 koreasouth,Korea South,KR,Recommended,Standard_B4ms,unknown,,,,0.207,,,USD,1 Hour
+koreasouth,Korea South,KR,Recommended,Standard_D4,unknown,,,,,,,,
+koreasouth,Korea South,KR,Recommended,Standard_D4_v2,unknown,,,,0.594,0.119,80.0,USD,1 Hour
 koreasouth,Korea South,KR,Recommended,Standard_D4s_v3,unknown,,,,0.221,0.040841,81.5,USD,1 Hour
+koreasouth,Korea South,KR,Recommended,Standard_DS4_v2,unknown,,,,0.594,0.120938,79.6,USD,1 Hour
+koreasouth,Korea South,KR,Recommended,Standard_E2_v3,unknown,,,,0.144,0.026611,81.5,USD,1 Hour
 koreasouth,Korea South,KR,Recommended,Standard_E2s_v3,unknown,,,,0.144,0.026611,81.5,USD,1 Hour
+koreasouth,Korea South,KR,Recommended,Standard_F4,unknown,,,,0.204,0.0408,80.0,USD,1 Hour
+koreasouth,Korea South,KR,Recommended,Standard_F4s,unknown,,,,0.204,0.041534,79.6,USD,1 Hour
 koreasouth,Korea South,KR,Recommended,Standard_F4s_v2,unknown,,,,0.192,0.034,82.3,USD,1 Hour
 malaysiawest,Malaysia West,MY,Recommended,Standard_B4ms,unknown,,,,0.19,,,USD,1 Hour
+malaysiawest,Malaysia West,MY,Recommended,Standard_D4,unknown,,,,,,,,
+malaysiawest,Malaysia West,MY,Recommended,Standard_D4_v2,unknown,,,,0.584,0.117,80.0,USD,1 Hour
 malaysiawest,Malaysia West,MY,Recommended,Standard_D4s_v3,unknown,,,,0.225,0.04158,81.5,USD,1 Hour
+malaysiawest,Malaysia West,MY,Recommended,Standard_DS4_v2,unknown,,,,0.584,0.118902,79.6,USD,1 Hour
+malaysiawest,Malaysia West,MY,Recommended,Standard_E2_v3,unknown,,,,0.144,0.026611,81.5,USD,1 Hour
 malaysiawest,Malaysia West,MY,Recommended,Standard_E2s_v3,unknown,,,,0.144,0.026611,81.5,USD,1 Hour
+malaysiawest,Malaysia West,MY,Recommended,Standard_F4,unknown,,,,0.208,0.0416,80.0,USD,1 Hour
+malaysiawest,Malaysia West,MY,Recommended,Standard_F4s,unknown,,,,0.208,0.042349,79.6,USD,1 Hour
 malaysiawest,Malaysia West,MY,Recommended,Standard_F4s_v2,unknown,,,,0.176,0.032525,81.5,USD,1 Hour
 mexicocentral,Mexico Central,MX,Recommended,Standard_B4ms,unknown,,,,0.183,,,USD,1 Hour
+mexicocentral,Mexico Central,MX,Recommended,Standard_D4,unknown,,,,0.678,0.136,79.9,USD,1 Hour
+mexicocentral,Mexico Central,MX,Recommended,Standard_D4_v2,unknown,,,,0.502,0.1,80.1,USD,1 Hour
 mexicocentral,Mexico Central,MX,Recommended,Standard_D4s_v3,unknown,,,,0.211,0.038993,81.5,USD,1 Hour
+mexicocentral,Mexico Central,MX,Recommended,Standard_DS4_v2,unknown,,,,0.502,0.102257,79.6,USD,1 Hour
+mexicocentral,Mexico Central,MX,Recommended,Standard_E2_v3,unknown,,,,0.139,0.025687,81.5,USD,1 Hour
 mexicocentral,Mexico Central,MX,Recommended,Standard_E2s_v3,unknown,,,,0.139,0.025687,81.5,USD,1 Hour
+mexicocentral,Mexico Central,MX,Recommended,Standard_F4,unknown,,,,0.219,0.0437,80.0,USD,1 Hour
+mexicocentral,Mexico Central,MX,Recommended,Standard_F4s,unknown,,,,0.219,0.044588,79.6,USD,1 Hour
 mexicocentral,Mexico Central,MX,Recommended,Standard_F4s_v2,unknown,,,,0.186,0.034373,81.5,USD,1 Hour
 newzealandnorth,New Zealand North,NZ,Recommended,Standard_B4ms,unknown,,,,0.222,,,USD,1 Hour
+newzealandnorth,New Zealand North,NZ,Recommended,Standard_D4,unknown,,,,,,,,
+newzealandnorth,New Zealand North,NZ,Recommended,Standard_D4_v2,unknown,,,,0.782,0.156,80.1,USD,1 Hour
 newzealandnorth,New Zealand North,NZ,Recommended,Standard_D4s_v3,unknown,,,,0.252,0.04657,81.5,USD,1 Hour
+newzealandnorth,New Zealand North,NZ,Recommended,Standard_DS4_v2,unknown,,,,0.782,0.159293,79.6,USD,1 Hour
+newzealandnorth,New Zealand North,NZ,Recommended,Standard_E2_v3,unknown,,,,0.159,0.029383,81.5,USD,1 Hour
 newzealandnorth,New Zealand North,NZ,Recommended,Standard_E2s_v3,unknown,,,,0.159,0.029383,81.5,USD,1 Hour
+newzealandnorth,New Zealand North,NZ,Recommended,Standard_F4,unknown,,,,0.274,0.0547,80.0,USD,1 Hour
+newzealandnorth,New Zealand North,NZ,Recommended,Standard_F4s,unknown,,,,0.274,0.055786,79.6,USD,1 Hour
 newzealandnorth,New Zealand North,NZ,Recommended,Standard_F4s_v2,unknown,,,,0.233,0.043058,81.5,USD,1 Hour
 northcentralus,North Central US,US,Recommended,Standard_B4ms,unknown,,,,0.166,,,USD,1 Hour
+northcentralus,North Central US,US,Recommended,Standard_D4,unknown,,,,0.616,0.123,80.0,USD,1 Hour
+northcentralus,North Central US,US,Recommended,Standard_D4_v2,unknown,,,,0.585,0.117,80.0,USD,1 Hour
 northcentralus,North Central US,US,Recommended,Standard_D4s_v3,unknown,,,,0.2,0.03696,81.5,USD,1 Hour
+northcentralus,North Central US,US,Recommended,Standard_DS4_v2,unknown,,,,0.585,0.119106,79.6,USD,1 Hour
+northcentralus,North Central US,US,Recommended,Standard_E2_v3,unknown,,,,0.126,0.023285,81.5,USD,1 Hour
 northcentralus,North Central US,US,Recommended,Standard_E2s_v3,unknown,,,,0.126,0.023285,81.5,USD,1 Hour
+northcentralus,North Central US,US,Recommended,Standard_F4,unknown,,,,0.199,0.0398,80.0,USD,1 Hour
+northcentralus,North Central US,US,Recommended,Standard_F4s,unknown,,,,0.199,0.040516,79.6,USD,1 Hour
 northcentralus,North Central US,US,Recommended,Standard_F4s_v2,unknown,,,,0.17,0.031416,81.5,USD,1 Hour
 northeurope,North Europe,IE,Recommended,Standard_B4ms,unknown,,,,0.182,,,USD,1 Hour
+northeurope,North Europe,IE,Recommended,Standard_D4,unknown,,,,0.584,0.117,80.0,USD,1 Hour
+northeurope,North Europe,IE,Recommended,Standard_D4_v2,unknown,,,,0.527,0.105,80.1,USD,1 Hour
 northeurope,North Europe,IE,Recommended,Standard_D4s_v3,unknown,,,,0.214,0.039547,81.5,USD,1 Hour
+northeurope,North Europe,IE,Recommended,Standard_DS4_v2,unknown,,,,0.527,0.10735,79.6,USD,1 Hour
+northeurope,North Europe,IE,Recommended,Standard_E2_v3,unknown,,,,0.141,0.026057,81.5,USD,1 Hour
 northeurope,North Europe,IE,Recommended,Standard_E2s_v3,unknown,,,,0.141,0.026057,81.5,USD,1 Hour
+northeurope,North Europe,IE,Recommended,Standard_F4,unknown,,,,0.226,0.045,80.1,USD,1 Hour
+northeurope,North Europe,IE,Recommended,Standard_F4s,unknown,,,,0.226,0.046036,79.6,USD,1 Hour
 northeurope,North Europe,IE,Recommended,Standard_F4s_v2,unknown,,,,0.192,0.0384,80.0,USD,1 Hour
 norwayeast,Norway East,NO,Recommended,Standard_B4ms,unknown,,,,0.211,,,USD,1 Hour
+norwayeast,Norway East,NO,Recommended,Standard_D4,unknown,,,,,,,,
+norwayeast,Norway East,NO,Recommended,Standard_D4_v2,unknown,,,,0.598,0.12,79.9,USD,1 Hour
 norwayeast,Norway East,NO,Recommended,Standard_D4s_v3,unknown,,,,0.264,0.048787,81.5,USD,1 Hour
+norwayeast,Norway East,NO,Recommended,Standard_DS4_v2,unknown,,,,0.598,0.121753,79.6,USD,1 Hour
+norwayeast,Norway East,NO,Recommended,Standard_E2_v3,unknown,,,,0.176,0.032525,81.5,USD,1 Hour
 norwayeast,Norway East,NO,Recommended,Standard_E2s_v3,unknown,,,,0.176,0.032525,81.5,USD,1 Hour
+norwayeast,Norway East,NO,Recommended,Standard_F4,unknown,,,,0.25,0.0499,80.0,USD,1 Hour
+norwayeast,Norway East,NO,Recommended,Standard_F4s,unknown,,,,0.25,0.0509,79.6,USD,1 Hour
 norwayeast,Norway East,NO,Recommended,Standard_F4s_v2,unknown,,,,0.214,0.039547,81.5,USD,1 Hour
 norwaywest,Norway West,NO,Recommended,Standard_B4ms,unknown,,,,0.275,,,USD,1 Hour
+norwaywest,Norway West,NO,Recommended,Standard_D4,unknown,,,,,,,,
+norwaywest,Norway West,NO,Recommended,Standard_D4_v2,unknown,,,,0.778,0.156,79.9,USD,1 Hour
 norwaywest,Norway West,NO,Recommended,Standard_D4s_v3,unknown,,,,0.343,0.063386,81.5,USD,1 Hour
+norwaywest,Norway West,NO,Recommended,Standard_DS4_v2,unknown,,,,0.778,0.158401,79.6,USD,1 Hour
+norwaywest,Norway West,NO,Recommended,Standard_E2_v3,unknown,,,,0.229,0.042319,81.5,USD,1 Hour
 norwaywest,Norway West,NO,Recommended,Standard_E2s_v3,unknown,,,,0.229,0.042319,81.5,USD,1 Hour
+norwaywest,Norway West,NO,Recommended,Standard_F4,unknown,,,,0.325,0.0649,80.0,USD,1 Hour
+norwaywest,Norway West,NO,Recommended,Standard_F4s,unknown,,,,0.325,0.06617,79.6,USD,1 Hour
 norwaywest,Norway West,NO,Recommended,Standard_F4s_v2,unknown,,,,0.316,0.058397,81.5,USD,1 Hour
 polandcentral,Poland Central,PL,Recommended,Standard_B4ms,unknown,,,,0.192,,,USD,1 Hour
+polandcentral,Poland Central,PL,Recommended,Standard_D4,unknown,,,,0.672,0.134,80.1,USD,1 Hour
+polandcentral,Poland Central,PL,Recommended,Standard_D4_v2,unknown,,,,0.544,0.109,80.0,USD,1 Hour
 polandcentral,Poland Central,PL,Recommended,Standard_D4s_v3,unknown,,,,0.23,0.042504,81.5,USD,1 Hour
+polandcentral,Poland Central,PL,Recommended,Standard_DS4_v2,unknown,,,,0.544,0.110758,79.6,USD,1 Hour
+polandcentral,Poland Central,PL,Recommended,Standard_E2_v3,unknown,,,,0.152,0.02809,81.5,USD,1 Hour
 polandcentral,Poland Central,PL,Recommended,Standard_E2s_v3,unknown,,,,0.152,0.02809,81.5,USD,1 Hour
+polandcentral,Poland Central,PL,Recommended,Standard_F4,unknown,,,,0.228,0.0456,80.0,USD,1 Hour
+polandcentral,Poland Central,PL,Recommended,Standard_F4s,unknown,,,,0.228,0.046421,79.6,USD,1 Hour
 polandcentral,Poland Central,PL,Recommended,Standard_F4s_v2,unknown,,,,0.194,0.035851,81.5,USD,1 Hour
 qatarcentral,Qatar Central,QA,Recommended,Standard_B4ms,unknown,,,,0.201,,,USD,1 Hour
+qatarcentral,Qatar Central,QA,Recommended,Standard_D4,unknown,,,,,,,,
+qatarcentral,Qatar Central,QA,Recommended,Standard_D4_v2,unknown,,,,0.55,0.11,80.0,USD,1 Hour
 qatarcentral,Qatar Central,QA,Recommended,Standard_D4s_v3,unknown,,,,0.235,0.043428,81.5,USD,1 Hour
+qatarcentral,Qatar Central,QA,Recommended,Standard_DS4_v2,unknown,,,,0.55,0.11198,79.6,USD,1 Hour
+qatarcentral,Qatar Central,QA,Recommended,Standard_E2_v3,unknown,,,,0.155,0.028644,81.5,USD,1 Hour
 qatarcentral,Qatar Central,QA,Recommended,Standard_E2s_v3,unknown,,,,0.155,0.028644,81.5,USD,1 Hour
+qatarcentral,Qatar Central,QA,Recommended,Standard_F4,unknown,,,,0.239,0.0478,80.0,USD,1 Hour
+qatarcentral,Qatar Central,QA,Recommended,Standard_F4s,unknown,,,,0.239,0.04866,79.6,USD,1 Hour
 qatarcentral,Qatar Central,QA,Recommended,Standard_F4s_v2,unknown,,,,0.211,0.038993,81.5,USD,1 Hour
 southafricanorth,South Africa North,ZA,Recommended,Standard_B4ms,unknown,,,,0.217,,,USD,1 Hour
+southafricanorth,South Africa North,ZA,Recommended,Standard_D4,unknown,,,,0.718,0.146185,79.6,USD,1 Hour
+southafricanorth,South Africa North,ZA,Recommended,Standard_D4_v2,unknown,,,,0.614,0.123,80.0,USD,1 Hour
 southafricanorth,South Africa North,ZA,Recommended,Standard_D4s_v3,unknown,,,,0.254,0.046939,81.5,USD,1 Hour
+southafricanorth,South Africa North,ZA,Recommended,Standard_DS4_v2,unknown,,,,0.614,0.12501,79.6,USD,1 Hour
+southafricanorth,South Africa North,ZA,Recommended,Standard_E2_v3,unknown,,,,0.168,0.031046,81.5,USD,1 Hour
 southafricanorth,South Africa North,ZA,Recommended,Standard_E2s_v3,unknown,,,,0.168,0.031046,81.5,USD,1 Hour
+southafricanorth,South Africa North,ZA,Recommended,Standard_F4,unknown,,,,0.267,0.0534,80.0,USD,1 Hour
+southafricanorth,South Africa North,ZA,Recommended,Standard_F4s,unknown,,,,0.267,0.054388,79.6,USD,1 Hour
 southafricanorth,South Africa North,ZA,Recommended,Standard_F4s_v2,unknown,,,,0.228,0.042134,81.5,USD,1 Hour
 southafricawest,South Africa West,ZA,Recommended,Standard_B4ms,unknown,,,,0.27125,,,USD,1 Hour
+southafricawest,South Africa West,ZA,Recommended,Standard_D4,unknown,,,,0.9,0.18387,79.6,USD,1 Hour
+southafricawest,South Africa West,ZA,Recommended,Standard_D4_v2,unknown,,,,0.769,0.154,80.0,USD,1 Hour
 southafricawest,South Africa West,ZA,Recommended,Standard_D4s_v3,unknown,,,,0.3175,0.058833,81.5,USD,1 Hour
+southafricawest,South Africa West,ZA,Recommended,Standard_DS4_v2,unknown,,,,0.769,0.157107,79.6,USD,1 Hour
+southafricawest,South Africa West,ZA,Recommended,Standard_E2_v3,unknown,,,,0.21,0.038913,81.5,USD,1 Hour
 southafricawest,South Africa West,ZA,Recommended,Standard_E2s_v3,unknown,,,,0.21,0.038913,81.5,USD,1 Hour
+southafricawest,South Africa West,ZA,Recommended,Standard_F4,unknown,,,,0.334,0.0668,80.0,USD,1 Hour
+southafricawest,South Africa West,ZA,Recommended,Standard_F4s,unknown,,,,0.334,0.068236,79.6,USD,1 Hour
 southafricawest,South Africa West,ZA,Recommended,Standard_F4s_v2,unknown,,,,0.17,0.031518,81.5,USD,1 Hour
 southcentralus,South Central US,US,Recommended,Standard_B4ms,unknown,,,,0.2,,,USD,1 Hour
+southcentralus,South Central US,US,Recommended,Standard_D4,unknown,,,,0.536,0.107,80.0,USD,1 Hour
+southcentralus,South Central US,US,Recommended,Standard_D4_v2,unknown,,,,0.509,0.102,80.0,USD,1 Hour
 southcentralus,South Central US,US,Recommended,Standard_D4s_v3,unknown,,,,0.22,0.040656,81.5,USD,1 Hour
+southcentralus,South Central US,US,Recommended,Standard_DS4_v2,unknown,,,,0.509,0.103632,79.6,USD,1 Hour
+southcentralus,South Central US,US,Recommended,Standard_E2_v3,unknown,,,,0.146,0.026981,81.5,USD,1 Hour
 southcentralus,South Central US,US,Recommended,Standard_E2s_v3,unknown,,,,0.146,0.026981,81.5,USD,1 Hour
+southcentralus,South Central US,US,Recommended,Standard_F4,unknown,,,,0.219,0.0438,80.0,USD,1 Hour
+southcentralus,South Central US,US,Recommended,Standard_F4s,unknown,,,,0.219,0.044588,79.6,USD,1 Hour
 southcentralus,South Central US,US,Recommended,Standard_F4s_v2,unknown,,,,0.204,0.034,83.3,USD,1 Hour
 southeastasia,Southeast Asia,SG,Recommended,Standard_B4ms,unknown,,,,0.211,,,USD,1 Hour
+southeastasia,Southeast Asia,SG,Recommended,Standard_D4,unknown,,,,0.784,0.157,80.0,USD,1 Hour
+southeastasia,Southeast Asia,SG,Recommended,Standard_D4_v2,unknown,,,,0.631,0.126,80.0,USD,1 Hour
 southeastasia,Southeast Asia,SG,Recommended,Standard_D4s_v3,unknown,,,,0.25,0.0462,81.5,USD,1 Hour
+southeastasia,Southeast Asia,SG,Recommended,Standard_DS4_v2,unknown,,,,0.631,0.12885,79.6,USD,1 Hour
+southeastasia,Southeast Asia,SG,Recommended,Standard_E2_v3,unknown,,,,0.16,0.029568,81.5,USD,1 Hour
 southeastasia,Southeast Asia,SG,Recommended,Standard_E2s_v3,unknown,,,,0.16,0.029568,81.5,USD,1 Hour
+southeastasia,Southeast Asia,SG,Recommended,Standard_F4,unknown,,,,0.231,0.046,80.1,USD,1 Hour
+southeastasia,Southeast Asia,SG,Recommended,Standard_F4s,unknown,,,,0.231,0.04717,79.6,USD,1 Hour
 southeastasia,Southeast Asia,SG,Recommended,Standard_F4s_v2,unknown,,,,0.196,0.036221,81.5,USD,1 Hour
 southindia,South India,IN,Recommended,Standard_B4ms,unknown,,,,0.236,,,USD,1 Hour
+southindia,South India,IN,Recommended,Standard_D4,unknown,,,,0.755,0.151,80.0,USD,1 Hour
+southindia,South India,IN,Recommended,Standard_D4_v2,unknown,,,,0.675,0.135,80.0,USD,1 Hour
 southindia,South India,IN,Recommended,Standard_D4s_v3,unknown,,,,0.271,0.050081,81.5,USD,1 Hour
+southindia,South India,IN,Recommended,Standard_DS4_v2,unknown,,,,0.675,0.13743,79.6,USD,1 Hour
+southindia,South India,IN,Recommended,Standard_E2_v3,unknown,,,,0.167,0.030862,81.5,USD,1 Hour
 southindia,South India,IN,Recommended,Standard_E2s_v3,unknown,,,,0.167,0.030862,81.5,USD,1 Hour
+southindia,South India,IN,Recommended,Standard_F4,unknown,,,,0.242,0.048,80.2,USD,1 Hour
+southindia,South India,IN,Recommended,Standard_F4s,unknown,,,,0.242,0.049295,79.6,USD,1 Hour
 southindia,South India,IN,Recommended,Standard_F4s_v2,unknown,,,,0.187,0.034,81.8,USD,1 Hour
 spaincentral,Spain Central,ES,Recommended,Standard_B4ms,unknown,,,,0.183,,,USD,1 Hour
+spaincentral,Spain Central,ES,Recommended,Standard_D4,unknown,,,,,,,,
+spaincentral,Spain Central,ES,Recommended,Standard_D4_v2,unknown,,,,0.544,0.109,80.0,USD,1 Hour
 spaincentral,Spain Central,ES,Recommended,Standard_D4s_v3,unknown,,,,0.214,0.039547,81.5,USD,1 Hour
+spaincentral,Spain Central,ES,Recommended,Standard_DS4_v2,unknown,,,,0.544,0.110758,79.6,USD,1 Hour
+spaincentral,Spain Central,ES,Recommended,Standard_E2_v3,unknown,,,,0.141,0.026057,81.5,USD,1 Hour
 spaincentral,Spain Central,ES,Recommended,Standard_E2s_v3,unknown,,,,0.141,0.026057,81.5,USD,1 Hour
+spaincentral,Spain Central,ES,Recommended,Standard_F4,unknown,,,,0.227,0.045,80.2,USD,1 Hour
+spaincentral,Spain Central,ES,Recommended,Standard_F4s,unknown,,,,0.227,0.04624,79.6,USD,1 Hour
 spaincentral,Spain Central,ES,Recommended,Standard_F4s_v2,unknown,,,,0.192,0.035482,81.5,USD,1 Hour
 swedencentral,Sweden Central,SE,Recommended,Standard_B4ms,unknown,,,,0.173,,,USD,1 Hour
+swedencentral,Sweden Central,SE,Recommended,Standard_D4,unknown,,,,,,,,
+swedencentral,Sweden Central,SE,Recommended,Standard_D4_v2,unknown,,,,0.544,0.109,80.0,USD,1 Hour
 swedencentral,Sweden Central,SE,Recommended,Standard_D4s_v3,unknown,,,,0.204,0.037658,81.5,USD,1 Hour
+swedencentral,Sweden Central,SE,Recommended,Standard_DS4_v2,unknown,,,,0.544,0.110758,79.6,USD,1 Hour
+swedencentral,Sweden Central,SE,Recommended,Standard_E2_v3,unknown,,,,0.134,0.024736,81.5,USD,1 Hour
 swedencentral,Sweden Central,SE,Recommended,Standard_E2s_v3,unknown,,,,0.134,0.024736,81.5,USD,1 Hour
+swedencentral,Sweden Central,SE,Recommended,Standard_F4,unknown,,,,0.227,0.045,80.2,USD,1 Hour
+swedencentral,Sweden Central,SE,Recommended,Standard_F4s,unknown,,,,0.227,0.04624,79.6,USD,1 Hour
 swedencentral,Sweden Central,SE,Recommended,Standard_F4s_v2,unknown,,,,0.194,0.035851,81.5,USD,1 Hour
 switzerlandnorth,Switzerland North,CH,Recommended,Standard_B4ms,unknown,,,,0.2112,,,USD,1 Hour
+switzerlandnorth,Switzerland North,CH,Recommended,Standard_D4,unknown,,,,,,,,
+switzerlandnorth,Switzerland North,CH,Recommended,Standard_D4_v2,unknown,,,,0.5984,0.11968,80.0,USD,1 Hour
 switzerlandnorth,Switzerland North,CH,Recommended,Standard_D4s_v3,unknown,,,,0.264,0.048787,81.5,USD,1 Hour
+switzerlandnorth,Switzerland North,CH,Recommended,Standard_DS4_v2,unknown,,,,0.5984,0.121834,79.6,USD,1 Hour
+switzerlandnorth,Switzerland North,CH,Recommended,Standard_E2_v3,unknown,,,,0.176,0.032525,81.5,USD,1 Hour
 switzerlandnorth,Switzerland North,CH,Recommended,Standard_E2s_v3,unknown,,,,0.176,0.032525,81.5,USD,1 Hour
+switzerlandnorth,Switzerland North,CH,Recommended,Standard_F4,unknown,,,,0.2497,0.04994,80.0,USD,1 Hour
+switzerlandnorth,Switzerland North,CH,Recommended,Standard_F4s,unknown,,,,0.2497,0.050864,79.6,USD,1 Hour
 switzerlandnorth,Switzerland North,CH,Recommended,Standard_F4s_v2,unknown,,,,0.2134,0.039436,81.5,USD,1 Hour
 switzerlandwest,Switzerland West,CH,Recommended,Standard_B4ms,unknown,,,,0.27548,,,USD,1 Hour
+switzerlandwest,Switzerland West,CH,Recommended,Standard_D4,unknown,,,,,,,,
+switzerlandwest,Switzerland West,CH,Recommended,Standard_D4_v2,unknown,,,,0.77801,0.15531,80.0,USD,1 Hour
 switzerlandwest,Switzerland West,CH,Recommended,Standard_D4s_v3,unknown,,,,0.34283,0.063355,81.5,USD,1 Hour
+switzerlandwest,Switzerland West,CH,Recommended,Standard_DS4_v2,unknown,,,,0.77801,0.158403,79.6,USD,1 Hour
+switzerlandwest,Switzerland West,CH,Recommended,Standard_E2_v3,unknown,,,,0.22917,0.042351,81.5,USD,1 Hour
 switzerlandwest,Switzerland West,CH,Recommended,Standard_E2s_v3,unknown,,,,0.22917,0.042351,81.5,USD,1 Hour
+switzerlandwest,Switzerland West,CH,Recommended,Standard_F4,unknown,,,,0.32443,0.06491,80.0,USD,1 Hour
+switzerlandwest,Switzerland West,CH,Recommended,Standard_F4s,unknown,,,,0.32443,0.066086,79.6,USD,1 Hour
 switzerlandwest,Switzerland West,CH,Recommended,Standard_F4s_v2,unknown,,,,0.27751,0.051284,81.5,USD,1 Hour
 uaecentral,UAE Central,AE,Recommended,Standard_B4ms,unknown,,,,0.25,,,USD,1 Hour
+uaecentral,UAE Central,AE,Recommended,Standard_D4,unknown,,,,0.836,0.167,80.0,USD,1 Hour
+uaecentral,UAE Central,AE,Recommended,Standard_D4_v2,unknown,,,,0.714,0.143,80.0,USD,1 Hour
 uaecentral,UAE Central,AE,Recommended,Standard_D4s_v3,unknown,,,,0.312,0.057658,81.5,USD,1 Hour
+uaecentral,UAE Central,AE,Recommended,Standard_DS4_v2,unknown,,,,0.714,0.14537,79.6,USD,1 Hour
+uaecentral,UAE Central,AE,Recommended,Standard_E2_v3,unknown,,,,0.196,0.036221,81.5,USD,1 Hour
 uaecentral,UAE Central,AE,Recommended,Standard_E2s_v3,unknown,,,,0.196,0.036221,81.5,USD,1 Hour
+uaecentral,UAE Central,AE,Recommended,Standard_F4,unknown,,,,0.295,0.060062,79.6,USD,1 Hour
+uaecentral,UAE Central,AE,Recommended,Standard_F4s,unknown,,,,0.295,0.060062,79.6,USD,1 Hour
 uaecentral,UAE Central,AE,Recommended,Standard_F4s_v2,unknown,,,,0.252,0.04657,81.5,USD,1 Hour
 uaenorth,UAE North,AE,Recommended,Standard_B4ms,unknown,,,,0.2,,,USD,1 Hour
+uaenorth,UAE North,AE,Recommended,Standard_D4,unknown,,,,0.643,0.129,79.9,USD,1 Hour
+uaenorth,UAE North,AE,Recommended,Standard_D4_v2,unknown,,,,0.55,0.11,80.0,USD,1 Hour
 uaenorth,UAE North,AE,Recommended,Standard_D4s_v3,unknown,,,,0.24,0.044472,81.5,USD,1 Hour
+uaenorth,UAE North,AE,Recommended,Standard_DS4_v2,unknown,,,,0.55,0.11231,79.6,USD,1 Hour
+uaenorth,UAE North,AE,Recommended,Standard_E2_v3,unknown,,,,0.151,0.02798,81.5,USD,1 Hour
 uaenorth,UAE North,AE,Recommended,Standard_E2s_v3,unknown,,,,0.151,0.02798,81.5,USD,1 Hour
+uaenorth,UAE North,AE,Recommended,Standard_F4,unknown,,,,0.239,0.0478,80.0,USD,1 Hour
+uaenorth,UAE North,AE,Recommended,Standard_F4s,unknown,,,,0.239,0.048804,79.6,USD,1 Hour
 uaenorth,UAE North,AE,Recommended,Standard_F4s_v2,unknown,,,,0.211,0.038993,81.5,USD,1 Hour
 uksouth,UK South,GB,Recommended,Standard_B4ms,unknown,,,,0.189,,,USD,1 Hour
+uksouth,UK South,GB,Recommended,Standard_D4,unknown,,,,0.77,0.154,80.0,USD,1 Hour
+uksouth,UK South,GB,Recommended,Standard_D4_v2,unknown,,,,0.702,0.14,80.1,USD,1 Hour
 uksouth,UK South,GB,Recommended,Standard_D4s_v3,unknown,,,,0.232,0.033733,85.5,USD,1 Hour
+uksouth,UK South,GB,Recommended,Standard_DS4_v2,unknown,,,,0.702,0.142997,79.6,USD,1 Hour
+uksouth,UK South,GB,Recommended,Standard_E2_v3,unknown,,,,0.156,0.022682,85.5,USD,1 Hour
 uksouth,UK South,GB,Recommended,Standard_E2s_v3,unknown,,,,0.156,0.022682,85.5,USD,1 Hour
+uksouth,UK South,GB,Recommended,Standard_F4,unknown,,,,0.227,0.0454,80.0,USD,1 Hour
+uksouth,UK South,GB,Recommended,Standard_F4s,unknown,,,,0.227,0.04624,79.6,USD,1 Hour
 uksouth,UK South,GB,Recommended,Standard_F4s_v2,unknown,,,,0.202,0.033795,83.3,USD,1 Hour
 ukwest,UK West,GB,Recommended,Standard_B4ms,unknown,,,,0.188,,,USD,1 Hour
+ukwest,UK West,GB,Recommended,Standard_D4,unknown,,,,0.807,0.161,80.0,USD,1 Hour
+ukwest,UK West,GB,Recommended,Standard_D4_v2,unknown,,,,0.702,0.14,80.1,USD,1 Hour
 ukwest,UK West,GB,Recommended,Standard_D4s_v3,unknown,,,,0.232,0.042874,81.5,USD,1 Hour
+ukwest,UK West,GB,Recommended,Standard_DS4_v2,unknown,,,,0.702,0.142997,79.6,USD,1 Hour
+ukwest,UK West,GB,Recommended,Standard_E2_v3,unknown,,,,0.156,0.028829,81.5,USD,1 Hour
 ukwest,UK West,GB,Recommended,Standard_E2s_v3,unknown,,,,0.156,0.028829,81.5,USD,1 Hour
+ukwest,UK West,GB,Recommended,Standard_F4,unknown,,,,0.237,0.047,80.2,USD,1 Hour
+ukwest,UK West,GB,Recommended,Standard_F4s,unknown,,,,0.237,0.048277,79.6,USD,1 Hour
 ukwest,UK West,GB,Recommended,Standard_F4s_v2,unknown,,,,0.202,0.03733,81.5,USD,1 Hour
 westcentralus,West Central US,US,Recommended,Standard_B4ms,unknown,,,,0.2,,,USD,1 Hour
+westcentralus,West Central US,US,Recommended,Standard_D4,unknown,,,,,,,,
+westcentralus,West Central US,US,Recommended,Standard_D4_v2,unknown,,,,0.509,0.102,80.0,USD,1 Hour
 westcentralus,West Central US,US,Recommended,Standard_D4s_v3,unknown,,,,0.22,0.040656,81.5,USD,1 Hour
+westcentralus,West Central US,US,Recommended,Standard_DS4_v2,unknown,,,,0.509,0.103632,79.6,USD,1 Hour
+westcentralus,West Central US,US,Recommended,Standard_E2_v3,unknown,,,,0.146,0.026981,81.5,USD,1 Hour
 westcentralus,West Central US,US,Recommended,Standard_E2s_v3,unknown,,,,0.146,0.026981,81.5,USD,1 Hour
+westcentralus,West Central US,US,Recommended,Standard_F4,unknown,,,,0.219,0.0438,80.0,USD,1 Hour
+westcentralus,West Central US,US,Recommended,Standard_F4s,unknown,,,,0.219,0.044588,79.6,USD,1 Hour
 westcentralus,West Central US,US,Recommended,Standard_F4s_v2,unknown,,,,0.204,0.034,83.3,USD,1 Hour
 westeurope,West Europe,NL,Recommended,Standard_B4ms,unknown,,,,0.192,,,USD,1 Hour
+westeurope,West Europe,NL,Recommended,Standard_D4,unknown,,,,0.672,0.134,80.1,USD,1 Hour
+westeurope,West Europe,NL,Recommended,Standard_D4_v2,unknown,,,,0.544,0.109,80.0,USD,1 Hour
 westeurope,West Europe,NL,Recommended,Standard_D4s_v3,unknown,,,,0.24,0.044352,81.5,USD,1 Hour
+westeurope,West Europe,NL,Recommended,Standard_DS4_v2,unknown,,,,0.544,0.110758,79.6,USD,1 Hour
+westeurope,West Europe,NL,Recommended,Standard_E2_v3,unknown,,,,0.16,0.029568,81.5,USD,1 Hour
 westeurope,West Europe,NL,Recommended,Standard_E2s_v3,unknown,,,,0.16,0.029568,81.5,USD,1 Hour
+westeurope,West Europe,NL,Recommended,Standard_F4,unknown,,,,0.227,0.045,80.2,USD,1 Hour
+westeurope,West Europe,NL,Recommended,Standard_F4s,unknown,,,,0.227,0.04624,79.6,USD,1 Hour
 westeurope,West Europe,NL,Recommended,Standard_F4s_v2,unknown,,,,0.194,0.035851,81.5,USD,1 Hour
 westindia,West India,IN,Recommended,Standard_B4ms,unknown,,,,0.238,,,USD,1 Hour
+westindia,West India,IN,Recommended,Standard_D4,unknown,,,,0.544,0.109,80.0,USD,1 Hour
+westindia,West India,IN,Recommended,Standard_D4_v2,unknown,,,,0.675,0.135,80.0,USD,1 Hour
 westindia,West India,IN,Recommended,Standard_D4s_v3,unknown,,,,0.246,0.045461,81.5,USD,1 Hour
+westindia,West India,IN,Recommended,Standard_DS4_v2,unknown,,,,0.675,0.13743,79.6,USD,1 Hour
+westindia,West India,IN,Recommended,Standard_E2_v3,unknown,,,,0.152,0.02809,81.5,USD,1 Hour
 westindia,West India,IN,Recommended,Standard_E2s_v3,unknown,,,,0.152,0.02809,81.5,USD,1 Hour
+westindia,West India,IN,Recommended,Standard_F4,unknown,,,,0.219,0.0439,80.0,USD,1 Hour
+westindia,West India,IN,Recommended,Standard_F4s,unknown,,,,0.219,0.044588,79.6,USD,1 Hour
 westindia,West India,IN,Recommended,Standard_F4s_v2,unknown,,,,0.17,0.031416,81.5,USD,1 Hour
 westus,West US,US,Recommended,Standard_B4ms,unknown,,,,0.198,,,USD,1 Hour
+westus,West US,US,Recommended,Standard_D4,unknown,,,,0.616,0.123,80.0,USD,1 Hour
+westus,West US,US,Recommended,Standard_D4_v2,unknown,,,,0.559,0.112,80.0,USD,1 Hour
 westus,West US,US,Recommended,Standard_D4s_v3,unknown,,,,0.234,0.043243,81.5,USD,1 Hour
+westus,West US,US,Recommended,Standard_DS4_v2,unknown,,,,0.559,0.113812,79.6,USD,1 Hour
+westus,West US,US,Recommended,Standard_E2_v3,unknown,,,,0.148,0.02735,81.5,USD,1 Hour
 westus,West US,US,Recommended,Standard_E2s_v3,unknown,,,,0.148,0.02735,81.5,USD,1 Hour
+westus,West US,US,Recommended,Standard_F4,unknown,,,,0.249,0.0498,80.0,USD,1 Hour
+westus,West US,US,Recommended,Standard_F4s,unknown,,,,0.249,0.050696,79.6,USD,1 Hour
 westus,West US,US,Recommended,Standard_F4s_v2,unknown,,,,0.212,0.034,84.0,USD,1 Hour
 westus2,West US 2,US,Recommended,Standard_B4ms,unknown,,,,0.166,,,USD,1 Hour
+westus2,West US 2,US,Recommended,Standard_D4,unknown,,,,,,,,
+westus2,West US 2,US,Recommended,Standard_D4_v2,unknown,,,,0.458,0.0916,80.0,USD,1 Hour
 westus2,West US 2,US,Recommended,Standard_D4s_v3,unknown,,,,0.192,0.035482,81.5,USD,1 Hour
+westus2,West US 2,US,Recommended,Standard_DS4_v2,unknown,,,,0.458,0.093249,79.6,USD,1 Hour
+westus2,West US 2,US,Recommended,Standard_E2_v3,unknown,,,,0.126,0.023285,81.5,USD,1 Hour
 westus2,West US 2,US,Recommended,Standard_E2s_v3,unknown,,,,0.126,0.023285,81.5,USD,1 Hour
+westus2,West US 2,US,Recommended,Standard_F4,unknown,,,,0.199,0.0398,80.0,USD,1 Hour
+westus2,West US 2,US,Recommended,Standard_F4s,unknown,,,,0.199,0.040516,79.6,USD,1 Hour
 westus2,West US 2,US,Recommended,Standard_F4s_v2,unknown,,,,0.169,0.032887,80.5,USD,1 Hour
 westus3,West US 3,US,Recommended,Standard_B4ms,unknown,,,,0.166,0.0333,79.9,USD,1 Hour
+westus3,West US 3,US,Recommended,Standard_D4,unknown,,,,0.616,0.123,80.0,USD,1 Hour
+westus3,West US 3,US,Recommended,Standard_D4_v2,unknown,,,,0.458,0.0916,80.0,USD,1 Hour
 westus3,West US 3,US,Recommended,Standard_D4s_v3,unknown,,,,0.192,0.035482,81.5,USD,1 Hour
+westus3,West US 3,US,Recommended,Standard_DS4_v2,unknown,,,,0.458,0.093569,79.6,USD,1 Hour
+westus3,West US 3,US,Recommended,Standard_E2_v3,unknown,,,,0.126,0.023285,81.5,USD,1 Hour
 westus3,West US 3,US,Recommended,Standard_E2s_v3,unknown,,,,0.126,0.023285,81.5,USD,1 Hour
+westus3,West US 3,US,Recommended,Standard_F4,unknown,,,,0.199,0.0398,80.0,USD,1 Hour
+westus3,West US 3,US,Recommended,Standard_F4s,unknown,,,,0.199,0.040656,79.6,USD,1 Hour
 westus3,West US 3,US,Recommended,Standard_F4s_v2,unknown,,,,0.169,0.031231,81.5,USD,1 Hour

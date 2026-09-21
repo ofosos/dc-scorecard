@@ -13,12 +13,24 @@ offerings available in 100% of regions.
 
 - [Compute (virtual machines)](#compute-virtual-machines)
   - [Standard_B4ms / Linux on-demand](#standard_b4ms--linux-on-demand)
+  - [Standard_D4 / Linux on-demand](#standard_d4--linux-on-demand)
+  - [Standard_D4_v2 / Linux on-demand](#standard_d4_v2--linux-on-demand)
   - [Standard_D4s_v3 / Linux on-demand](#standard_d4s_v3--linux-on-demand)
+  - [Standard_DS4_v2 / Linux on-demand](#standard_ds4_v2--linux-on-demand)
+  - [Standard_E2_v3 / Linux on-demand](#standard_e2_v3--linux-on-demand)
   - [Standard_E2s_v3 / Linux on-demand](#standard_e2s_v3--linux-on-demand)
+  - [Standard_F4 / Linux on-demand](#standard_f4--linux-on-demand)
+  - [Standard_F4s / Linux on-demand](#standard_f4s--linux-on-demand)
   - [Standard_F4s_v2 / Linux on-demand](#standard_f4s_v2--linux-on-demand)
   - [Standard_B4ms / Spot](#standard_b4ms--spot)
+  - [Standard_D4 / Spot](#standard_d4--spot)
+  - [Standard_D4_v2 / Spot](#standard_d4_v2--spot)
   - [Standard_D4s_v3 / Spot](#standard_d4s_v3--spot)
+  - [Standard_DS4_v2 / Spot](#standard_ds4_v2--spot)
+  - [Standard_E2_v3 / Spot](#standard_e2_v3--spot)
   - [Standard_E2s_v3 / Spot](#standard_e2s_v3--spot)
+  - [Standard_F4 / Spot](#standard_f4--spot)
+  - [Standard_F4s / Spot](#standard_f4s--spot)
   - [Standard_F4s_v2 / Spot](#standard_f4s_v2--spot)
 - [Blob storage](#blob-storage)
   - [Archive Tier / Premium SSD / GRS](#archive-tier--premium-ssd--grs)
@@ -109,6 +121,36 @@ offerings available in 100% of regions.
 | Offered in | 96.5% of regions | |
 | Unit | USD/hour | |
 
+### Standard_D4 / Linux on-demand
+
+| Statistic | Price/Count | Regions |
+| --- | --- | --- |
+| Top price | 0.988 | brazilsoutheast |
+| Bottom price | 0.536 | eastus2, southcentralus |
+| Median price | 0.678 | |
+| Average price | 0.70429 | |
+| Top decile price (P90) | 0.883 | brazilsoutheast, eastasia, japaneast, southafricawest |
+| Bottom decile price (P10) | 0.564 | centralindia, eastus2, southcentralus, westindia |
+| Number of regions (incl. na) | 57 | |
+| Number of regions with a price | 31 | |
+| Offered in | 54.4% of regions | |
+| Unit | USD/hour | |
+
+### Standard_D4_v2 / Linux on-demand
+
+| Statistic | Price/Count | Regions |
+| --- | --- | --- |
+| Top price | 0.912 | francesouth |
+| Bottom price | 0.458 | eastus2, westus2, westus3 |
+| Median price | 0.5982 | |
+| Average price | 0.630758 | |
+| Top decile price (P90) | 0.778009 | brazilsoutheast, eastasia, francesouth, japaneast, newzealandnorth, switzerlandwest |
+| Bottom decile price (P10) | 0.5108 | eastus2, mexicocentral, southcentralus, westcentralus, westus2, westus3 |
+| Number of regions (incl. na) | 57 | |
+| Number of regions with a price | 52 | |
+| Offered in | 91.2% of regions | |
+| Unit | USD/hour | |
+
 ### Standard_D4s_v3 / Linux on-demand
 
 | Statistic | Price/Count | Regions |
@@ -119,6 +161,36 @@ offerings available in 100% of regions.
 | Average price | 0.246931 | |
 | Top decile price (P90) | 0.3094 | brazilsouth, brazilsoutheast, norwaywest, southafricawest, switzerlandwest, uaecentral |
 | Bottom decile price (P10) | 0.2052 | eastus, eastus2, northcentralus, swedencentral, westus2, westus3 |
+| Number of regions (incl. na) | 57 | |
+| Number of regions with a price | 53 | |
+| Offered in | 93.0% of regions | |
+| Unit | USD/hour | |
+
+### Standard_DS4_v2 / Linux on-demand
+
+| Statistic | Price/Count | Regions |
+| --- | --- | --- |
+| Top price | 0.912 | francesouth |
+| Bottom price | 0.458 | eastus2, westus2, westus3 |
+| Median price | 0.5982 | |
+| Average price | 0.630758 | |
+| Top decile price (P90) | 0.778009 | brazilsoutheast, eastasia, francesouth, japaneast, newzealandnorth, switzerlandwest |
+| Bottom decile price (P10) | 0.5108 | eastus2, mexicocentral, southcentralus, westcentralus, westus2, westus3 |
+| Number of regions (incl. na) | 57 | |
+| Number of regions with a price | 52 | |
+| Offered in | 91.2% of regions | |
+| Unit | USD/hour | |
+
+### Standard_E2_v3 / Linux on-demand
+
+| Statistic | Price/Count | Regions |
+| --- | --- | --- |
+| Top price | 0.306 | brazilsoutheast |
+| Bottom price | 0.126 | eastus, northcentralus, westus2, westus3 |
+| Median price | 0.156 | |
+| Average price | 0.162377 | |
+| Top decile price (P90) | 0.20184 | brazilsouth, brazilsoutheast, francesouth, norwaywest, southafricawest, switzerlandwest |
+| Bottom decile price (P10) | 0.1346 | eastus, eastus2, northcentralus, swedencentral, westus2, westus3 |
 | Number of regions (incl. na) | 57 | |
 | Number of regions with a price | 53 | |
 | Offered in | 93.0% of regions | |
@@ -137,6 +209,36 @@ offerings available in 100% of regions.
 | Number of regions (incl. na) | 57 | |
 | Number of regions with a price | 53 | |
 | Offered in | 93.0% of regions | |
+| Unit | USD/hour | |
+
+### Standard_F4 / Linux on-demand
+
+| Statistic | Price/Count | Regions |
+| --- | --- | --- |
+| Top price | 0.373 | brazilsoutheast |
+| Bottom price | 0.198 | centralindia |
+| Median price | 0.228 | |
+| Average price | 0.242439 | |
+| Top decile price (P90) | 0.2926 | brazilsoutheast, germanynorth, norwaywest, southafricawest, switzerlandwest, uaecentral |
+| Bottom decile price (P10) | 0.2002 | centralindia, eastus, eastus2, northcentralus, westus2, westus3 |
+| Number of regions (incl. na) | 57 | |
+| Number of regions with a price | 55 | |
+| Offered in | 96.5% of regions | |
+| Unit | USD/hour | |
+
+### Standard_F4s / Linux on-demand
+
+| Statistic | Price/Count | Regions |
+| --- | --- | --- |
+| Top price | 0.373 | brazilsoutheast |
+| Bottom price | 0.198 | centralindia |
+| Median price | 0.228 | |
+| Average price | 0.242439 | |
+| Top decile price (P90) | 0.2926 | brazilsoutheast, germanynorth, norwaywest, southafricawest, switzerlandwest, uaecentral |
+| Bottom decile price (P10) | 0.2002 | centralindia, eastus, eastus2, northcentralus, westus2, westus3 |
+| Number of regions (incl. na) | 57 | |
+| Number of regions with a price | 55 | |
+| Offered in | 96.5% of regions | |
 | Unit | USD/hour | |
 
 ### Standard_F4s_v2 / Linux on-demand
@@ -169,6 +271,36 @@ offerings available in 100% of regions.
 | Offered in | 3.5% of regions | |
 | Unit | USD/hour | |
 
+### Standard_D4 / Spot
+
+| Statistic | Price/Count | Regions |
+| --- | --- | --- |
+| Top price | 0.198 | brazilsoutheast |
+| Bottom price | 0.107 | eastus2, southcentralus |
+| Median price | 0.136 | |
+| Average price | 0.14095 | |
+| Top decile price (P90) | 0.177 | brazilsoutheast, eastasia, japaneast, southafricawest |
+| Bottom decile price (P10) | 0.113 | centralindia, eastus2, southcentralus, westindia |
+| Number of regions (incl. na) | 57 | |
+| Number of regions with a price | 31 | |
+| Offered in | 54.4% of regions | |
+| Unit | USD/hour | |
+
+### Standard_D4_v2 / Spot
+
+| Statistic | Price/Count | Regions |
+| --- | --- | --- |
+| Top price | 0.182 | francesouth |
+| Bottom price | 0.0673 | australiacentral2 |
+| Median price | 0.11934 | |
+| Average price | 0.124919 | |
+| Top decile price (P90) | 0.155931 | brazilsoutheast, eastasia, francesouth, japaneast, newzealandnorth, norwaywest |
+| Bottom decile price (P10) | 0.102 | australiacentral2, eastus2, mexicocentral, southcentralus, westcentralus, westus2, westus3 |
+| Number of regions (incl. na) | 57 | |
+| Number of regions with a price | 52 | |
+| Offered in | 91.2% of regions | |
+| Unit | USD/hour | |
+
 ### Standard_D4s_v3 / Spot
 
 | Statistic | Price/Count | Regions |
@@ -179,6 +311,36 @@ offerings available in 100% of regions.
 | Average price | 0.0467355 | |
 | Top decile price (P90) | 0.058598 | brazilsoutheast, canadacentral, eastus2, norwaywest, southafricawest, switzerlandwest |
 | Bottom decile price (P10) | 0.0370944 | australiacentral2, centralus, northcentralus, uksouth, westus2, westus3 |
+| Number of regions (incl. na) | 57 | |
+| Number of regions with a price | 53 | |
+| Offered in | 93.0% of regions | |
+| Unit | USD/hour | |
+
+### Standard_DS4_v2 / Spot
+
+| Statistic | Price/Count | Regions |
+| --- | --- | --- |
+| Top price | 0.281762 | eastus2 |
+| Bottom price | 0.0673 | australiacentral2 |
+| Median price | 0.125685 | |
+| Average price | 0.133816 | |
+| Top decile price (P90) | 0.16582 | brazilsoutheast, canadacentral, eastasia, eastus2, francesouth, japaneast |
+| Bottom decile price (P10) | 0.104004 | australiacentral2, mexicocentral, southcentralus, westcentralus, westus2, westus3 |
+| Number of regions (incl. na) | 57 | |
+| Number of regions with a price | 52 | |
+| Offered in | 91.2% of regions | |
+| Unit | USD/hour | |
+
+### Standard_E2_v3 / Spot
+
+| Statistic | Price/Count | Regions |
+| --- | --- | --- |
+| Top price | 0.056549 | brazilsoutheast |
+| Bottom price | 0.016 | australiacentral2 |
+| Median price | 0.028644 | |
+| Average price | 0.0296025 | |
+| Top decile price (P90) | 0.0372996 | brazilsouth, brazilsoutheast, francesouth, norwaywest, southafricawest, switzerlandwest |
+| Bottom decile price (P10) | 0.0244568 | australiacentral2, centralus, northcentralus, uksouth, westus2, westus3 |
 | Number of regions (incl. na) | 57 | |
 | Number of regions with a price | 53 | |
 | Offered in | 93.0% of regions | |
@@ -197,6 +359,36 @@ offerings available in 100% of regions.
 | Number of regions (incl. na) | 57 | |
 | Number of regions with a price | 53 | |
 | Offered in | 93.0% of regions | |
+| Unit | USD/hour | |
+
+### Standard_F4 / Spot
+
+| Statistic | Price/Count | Regions |
+| --- | --- | --- |
+| Top price | 0.0747 | brazilsoutheast |
+| Bottom price | 0.026 | australiacentral2 |
+| Median price | 0.0456 | |
+| Average price | 0.0479319 | |
+| Top decile price (P90) | 0.0587 | brazilsoutheast, germanynorth, norwaywest, southafricawest, switzerlandwest, uaecentral |
+| Bottom decile price (P10) | 0.0398 | australiacentral2, centralindia, eastus, eastus2, northcentralus, westus2, westus3 |
+| Number of regions (incl. na) | 57 | |
+| Number of regions with a price | 55 | |
+| Offered in | 96.5% of regions | |
+| Unit | USD/hour | |
+
+### Standard_F4s / Spot
+
+| Statistic | Price/Count | Regions |
+| --- | --- | --- |
+| Top price | 0.122425 | eastus2 |
+| Bottom price | 0.026 | australiacentral2 |
+| Median price | 0.04717 | |
+| Average price | 0.0514475 | |
+| Top decile price (P90) | 0.0637696 | brazilsoutheast, canadacentral, eastus2, norwaywest, southafricawest, switzerlandwest |
+| Bottom decile price (P10) | 0.0413018 | australiacentral2, centralindia, francecentral, northcentralus, westus2, westus3 |
+| Number of regions (incl. na) | 57 | |
+| Number of regions with a price | 55 | |
+| Offered in | 96.5% of regions | |
 | Unit | USD/hour | |
 
 ### Standard_F4s_v2 / Spot
