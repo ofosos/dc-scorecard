@@ -20,14 +20,16 @@ Dimension mapping (Azure does not sell every combination):
                     priced per access tier)
     Premium SSD  -> Premium Block Blob (SSD-backed premium storage)
 - Redundancy:
-    LRS / GRS / ZRS (read-access RA-GRS/RA-GZRS and geo-zone GZRS
-                    SKUs are not requested and are skipped)
+    LRS / GRS / ZRS / GZRS / RA-GRS / RA-GZRS
 
 Cells Azure does not sell are written with the string "na":
-- Premium Block Blob is only offered with LRS and ZRS (no GRS).
+- Premium Block Blob is only offered with LRS and ZRS (no GRS-family
+  SKUs).
 - Premium Block Blob has no access tiers; its price is listed under
   "Hot Tier" only.
-- Archive ZRS is not offered in most regions.
+- Archive is only offered with LRS, GRS and RA-GRS.
+- ZRS/GZRS/RA-GZRS require availability zones; regions without them
+  have no such prices at all.
 
 Usage:
     python blob_storage_pricing.py                    # all regions -> blob_storage_pricing.csv
@@ -62,7 +64,7 @@ PRICE_COLUMN = "PricePerGB"
 
 ACCESS_TIERS = ("Hot Tier", "Cold Tier", "Archive Tier")
 PERFORMANCE_TIERS = ("Premium SSD", "Standard SSD")
-REDUNDANCIES = ("LRS", "GRS", "ZRS")
+REDUNDANCIES = ("LRS", "GRS", "ZRS", "GZRS", "RA-GRS", "RA-GZRS")
 
 # Access tier -> the SKU tier names it maps to.
 TIER_SKUS = {
@@ -175,7 +177,7 @@ def region_matrix(region: str, prices: dict[tuple[str, str], float]) -> list[dic
             for redundancy in REDUNDANCIES:
                 if performance == "Premium SSD":
                     # Premium Block Blob has no access tiers: price under
-                    # Hot Tier only, and no GRS offering.
+                    # Hot Tier only, and no GRS-family SKUs.
                     price = (lookup(("Premium",), redundancy)
                              if access == "Hot Tier" else np.nan)
                 else:

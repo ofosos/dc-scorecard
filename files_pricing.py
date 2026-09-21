@@ -51,10 +51,12 @@ DEFAULT_INPUT = Path("az_regions_annotated.json")
 DEFAULT_OUTPUT = Path("files_pricing.csv")
 
 REGION_COLUMN = "Region"
+ACCESS_COLUMN = "AccessFrequency"
 PERFORMANCE_COLUMN = "Performance"
 REDUNDANCY_COLUMN = "Redundancy"
 PRICE_COLUMN = "PricePerGB"
 
+ACCESS_TIERS = ("Hot Tier", "Cool Tier", "Standard Tier")
 PERFORMANCE_TIERS = ("Standard HDD", "Premium SSD")
 REDUNDANCIES = ("LRS", "GRS", "ZRS", "GZRS")
 
@@ -62,6 +64,13 @@ REDUNDANCIES = ("LRS", "GRS", "ZRS", "GZRS")
 # share prices; the classic Files product only has LRS/GRS SKUs).
 STANDARD_PRODUCTS = ("Files v2", "Files")
 PREMIUM_PRODUCTS = ("Premium Files",)
+
+# Access tier -> the SKU tier names it maps to.
+TIER_SKUS = {
+    "Hot Tier": ("Hot",),
+    "Cool Tier": ("Cool",),
+    "Standard Tier": ("Standard",),
+}
 
 MAX_RETRIES = 5
 TIMEOUT = 60  # seconds
@@ -101,20 +110,22 @@ def fetch_page(session: requests.Session, url: str) -> dict:
 
 
 def fetch_region_prices(session: requests.Session, region: str,
-                        currency: str) -> dict[tuple[str, str], float]:
-    """Return {(performance, redundancy): price per GB} for one region."""
+                        currency: str) -> dict[tuple[str, str, str], float]:
+    """Return {(tier, performance, redundancy): price per GB} for one region."""
     params = f"$filter={requests.utils.quote(build_filter(region))}"
     if currency != "USD":
         params += f"&currencyCode={currency}"
     url = f"{API_URL}?{params}"
 
-    prices: dict[tuple[str, str], float] = {}
+    prices: dict[tuple[str, str, str], tuple[int, float]] = {}
     while url:
         page = fetch_page(session, url)
         for item in page.get("Items", []):
             if item.get("type") != "Consumption":
                 continue
             if item.get("unitOfMeasure") != "1 GB/Month":
+                continue
+            if item.get("tierMinimumUnits", 0.0) != 0.0:
                 continue
             product = item.get("productName", "")
             sku = item.get("skuName", "")
@@ -123,7 +134,10 @@ def fetch_region_prices(session: requests.Session, region: str,
                 performance = "Standard HDD"
                 if not meter.endswith("Data Stored"):
                     continue
-                redundancy = sku.replace("Standard ", "", 1)
+                parts = sku.split()
+                if len(parts) != 2:
+                    continue
+                tier, redundancy = parts
             elif product in PREMIUM_PRODUCTS:
                 performance = "Premium SSD"
                 if not meter.endswith("Provisioned"):
@@ -131,7 +145,7 @@ def fetch_region_prices(session: requests.Session, region: str,
                 parts = sku.split()
                 if len(parts) != 2:
                     continue
-                redundancy = parts[1]
+                tier, redundancy = parts
             else:
                 continue
             if redundancy not in REDUNDANCIES:
@@ -139,7 +153,7 @@ def fetch_region_prices(session: requests.Session, region: str,
             pool = (STANDARD_PRODUCTS if product in STANDARD_PRODUCTS
                     else PREMIUM_PRODUCTS)
             rank = pool.index(product)
-            key = (performance, redundancy)
+            key = (tier, performance, redundancy)
             current = prices.get(key)
             if current is None or rank < current[0]:
                 prices[key] = (rank, float(item["retailPrice"]))
@@ -147,17 +161,36 @@ def fetch_region_prices(session: requests.Session, region: str,
     return {k: v[1] for k, v in prices.items()}
 
 
-def region_matrix(region: str, prices: dict[tuple[str, str], float]) -> list[dict]:
-    """Build the (performance, redundancy) cross product for a region."""
+def region_matrix(region: str,
+                  prices: dict[tuple[str, str, str], float]) -> list[dict]:
+    """Build the (access, performance, redundancy) cross product for a region."""
     rows = []
-    for performance in PERFORMANCE_TIERS:
-        for redundancy in REDUNDANCIES:
-            rows.append({
-                REGION_COLUMN: region,
-                PERFORMANCE_COLUMN: performance,
-                REDUNDANCY_COLUMN: redundancy,
-                PRICE_COLUMN: prices.get((performance, redundancy), np.nan),
-            })
+
+    def lookup(tiers: tuple[str, ...], performance: str,
+               redundancy: str) -> float:
+        for tier in tiers:
+            if (tier, performance, redundancy) in prices:
+                return prices[(tier, performance, redundancy)]
+        return np.nan
+
+    for access in ACCESS_TIERS:
+        sku_tiers = TIER_SKUS[access]
+        for performance in PERFORMANCE_TIERS:
+            for redundancy in REDUNDANCIES:
+                if performance == "Premium SSD":
+                    # Premium file shares have no access tiers: price
+                    # under Hot Tier only, and no GRS/GZRS SKUs.
+                    price = (lookup(("Premium",), performance, redundancy)
+                             if access == "Hot Tier" else np.nan)
+                else:
+                    price = lookup(sku_tiers, performance, redundancy)
+                rows.append({
+                    REGION_COLUMN: region,
+                    ACCESS_COLUMN: access,
+                    PERFORMANCE_COLUMN: performance,
+                    REDUNDANCY_COLUMN: redundancy,
+                    PRICE_COLUMN: price,
+                })
     return rows
 
 
@@ -186,16 +219,17 @@ def fetch_all(regions: list[str], currency: str) -> pd.DataFrame:
 
     df = pd.DataFrame.from_records(
         records,
-        columns=[REGION_COLUMN, PERFORMANCE_COLUMN, REDUNDANCY_COLUMN,
-                 PRICE_COLUMN],
+        columns=[REGION_COLUMN, ACCESS_COLUMN, PERFORMANCE_COLUMN,
+                 REDUNDANCY_COLUMN, PRICE_COLUMN],
     )
+    df[ACCESS_COLUMN] = pd.Categorical(df[ACCESS_COLUMN], categories=ACCESS_TIERS)
     df[PERFORMANCE_COLUMN] = pd.Categorical(df[PERFORMANCE_COLUMN],
                                             categories=PERFORMANCE_TIERS)
     df[REDUNDANCY_COLUMN] = pd.Categorical(df[REDUNDANCY_COLUMN],
                                           categories=REDUNDANCIES)
     df[PRICE_COLUMN] = df[PRICE_COLUMN].astype(float)
     return df.sort_values(
-        [REGION_COLUMN, PERFORMANCE_COLUMN, REDUNDANCY_COLUMN]
+        [REGION_COLUMN, ACCESS_COLUMN, PERFORMANCE_COLUMN, REDUNDANCY_COLUMN]
     ).reset_index(drop=True)
 
 
