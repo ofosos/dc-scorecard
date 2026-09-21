@@ -19,6 +19,9 @@ price, the top and bottom decile prices, the number of regions
 ``na``), the percentage of regions the offering is available in, and the
 regions carrying the top and bottom prices.
 
+The report starts with a table of contents; entries marked with a
+degree symbol (\u00b0) are offered in 100% of regions.
+
 Usage:
     python pricing_summary.py                    # writes pricing-summary.md
     python pricing_summary.py --output out.md
@@ -29,6 +32,7 @@ Requires: pandas, numpy
 from __future__ import annotations
 
 import argparse
+import re
 from pathlib import Path
 
 import numpy as np
@@ -108,7 +112,16 @@ def fmt_regions(regions: list[str]) -> str:
     return listed or "—"
 
 
-def offering_table(frame: pd.DataFrame, unit: str) -> str:
+def gh_slug(text: str, seen: dict[str, int]) -> str:
+    """GitHub-style heading anchor, with duplicate counter."""
+    slug = re.sub(r"[^\w\- ]", "", text.strip().lower()).replace(" ", "-")
+    count = seen.get(slug, 0)
+    seen[slug] = count + 1
+    return slug if count == 0 else f"{slug}-{count}"
+
+
+def offering_table(frame: pd.DataFrame, unit: str) -> tuple[str, float]:
+    """Return the offering's markdown table and its availability in percent."""
     prices = frame["price"]
     offered = prices.dropna()
     n_regions = len(frame)
@@ -130,7 +143,7 @@ def offering_table(frame: pd.DataFrame, unit: str) -> str:
         lines.append(f"| Number of regions (incl. na) | {n_regions} | |")
         lines.append("| Number of regions with a price | 0 | |")
         lines.append("| Offered in | 0.0% of regions | |")
-        return "\n".join(lines)
+        return "\n".join(lines), 0.0
 
     top = offered.max()
     bottom = offered.min()
@@ -153,10 +166,35 @@ def offering_table(frame: pd.DataFrame, unit: str) -> str:
         f"| Offered in | {100.0 * len(offered) / n_regions:.1f}% of regions | |"
     )
     lines.append(f"| Unit | {unit} | |")
-    return "\n".join(lines)
+    availability = 100.0 * len(offered) / n_regions
+    return "\n".join(lines), availability
 
 
 def build_report() -> str:
+    slug_seen: dict[str, int] = {}
+    sections = []
+    for service in SERVICES:
+        unit = service["prices"][0][2]
+        entries = []
+        for frame in load_offering_frames(service):
+            for offering, group in frame.groupby("offering", sort=True):
+                table, availability = offering_table(group, unit)
+                entries.append(
+                    {
+                        "offering": offering,
+                        "slug": gh_slug(offering, slug_seen),
+                        "availability": availability,
+                        "table": table,
+                    }
+                )
+        sections.append(
+            {
+                "title": service["title"],
+                "slug": gh_slug(service["title"], slug_seen),
+                "entries": entries,
+            }
+        )
+
     out: list[str] = [
         "# Azure pricing summary",
         "",
@@ -166,17 +204,27 @@ def build_report() -> str:
         "not sell are `na`; the number of regions includes them, the number",
         "of offerings excludes them.",
         "",
+        "## Contents",
+        "",
+        "Table of contents entries marked with a degree symbol (\u00b0) are",
+        "offerings available in 100% of regions.",
+        "",
     ]
-    for service in SERVICES:
-        unit = service["prices"][0][2]
-        out.append(f"## {service['title']}")
+    for section in sections:
+        out.append(f"- [{section['title']}](#{section['slug']})")
+        for entry in section["entries"]:
+            marker = " \u00b0" if entry["availability"] == 100.0 else ""
+            out.append(f"  - [{entry['offering']}](#{entry['slug']}){marker}")
+    out.append("")
+
+    for section in sections:
+        out.append(f"## {section['title']}")
         out.append("")
-        for frame in load_offering_frames(service):
-            for offering, group in frame.groupby("offering", sort=True):
-                out.append(f"### {offering}")
-                out.append("")
-                out.append(offering_table(group, unit))
-                out.append("")
+        for entry in section["entries"]:
+            out.append(f"### {entry['offering']}")
+            out.append("")
+            out.append(entry["table"])
+            out.append("")
     return "\n".join(out).rstrip() + "\n"
 
 

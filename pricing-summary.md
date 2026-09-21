@@ -6,6 +6,92 @@ from `compute_prices_availability.csv`, `blob_storage_pricing.csv`,
 not sell are `na`; the number of regions includes them, the number
 of offerings excludes them.
 
+## Contents
+
+Table of contents entries marked with a degree symbol (°) are
+offerings available in 100% of regions.
+
+- [Compute (virtual machines)](#compute-virtual-machines)
+  - [Standard_B4ms / Linux on-demand](#standard_b4ms--linux-on-demand)
+  - [Standard_D4s_v3 / Linux on-demand](#standard_d4s_v3--linux-on-demand)
+  - [Standard_E2s_v3 / Linux on-demand](#standard_e2s_v3--linux-on-demand)
+  - [Standard_F4s_v2 / Linux on-demand](#standard_f4s_v2--linux-on-demand)
+  - [Standard_B4ms / Spot](#standard_b4ms--spot)
+  - [Standard_D4s_v3 / Spot](#standard_d4s_v3--spot)
+  - [Standard_E2s_v3 / Spot](#standard_e2s_v3--spot)
+  - [Standard_F4s_v2 / Spot](#standard_f4s_v2--spot)
+- [Blob storage](#blob-storage)
+  - [Archive Tier / Premium SSD / GRS](#archive-tier--premium-ssd--grs)
+  - [Archive Tier / Premium SSD / GZRS](#archive-tier--premium-ssd--gzrs)
+  - [Archive Tier / Premium SSD / LRS](#archive-tier--premium-ssd--lrs)
+  - [Archive Tier / Premium SSD / RA-GRS](#archive-tier--premium-ssd--ra-grs)
+  - [Archive Tier / Premium SSD / RA-GZRS](#archive-tier--premium-ssd--ra-gzrs)
+  - [Archive Tier / Premium SSD / ZRS](#archive-tier--premium-ssd--zrs)
+  - [Archive Tier / Standard SSD / GRS](#archive-tier--standard-ssd--grs)
+  - [Archive Tier / Standard SSD / GZRS](#archive-tier--standard-ssd--gzrs)
+  - [Archive Tier / Standard SSD / LRS](#archive-tier--standard-ssd--lrs)
+  - [Archive Tier / Standard SSD / RA-GRS](#archive-tier--standard-ssd--ra-grs)
+  - [Archive Tier / Standard SSD / RA-GZRS](#archive-tier--standard-ssd--ra-gzrs)
+  - [Archive Tier / Standard SSD / ZRS](#archive-tier--standard-ssd--zrs)
+  - [Cold Tier / Premium SSD / GRS](#cold-tier--premium-ssd--grs)
+  - [Cold Tier / Premium SSD / GZRS](#cold-tier--premium-ssd--gzrs)
+  - [Cold Tier / Premium SSD / LRS](#cold-tier--premium-ssd--lrs)
+  - [Cold Tier / Premium SSD / RA-GRS](#cold-tier--premium-ssd--ra-grs)
+  - [Cold Tier / Premium SSD / RA-GZRS](#cold-tier--premium-ssd--ra-gzrs)
+  - [Cold Tier / Premium SSD / ZRS](#cold-tier--premium-ssd--zrs)
+  - [Cold Tier / Standard SSD / GRS](#cold-tier--standard-ssd--grs)
+  - [Cold Tier / Standard SSD / GZRS](#cold-tier--standard-ssd--gzrs)
+  - [Cold Tier / Standard SSD / LRS](#cold-tier--standard-ssd--lrs) °
+  - [Cold Tier / Standard SSD / RA-GRS](#cold-tier--standard-ssd--ra-grs)
+  - [Cold Tier / Standard SSD / RA-GZRS](#cold-tier--standard-ssd--ra-gzrs)
+  - [Cold Tier / Standard SSD / ZRS](#cold-tier--standard-ssd--zrs)
+  - [Hot Tier / Premium SSD / GRS](#hot-tier--premium-ssd--grs)
+  - [Hot Tier / Premium SSD / GZRS](#hot-tier--premium-ssd--gzrs)
+  - [Hot Tier / Premium SSD / LRS](#hot-tier--premium-ssd--lrs) °
+  - [Hot Tier / Premium SSD / RA-GRS](#hot-tier--premium-ssd--ra-grs)
+  - [Hot Tier / Premium SSD / RA-GZRS](#hot-tier--premium-ssd--ra-gzrs)
+  - [Hot Tier / Premium SSD / ZRS](#hot-tier--premium-ssd--zrs)
+  - [Hot Tier / Standard SSD / GRS](#hot-tier--standard-ssd--grs)
+  - [Hot Tier / Standard SSD / GZRS](#hot-tier--standard-ssd--gzrs)
+  - [Hot Tier / Standard SSD / LRS](#hot-tier--standard-ssd--lrs) °
+  - [Hot Tier / Standard SSD / RA-GRS](#hot-tier--standard-ssd--ra-grs)
+  - [Hot Tier / Standard SSD / RA-GZRS](#hot-tier--standard-ssd--ra-gzrs)
+  - [Hot Tier / Standard SSD / ZRS](#hot-tier--standard-ssd--zrs)
+- [Block storage (managed disks)](#block-storage-managed-disks)
+  - [Premium SSD / LRS](#premium-ssd--lrs) °
+  - [Premium SSD / ZRS](#premium-ssd--zrs)
+  - [Standard HDD / LRS](#standard-hdd--lrs) °
+  - [Standard HDD / ZRS](#standard-hdd--zrs)
+  - [Standard SSD / LRS](#standard-ssd--lrs) °
+  - [Standard SSD / ZRS](#standard-ssd--zrs)
+  - [Ultra Disk / LRS](#ultra-disk--lrs)
+  - [Ultra Disk / ZRS](#ultra-disk--zrs)
+- [Azure Files](#azure-files)
+  - [Cool Tier / Premium SSD / GRS](#cool-tier--premium-ssd--grs)
+  - [Cool Tier / Premium SSD / GZRS](#cool-tier--premium-ssd--gzrs)
+  - [Cool Tier / Premium SSD / LRS](#cool-tier--premium-ssd--lrs)
+  - [Cool Tier / Premium SSD / ZRS](#cool-tier--premium-ssd--zrs)
+  - [Cool Tier / Standard HDD / GRS](#cool-tier--standard-hdd--grs)
+  - [Cool Tier / Standard HDD / GZRS](#cool-tier--standard-hdd--gzrs)
+  - [Cool Tier / Standard HDD / LRS](#cool-tier--standard-hdd--lrs) °
+  - [Cool Tier / Standard HDD / ZRS](#cool-tier--standard-hdd--zrs)
+  - [Hot Tier / Premium SSD / GRS](#hot-tier--premium-ssd--grs-1)
+  - [Hot Tier / Premium SSD / GZRS](#hot-tier--premium-ssd--gzrs-1)
+  - [Hot Tier / Premium SSD / LRS](#hot-tier--premium-ssd--lrs-1) °
+  - [Hot Tier / Premium SSD / ZRS](#hot-tier--premium-ssd--zrs-1)
+  - [Hot Tier / Standard HDD / GRS](#hot-tier--standard-hdd--grs)
+  - [Hot Tier / Standard HDD / GZRS](#hot-tier--standard-hdd--gzrs)
+  - [Hot Tier / Standard HDD / LRS](#hot-tier--standard-hdd--lrs) °
+  - [Hot Tier / Standard HDD / ZRS](#hot-tier--standard-hdd--zrs)
+  - [Standard Tier / Premium SSD / GRS](#standard-tier--premium-ssd--grs)
+  - [Standard Tier / Premium SSD / GZRS](#standard-tier--premium-ssd--gzrs)
+  - [Standard Tier / Premium SSD / LRS](#standard-tier--premium-ssd--lrs)
+  - [Standard Tier / Premium SSD / ZRS](#standard-tier--premium-ssd--zrs)
+  - [Standard Tier / Standard HDD / GRS](#standard-tier--standard-hdd--grs)
+  - [Standard Tier / Standard HDD / GZRS](#standard-tier--standard-hdd--gzrs)
+  - [Standard Tier / Standard HDD / LRS](#standard-tier--standard-hdd--lrs) °
+  - [Standard Tier / Standard HDD / ZRS](#standard-tier--standard-hdd--zrs)
+
 ## Compute (virtual machines)
 
 ### Standard_B4ms / Linux on-demand
