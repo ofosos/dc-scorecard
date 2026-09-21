@@ -83,6 +83,15 @@ Armed conflict.
 
 Script: `ged-analysis.py`
 
+## Azure blob storage pricing
+
+Per GB blob storage prices from the Azure Retail Prices API, for the full
+(access frequency, performance, redundancy) matrix per region.
+
+Script: `blob_storage_pricing.py`
+
+Output: `blob_storage_pricing.csv`
+
 ## Requirements
 
  - Azure CLI
@@ -97,3 +106,4 @@ Script: `ged-analysis.py`
  - `ged-azure.csv` armed conflict data (UU GED)
  - `gdacs_events_by_regions.json` natural disasters
  - `azure_carbon_intensity.csv` carbon intensity
+ - `blob_storage_pricing.csv` blob storage price per GB (tier/performance/redundancy)
