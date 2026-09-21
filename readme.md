@@ -83,6 +83,19 @@ Armed conflict.
 
 Script: `ged-analysis.py`
 
+## Azure VM availability and prices
+
+Availability (Resource SKUs API, like `az vm list-skus --location <region> --size <instance>`)
+and Linux/spot retail prices (Retail Prices API) for selected instance
+types across all regions in `az_regions_annotated.json`.
+
+    pip install requests pandas numpy azure-identity azure-mgmt-compute
+    export AZURE_SUBSCRIPTION_ID=<subscription-id>
+    python3 az_vm_prices_availability.py
+
+Without Azure credentials the script still returns prices and marks
+availability as `unknown`.
+
 ## Requirements
 
  - Azure CLI
@@ -97,3 +110,4 @@ Script: `ged-analysis.py`
  - `ged-azure.csv` armed conflict data (UU GED)
  - `gdacs_events_by_regions.json` natural disasters
  - `azure_carbon_intensity.csv` carbon intensity
+- `azure_vm_prices_availability.csv` VM availability and prices per region
