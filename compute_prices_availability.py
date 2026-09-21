@@ -23,7 +23,7 @@ Usage
     python3 compute_prices_availability.py
     python3 compute_prices_availability.py \\
         --regions-file az_regions_annotated.json \\
-        --output azure_vm_prices_availability.csv \\
+        --output vm_prices_availability.csv \\
         --instances Standard_B4ms Standard_D4s_v3
 
 Setup
@@ -261,8 +261,8 @@ def parse_args(argv=None):
     )
     parser.add_argument(
         "--output",
-        default="azure_vm_prices_availability.csv",
-        help="Output CSV (default: azure_vm_prices_availability.csv)",
+        default="vm_prices_availability.csv",
+        help="Output CSV (default: vm_prices_availability.csv)",
     )
     parser.add_argument(
         "--instances",

@@ -110,4 +110,4 @@ availability as `unknown`.
  - `ged-azure.csv` armed conflict data (UU GED)
  - `gdacs_events_by_regions.json` natural disasters
  - `azure_carbon_intensity.csv` carbon intensity
-- `azure_vm_prices_availability.csv` VM availability and prices per region
+- `vm_prices_availability.csv` VM availability and prices per region
