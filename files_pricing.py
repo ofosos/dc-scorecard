@@ -1,40 +1,34 @@
 #!/usr/bin/env python3
-"""Fetch Azure blob storage prices per GB for each region.
+"""Fetch Azure Files (file share) prices per GB for each region.
 
 Reads ``az_regions_annotated.json`` (Azure region list) and queries the
 Azure Retail Prices API (https://prices.azure.com/api/retail/prices) for
-block blob storage "Data Stored" meters, then writes a long-format CSV
-with one row per (region, access frequency, performance, redundancy):
+Azure Files "Data Stored"/"Provisioned" meters, then writes a
+long-format CSV with one row per (region, performance, redundancy):
 
-    Region,AccessFrequency,Performance,Redundancy,PricePerGB
+    Region,Performance,Redundancy,PricePerGB
 
 Dimension mapping (Azure does not sell every combination):
 
-- Access frequency:
-    Hot Tier     -> "Hot" SKUs
-    Cold Tier    -> "Cool" SKUs (the classic cool tier, not the newer
-                    "Cold" SKU)
-    Archive Tier -> "Archive" SKUs
 - Performance:
-    Standard SSD -> General Block Blob v2 (standard performance,
-                    priced per access tier)
-    Premium SSD  -> Premium Block Blob (SSD-backed premium storage)
+    Standard HDD -> "Files v2" Standard file shares (fallback: the
+                    classic "Files" product), priced per GB used
+                    ("Data Stored" meter)
+    Premium SSD  -> "Premium Files" provisioned file shares, priced
+                    per GiB provisioned ("Provisioned" meter)
 - Redundancy:
-    LRS / GRS / ZRS / GZRS / RA-GRS / RA-GZRS
+    LRS / GRS / ZRS / GZRS
 
 Cells Azure does not sell are written with the string "na":
-- Premium Block Blob is only offered with LRS and ZRS (no GRS-family
-  SKUs).
-- Premium Block Blob has no access tiers; its price is listed under
-  "Hot Tier" only.
-- Archive is only offered with LRS, GRS and RA-GRS.
-- ZRS/GZRS/RA-GZRS require availability zones; regions without them
-  have no such prices at all.
+- Premium file shares are only offered with LRS and ZRS (no GRS/GZRS).
+- ZRS/GZRS require availability zones; regions without them
+  (e.g. australiacentral) have no ZRS/GZRS prices at all.
+- ZRS/GZRS standard shares only exist on the "Files v2" product.
 
 Usage:
-    python blob_storage_pricing.py                    # all regions -> blob_storage_pricing.csv
-    python blob_storage_pricing.py --regions westeurope,uaenorth
-    python blob_storage_pricing.py --output out.csv --currency EUR
+    python files_pricing.py                    # all regions -> files_pricing.csv
+    python files_pricing.py --regions westeurope,uaenorth
+    python files_pricing.py --output out.csv --currency EUR
 
 Requires: pandas, numpy, requests
 """
@@ -54,7 +48,7 @@ import requests
 
 API_URL = "https://prices.azure.com/api/retail/prices"
 DEFAULT_INPUT = Path("az_regions_annotated.json")
-DEFAULT_OUTPUT = Path("blob_storage_pricing.csv")
+DEFAULT_OUTPUT = Path("files_pricing.csv")
 
 REGION_COLUMN = "Region"
 ACCESS_COLUMN = "AccessFrequency"
@@ -62,29 +56,21 @@ PERFORMANCE_COLUMN = "Performance"
 REDUNDANCY_COLUMN = "Redundancy"
 PRICE_COLUMN = "PricePerGB"
 
-ACCESS_TIERS = ("Hot Tier", "Cold Tier", "Archive Tier")
-PERFORMANCE_TIERS = ("Premium SSD", "Standard SSD")
-REDUNDANCIES = ("LRS", "GRS", "ZRS", "GZRS", "RA-GRS", "RA-GZRS")
+ACCESS_TIERS = ("Hot Tier", "Cool Tier", "Standard Tier")
+PERFORMANCE_TIERS = ("Standard HDD", "Premium SSD")
+REDUNDANCIES = ("LRS", "GRS", "ZRS", "GZRS")
+
+# Products in preference order (Files v2 carries the current standard
+# share prices; the classic Files product only has LRS/GRS SKUs).
+STANDARD_PRODUCTS = ("Files v2", "Files")
+PREMIUM_PRODUCTS = ("Premium Files",)
 
 # Access tier -> the SKU tier names it maps to.
 TIER_SKUS = {
     "Hot Tier": ("Hot",),
-    "Cold Tier": ("Cool",),
-    "Archive Tier": ("Archive",),
+    "Cool Tier": ("Cool",),
+    "Standard Tier": ("Standard",),
 }
-
-# Products in preference order (plain variants before Hierarchical
-# Namespace ones, which carry the same data-stored price).
-STANDARD_PRODUCTS = (
-    "General Block Blob v2",
-    "General Block Blob v2 Hierarchical Namespace",
-)
-PREMIUM_PRODUCTS = (
-    "Premium Block Blob",
-    "Premium Block Blob v2",
-    "Premium Block Blob v2 Hierarchical Namespace",
-    "Premium Block Blob Hierarchical Namespace",
-)
 
 MAX_RETRIES = 5
 TIMEOUT = 60  # seconds
@@ -101,11 +87,11 @@ def load_regions(path: Path) -> list[str]:
 
 
 def build_filter(region: str) -> str:
-    products = [f"productName eq '{p}'" for p in STANDARD_PRODUCTS + PREMIUM_PRODUCTS]
-    return (
-        f"serviceName eq 'Storage' and armRegionName eq '{region}' "
-        f"and ({' or '.join(products)})"
+    products = " or ".join(
+        f"productName eq '{p}'" for p in STANDARD_PRODUCTS + PREMIUM_PRODUCTS
     )
+    return (f"serviceName eq 'Storage' and armRegionName eq '{region}' "
+            f"and ({products})")
 
 
 def fetch_page(session: requests.Session, url: str) -> dict:
@@ -124,36 +110,50 @@ def fetch_page(session: requests.Session, url: str) -> dict:
 
 
 def fetch_region_prices(session: requests.Session, region: str,
-                        currency: str) -> dict[tuple[str, str], float]:
-    """Return {(sku tier, redundancy): price per GB} for one region."""
+                        currency: str) -> dict[tuple[str, str, str], float]:
+    """Return {(tier, performance, redundancy): price per GB} for one region."""
     params = f"$filter={requests.utils.quote(build_filter(region))}"
     if currency != "USD":
         params += f"&currencyCode={currency}"
     url = f"{API_URL}?{params}"
 
-    prices: dict[tuple[str, str], float] = {}
+    prices: dict[tuple[str, str, str], tuple[int, float]] = {}
     while url:
         page = fetch_page(session, url)
         for item in page.get("Items", []):
             if item.get("type") != "Consumption":
                 continue
-            if not item.get("meterName", "").endswith("Data Stored"):
-                continue
             if item.get("unitOfMeasure") != "1 GB/Month":
                 continue
             if item.get("tierMinimumUnits", 0.0) != 0.0:
                 continue
+            product = item.get("productName", "")
             sku = item.get("skuName", "")
-            parts = sku.split()
-            if len(parts) != 2:
+            meter = item.get("meterName", "")
+            if product in STANDARD_PRODUCTS:
+                performance = "Standard HDD"
+                if not meter.endswith("Data Stored"):
+                    continue
+                parts = sku.split()
+                if len(parts) != 2:
+                    continue
+                tier, redundancy = parts
+            elif product in PREMIUM_PRODUCTS:
+                performance = "Premium SSD"
+                if not meter.endswith("Provisioned"):
+                    continue
+                parts = sku.split()
+                if len(parts) != 2:
+                    continue
+                tier, redundancy = parts
+            else:
                 continue
-            tier, redundancy = parts
             if redundancy not in REDUNDANCIES:
                 continue
-            product = item.get("productName", "")
-            pool = STANDARD_PRODUCTS if product in STANDARD_PRODUCTS else PREMIUM_PRODUCTS
+            pool = (STANDARD_PRODUCTS if product in STANDARD_PRODUCTS
+                    else PREMIUM_PRODUCTS)
             rank = pool.index(product)
-            key = (tier, redundancy)
+            key = (tier, performance, redundancy)
             current = prices.get(key)
             if current is None or rank < current[0]:
                 prices[key] = (rank, float(item["retailPrice"]))
@@ -161,14 +161,16 @@ def fetch_region_prices(session: requests.Session, region: str,
     return {k: v[1] for k, v in prices.items()}
 
 
-def region_matrix(region: str, prices: dict[tuple[str, str], float]) -> list[dict]:
+def region_matrix(region: str,
+                  prices: dict[tuple[str, str, str], float]) -> list[dict]:
     """Build the (access, performance, redundancy) cross product for a region."""
     rows = []
 
-    def lookup(tiers: tuple[str, ...], redundancy: str) -> float:
+    def lookup(tiers: tuple[str, ...], performance: str,
+               redundancy: str) -> float:
         for tier in tiers:
-            if (tier, redundancy) in prices:
-                return prices[(tier, redundancy)]
+            if (tier, performance, redundancy) in prices:
+                return prices[(tier, performance, redundancy)]
         return np.nan
 
     for access in ACCESS_TIERS:
@@ -176,12 +178,12 @@ def region_matrix(region: str, prices: dict[tuple[str, str], float]) -> list[dic
         for performance in PERFORMANCE_TIERS:
             for redundancy in REDUNDANCIES:
                 if performance == "Premium SSD":
-                    # Premium Block Blob has no access tiers: price under
-                    # Hot Tier only, and no GRS-family SKUs.
-                    price = (lookup(("Premium",), redundancy)
+                    # Premium file shares have no access tiers: price
+                    # under Hot Tier only, and no GRS/GZRS SKUs.
+                    price = (lookup(("Premium",), performance, redundancy)
                              if access == "Hot Tier" else np.nan)
                 else:
-                    price = lookup(sku_tiers, redundancy)
+                    price = lookup(sku_tiers, performance, redundancy)
                 rows.append({
                     REGION_COLUMN: region,
                     ACCESS_COLUMN: access,
@@ -221,8 +223,10 @@ def fetch_all(regions: list[str], currency: str) -> pd.DataFrame:
                  REDUNDANCY_COLUMN, PRICE_COLUMN],
     )
     df[ACCESS_COLUMN] = pd.Categorical(df[ACCESS_COLUMN], categories=ACCESS_TIERS)
-    df[PERFORMANCE_COLUMN] = pd.Categorical(df[PERFORMANCE_COLUMN], categories=PERFORMANCE_TIERS)
-    df[REDUNDANCY_COLUMN] = pd.Categorical(df[REDUNDANCY_COLUMN], categories=REDUNDANCIES)
+    df[PERFORMANCE_COLUMN] = pd.Categorical(df[PERFORMANCE_COLUMN],
+                                            categories=PERFORMANCE_TIERS)
+    df[REDUNDANCY_COLUMN] = pd.Categorical(df[REDUNDANCY_COLUMN],
+                                          categories=REDUNDANCIES)
     df[PRICE_COLUMN] = df[PRICE_COLUMN].astype(float)
     return df.sort_values(
         [REGION_COLUMN, ACCESS_COLUMN, PERFORMANCE_COLUMN, REDUNDANCY_COLUMN]
