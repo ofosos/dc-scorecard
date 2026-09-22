@@ -19,6 +19,11 @@ price, the top and bottom decile prices, the number of regions
 ``na``), the percentage of regions the offering is available in, and the
 regions carrying the top and bottom prices.
 
+Every offering section also carries an ASCII histogram of the price
+distribution: equal-width bins over the regions with a price, each
+row labeled with the lower edge of its bin, the bar proportional to
+the number of regions in the bin.
+
 The report starts with a table of contents; entries marked with a
 degree symbol (\u00b0) are offered in 100% of regions.
 
@@ -41,6 +46,9 @@ import pandas as pd
 DEFAULT_OUTPUT = Path("pricing-summary.md")
 NA = "na"
 MAX_REGIONS_LISTED = 12
+HISTOGRAM_BINS = 8
+HISTOGRAM_WIDTH = 40
+HISTOGRAM_CHAR = "\u2588"
 
 SERVICES = (
     {
@@ -120,6 +128,37 @@ def gh_slug(text: str, seen: dict[str, int]) -> str:
     return slug if count == 0 else f"{slug}-{count}"
 
 
+def price_histogram(prices: pd.Series, unit: str) -> str:
+    """Return a fenced ASCII histogram of the price distribution."""
+    values = prices.dropna()
+    if values.empty:
+        return ""
+    lo = float(values.min())
+    hi = float(values.max())
+    if hi == lo:
+        rows = [(f"{lo:.6g}", len(values))]
+    else:
+        counts, edges = np.histogram(values, bins=HISTOGRAM_BINS)
+        rows = [(f"{edges[i]:.6g}", int(count)) for i, count in enumerate(counts)]
+    peak = max(count for _, count in rows)
+    label_width = max(len(label) for label, _ in rows)
+    count_width = len(str(peak))
+    lines = ["```text"]
+    for label, count in rows:
+        bar = HISTOGRAM_CHAR * round(HISTOGRAM_WIDTH * count / peak)
+        lines.append(
+            f"{label:>{label_width}} | {bar:<{HISTOGRAM_WIDTH}} {count:>{count_width}}"
+        )
+    if hi != lo:
+        lines.append(f"{'top':>{label_width}}   {hi:.6g}")
+    lines.append("```")
+    return (
+        f"Price distribution across the {len(values)} regions with a price"
+        f" ({unit}); rows are bins labeled by lower edge, bars are region"
+        f" counts, bins are equal width:\n\n" + "\n".join(lines)
+    )
+
+
 def offering_table(frame: pd.DataFrame, unit: str) -> tuple[str, float]:
     """Return the offering's markdown table and its availability in percent."""
     prices = frame["price"]
@@ -179,12 +218,16 @@ def build_report() -> str:
         for frame in load_offering_frames(service):
             for offering, group in frame.groupby("offering", sort=True):
                 table, availability = offering_table(group, unit)
+                body = table
+                histogram = price_histogram(group["price"], unit)
+                if histogram:
+                    body = f"{table}\n\n{histogram}"
                 entries.append(
                     {
                         "offering": offering,
                         "slug": gh_slug(offering, slug_seen),
                         "availability": availability,
-                        "table": table,
+                        "table": body,
                     }
                 )
         sections.append(

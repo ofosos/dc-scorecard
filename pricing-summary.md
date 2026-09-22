@@ -135,6 +135,20 @@ offerings available in 100% of regions.
 | Offered in | 96.5% of regions | |
 | Unit | USD/hour | |
 
+Price distribution across the 55 regions with a price (USD/hour); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+   0.166 | ████████████████████                     13
+0.188875 | ████████████████████████████████████████ 26
+ 0.21175 | ████████                                  5
+0.234625 | ████████                                  5
+  0.2575 | ████████                                  5
+0.280375 |                                           0
+ 0.30325 |                                           0
+0.326125 | ██                                        1
+     top   0.349
+```
+
 ### Standard_D4 / Linux on-demand
 
 | Statistic | Price/Count | Regions |
@@ -149,6 +163,20 @@ offerings available in 100% of regions.
 | Number of regions with a price | 31 | |
 | Offered in | 54.4% of regions | |
 | Unit | USD/hour | |
+
+Price distribution across the 31 regions with a price (USD/hour); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+ 0.536 | █████████████████████████                5
+0.5925 | ████████████████████████████████████████ 8
+ 0.649 | ███████████████                          3
+0.7055 | █████████████████████████                5
+ 0.762 | █████████████████████████                5
+0.8185 | █████                                    1
+ 0.875 | ███████████████                          3
+0.9315 | █████                                    1
+   top   0.988
+```
 
 ### Standard_D4_v2 / Linux on-demand
 
@@ -165,6 +193,20 @@ offerings available in 100% of regions.
 | Offered in | 91.2% of regions | |
 | Unit | USD/hour | |
 
+Price distribution across the 52 regions with a price (USD/hour); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+  0.458 | ██████████████████                        6
+0.51475 | ████████████████████████████████████████ 13
+ 0.5715 | ███████████████████████████████          10
+0.62825 | █████████████████████████                 8
+  0.685 | ██████████████████████                    7
+0.74175 | ████████████                              4
+ 0.7985 | ███                                       1
+0.85525 | █████████                                 3
+    top   0.912
+```
+
 ### Standard_D4s_v3 / Linux on-demand
 
 | Statistic | Price/Count | Regions |
@@ -179,6 +221,20 @@ offerings available in 100% of regions.
 | Number of regions with a price | 53 | |
 | Offered in | 93.0% of regions | |
 | Unit | USD/hour | |
+
+Price distribution across the 53 regions with a price (USD/hour); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+   0.192 | ███████████████████                      10
+0.219625 | ████████████████████████████████████████ 21
+ 0.24725 | █████████████████████████                13
+0.274875 | ██████                                    3
+  0.3025 | ██████                                    3
+0.330125 | ████                                      2
+ 0.35775 |                                           0
+0.385375 | ██                                        1
+     top   0.413
+```
 
 ### Standard_D4s_v4 / Linux on-demand
 
@@ -195,6 +251,20 @@ offerings available in 100% of regions.
 | Offered in | 100.0% of regions | |
 | Unit | USD/hour | |
 
+Price distribution across the 57 regions with a price (USD/hour); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+  0.192 | ████████████████████████████             16
+0.21775 | ████████████████████████████████████████ 23
+ 0.2435 | ██████████████                            8
+0.26925 | █████                                     3
+  0.295 | █████                                     3
+0.32075 | █████                                     3
+ 0.3465 |                                           0
+0.37225 | ██                                        1
+    top   0.398
+```
+
 ### Standard_D4s_v5 / Linux on-demand
 
 | Statistic | Price/Count | Regions |
@@ -209,6 +279,20 @@ offerings available in 100% of regions.
 | Number of regions with a price | 57 | |
 | Offered in | 100.0% of regions | |
 | Unit | USD/hour | |
+
+Price distribution across the 57 regions with a price (USD/hour); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+  0.192 | █████████████████████████████            16
+0.21775 | ████████████████████████████████████████ 22
+ 0.2435 | ██████████████████                       10
+0.26925 | ████                                      2
+  0.295 | █████                                     3
+0.32075 | █████                                     3
+ 0.3465 |                                           0
+0.37225 | ██                                        1
+    top   0.398
+```
 
 ### Standard_D4s_v6 / Linux on-demand
 
@@ -225,6 +309,20 @@ offerings available in 100% of regions.
 | Offered in | 93.0% of regions | |
 | Unit | USD/hour | |
 
+Price distribution across the 53 regions with a price (USD/hour); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+0.202 | █████████████████████████                14
+0.229 | ████████████████████████████████████████ 22
+0.256 | █████████████                             7
+0.283 | █████                                     3
+ 0.31 | █████                                     3
+0.337 | ████                                      2
+0.364 |                                           0
+0.391 | ████                                      2
+  top   0.418
+```
+
 ### Standard_DS4_v2 / Linux on-demand
 
 | Statistic | Price/Count | Regions |
@@ -239,6 +337,20 @@ offerings available in 100% of regions.
 | Number of regions with a price | 52 | |
 | Offered in | 91.2% of regions | |
 | Unit | USD/hour | |
+
+Price distribution across the 52 regions with a price (USD/hour); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+  0.458 | ██████████████████                        6
+0.51475 | ████████████████████████████████████████ 13
+ 0.5715 | ███████████████████████████████          10
+0.62825 | █████████████████████████                 8
+  0.685 | ██████████████████████                    7
+0.74175 | ████████████                              4
+ 0.7985 | ███                                       1
+0.85525 | █████████                                 3
+    top   0.912
+```
 
 ### Standard_E2_v3 / Linux on-demand
 
@@ -255,6 +367,20 @@ offerings available in 100% of regions.
 | Offered in | 93.0% of regions | |
 | Unit | USD/hour | |
 
+Price distribution across the 53 regions with a price (USD/hour); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+ 0.126 | ████████████████████████████████████████ 21
+0.1485 | ████████████████████████████████████████ 21
+ 0.171 | ██████                                    3
+0.1935 | ████████                                  4
+ 0.216 | ██████                                    3
+0.2385 |                                           0
+ 0.261 |                                           0
+0.2835 | ██                                        1
+   top   0.306
+```
+
 ### Standard_E2s_v3 / Linux on-demand
 
 | Statistic | Price/Count | Regions |
@@ -269,6 +395,20 @@ offerings available in 100% of regions.
 | Number of regions with a price | 53 | |
 | Offered in | 93.0% of regions | |
 | Unit | USD/hour | |
+
+Price distribution across the 53 regions with a price (USD/hour); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+ 0.126 | ████████████████████████████████████████ 21
+0.1485 | ████████████████████████████████████████ 21
+ 0.171 | ██████                                    3
+0.1935 | ████████                                  4
+ 0.216 | ██████                                    3
+0.2385 |                                           0
+ 0.261 |                                           0
+0.2835 | ██                                        1
+   top   0.306
+```
 
 ### Standard_E2s_v4 / Linux on-demand
 
@@ -285,6 +425,20 @@ offerings available in 100% of regions.
 | Offered in | 100.0% of regions | |
 | Unit | USD/hour | |
 
+Price distribution across the 57 regions with a price (USD/hour); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+   0.126 | ████████████████████████████             17
+0.142875 | ████████████████████████████████████████ 24
+ 0.15975 | █████████████                             8
+0.176625 | ██                                        1
+  0.1935 | █████                                     3
+0.210375 | █████                                     3
+ 0.22725 |                                           0
+0.244125 | ██                                        1
+     top   0.261
+```
+
 ### Standard_E2s_v5 / Linux on-demand
 
 | Statistic | Price/Count | Regions |
@@ -299,6 +453,20 @@ offerings available in 100% of regions.
 | Number of regions with a price | 57 | |
 | Offered in | 100.0% of regions | |
 | Unit | USD/hour | |
+
+Price distribution across the 57 regions with a price (USD/hour); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+   0.126 | ████████████████████████████             17
+0.142875 | ████████████████████████████████████████ 24
+ 0.15975 | ████████████                              7
+0.176625 | ███                                       2
+  0.1935 | █████                                     3
+0.210375 | █████                                     3
+ 0.22725 |                                           0
+0.244125 | ██                                        1
+     top   0.261
+```
 
 ### Standard_E2s_v6 / Linux on-demand
 
@@ -315,6 +483,20 @@ offerings available in 100% of regions.
 | Offered in | 100.0% of regions | |
 | Unit | USD/hour | |
 
+Price distribution across the 57 regions with a price (USD/hour); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+  0.132 | ██████████████████████████               16
+0.14975 | ████████████████████████████████████████ 25
+ 0.1675 | ██████████                                6
+0.18525 | █████                                     3
+  0.203 | █████                                     3
+0.22075 | █████                                     3
+ 0.2385 |                                           0
+0.25625 | ██                                        1
+    top   0.274
+```
+
 ### Standard_F4 / Linux on-demand
 
 | Statistic | Price/Count | Regions |
@@ -329,6 +511,20 @@ offerings available in 100% of regions.
 | Number of regions with a price | 55 | |
 | Offered in | 96.5% of regions | |
 | Unit | USD/hour | |
+
+Price distribution across the 55 regions with a price (USD/hour); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+   0.198 | ████████████████████████████████████████ 18
+0.219875 | █████████████████████████████████        15
+ 0.24175 | ████████████████████████                 11
+0.263625 | ███████                                   3
+  0.2855 | █████████                                 4
+0.307375 | ████                                      2
+ 0.32925 | ██                                        1
+0.351125 | ██                                        1
+     top   0.373
+```
 
 ### Standard_F4s / Linux on-demand
 
@@ -345,6 +541,20 @@ offerings available in 100% of regions.
 | Offered in | 96.5% of regions | |
 | Unit | USD/hour | |
 
+Price distribution across the 55 regions with a price (USD/hour); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+   0.198 | ████████████████████████████████████████ 18
+0.219875 | █████████████████████████████████        15
+ 0.24175 | ████████████████████████                 11
+0.263625 | ███████                                   3
+  0.2855 | █████████                                 4
+0.307375 | ████                                      2
+ 0.32925 | ██                                        1
+0.351125 | ██                                        1
+     top   0.373
+```
+
 ### Standard_F4s_v2 / Linux on-demand
 
 | Statistic | Price/Count | Regions |
@@ -359,6 +569,20 @@ offerings available in 100% of regions.
 | Number of regions with a price | 55 | |
 | Offered in | 96.5% of regions | |
 | Unit | USD/hour | |
+
+Price distribution across the 55 regions with a price (USD/hour); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+ 0.169 | █████████████████████████                14
+0.1905 | ████████████████████████████████████████ 22
+ 0.212 | ██████████████████                       10
+0.2335 | ███████                                   4
+ 0.255 | ████                                      2
+0.2765 | ██                                        1
+ 0.298 | ██                                        1
+0.3195 | ██                                        1
+   top   0.341
+```
 
 ### Standard_FX4mds / Linux on-demand
 
@@ -375,6 +599,20 @@ offerings available in 100% of regions.
 | Offered in | 31.6% of regions | |
 | Unit | USD/hour | |
 
+Price distribution across the 18 regions with a price (USD/hour); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+   0.372 | ████████████████████████                  6
+0.415875 | ████████████████████████████████████████ 10
+ 0.45975 |                                           0
+0.503625 |                                           0
+  0.5475 | ████                                      1
+0.591375 |                                           0
+ 0.63525 |                                           0
+0.679125 | ████                                      1
+     top   0.723
+```
+
 ### Standard_B4ms / Spot
 
 | Statistic | Price/Count | Regions |
@@ -389,6 +627,20 @@ offerings available in 100% of regions.
 | Number of regions with a price | 2 | |
 | Offered in | 3.5% of regions | |
 | Unit | USD/hour | |
+
+Price distribution across the 2 regions with a price (USD/hour); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+   0.0333 | ████████████████████████████████████████ 1
+0.0339375 |                                          0
+ 0.034575 |                                          0
+0.0352125 |                                          0
+  0.03585 |                                          0
+0.0364875 |                                          0
+ 0.037125 |                                          0
+0.0377625 | ████████████████████████████████████████ 1
+      top   0.0384
+```
 
 ### Standard_D4 / Spot
 
@@ -405,6 +657,20 @@ offerings available in 100% of regions.
 | Offered in | 54.4% of regions | |
 | Unit | USD/hour | |
 
+Price distribution across the 31 regions with a price (USD/hour); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+   0.107 | █████████████████████████                5
+0.118375 | ████████████████████████████████████████ 8
+ 0.12975 | ███████████████                          3
+0.141125 | █████████████████████████                5
+  0.1525 | █████████████████████████                5
+0.163875 | █████                                    1
+ 0.17525 | ███████████████                          3
+0.186625 | █████                                    1
+     top   0.198
+```
+
 ### Standard_D4_v2 / Spot
 
 | Statistic | Price/Count | Regions |
@@ -419,6 +685,20 @@ offerings available in 100% of regions.
 | Number of regions with a price | 52 | |
 | Offered in | 91.2% of regions | |
 | Unit | USD/hour | |
+
+Price distribution across the 52 regions with a price (USD/hour); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+   0.0673 | ███                                       1
+0.0816375 | █████████                                 3
+ 0.095975 | ████████████████████████████████████████ 13
+ 0.110312 | █████████████████████████████████████    12
+  0.12465 | ████████████████████████████              9
+ 0.138987 | ██████████████████                        6
+ 0.153325 | ███████████████                           5
+ 0.167662 | █████████                                 3
+      top   0.182
+```
 
 ### Standard_D4s_v3 / Spot
 
@@ -435,6 +715,20 @@ offerings available in 100% of regions.
 | Offered in | 93.0% of regions | |
 | Unit | USD/hour | |
 
+Price distribution across the 53 regions with a price (USD/hour); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+    0.025 | ██                                        1
+0.0333663 | ██████████████████████████████████████   20
+0.0417325 | ████████████████████████████████████████ 21
+0.0500987 | ██████████                                5
+ 0.058465 | ██████                                    3
+0.0668312 |                                           0
+0.0751975 | ████                                      2
+0.0835637 | ██                                        1
+      top   0.09193
+```
+
 ### Standard_D4s_v4 / Spot
 
 | Statistic | Price/Count | Regions |
@@ -449,6 +743,20 @@ offerings available in 100% of regions.
 | Number of regions with a price | 57 | |
 | Offered in | 100.0% of regions | |
 | Unit | USD/hour | |
+
+Price distribution across the 57 regions with a price (USD/hour); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+    0.024 | ██                                        1
+0.0301938 | █████                                     3
+0.0363875 | ████████████████████████████████████████ 25
+0.0425813 | ██████████████████████████               16
+ 0.048775 | ████████                                  5
+0.0549688 | ████████                                  5
+0.0611625 | ██                                        1
+0.0673563 | ██                                        1
+      top   0.07355
+```
 
 ### Standard_D4s_v5 / Spot
 
@@ -465,6 +773,20 @@ offerings available in 100% of regions.
 | Offered in | 100.0% of regions | |
 | Unit | USD/hour | |
 
+Price distribution across the 57 regions with a price (USD/hour); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+    0.024 | ██                                        1
+0.0301938 | █████                                     3
+0.0363875 | ████████████████████████████████████████ 25
+0.0425813 | ███████████████████████████              17
+ 0.048775 | ██████                                    4
+0.0549688 | ██████████                                6
+0.0611625 |                                           0
+0.0673563 | ██                                        1
+      top   0.07355
+```
+
 ### Standard_D4s_v6 / Spot
 
 | Statistic | Price/Count | Regions |
@@ -479,6 +801,20 @@ offerings available in 100% of regions.
 | Number of regions with a price | 53 | |
 | Offered in | 93.0% of regions | |
 | Unit | USD/hour | |
+
+Price distribution across the 53 regions with a price (USD/hour); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+   0.0252 | ██                                        1
+0.0317057 | █████████                                 5
+0.0382115 | ███████████████████████████              15
+0.0447173 | ████████████████████████████████████████ 22
+ 0.051223 | █████                                     3
+0.0577287 | █████████                                 5
+0.0642345 |                                           0
+0.0707403 | ████                                      2
+      top   0.077246
+```
 
 ### Standard_DS4_v2 / Spot
 
@@ -495,6 +831,20 @@ offerings available in 100% of regions.
 | Offered in | 91.2% of regions | |
 | Unit | USD/hour | |
 
+Price distribution across the 52 regions with a price (USD/hour); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+   0.0673 | ██████                                    3
+0.0941078 | ████████████████████████████████████████ 19
+ 0.120916 | ████████████████████████████████████████ 19
+ 0.147723 | █████████████                             6
+ 0.174531 | ██████                                    3
+ 0.201339 |                                           0
+ 0.228147 |                                           0
+ 0.254954 | ████                                      2
+      top   0.281762
+```
+
 ### Standard_E2_v3 / Spot
 
 | Statistic | Price/Count | Regions |
@@ -509,6 +859,20 @@ offerings available in 100% of regions.
 | Number of regions with a price | 53 | |
 | Offered in | 93.0% of regions | |
 | Unit | USD/hour | |
+
+Price distribution across the 53 regions with a price (USD/hour); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+    0.016 | █                                         1
+0.0210686 | █████████████████                        12
+0.0261373 | ████████████████████████████████████████ 29
+0.0312059 | ██████                                    4
+0.0362745 | ██████                                    4
+0.0413431 | ███                                       2
+0.0464118 |                                           0
+0.0514804 | █                                         1
+      top   0.056549
+```
 
 ### Standard_E2s_v3 / Spot
 
@@ -525,6 +889,20 @@ offerings available in 100% of regions.
 | Offered in | 93.0% of regions | |
 | Unit | USD/hour | |
 
+Price distribution across the 53 regions with a price (USD/hour); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+  0.016 | ██                                        1
+0.02196 | ████████████████████████████████████     20
+0.02792 | ████████████████████████████████████████ 22
+0.03388 | ███████                                   4
+0.03984 | █████                                     3
+ 0.0458 |                                           0
+0.05176 | ████                                      2
+0.05772 | ██                                        1
+    top   0.06368
+```
+
 ### Standard_E2s_v4 / Spot
 
 | Statistic | Price/Count | Regions |
@@ -539,6 +917,20 @@ offerings available in 100% of regions.
 | Number of regions with a price | 57 | |
 | Offered in | 100.0% of regions | |
 | Unit | USD/hour | |
+
+Price distribution across the 57 regions with a price (USD/hour); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+   0.0151 | █                                         1
+0.0192416 | ████                                      3
+0.0233833 | █████████████████████████                17
+0.0275249 | ████████████████████████████████████████ 27
+0.0316665 | ███                                       2
+0.0358081 | ██████                                    4
+0.0399497 | ███                                       2
+0.0440914 | █                                         1
+      top   0.048233
+```
 
 ### Standard_E2s_v5 / Spot
 
@@ -555,6 +947,20 @@ offerings available in 100% of regions.
 | Offered in | 100.0% of regions | |
 | Unit | USD/hour | |
 
+Price distribution across the 57 regions with a price (USD/hour); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+   0.0151 | ██                                        1
+0.0192416 | █████                                     3
+0.0233833 | █████████████████████████████            18
+0.0275249 | ████████████████████████████████████████ 25
+0.0316665 | █████                                     3
+0.0358081 | █████                                     3
+0.0399497 | █████                                     3
+0.0440914 | ██                                        1
+      top   0.048233
+```
+
 ### Standard_E2s_v6 / Spot
 
 | Statistic | Price/Count | Regions |
@@ -569,6 +975,20 @@ offerings available in 100% of regions.
 | Number of regions with a price | 57 | |
 | Offered in | 100.0% of regions | |
 | Unit | USD/hour | |
+
+Price distribution across the 57 regions with a price (USD/hour); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+   0.0159 | ██                                        1
+0.0202419 | ██████████                                5
+0.0245838 | ██████████████████████████████████       18
+0.0289256 | ████████████████████████████████████████ 21
+0.0332675 | ██████████                                5
+0.0376094 | ██████                                    3
+0.0419513 | ██████                                    3
+0.0462931 | ██                                        1
+      top   0.050635
+```
 
 ### Standard_F4 / Spot
 
@@ -585,6 +1005,20 @@ offerings available in 100% of regions.
 | Offered in | 96.5% of regions | |
 | Unit | USD/hour | |
 
+Price distribution across the 55 regions with a price (USD/hour); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+    0.026 | ██                                        1
+0.0320875 |                                           0
+ 0.038175 | ██████████████████████████████████       18
+0.0442625 | ████████████████████████████████████████ 21
+  0.05035 | █████████████                             7
+0.0564375 | ████████                                  4
+ 0.062525 | ██████                                    3
+0.0686125 | ██                                        1
+      top   0.0747
+```
+
 ### Standard_F4s / Spot
 
 | Statistic | Price/Count | Regions |
@@ -599,6 +1033,20 @@ offerings available in 100% of regions.
 | Number of regions with a price | 55 | |
 | Offered in | 96.5% of regions | |
 | Unit | USD/hour | |
+
+Price distribution across the 55 regions with a price (USD/hour); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+    0.026 | █                                         1
+0.0380531 | ████████████████████████████████████████ 32
+0.0501063 | ████████████████████                     16
+0.0621594 | ████                                      3
+0.0742125 | █                                         1
+0.0862656 |                                           0
+0.0983188 | █                                         1
+ 0.110372 | █                                         1
+      top   0.122425
+```
 
 ### Standard_F4s_v2 / Spot
 
@@ -615,6 +1063,20 @@ offerings available in 100% of regions.
 | Offered in | 96.5% of regions | |
 | Unit | USD/hour | |
 
+Price distribution across the 55 regions with a price (USD/hour); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+   0.0222 | █                                         1
+0.0273021 | ██████                                    5
+0.0324043 | ████████████████████████████████████████ 35
+0.0375064 | ████████                                  7
+0.0426085 | █████                                     4
+0.0477106 | █                                         1
+0.0528128 |                                           0
+0.0579149 | ██                                        2
+      top   0.063017
+```
+
 ### Standard_FX4mds / Spot
 
 | Statistic | Price/Count | Regions |
@@ -629,6 +1091,20 @@ offerings available in 100% of regions.
 | Number of regions with a price | 18 | |
 | Offered in | 31.6% of regions | |
 | Unit | USD/hour | |
+
+Price distribution across the 18 regions with a price (USD/hour); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+0.068746 | ████████████████████████                  6
+0.076854 | ████████████████████████████████████████ 10
+0.084962 |                                           0
+ 0.09307 |                                           0
+0.101178 | ████                                      1
+0.109286 |                                           0
+0.117394 |                                           0
+0.125502 | ████                                      1
+     top   0.13361
+```
 
 ## Blob storage
 
@@ -701,6 +1177,20 @@ offerings available in 100% of regions.
 | Offered in | 71.9% of regions | |
 | Unit | USD/GB/month | |
 
+Price distribution across the 41 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+  0.002277 | █████████████████████████████████████    12
+0.00302487 | ████████████                              4
+0.00377275 | ████████████████████████████████████████ 13
+0.00452063 | █████████████████████████                 8
+ 0.0052685 | ███                                       1
+0.00601638 |                                           0
+0.00676425 | ███                                       1
+0.00751212 | ██████                                    2
+       top   0.00826
+```
+
 ### Archive Tier / Standard SSD / GZRS
 
 | Statistic | Price/Count | Regions |
@@ -725,6 +1215,20 @@ offerings available in 100% of regions.
 | Offered in | 78.9% of regions | |
 | Unit | USD/GB/month | |
 
+Price distribution across the 45 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+   0.00099 | ███████████████████████                   8
+0.00149125 | ████████████████████████████████████████ 14
+ 0.0019925 | ████████████████████████████████████████ 14
+0.00249375 | █████████                                 3
+  0.002995 | ███████████                               4
+0.00349625 | ███                                       1
+ 0.0039975 |                                           0
+0.00449875 | ███                                       1
+       top   0.005
+```
+
 ### Archive Tier / Standard SSD / RA-GRS
 
 | Statistic | Price/Count | Regions |
@@ -739,6 +1243,20 @@ offerings available in 100% of regions.
 | Number of regions with a price | 41 | |
 | Offered in | 71.9% of regions | |
 | Unit | USD/GB/month | |
+
+Price distribution across the 41 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+   0.00279 | ████████████████████████████████████████ 15
+0.00353875 | █████████████████████████████            11
+ 0.0042875 | ███████████████████████████              10
+0.00503625 | █████                                     2
+  0.005785 |                                           0
+0.00653375 |                                           0
+ 0.0072825 |                                           0
+0.00803125 | ████████                                  3
+       top   0.00878
+```
 
 ### Archive Tier / Standard SSD / RA-GZRS
 
@@ -827,6 +1345,20 @@ offerings available in 100% of regions.
 | Offered in | 78.9% of regions | |
 | Unit | USD/GB/month | |
 
+Price distribution across the 45 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+   0.02 | ████████████████████████████████████████ 23
+0.02348 | █████████████████                        10
+0.02696 | ████████████████                          9
+0.03044 | ██                                        1
+0.03392 | ██                                        1
+ 0.0374 |                                           0
+0.04088 |                                           0
+0.04436 | ██                                        1
+    top   0.04784
+```
+
 ### Cold Tier / Standard SSD / GZRS
 
 | Statistic | Price/Count | Regions |
@@ -841,6 +1373,20 @@ offerings available in 100% of regions.
 | Number of regions with a price | 26 | |
 | Offered in | 45.6% of regions | |
 | Unit | USD/GB/month | |
+
+Price distribution across the 26 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+  0.0225 | ████████████████████████████████████████ 13
+0.028275 | ██████                                    2
+ 0.03405 | ███████████████                           5
+0.039825 |                                           0
+  0.0456 | ██████                                    2
+0.051375 | ██████                                    2
+ 0.05715 |                                           0
+0.062925 | ██████                                    2
+     top   0.0687
+```
 
 ### Cold Tier / Standard SSD / LRS
 
@@ -857,6 +1403,20 @@ offerings available in 100% of regions.
 | Offered in | 100.0% of regions | |
 | Unit | USD/GB/month | |
 
+Price distribution across the 57 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+   0.01 | ████████████████████████████████████████ 40
+0.01213 | ██                                        2
+0.01426 | ███████████                              11
+0.01639 | ██                                        2
+0.01852 |                                           0
+0.02065 | █                                         1
+0.02278 |                                           0
+0.02491 | █                                         1
+    top   0.02704
+```
+
 ### Cold Tier / Standard SSD / RA-GRS
 
 | Statistic | Price/Count | Regions |
@@ -871,6 +1431,20 @@ offerings available in 100% of regions.
 | Number of regions with a price | 45 | |
 | Offered in | 78.9% of regions | |
 | Unit | USD/GB/month | |
+
+Price distribution across the 45 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+  0.025 | ████████████████████████████████████████ 23
+0.02935 | █████████████████                        10
+ 0.0337 | ████████████████                          9
+0.03805 |                                           0
+ 0.0424 | ███                                       2
+0.04675 |                                           0
+ 0.0511 |                                           0
+0.05545 | ██                                        1
+    top   0.0598
+```
 
 ### Cold Tier / Standard SSD / RA-GZRS
 
@@ -887,6 +1461,20 @@ offerings available in 100% of regions.
 | Offered in | 45.6% of regions | |
 | Unit | USD/GB/month | |
 
+Price distribution across the 26 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+  0.0225 | ████████████████████████████████████████ 12
+0.030375 | █████████████                             4
+ 0.03825 | ██████████                                3
+0.046125 | ███████                                   2
+   0.054 | ██████████                                3
+0.061875 | ███                                       1
+ 0.06975 |                                           0
+0.077625 | ███                                       1
+     top   0.0855
+```
+
 ### Cold Tier / Standard SSD / ZRS
 
 | Statistic | Price/Count | Regions |
@@ -901,6 +1489,20 @@ offerings available in 100% of regions.
 | Number of regions with a price | 39 | |
 | Offered in | 68.4% of regions | |
 | Unit | USD/GB/month | |
+
+Price distribution across the 39 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+   0.0125 | ████████████████████████████████████████ 30
+0.0142554 | ███████                                   5
+0.0160108 |                                           0
+0.0177661 | █                                         1
+0.0195215 | █                                         1
+0.0212769 | █                                         1
+0.0230323 |                                           0
+0.0247876 | █                                         1
+      top   0.026543
+```
 
 ### Hot Tier / Premium SSD / GRS
 
@@ -935,6 +1537,20 @@ offerings available in 100% of regions.
 | Offered in | 100.0% of regions | |
 | Unit | USD/GB/month | |
 
+Price distribution across the 57 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+0.15 | ███████████████                           8
+0.18 | ████████████████████████████████████████ 22
+0.21 | ███████████████████████████████████      19
+0.24 | ████                                      2
+0.27 | █████████                                 5
+ 0.3 |                                           0
+0.33 |                                           0
+0.36 | ██                                        1
+ top   0.39
+```
+
 ### Hot Tier / Premium SSD / RA-GRS
 
 | Statistic | Price/Count | Regions |
@@ -968,6 +1584,20 @@ offerings available in 100% of regions.
 | Offered in | 64.9% of regions | |
 | Unit | USD/GB/month | |
 
+Price distribution across the 37 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+     0.2 | ██████████████████                        5
+0.224875 | █████████████████████████                 7
+ 0.24975 | ████████████████████████████████████████ 11
+0.274625 | ████████████████████████████████████████ 11
+  0.2995 | ███████                                   2
+0.324375 |                                           0
+ 0.34925 |                                           0
+0.374125 | ████                                      1
+     top   0.399
+```
+
 ### Hot Tier / Standard SSD / GRS
 
 | Statistic | Price/Count | Regions |
@@ -982,6 +1612,20 @@ offerings available in 100% of regions.
 | Number of regions with a price | 45 | |
 | Offered in | 78.9% of regions | |
 | Unit | USD/GB/month | |
+
+Price distribution across the 45 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+   0.0368 | ████████████████████████████████████████ 29
+0.0415725 | ██████                                    4
+ 0.046345 | ███████████                               8
+0.0511175 |                                           0
+  0.05589 | █                                         1
+0.0606625 | █                                         1
+ 0.065435 | █                                         1
+0.0702075 | █                                         1
+      top   0.07498
+```
 
 ### Hot Tier / Standard SSD / GZRS
 
@@ -998,6 +1642,20 @@ offerings available in 100% of regions.
 | Offered in | 45.6% of regions | |
 | Unit | USD/GB/month | |
 
+Price distribution across the 26 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+  0.0414 | ████████████████████████████████████████ 15
+0.046989 | ███                                       1
+0.052578 | █████                                     2
+0.058167 | ████████████████                          6
+0.063756 |                                           0
+0.069345 |                                           0
+0.074934 |                                           0
+0.080523 | █████                                     2
+     top   0.086112
+```
+
 ### Hot Tier / Standard SSD / LRS
 
 | Statistic | Price/Count | Regions |
@@ -1012,6 +1670,20 @@ offerings available in 100% of regions.
 | Number of regions with a price | 57 | |
 | Offered in | 100.0% of regions | |
 | Unit | USD/GB/month | |
+
+Price distribution across the 57 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+    0.018 | ████████████████████████████████████████ 42
+0.0210475 | ███████                                   7
+ 0.024095 | ███                                       3
+0.0271425 | ███                                       3
+  0.03019 | █                                         1
+0.0332375 |                                           0
+ 0.036285 |                                           0
+0.0393325 | █                                         1
+      top   0.04238
+```
 
 ### Hot Tier / Standard SSD / RA-GRS
 
@@ -1028,6 +1700,20 @@ offerings available in 100% of regions.
 | Offered in | 77.2% of regions | |
 | Unit | USD/GB/month | |
 
+Price distribution across the 44 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+    0.046 | ████████████████████████████████████████ 30
+0.0519662 | ███                                       2
+0.0579325 | ████████████                              9
+0.0638988 |                                           0
+ 0.069865 | █                                         1
+0.0758312 |                                           0
+0.0817975 | █                                         1
+0.0877638 | █                                         1
+      top   0.09373
+```
+
 ### Hot Tier / Standard SSD / RA-GZRS
 
 | Statistic | Price/Count | Regions |
@@ -1043,6 +1729,20 @@ offerings available in 100% of regions.
 | Offered in | 45.6% of regions | |
 | Unit | USD/GB/month | |
 
+Price distribution across the 26 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+  0.05175 | ████████████████████████████████████████ 13
+0.0587362 | ███                                       1
+0.0657225 | ████████████                              4
+0.0727088 | ██████████████████                        6
+ 0.079695 |                                           0
+0.0866813 |                                           0
+0.0936675 |                                           0
+ 0.100654 | ██████                                    2
+      top   0.10764
+```
+
 ### Hot Tier / Standard SSD / ZRS
 
 | Statistic | Price/Count | Regions |
@@ -1057,6 +1757,20 @@ offerings available in 100% of regions.
 | Number of regions with a price | 39 | |
 | Offered in | 68.4% of regions | |
 | Unit | USD/GB/month | |
+
+Price distribution across the 39 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+   0.0225 | ████████████████████████████████████████ 19
+0.0247812 | ████████████████████████████████         15
+0.0270625 | ████                                      2
+0.0293438 | ██                                        1
+ 0.031625 | ██                                        1
+0.0339062 |                                           0
+0.0361875 |                                           0
+0.0384688 | ██                                        1
+      top   0.04075
+```
 
 ## Block storage (managed disks)
 
@@ -1075,6 +1789,20 @@ offerings available in 100% of regions.
 | Offered in | 100.0% of regions | |
 | Unit | USD/GB/month | |
 
+Price distribution across the 57 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+0.118802 | ████████████████████████████████████████ 27
+0.141001 | ███████████████████████████████          21
+0.163201 | █                                         1
+  0.1854 | ████                                      3
+  0.2076 | ██████                                    4
+0.229799 |                                           0
+0.251999 |                                           0
+0.274198 | █                                         1
+     top   0.296397
+```
+
 ### Premium SSD / ZRS
 
 | Statistic | Price/Count | Regions |
@@ -1090,6 +1818,20 @@ offerings available in 100% of regions.
 | Offered in | 68.4% of regions | |
 | Unit | USD/GB/month | |
 
+Price distribution across the 39 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+    0.18 | ██████████████████████████████████████   15
+ 0.20025 | ████████████████████████████████████████ 16
+0.220499 | ████████████                              5
+0.240749 | █████                                     2
+0.260999 |                                           0
+0.281248 |                                           0
+0.301498 |                                           0
+0.321747 | ██                                        1
+     top   0.341997
+```
+
 ### Standard HDD / LRS
 
 | Statistic | Price/Count | Regions |
@@ -1104,6 +1846,20 @@ offerings available in 100% of regions.
 | Number of regions with a price | 57 | |
 | Offered in | 100.0% of regions | |
 | Unit | USD/GB/month | |
+
+Price distribution across the 57 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+  0.04 | ████████████████████████████████████████ 42
+0.0506 | ███████                                   7
+0.0612 | ██████                                    6
+0.0718 |                                           0
+0.0824 |                                           0
+ 0.093 | █                                         1
+0.1036 |                                           0
+0.1142 | █                                         1
+   top   0.1248
+```
 
 ### Standard HDD / ZRS
 
@@ -1129,6 +1885,20 @@ offerings available in 100% of regions.
 | Offered in | 100.0% of regions | |
 | Unit | USD/GB/month | |
 
+Price distribution across the 57 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+    0.075 | ████████████████████████████████████████ 42
+0.0919503 | ██████████                               11
+ 0.108901 | █                                         1
+ 0.125851 | ██                                        2
+ 0.142801 |                                           0
+ 0.159752 |                                           0
+ 0.176702 |                                           0
+ 0.193652 | █                                         1
+      top   0.210603
+```
+
 ### Standard SSD / ZRS
 
 | Statistic | Price/Count | Regions |
@@ -1144,6 +1914,20 @@ offerings available in 100% of regions.
 | Offered in | 68.4% of regions | |
 | Unit | USD/GB/month | |
 
+Price distribution across the 39 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+  0.1125 | ████████████████████████████████████████ 30
+0.124688 | █████                                     4
+0.136875 |                                           0
+0.149062 | ████                                      3
+ 0.16125 | █                                         1
+0.173437 |                                           0
+0.185625 |                                           0
+0.197813 | █                                         1
+     top   0.21
+```
+
 ### Ultra Disk / LRS
 
 | Statistic | Price/Count | Regions |
@@ -1158,6 +1942,20 @@ offerings available in 100% of regions.
 | Number of regions with a price | 48 | |
 | Offered in | 84.2% of regions | |
 | Unit | USD/GB/month | |
+
+Price distribution across the 48 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+ 0.11972 | ███████████████████                       7
+0.134685 | ████████████████████████                  9
+ 0.14965 | ████████████████████████████████████████ 15
+0.164615 | ███████████████████                       7
+ 0.17958 | ███████████                               4
+0.194545 | ███                                       1
+ 0.20951 | ███████████                               4
+0.224475 | ███                                       1
+     top   0.23944
+```
 
 ### Ultra Disk / ZRS
 
@@ -1221,6 +2019,20 @@ offerings available in 100% of regions.
 | Offered in | 78.9% of regions | |
 | Unit | USD/GB/month | |
 
+Price distribution across the 45 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+   0.03 | ████████████████████████████████████████ 19
+0.03522 | ████████                                  4
+0.04044 | ████████████████████████████████         15
+0.04566 | ███████████                               5
+0.05088 |                                           0
+ 0.0561 |                                           0
+0.06132 | ██                                        1
+0.06654 | ██                                        1
+    top   0.07176
+```
+
 ### Cool Tier / Standard HDD / GZRS
 
 | Statistic | Price/Count | Regions |
@@ -1235,6 +2047,20 @@ offerings available in 100% of regions.
 | Number of regions with a price | 24 | |
 | Offered in | 42.1% of regions | |
 | Unit | USD/GB/month | |
+
+Price distribution across the 24 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+   0.0338 | ████████████████████████████████████████ 9
+0.0399675 | █████████████                            3
+ 0.046135 | ██████████████████                       4
+0.0523025 | █████████████                            3
+  0.05847 |                                          0
+0.0646375 | ████                                     1
+ 0.070805 | █████████████                            3
+0.0769725 | ████                                     1
+      top   0.08314
+```
 
 ### Cool Tier / Standard HDD / LRS
 
@@ -1251,6 +2077,20 @@ offerings available in 100% of regions.
 | Offered in | 100.0% of regions | |
 | Unit | USD/GB/month | |
 
+Price distribution across the 57 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+0.014352 | ████████████████████████████████████████ 27
+0.017628 | ██████                                    4
+0.020904 | ███████████████████████████████          21
+ 0.02418 | ███                                       2
+0.027456 |                                           0
+0.030732 | ███                                       2
+0.034008 |                                           0
+0.037284 | █                                         1
+     top   0.04056
+```
+
 ### Cool Tier / Standard HDD / ZRS
 
 | Statistic | Price/Count | Regions |
@@ -1265,6 +2105,20 @@ offerings available in 100% of regions.
 | Number of regions with a price | 40 | |
 | Offered in | 70.2% of regions | |
 | Unit | USD/GB/month | |
+
+Price distribution across the 40 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+  0.01794 | ████████████████████████████████████████ 20
+0.0206849 | ██████                                    3
+0.0234297 | ██                                        1
+0.0261746 | ████████████████████                     10
+0.0289195 | ████████                                  4
+0.0316644 |                                           0
+0.0344093 |                                           0
+0.0371541 | ████                                      2
+      top   0.039899
+```
 
 ### Hot Tier / Premium SSD / GRS
 
@@ -1299,6 +2153,20 @@ offerings available in 100% of regions.
 | Offered in | 100.0% of regions | |
 | Unit | USD/GB/month | |
 
+Price distribution across the 57 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+ 0.16 | ████████████████████████████████         19
+0.192 | ████████████████████████████████████████ 24
+0.224 | █████████████                             8
+0.256 | ███████                                   4
+0.288 |                                           0
+ 0.32 | ██                                        1
+0.352 |                                           0
+0.384 | ██                                        1
+  top   0.416
+```
+
 ### Hot Tier / Premium SSD / ZRS
 
 | Statistic | Price/Count | Regions |
@@ -1313,6 +2181,20 @@ offerings available in 100% of regions.
 | Number of regions with a price | 40 | |
 | Offered in | 70.2% of regions | |
 | Unit | USD/GB/month | |
+
+Price distribution across the 40 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+  0.2 | ███████████████████████████████████      15
+0.225 | ████████████████████████████████████████ 17
+ 0.25 | ███████                                   3
+0.275 | █████                                     2
+  0.3 | █████                                     2
+0.325 |                                           0
+ 0.35 |                                           0
+0.375 | ██                                        1
+  top   0.4
+```
 
 ### Hot Tier / Standard HDD / GRS
 
@@ -1329,6 +2211,20 @@ offerings available in 100% of regions.
 | Offered in | 77.2% of regions | |
 | Unit | USD/GB/month | |
 
+Price distribution across the 44 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+0.0508 | ████████████████████████████████████████ 19
+0.0585 | ████████████████████████████████         15
+0.0662 | ██████                                    3
+0.0739 | ████████                                  4
+0.0816 |                                           0
+0.0893 | ██                                        1
+ 0.097 | ██                                        1
+0.1047 | ██                                        1
+   top   0.1124
+```
+
 ### Hot Tier / Standard HDD / GZRS
 
 | Statistic | Price/Count | Regions |
@@ -1343,6 +2239,20 @@ offerings available in 100% of regions.
 | Number of regions with a price | 25 | |
 | Offered in | 43.9% of regions | |
 | Unit | USD/GB/month | |
+
+Price distribution across the 25 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+   0.0588 | ████████████████████████████████████████ 11
+0.0648062 | ██████████████████████                    6
+0.0708125 | ███████████                               3
+0.0768187 |                                           0
+ 0.082825 | ████                                      1
+0.0888313 | ███████████                               3
+0.0948375 |                                           0
+ 0.100844 | ████                                      1
+      top   0.10685
+```
 
 ### Hot Tier / Standard HDD / LRS
 
@@ -1359,6 +2269,20 @@ offerings available in 100% of regions.
 | Offered in | 100.0% of regions | |
 | Unit | USD/GB/month | |
 
+Price distribution across the 57 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+   0.0255 | ████████████████████████████████████████ 42
+0.0302555 | ████                                      4
+ 0.035011 | ███████                                   7
+0.0397665 | █                                         1
+ 0.044522 | ██                                        2
+0.0492775 |                                           0
+ 0.054033 |                                           0
+0.0587885 | █                                         1
+      top   0.063544
+```
+
 ### Hot Tier / Standard HDD / ZRS
 
 | Statistic | Price/Count | Regions |
@@ -1373,6 +2297,20 @@ offerings available in 100% of regions.
 | Number of regions with a price | 40 | |
 | Offered in | 70.2% of regions | |
 | Unit | USD/GB/month | |
+
+Price distribution across the 40 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+  0.0317 | ████████████████████████████████████████ 21
+0.035375 | █████████████████████████                13
+ 0.03905 | ██                                        1
+0.042725 | ██████                                    3
+  0.0464 |                                           0
+0.050075 | ██                                        1
+ 0.05375 |                                           0
+0.057425 | ██                                        1
+     top   0.0611
+```
 
 ### Standard Tier / Premium SSD / GRS
 
@@ -1425,6 +2363,20 @@ offerings available in 100% of regions.
 | Offered in | 78.9% of regions | |
 | Unit | USD/GB/month | |
 
+Price distribution across the 45 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+  0.0962 | ████████████████████████████████████████ 22
+0.107692 | ██████████████████████                   12
+0.119185 | █████                                     3
+0.130678 | ████                                      2
+ 0.14217 | █████                                     3
+0.153663 | ██                                        1
+0.165155 | ██                                        1
+0.176648 | ██                                        1
+     top   0.18814
+```
+
 ### Standard Tier / Standard HDD / GZRS
 
 | Statistic | Price/Count | Regions |
@@ -1439,6 +2391,20 @@ offerings available in 100% of regions.
 | Number of regions with a price | 25 | |
 | Offered in | 43.9% of regions | |
 | Unit | USD/GB/month | |
+
+Price distribution across the 25 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+   0.135 | ████████████████████████████████████████ 12
+0.144281 | ███████                                   2
+0.153562 | ███████                                   2
+0.162844 | ███████                                   2
+0.172125 |                                           0
+0.181406 | ██████████                                3
+0.190688 | ██████████                                3
+0.199969 | ███                                       1
+     top   0.20925
+```
 
 ### Standard Tier / Standard HDD / LRS
 
@@ -1455,6 +2421,20 @@ offerings available in 100% of regions.
 | Offered in | 100.0% of regions | |
 | Unit | USD/GB/month | |
 
+Price distribution across the 57 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+ 0.0577 | ████████████████████████████████████████ 31
+0.06378 | ███████████████████                      15
+0.06986 | ████                                      3
+0.07594 | █                                         1
+0.08202 | █████                                     4
+ 0.0881 |                                           0
+0.09418 | ███                                       2
+0.10026 | █                                         1
+    top   0.10634
+```
+
 ### Standard Tier / Standard HDD / ZRS
 
 | Statistic | Price/Count | Regions |
@@ -1469,3 +2449,17 @@ offerings available in 100% of regions.
 | Number of regions with a price | 40 | |
 | Offered in | 70.2% of regions | |
 | Unit | USD/GB/month | |
+
+Price distribution across the 40 regions with a price (USD/GB/month); rows are bins labeled by lower edge, bars are region counts, bins are equal width:
+
+```text
+  0.01875 | █                                         1
+0.0299062 |                                           0
+0.0410625 |                                           0
+0.0522187 |                                           0
+ 0.063375 |                                           0
+0.0745312 | ████████████████████████████████████████ 29
+0.0856875 | ██████████                                7
+0.0968437 | ████                                      3
+      top   0.108
+```
