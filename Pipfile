@@ -11,6 +11,7 @@ numpy = "*"
 requests = "*"
 azure-identity = "*"
 azure-mgmt-compute = "*"
+marimo = "*"
 
 [dev-packages]
 
