@@ -1,0 +1,152 @@
+{
+  "eu27": [
+    "austriaeast",
+    "belgiumcentral",
+    "denmarkeast",
+    "francecentral",
+    "francesouth",
+    "germanynorth",
+    "germanywestcentral",
+    "italynorth",
+    "northeurope",
+    "polandcentral",
+    "spaincentral",
+    "swedencentral",
+    "westeurope"
+  ],
+  "eea": [
+    "austriaeast",
+    "belgiumcentral",
+    "denmarkeast",
+    "francecentral",
+    "francesouth",
+    "germanynorth",
+    "germanywestcentral",
+    "italynorth",
+    "northeurope",
+    "norwayeast",
+    "norwaywest",
+    "polandcentral",
+    "spaincentral",
+    "swedencentral",
+    "westeurope"
+  ],
+  "merco": [
+    "brazilsouth",
+    "brazilsoutheast",
+    "chilecentral"
+  ],
+  "noa": [
+    "canadacentral",
+    "canadaeast",
+    "centralus",
+    "eastus",
+    "eastus2",
+    "mexicocentral",
+    "northcentralus",
+    "southcentralus",
+    "westcentralus",
+    "westus",
+    "westus2",
+    "westus3"
+  ],
+  "us": [
+    "centralus",
+    "eastus",
+    "eastus2",
+    "northcentralus",
+    "southcentralus",
+    "westcentralus",
+    "westus",
+    "westus2",
+    "westus3"
+  ],
+  "au": [
+    "southafricanorth",
+    "southafricawest"
+  ],
+  "me": [
+    "israelcentral",
+    "qatarcentral",
+    "uaecentral",
+    "uaenorth"
+  ],
+  "opec": [
+    "uaecentral",
+    "uaenorth"
+  ],
+  "euro": [
+    "austriaeast",
+    "belgiumcentral",
+    "denmarkeast",
+    "francecentral",
+    "francesouth",
+    "germanynorth",
+    "germanywestcentral",
+    "italynorth",
+    "northeurope",
+    "norwayeast",
+    "norwaywest",
+    "polandcentral",
+    "spaincentral",
+    "swedencentral",
+    "switzerlandnorth",
+    "switzerlandwest",
+    "uksouth",
+    "ukwest",
+    "westeurope"
+  ],
+  "amer": [
+    "brazilsouth",
+    "brazilsoutheast",
+    "canadacentral",
+    "canadaeast",
+    "centralus",
+    "chilecentral",
+    "eastus",
+    "eastus2",
+    "mexicocentral",
+    "northcentralus",
+    "southcentralus",
+    "westcentralus",
+    "westus",
+    "westus2",
+    "westus3"
+  ],
+  "asia": [
+    "centralindia",
+    "eastasia",
+    "indonesiacentral",
+    "japaneast",
+    "japanwest",
+    "koreacentral",
+    "koreasouth",
+    "malaysiawest",
+    "southeastasia",
+    "southindia",
+    "westindia"
+  ],
+  "afri": [
+    "southafricanorth",
+    "southafricawest"
+  ],
+  "asean": [
+    "indonesiacentral",
+    "malaysiawest",
+    "southeastasia"
+  ],
+  "nafta": [
+    "canadacentral",
+    "canadaeast",
+    "centralus",
+    "eastus",
+    "eastus2",
+    "mexicocentral",
+    "northcentralus",
+    "southcentralus",
+    "westcentralus",
+    "westus",
+    "westus2",
+    "westus3"
+  ]
+}
