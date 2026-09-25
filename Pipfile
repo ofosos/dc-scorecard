@@ -11,7 +11,7 @@ numpy = "*"
 requests = "*"
 azure-identity = "*"
 azure-mgmt-compute = "*"
-marimo = "*"
+marimo = {extras = ["recommended"], version = "*"}
 
 [dev-packages]
 

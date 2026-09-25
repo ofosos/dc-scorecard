@@ -1,6 +1,6 @@
 import marimo
 
-__generated_with = "0.24.2"
+__generated_with = "0.25.0"
 app = marimo.App(width="medium")
 
 
@@ -410,6 +410,68 @@ def _(
         ]
     )
     mo.ui.table(dataset_overview, selection=None)
+    return
+
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    ## Silos
+
+    Load silos
+    """)
+    return
+
+
+@app.cell
+def _(DATA_DIR, json):
+    silos = json.loads((DATA_DIR / "silos.json").read_text())
+
+    return (silos,)
+
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    ## Materialize Silos / Indexes
+    """)
+    return
+
+
+@app.cell
+def _():
+    import sqlite3
+    con = sqlite3.connect("scorecard.db")
+
+    return (con,)
+
+
+@app.cell
+def _(con):
+    cur = con.cursor()
+
+    cur.execute("CREATE TABLE silos(region, silo)")
+    cur.execute("CREATE TABLE scorecards(region, silo, value, index, median, tot_values)")
+
+    return
+
+
+@app.cell
+def _(con, silos):
+    cura = con.cursor()
+
+    for silo, regions in silos.items():
+        for region in regions:
+            print(f"{region} - {silo}")
+            cura.execute("INSERT INTO silos (region, silo) VALUES (?, ?)", [region, silo])
+
+    return
+
+
+@app.cell
+def _():
+
+
     return
 
 
