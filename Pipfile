@@ -12,6 +12,7 @@ requests = "*"
 azure-identity = "*"
 azure-mgmt-compute = "*"
 marimo = {extras = ["recommended"], version = "*"}
+sqlmodel = "*"
 
 [dev-packages]
 

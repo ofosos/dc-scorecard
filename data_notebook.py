@@ -31,7 +31,7 @@ def _(Path):
 @app.cell
 def _(mo):
     mo.md(r"""
-    # DC Scorecard data
+    # DC Scorecard "soft" data
 
     Loads every JSON and CSV dataset in this repository into a pandas
     DataFrame (non-tabular JSON is exposed as Python objects), and finishes
@@ -55,74 +55,6 @@ def _(DATA_DIR, pd):
     azure_carbon_intensity = pd.read_csv(DATA_DIR / "azure_carbon_intensity.csv")
     azure_carbon_intensity
     return (azure_carbon_intensity,)
-
-
-@app.cell
-def _(mo):
-    mo.md(r"""
-    ## blob_storage_pricing
-
-    Azure Blob Storage pricing per region (price per GB by tier, performance, redundancy).
-    """)
-    return
-
-
-@app.cell
-def _(DATA_DIR, pd):
-    blob_storage_pricing = pd.read_csv(DATA_DIR / "blob_storage_pricing.csv")
-    blob_storage_pricing
-    return (blob_storage_pricing,)
-
-
-@app.cell
-def _(mo):
-    mo.md(r"""
-    ## block_storage_pricing
-
-    Azure managed disk (block storage) pricing per region by performance and redundancy.
-    """)
-    return
-
-
-@app.cell
-def _(DATA_DIR, pd):
-    block_storage_pricing = pd.read_csv(DATA_DIR / "block_storage_pricing.csv")
-    block_storage_pricing
-    return (block_storage_pricing,)
-
-
-@app.cell
-def _(mo):
-    mo.md(r"""
-    ## compute_prices_availability
-
-    Compute instance pricing and availability per region (Linux and spot hourly prices).
-    """)
-    return
-
-
-@app.cell
-def _(DATA_DIR, pd):
-    compute_prices_availability = pd.read_csv(DATA_DIR / "compute_prices_availability.csv")
-    compute_prices_availability
-    return (compute_prices_availability,)
-
-
-@app.cell
-def _(mo):
-    mo.md(r"""
-    ## files_pricing
-
-    Azure Files pricing per region by tier, performance, and redundancy.
-    """)
-    return
-
-
-@app.cell
-def _(DATA_DIR, pd):
-    files_pricing = pd.read_csv(DATA_DIR / "files_pricing.csv")
-    files_pricing
-    return (files_pricing,)
 
 
 @app.cell
@@ -426,7 +358,6 @@ def _(mo):
 @app.cell
 def _(DATA_DIR, json):
     silos = json.loads((DATA_DIR / "silos.json").read_text())
-
     return (silos,)
 
 
@@ -440,38 +371,201 @@ def _(mo):
 
 @app.cell
 def _():
-    import sqlite3
-    con = sqlite3.connect("scorecard.db")
+    import sqlmodel
 
-    return (con,)
-
-
-@app.cell
-def _(con):
-    cur = con.cursor()
-
-    cur.execute("CREATE TABLE silos(region, silo)")
-    cur.execute("CREATE TABLE scorecards(region, silo, value, index, median, tot_values)")
-
-    return
+    DATABASE_URL = "sqlite:///scores.db"
+    engine = sqlmodel.create_engine(DATABASE_URL)
+    return (engine,)
 
 
 @app.cell
-def _(con, silos):
-    cura = con.cursor()
+def _(engine):
+    from sqlmodel import Field, SQLModel, select, Session, insert
 
+
+    class SiloRegionMapping(SQLModel, table=True):
+        __table_args__ = {'extend_existing': True}
+        id: int | None = Field(default=None, primary_key=True)
+        silo: str
+        region: str
+
+    class ScoreEntry(SQLModel, table=True):
+        __table_args__ = {'extend_existing': True}
+        id: int | None = Field(default=None, primary_key=True)
+        silo: str
+        region: str
+        kpi: str
+        value: float
+        index: int
+        tot_values: int
+        average: float
+        median: int
+
+    SQLModel.metadata.create_all(engine)
+    return ScoreEntry, Session, SiloRegionMapping, insert, select
+
+
+@app.cell
+def _(Session, SiloRegionMapping, engine, select, silos):
     for silo, regions in silos.items():
         for region in regions:
-            print(f"{region} - {silo}")
-            cura.execute("INSERT INTO silos (region, silo) VALUES (?, ?)", [region, silo])
+            with Session(engine) as session:
 
+                statement = select(SiloRegionMapping).where(SiloRegionMapping.silo == silo).where(SiloRegionMapping.region == region)
+                results = session.exec(statement)  
+
+                srm = results.first()
+
+                if srm == None:
+                    srm = SiloRegionMapping(silo=silo, region=region)
+                    session.add(srm)
+                    session.commit()
     return
 
 
 @app.cell
-def _():
+def _(ScoreEntry, Session, engine, global_rights_azure_regions, insert, silos):
+    global_rights_data = []
+
+    for siloi, regionsi in silos.items():
+        silo_spec = global_rights_azure_regions[global_rights_azure_regions["Region"].isin(regionsi)]
+
+        for index, row in silo_spec.iterrows():
+
+            global_rights_data.append(ScoreEntry(
+                silo=siloi,
+                region=row["Region"], 
+                kpi="global_rights", 
+                value=row["Rating"], 
+                index=0,
+                tot_values=silo_spec['Rating'].count(),
+                average=silo_spec['Rating'].mean(),
+                median=silo_spec['Rating'].median(),
+            ))
+        print(f"global_rights, {siloi}, count={silo_spec['Rating'].count()}, median={silo_spec['Rating'].median()}, max={silo_spec['Rating'].max()}, min={silo_spec['Rating'].min()}, avg={silo_spec['Rating'].mean()}")
+
+    with Session(engine) as grsession:
+        grsession.exec(insert(ScoreEntry), params=global_rights_data)
+
+        grsession.commit()
+    return
 
 
+@app.cell
+def _(ScoreEntry, Session, azure_carbon_intensity, engine, insert, silos):
+    import math
+    co2i_data = []
+
+    for siloc, regionsc in silos.items():
+        silo_spec_co2 = azure_carbon_intensity[azure_carbon_intensity["region"].isin(regionsc)]
+
+        silo_spec_co2["rank"] = silo_spec_co2["carbon_intensity_avg24h"].rank(ascending=True)
+
+        for indexc, rowc in silo_spec_co2.iterrows():
+
+            if not math.isnan(rowc["carbon_intensity_avg24h"]):
+                co2i_data.append(ScoreEntry(
+                    silo=siloc,
+                    region=rowc["region"], 
+                    kpi="carbon_intensity", 
+                    value=rowc["carbon_intensity_avg24h"], 
+                    index=rowc["rank"],
+                    tot_values=silo_spec_co2['region'].count(),
+                    average=silo_spec_co2['carbon_intensity_avg24h'].mean(),
+                    median=silo_spec_co2['carbon_intensity_avg24h'].median(),
+                ))
+        print(f"co2i, {siloc}, count={silo_spec_co2['region'].count()}, median={silo_spec_co2['carbon_intensity_avg24h'].median()}, max={silo_spec_co2['carbon_intensity_avg24h'].max()}, min={silo_spec_co2['carbon_intensity_avg24h'].min()}, avg={silo_spec_co2['carbon_intensity_avg24h'].mean()}")
+
+    with Session(engine) as cosession:
+        cosession.exec(insert(ScoreEntry), params=co2i_data)
+
+        cosession.commit()
+    return math, regionsc
+
+
+@app.cell
+def _(
+    ScoreEntry,
+    Session,
+    engine,
+    ged_azure_agg,
+    insert,
+    math,
+    regionsc,
+    silos,
+):
+    ged_data = []
+
+    for silog, regionsg in silos.items():
+        silo_spec_ged = ged_azure_agg[ged_azure_agg["az_region"].isin(regionsc)]
+
+        silo_spec_ged["rank"] = silo_spec_ged["total_events"].rank(ascending=True)
+
+        for indexg, rowg in silo_spec_ged.iterrows():
+
+            if not math.isnan(rowg["total_events"]):
+                ged_data.append(ScoreEntry(
+                    silo=silog,
+                    region=rowg["az_region"], 
+                    kpi="armed_conflict", 
+                    value=rowg["total_events"], 
+                    index=rowg["rank"],
+                    tot_values=silo_spec_ged['az_region'].count(),
+                    average=silo_spec_ged['total_events'].mean(),
+                    median=silo_spec_ged['total_events'].median(),
+                ))
+        print(f"co2i, {silog}, count={silo_spec_ged['az_region'].count()}, median={silo_spec_ged['total_events'].median()}, max={silo_spec_ged['total_events'].max()}, min={silo_spec_ged['total_events'].min()}, avg={silo_spec_ged['total_events'].mean()}")
+
+    with Session(engine) as gedsession:
+        gedsession.exec(insert(ScoreEntry), params=ged_data)
+
+        gedsession.commit()
+    return (silog,)
+
+
+@app.cell
+def _(
+    ScoreEntry,
+    Session,
+    engine,
+    insert,
+    math,
+    region_temperatures_sweatscore,
+    silog,
+    silos,
+):
+    sweat_data = []
+
+    for silosw, regionss in silos.items():
+        silo_spec_sweat = region_temperatures_sweatscore[region_temperatures_sweatscore["Region"].isin(regionss)]
+
+        silo_spec_sweat["rank"] = silo_spec_sweat["SweatScore"].rank(ascending=True)
+
+        for indexs, rows in silo_spec_sweat.iterrows():
+
+            if not math.isnan(rows["SweatScore"]):
+                sweat_data.append(ScoreEntry(
+                    silo=silosw,
+                    region=rows["Region"], 
+                    kpi="sweat_score", 
+                    value=rows["SweatScore"], 
+                    index=rows["rank"],
+                    tot_values=silo_spec_sweat['Region'].count(),
+                    average=silo_spec_sweat['SweatScore'].mean(),
+                    median=silo_spec_sweat['SweatScore'].median(),
+                ))
+        print(f"co2i, {silog}, count={silo_spec_sweat['Region'].count()}, median={silo_spec_sweat['SweatScore'].median()}, max={silo_spec_sweat['SweatScore'].max()}, min={silo_spec_sweat['SweatScore'].min()}, avg={silo_spec_sweat['SweatScore'].mean()}")
+
+    with Session(engine) as sweat_session:
+        sweat_session.exec(insert(ScoreEntry), params=sweat_data)
+
+        sweat_session.commit()
+    return
+
+
+@app.cell
+def _(gdacs_events):
+    gdacs_events.groupby('region').agg(total=('eventid','count'))
     return
 
 
