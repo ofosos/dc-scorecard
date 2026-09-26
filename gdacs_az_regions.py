@@ -9,6 +9,12 @@ geometry), and assigns each event to every Azure region whose radius circle
 (default 100 km) around the region coordinates overlaps the event geometry.
 Events that overlap multiple region circles are assigned to all of them.
 
+The geodata processing uses GeoPandas algorithms: event geometries are
+parsed with Shapely, each Azure region becomes a true WGS84 geodesic
+circle (built by geodesic densification with pyproj.Geod) and the
+circle-polygon overlap test is a single geopandas.sjoin spatial join
+with predicate="intersects".
+
 Usage
 -----
 
@@ -75,7 +81,7 @@ Any API response that is expected to be JSON but isn't (e.g. HTTP 204 with
 an empty body) is logged and its raw non-conforming text is dumped into the
 error log.
 
-Dependencies: numpy, pandas, requests
+Dependencies: geopandas, pandas, requests
 """
 
 import argparse
@@ -85,9 +91,12 @@ import math
 import sys
 from datetime import datetime, timezone
 
-import numpy as np
+import geopandas as gpd
 import pandas as pd
 import requests
+from pyproj import Geod
+from shapely.geometry import Point, Polygon, shape
+from shapely.ops import nearest_points
 
 DEFAULT_BASE_URL = "https://www.gdacs.org/gdacsapi/api"
 DEFAULT_START_DATE = "2021-01-01"
@@ -115,7 +124,15 @@ ALERT_LEVEL_ALIASES = {
     "red": ["red"],
 }
 
-EARTH_RADIUS_KM = 6371.0088
+WGS84 = "EPSG:4326"
+
+# WGS84 geodesic used for circle densification and distance measurement.
+GEOD = Geod(ellps="WGS84")
+
+# Maximum inward deviation (meters) of the densified circle boundary from
+# the true geodesic circle. 100 m is far below the ~1 km accuracy of the
+# GDACS event polygons.
+DEFAULT_CIRCLE_TOLERANCE_METERS = 100
 
 logger = logging.getLogger("gdacs_az")
 
@@ -313,50 +330,17 @@ class GDACSClient:
 
 
 # ---------------------------------------------------------------------------
-# Geometry helpers
+# Geometry helpers (GeoPandas / Shapely)
 # ---------------------------------------------------------------------------
 
-def rings_from_geometry(geometry):
-    """Return a list of (Ni, 2) numpy arrays, one per linear ring of a
-    GeoJSON Polygon/MultiPolygon. Point geometries yield a single 1-vertex
-    ring. Ring structure is preserved (not flattened across rings) so that
-    even-odd containment and segment-distance tests stay correct for
-    MultiPolygons made of many parts."""
-    if not isinstance(geometry, dict):
-        return []
-    gtype = geometry.get("type")
-    coords = geometry.get("coordinates")
-
-    def is_point(node):
-        return (len(node) >= 2 and isinstance(node[0], (int, float))
-                and isinstance(node[1], (int, float))
-                and not isinstance(node[0], bool))
-
-    def walk(node, rings):
-        if not isinstance(node, (list, tuple)):
-            return
-        if is_point(node):
-            rings.append(np.array([[float(node[0]), float(node[1])]],
-                                  dtype=float))
-            return
-        for child in node:
-            walk(child, rings)
-
-    if gtype == "Point":
-        return [np.array([[float(coords[0]), float(coords[1])]],
-                         dtype=float)]
-    if gtype == "LineString":
-        return [np.array(coords, dtype=float)]
-    if gtype not in ("Polygon", "MultiPolygon"):
-        return []
-    polys = coords if gtype == "MultiPolygon" else [coords]
-    rings = []
-    for poly in polys:
-        for ring in poly:
-            arr = np.array(ring, dtype=float)
-            if arr.ndim == 2 and arr.shape[1] == 2 and len(arr) >= 3:
-                rings.append(arr)
-    return rings
+def geometry_from_geojson(geometry):
+    """Parse a GeoJSON geometry dict into a Shapely geometry (WGS84 lon/lat
+    coordinate order). Returns None for empty/missing geometry."""
+    try:
+        geom = shape(geometry)
+        return None if geom.is_empty else geom
+    except (AttributeError, ValueError, TypeError):
+        return None
 
 
 def is_bare_point(feature_geometry, props):
@@ -371,144 +355,46 @@ def is_bare_point(feature_geometry, props):
     return False
 
 
-def haversine_matrix(lons1, lats1, lon2, lat2):
-    """Great-circle distance (km) from a single point to many points,
-    using a vectorized haversine formula."""
-    lon1 = np.radians(lons1)
-    lat1 = np.radians(lats1)
-    lon2_r = math.radians(lon2)
-    lat2_r = math.radians(lat2)
-    dlon = lon1 - lon2_r
-    dlat = lat1 - lat2_r
-    a = np.sin(dlat / 2.0) ** 2 + \
-        np.cos(lat1) * np.cos(lat2_r) * np.sin(dlon / 2.0) ** 2
-    return 2.0 * EARTH_RADIUS_KM * np.arcsin(np.sqrt(np.clip(a, 0.0, 1.0)))
+def geodesic_circle(center_lon, center_lat, radius_km,
+                    tolerance_m=DEFAULT_CIRCLE_TOLERANCE_METERS):
+    """Build a Shapely Polygon approximating a WGS84 geodesic circle.
 
-
-def ring_bboxes(rings):
-    """Per-ring (min_lon, min_lat, max_lon, max_lat) bboxes as an (R, 4)
-    numpy array, plus a total bbox over all rings."""
-    boxes = np.empty((len(rings), 4), dtype=float)
-    for i, ring in enumerate(rings):
-        if len(ring):
-            boxes[i] = (ring[:, 0].min(), ring[:, 1].min(),
-                        ring[:, 0].max(), ring[:, 1].max())
-        else:
-            boxes[i] = (np.nan, np.nan, np.nan, np.nan)
-    return boxes
-
-
-def circle_polygon_overlap(rings, center_lon, center_lat, radius_km,
-                           bboxes=None):
-    """Circle-polygon overlap test against a list of closed rings:
-    vertex-in-circle OR circle-center-inside (even-odd over all rings, so
-    holes are handled) OR minimum segment distance <= radius.
-
-    bboxes: optional per-ring bbox array from ring_bboxes() to speed up
-    repeated tests of the same event against many region circles.
+    The boundary is densified geodesically: `pyproj.Geod.fwd` projects
+    boundary points from the center at evenly spaced azimuths and the
+    geodesic distance radius_km, so the circle follows the ellipsoid and
+    its radius is correct at every latitude. The number of boundary
+    points is chosen so the polygon stays within tolerance_m of the true
+    geodesic circle. Circles wide enough to wrap the antimeridian are
+    not supported (no Azure region is affected).
     """
-    if not rings:
-        return False, float("inf")
-    if bboxes is None:
-        bboxes = ring_bboxes(rings)
-
-    # Radius expressed in degrees for a cheap bbox pre-filter.
-    lat_span = radius_km / 111.32
-    coslat = max(math.cos(math.radians(min(abs(center_lat) + lat_span, 90.0))),
-                 0.01)
-    lon_span = radius_km / (111.32 * coslat)
-    lo_lon = center_lon - lon_span
-    hi_lon = center_lon + lon_span
-    lo_lat = center_lat - lat_span
-    hi_lat = center_lat + lat_span
-
-    min_seen = float("inf")
-    candidates = []
-    for i, ring in enumerate(rings):
-        if len(ring) == 0:
-            continue
-        b0, b1, b2, b3 = bboxes[i]
-        near = not (b2 < lo_lon or b0 > hi_lon or b3 < lo_lat or b1 > hi_lat)
-        # bbox of the circle vs ring bbox with margin: farther than radius?
-        if not near:
-            continue
-        candidates.append(ring)
-        # 1. any vertex within the circle
-        dists = haversine_matrix(ring[:, 0], ring[:, 1],
-                                 center_lon, center_lat)
-        dmin = float(dists.min())
-        if dmin < min_seen:
-            min_seen = dmin
-        if dmin <= radius_km:
-            return True, dmin
-
-    # 2. circle center inside the (multi)polygon, even-odd over all rings
-    if point_in_polygon(center_lon, center_lat, candidates):
-        return True, 0.0
-    # 3. minimum distance from the center to any closed-ring segment
-    for ring in candidates:
-        d = point_segment_min_distance(center_lon, center_lat, ring)
-        if d < min_seen:
-            min_seen = d
-        if d <= radius_km:
-            return True, d
-    return False, min_seen
+    radius_m = radius_km * 1000.0
+    tol = min(float(tolerance_m), radius_m)
+    half_angle = 2 * math.asin(math.sqrt(tol / (2 * radius_m)))
+    n = max(int(math.ceil(math.pi / half_angle)), 8)
+    azimuths = [360.0 * i / n for i in range(n)]
+    lons, lats, _ = GEOD.fwd([float(center_lon)] * n,
+                             [float(center_lat)] * n,
+                             azimuths, [radius_m] * n)
+    return Polygon(zip(lons, lats))
 
 
-def point_in_polygon(lon, lat, rings):
-    """Vectorized ray-casting point-in-polygon with the even-odd rule over a
-    list of rings (outer boundaries and holes alike)."""
-    x = float(lon)
-    y = float(lat)
-    inside = False
-    for ring in rings:
-        n = len(ring)
-        if n < 3:
-            continue
-        xs = ring[:, 0]
-        ys = ring[:, 1]
-        x1 = xs
-        y1 = ys
-        x2 = np.roll(xs, -1)
-        y2 = np.roll(ys, -1)
-        crosses = (y1 > y) != (y2 > y)
-        if not np.any(crosses):
-            continue
-        # x coordinate of the edge/scanline intersection
-        with np.errstate(divide="ignore", invalid="ignore"):
-            x_int = (x2[crosses] - x1[crosses]) * \
-                (y - y1[crosses]) / (y2[crosses] - y1[crosses]) + x1[crosses]
-        # even-odd: count edges crossing the scanline to the right of x
-        if int(np.count_nonzero(x < x_int)) % 2 == 1:
-            inside = not inside
-    return inside
+def geodesic_distance_km(lon1, lat1, lon2, lat2):
+    """WGS84 geodesic distance in kilometers between two points, computed
+    with pyproj.Geod.inv (replaces the haversine approximation)."""
+    _, _, dist_m = GEOD.inv(lon1, lat1, lon2, lat2)
+    return dist_m / 1000.0
 
 
-def point_segment_min_distance(lon, lat, ring):
-    """Approximate minimum geodesic distance (km) from a point to the
-    segments of one closed ring, computed on a local equirectangular
-    projection centered at the point (accurate at ~100 km scales)."""
-    pts = np.vstack([ring, ring[0]]) if len(ring) else ring
-    x0 = math.radians(lon)
-    y0 = math.radians(lat)
-    coslat0 = max(math.cos(y0), 0.01)
-    xs = np.radians(pts[:, 0])
-    ys = np.radians(pts[:, 1])
-    x1, x2 = xs[:-1], xs[1:]
-    y1, y2 = ys[:-1], ys[1:]
-    dx = (x2 - x1) * coslat0
-    dy = y2 - y1
-    px = (x0 - x1) * coslat0
-    py = y0 - y1
-    denom = dx * dx + dy * dy
-    t = np.where(denom > 1e-18,
-                 (px * dx + py * dy) / np.where(denom > 1e-18, denom, 1.0),
-                 0.0)
-    t = np.clip(t, 0.0, 1.0)
-    ex = px - t * dx
-    ey = py - t * dy
-    planar = np.sqrt(ex * ex + ey * ey)
-    return float(np.min(planar) * EARTH_RADIUS_KM)
+def geodesic_distance_to_geometry_km(lon, lat, geom):
+    """WGS84 geodesic distance in kilometers from a point to the nearest
+    point of a Shapely geometry (0 when the point is inside it). Uses
+    shapely.ops.nearest_points to pick the closest point and pyproj.Geod
+    for the distance, replacing the custom segment-distance code."""
+    point = Point(float(lon), float(lat))
+    if geom.covers(point):
+        return 0.0
+    near = nearest_points(geom, point)[0]
+    return geodesic_distance_km(lon, lat, near.x, near.y)
 
 
 def resolve_event_geometry(client, props):
@@ -520,17 +406,17 @@ def resolve_event_geometry(client, props):
     (/api/Polygons/getgeometry) to fetch the actual polygon, and test the
     circle overlap against that.
 
-    Returns (rings, source) where rings is a list of (N, 2) numpy arrays of
-    closed linear rings (lon, lat)."""
+    Returns (geometry, source) where geometry is a Shapely geometry in
+    WGS84 (lon/lat) coordinates."""
     eventtype = props.get("eventtype")
     eventid = props.get("eventid")
     episodeid = props.get("episodeid")
     search_geom = props.get("_search_geometry")
 
     if not is_bare_point(search_geom, props):
-        rings = rings_from_geometry(search_geom)
-        if any(len(r) > 1 for r in rings):
-            return rings, "search-polygon"
+        geom = geometry_from_geojson(search_geom)
+        if geom is not None and not isinstance(geom, Point):
+            return geom, "search-polygon"
 
     # Only a centroid: follow url.geometry (fall back to geteventdata).
     geom_url = None
@@ -559,36 +445,36 @@ def resolve_event_geometry(client, props):
     for feat in features or []:
         fprops = feat.get("properties", {})
         fclass = str(fprops.get("Class", ""))
-        geom = feat.get("geometry", {})
-        if geom.get("type") == "Point":
+        geom_dict = feat.get("geometry", {})
+        if geom_dict.get("type") == "Point":
             continue
         if fclass.startswith("Poly_Global"):
             continue
-        rings = rings_from_geometry(geom)
-        if not rings or not any(len(r) >= 3 for r in rings):
+        geom = geometry_from_geojson(geom_dict)
+        if geom is None or isinstance(geom, Point):
             continue
         if fclass in ("Poly_area", "Poly_Affected"):
-            best = rings
+            best = geom
             break
         if fclass.startswith("Poly_Circle"):
-            best = best or rings
+            best = best or geom
         elif "SMPInt" in fclass:
-            best = best or rings
+            best = best or geom
         elif best is None:
-            best = rings
+            best = geom
     if best is None:
         for feat in features or []:
-            geom = feat.get("geometry", {})
-            if geom.get("type") != "Point":
-                rings = rings_from_geometry(geom)
-                if rings and any(len(r) >= 3 for r in rings):
-                    best = rings
+            geom_dict = feat.get("geometry", {})
+            if geom_dict.get("type") != "Point":
+                geom = geometry_from_geojson(geom_dict)
+                if geom is not None and not isinstance(geom, Point):
+                    best = geom
                     break
     if best is None:
         # Fall back to the centroid itself as a zero-area geometry.
-        rings = rings_from_geometry(search_geom) if search_geom else []
-        if rings:
-            return rings, "centroid-only"
+        geom = geometry_from_geojson(search_geom) if search_geom else None
+        if geom is not None:
+            return geom, "centroid-only"
         return None, "no-geometry"
     return best, "getgeometry-polygon"
 
@@ -600,45 +486,79 @@ def resolve_event_geometry(client, props):
 def match_events_to_regions(client, regions, radius_km, events=None,
                             verbose=True):
     """Assign each GDACS event to every region whose radius circle overlaps
-    the event geometry. Returns (output dict, per-event summary DataFrame)."""
+    the event geometry. Returns (output dict, per-event summary DataFrame).
+
+    GeoPandas algorithm: every Azure region centroid is buffered into a
+    true WGS84 geodesic circle (pyproj.Geod densification) and all
+    event geometries are joined to the circles with one geopandas.sjoin
+    spatial join (predicate="intersects"), replacing the custom
+    haversine / ray-casting / segment-distance overlap test.
+    """
     if events is None:
         events = client.search_events()
     logger.info("Fetched %d GDACS events", len(events))
 
     region_names = list(regions.keys())
-    region_lons = np.array([regions[r]["longitude"] for r in region_names],
-                           dtype=float)
-    region_lats = np.array([regions[r]["latitude"] for r in region_names],
-                           dtype=float)
+    region_circles = gpd.GeoDataFrame(
+        {"region": region_names},
+        geometry=[geodesic_circle(regions[name]["longitude"],
+                                  regions[name]["latitude"],
+                                  radius_km)
+                  for name in region_names],
+        crs=WGS84)
 
-    output = {name: [] for name in region_names}
+    resolved = []
     rows = []
-
     for idx, props in enumerate(events, 1):
         eventtype = props.get("eventtype")
         eventid = props.get("eventid")
         label = f"{eventtype}/{eventid}"
-        rings, source = resolve_event_geometry(client, props)
-        if not rings or not any(len(r) > 0 for r in rings):
+        geom, source = resolve_event_geometry(client, props)
+        if geom is None or geom.is_empty:
             logger.warning("%s: no usable geometry; skipping", label)
             rows.append({"eventtype": eventtype, "eventid": eventid,
                          "name": props.get("name", ""),
                          "matched_regions": 0, "geometry_source": source,
                          "min_distance_km": None})
             continue
+        resolved.append((idx, props, geom, source))
 
-        matched = []
+    if resolved:
+        event_geoms = gpd.GeoDataFrame(
+            {"event_idx": [r[0] for r in resolved],
+             "eventtype": [r[1].get("eventtype") for r in resolved],
+             "eventid": [r[1].get("eventid") for r in resolved]},
+            geometry=[r[2] for r in resolved],
+            crs=WGS84)
+        joined = gpd.sjoin(event_geoms, region_circles, how="left",
+                            predicate="intersects")
+    else:
+        joined = gpd.GeoDataFrame(columns=["event_idx", "eventtype",
+                                           "eventid", "region", "geometry"],
+                                   crs=WGS84)
+
+    matches_by_idx = {}
+    for row in joined.itertuples():
+        region = getattr(row, "region", None)
+        if region is None or (isinstance(region, float) and math.isnan(region)):
+            continue
+        matches_by_idx.setdefault(row.event_idx, []).append(region)
+
+    output = {name: [] for name in region_names}
+    for idx, props, geom, source in resolved:
+        eventtype = props.get("eventtype")
+        eventid = props.get("eventid")
+        label = f"{eventtype}/{eventid}"
+        matched = [name for name in region_names
+                  if name in matches_by_idx.get(idx, [])]
+
         min_dist = float("inf")
-        bboxes = ring_bboxes(rings)
-        for i, rname in enumerate(region_names):
-            rlon = region_lons[i]
-            rlat = region_lats[i]
-            overlaps, dist = circle_polygon_overlap(
-                rings, rlon, rlat, radius_km, bboxes=bboxes)
-            if overlaps:
-                matched.append(rname)
-                if dist < min_dist:
-                    min_dist = dist
+        for rname in matched:
+            dist = geodesic_distance_to_geometry_km(
+                regions[rname]["longitude"], regions[rname]["latitude"],
+                geom)
+            if dist < min_dist:
+                min_dist = dist
 
         event_summary = {
             "eventtype": eventtype,

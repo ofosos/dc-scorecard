@@ -76,12 +76,22 @@ https://www.gdacs.org/gdacsapi/api/events/geteventlist/SEARCH
 
 Script: `gdacs_az_regions.py`
 
+The geodata processing uses GeoPandas: event geometries are parsed with
+Shapely, each Azure region is buffered into a true WGS84 geodesic circle
+(geodesic densification via `pyproj.Geod`, boundary within 100 m of the
+exact circle) and events are assigned with a single `geopandas.sjoin`
+spatial join (`predicate="intersects"`).
 
 ## GED data
 
 Armed conflict.
 
 Script: `ged-analysis.py`
+
+The point/circle intersection and the per-region matching use GeoPandas
+spatial joins against WGS84 geodesic circles (geodesic densification via
+`pyproj.Geod`); distances are WGS84 geodesic distances (`pyproj.Geod.inv`),
+replacing the haversine approximation.
 
 ## Azure VM availability and prices
 
