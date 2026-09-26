@@ -435,7 +435,7 @@ def _():
 
 @app.cell
 def _(engine):
-    from sqlmodel import Field, SQLModel, Session, insert
+    from sqlmodel import Field, Session, SQLModel, insert
 
     class ScoreEntry(SQLModel, table=True):
         __table_args__ = {"extend_existing": True}

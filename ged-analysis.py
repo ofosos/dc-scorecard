@@ -53,7 +53,7 @@ def geodesic_circle(lon, lat, radius_km,
     radius_m = radius_km * 1000.0
     tol = min(float(tolerance_m), radius_m)
     half_angle = 2 * math.asin(math.sqrt(tol / (2 * radius_m)))
-    n = max(int(math.ceil(math.pi / half_angle)), 8)
+    n = max(math.ceil(math.pi / half_angle), 8)
     azimuths = [360.0 * i / n for i in range(n)]
     lons, lats, _ = GEOD.fwd([float(lon)] * n, [float(lat)] * n,
                              azimuths, [radius_m] * n)

@@ -179,7 +179,7 @@ class GDACSClient:
             return value.astimezone(timezone.utc).replace(tzinfo=None)
         for fmt in ("%Y-%m-%dT%H:%M:%S", "%Y-%m-%d"):
             try:
-                return datetime.strptime(str(value)[:len(fmt) + 2], fmt)
+                return datetime.strptime(str(value)[:len(fmt) + 2], fmt)  # noqa: DTZ007
             except ValueError:
                 continue
         raise ValueError(f"Unparseable date: {value!r}")
@@ -349,10 +349,8 @@ def is_bare_point(feature_geometry, props):
     if isinstance(props, dict) and str(props.get("Class", "")).strip().lower() \
             == "point_centroid":
         return True
-    if isinstance(feature_geometry, dict) \
-            and feature_geometry.get("type") == "Point":
-        return True
-    return False
+    return bool(isinstance(feature_geometry, dict)
+                and feature_geometry.get("type") == "Point")
 
 
 def geodesic_circle(center_lon, center_lat, radius_km,
@@ -370,7 +368,7 @@ def geodesic_circle(center_lon, center_lat, radius_km,
     radius_m = radius_km * 1000.0
     tol = min(float(tolerance_m), radius_m)
     half_angle = 2 * math.asin(math.sqrt(tol / (2 * radius_m)))
-    n = max(int(math.ceil(math.pi / half_angle)), 8)
+    n = max(math.ceil(math.pi / half_angle), 8)
     azimuths = [360.0 * i / n for i in range(n)]
     lons, lats, _ = GEOD.fwd([float(center_lon)] * n,
                              [float(center_lat)] * n,
@@ -456,9 +454,7 @@ def resolve_event_geometry(client, props):
         if fclass in ("Poly_area", "Poly_Affected"):
             best = geom
             break
-        if fclass.startswith("Poly_Circle"):
-            best = best or geom
-        elif "SMPInt" in fclass:
+        if fclass.startswith("Poly_Circle") or "SMPInt" in fclass:
             best = best or geom
         elif best is None:
             best = geom
@@ -557,8 +553,7 @@ def match_events_to_regions(client, regions, radius_km, events=None,
             dist = geodesic_distance_to_geometry_km(
                 regions[rname]["longitude"], regions[rname]["latitude"],
                 geom)
-            if dist < min_dist:
-                min_dist = dist
+            min_dist = min(min_dist, dist)
 
         event_summary = {
             "eventtype": eventtype,

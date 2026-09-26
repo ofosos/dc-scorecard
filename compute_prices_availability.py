@@ -141,9 +141,9 @@ def fetch_availability(regions, instances, subscription_id):
     Uses azure-identity + azure-mgmt-compute (the Python API behind
     `az vm list-skus --location <region>`).
     """
+    from azure.core.exceptions import ClientAuthenticationError
     from azure.identity import DefaultAzureCredential
     from azure.mgmt.compute import ComputeManagementClient
-    from azure.core.exceptions import ClientAuthenticationError
 
     try:
         credential = DefaultAzureCredential()
@@ -177,7 +177,7 @@ def fetch_availability(regions, instances, subscription_id):
                 )
             log.info("availability: %s done (%d/%d instances found)",
                      region, len(found), len(instances))
-        except Exception as exc:
+        except Exception as exc:  # noqa: BLE001
             log.warning("availability: %s failed: %s", region, exc)
             for instance in instances:
                 records.append(

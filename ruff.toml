@@ -1,0 +1,4 @@
+[lint.per-file-ignores]
+# Marimo notebook cells display their last expression and expose outputs via
+# trailing return statements.
+"*_notebook.py" = ["B018", "PLR1711"]
