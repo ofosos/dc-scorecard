@@ -153,6 +153,17 @@ Script: `pricing_summary.py`
 
 Output: `pricing-summary.md`
 
+## Makefile
+
+`make` regenerates all generated CSV/JSON outputs in dependency
+order: annotating the Azure regions first, then the per-topic data
+files that read it, and finally `pricing-summary.md` from the four
+pricing matrices. Each data file has its own make target, so `make
+files_pricing.csv` or `make pricing-summary.md` rebuilds just that
+file plus its dependencies. `make clean` removes the generated data
+files (the 274 MB GED event extract is unzipped to
+`GEDEvent_v26_1.csv`, which is git-ignored).
+
 ## Requirements
 
  - Azure CLI
