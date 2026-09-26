@@ -56,7 +56,7 @@ def _(DATA_DIR, json, pd):
         json.loads((DATA_DIR / "az_regions_annotated.json").read_text()), sep="_"
     )
     az_regions_annotated
-    return
+    return (az_regions_annotated,)
 
 
 @app.cell
@@ -103,7 +103,8 @@ def _(mo):
     ## block_storage_pricing
 
     Managed disk (block storage) price per GB by region, performance tier,
-    and redundancy option.
+    and redu
+ndancy option.
     """)
     return
 
@@ -176,13 +177,30 @@ def _(
 @app.cell
 def _(mo):
     mo.md(r"""
+    ## Silos
+
+    Data silo definitions: each silo maps to a list of Azure regions.
+    """)
+    return
+
+
+@app.cell
+def _(DATA_DIR, json):
+    silos = json.loads((DATA_DIR / "silos.json").read_text())
+    return (silos,)
+
+
+@app.cell
+def _(mo):
+    mo.md(r"""
     ## Price basket
 
     A configurable basket of resources whose prices are looked up per
     region in the pricing datasets loaded above. Adjust the amount of each
     item below; the basket and totals recalculate automatically.
 
-    Note on units: VM prices are per hour, storage prices are per GB, so
+    Note on units: 
+VM prices are per hour, storage prices are per GB, so
     each line item's sum is `amount x price` in the item's own unit and
     the per-region total adds those sums up.
     """)
@@ -194,13 +212,13 @@ def _(mo):
     item_amounts = {
         "vm_e2s_v4": 730,
         "vm_d4s_v5": 730,
-        "blob_hot": 100,
-        "blob_cold": 200,
-        "block_std_ssd": 200,
+        "blob_hot": 1000,
+        "blob_cold": 5000,
+        "block_std_ssd": 500,
         "block_premium_ssd": 100,
-        "files_cool": 200,
-        "files_standard": 100,
-        "files_hot": 50,
+        "files_cool": 1000,
+        "files_standard": 1000,
+        "files_hot": 200,
     }
     amounts = mo.ui.dictionary(
         {
@@ -255,7 +273,8 @@ def _():
             "performance": "Standard SSD",
             "redundancy": "LRS",
         },
-        {
+    
+    {
             "id": "block_premium_ssd",
             "item": "Block storage: Premium SSD / LRS",
             "unit": "GB",
@@ -326,7 +345,8 @@ def _(
             ]
             price = pd.to_numeric(rows["linux_price_hourly"], errors="coerce")
         elif spec["kind"] == "block":
-            rows = block_storage_pricing[
+            
+rows = block_storage_pricing[
                 (block_storage_pricing["Region"] == region)
                 & (block_storage_pricing["Performance"] == spec["performance"])
                 & (block_storage_pricing["Redundancy"] == spec["redundancy"])
@@ -377,7 +397,7 @@ def _(mo):
 
 
 @app.cell
-def _(basket):
+def _(basket, pd):
     basket_totals = (
         basket.groupby("region", as_index=False)["sum"]
         .sum()
@@ -386,6 +406,95 @@ def _(basket):
         .reset_index(drop=True)
     )
     basket_totals
+    return (basket_totals,)
+
+
+@app.cell
+def _(mo):
+    mo.md(r"""
+    ## Basket scores per silo
+
+    Sam
+e computation as the `global_rights` cell in `data_notebook.py`:
+    for every silo, rank the member regions on their basket total
+    (cheapest = rank 1) and compute count, average, and median; every
+    tuple is inserted into `scores.db` with the adjustable KPI name
+    below (default `basket_balanced`).
+    """)
+    return
+
+
+@app.cell
+def _(mo):
+    kpi_input = mo.ui.text(value="basket_balanced", label="KPI")
+    kpi_input
+    return (kpi_input,)
+
+
+@app.cell
+def _():
+    import sqlmodel
+
+    DATABASE_URL = "sqlite:///scores.db"
+    engine = sqlmodel.create_engine(DATABASE_URL)
+    return (engine,)
+
+
+@app.cell
+def _(engine):
+    from sqlmodel import Field, SQLModel, Session, insert
+
+    class ScoreEntry(SQLModel, table=True):
+        __table_args__ = {"extend_existing": True}
+        id: int | None = Field(default=None, primary_key=True)
+        silo: str
+        region: str
+        kpi: str
+        value: float
+        index: float
+        tot_values: int
+        average: float
+        median: float
+
+    SQLModel.metadata.create_all(engine)
+    return ScoreEntry, Session, insert
+
+
+@app.cell
+def _(Session, basket_totals, engine, insert, kpi_input, silos):
+    basket_data = []
+
+    for silo, regions in silos.items():
+        silo_spec = basket_totals[
+            basket_totals["region"].isin(regions)
+        ].copy()
+        silo_spec["rank"] = silo_spec["basket_total"].rank(ascending=True)
+
+        for _index, row in silo_spec.iterrows():
+            basket_data.append(
+                {
+                    "silo": silo,
+                    "region": row["region"],
+                    "kpi": kpi_input.value,
+                    "value": row["basket_total"],
+                    "index": row["rank"],
+                    "tot_values": silo_spec["region"].count(),
+                    "average": silo_spec["basket_total"].mean(),
+                    "median": silo_spec["basket_total"].median(),
+                }
+            )
+        print(
+            f"{kpi_input.valu
+e}, {silo}, count={silo_spec['region'].count()}, "
+            f"median={silo_spec['basket_total'].median()}, "
+            f"max={silo_spec['basket_total'].max()}, "
+            f"min={silo_spec['basket_total'].min()}, "
+            f"avg={silo_spec['basket_total'].mean()}"
+        )
+
+    with Session(engine) as session:
+        session.exec(insert(ScoreEntry), params=basket_data)
+        session.commit()
     return
 
 
