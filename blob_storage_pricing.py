@@ -16,8 +16,8 @@ Dimension mapping (Azure does not sell every combination):
                     "Cold" SKU)
     Archive Tier -> "Archive" SKUs
 - Performance:
-    Standard SSD -> General Block Blob v2 (standard performance,
-                    priced per access tier)
+    Standard     -> General Block Blob v2 (standard HDD-backed
+                    performance, priced per access tier)
     Premium SSD  -> Premium Block Blob (SSD-backed premium storage)
 - Redundancy:
     LRS / GRS / ZRS / GZRS / RA-GRS / RA-GZRS
@@ -63,7 +63,7 @@ REDUNDANCY_COLUMN = "Redundancy"
 PRICE_COLUMN = "PricePerGB"
 
 ACCESS_TIERS = ("Hot Tier", "Cold Tier", "Archive Tier")
-PERFORMANCE_TIERS = ("Premium SSD", "Standard SSD")
+PERFORMANCE_TIERS = ("Premium SSD", "Standard")
 REDUNDANCIES = ("LRS", "GRS", "ZRS", "GZRS", "RA-GRS", "RA-GZRS")
 
 # Access tier -> the SKU tier names it maps to.

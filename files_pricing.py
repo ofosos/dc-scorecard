@@ -16,6 +16,11 @@ Dimension mapping (Azure does not sell every combination):
                     ("Data Stored" meter)
     Premium SSD  -> "Premium Files" provisioned file shares, priced
                     per GiB provisioned ("Provisioned" meter)
+- Access frequency:
+    Hot Tier               -> "Hot" SKUs
+    Cool Tier              -> "Cool" SKUs
+    Transaction Optimized  -> "Standard" SKUs (the Azure Files access
+                              tier formerly known as "Standard")
 - Redundancy:
     LRS / GRS / ZRS / GZRS
 
@@ -56,7 +61,7 @@ PERFORMANCE_COLUMN = "Performance"
 REDUNDANCY_COLUMN = "Redundancy"
 PRICE_COLUMN = "PricePerGB"
 
-ACCESS_TIERS = ("Hot Tier", "Cool Tier", "Standard Tier")
+ACCESS_TIERS = ("Hot Tier", "Cool Tier", "Transaction Optimized")
 PERFORMANCE_TIERS = ("Standard HDD", "Premium SSD")
 REDUNDANCIES = ("LRS", "GRS", "ZRS", "GZRS")
 
@@ -65,11 +70,12 @@ REDUNDANCIES = ("LRS", "GRS", "ZRS", "GZRS")
 STANDARD_PRODUCTS = ("Files v2", "Files")
 PREMIUM_PRODUCTS = ("Premium Files",)
 
-# Access tier -> the SKU tier names it maps to.
+# Access tier -> the SKU tier names it maps to. The Retail Prices
+# API names the Transaction Optimized SKU tier "Standard".
 TIER_SKUS = {
     "Hot Tier": ("Hot",),
     "Cool Tier": ("Cool",),
-    "Standard Tier": ("Standard",),
+    "Transaction Optimized": ("Standard",),
 }
 
 MAX_RETRIES = 5

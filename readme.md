@@ -129,7 +129,8 @@ Output: `block_storage_pricing.csv`
 
 Per GB Azure Files (file share) prices from the Azure Retail Prices
 API, for the full (access frequency, performance, redundancy) matrix
-per region: Hot, Cool and Standard tiers, Standard HDD and Premium SSD
+per region: Hot, Cool and Transaction Optimized tiers (the SKU tier
+the Retail Prices API names "Standard"), Standard HDD and Premium SSD
 performance, each with LRS, GRS, ZRS and GZRS. Standard HDD prices
 from the "Files v2" share "Data Stored" meters (classic "Files"
 product as fallback for LRS/GRS), Premium SSD from the "Premium Files"
@@ -151,6 +152,17 @@ written as one markdown table per offering.
 Script: `pricing_summary.py`
 
 Output: `pricing-summary.md`
+
+## Makefile
+
+`make` regenerates all generated CSV/JSON outputs in dependency
+order: annotating the Azure regions first, then the per-topic data
+files that read it, and finally `pricing-summary.md` from the four
+pricing matrices. Each data file has its own make target, so `make
+files_pricing.csv` or `make pricing-summary.md` rebuilds just that
+file plus its dependencies. `make clean` removes the generated data
+files (the 274 MB GED event extract is unzipped to
+`GEDEvent_v26_1.csv`, which is git-ignored).
 
 ## Requirements
 
