@@ -103,7 +103,8 @@ def _(mo):
     ## block_storage_pricing
 
     Managed disk (block storage) price per GB by region, performance tier,
-    and redundancy option.
+    and redu
+ndancy option.
     """)
     return
 
@@ -198,7 +199,8 @@ def _(mo):
     region in the pricing datasets loaded above. Adjust the amount of each
     item below; the basket and totals recalculate automatically.
 
-    Note on units: VM prices are per hour, storage prices are per GB, so
+    Note on units: 
+VM prices are per hour, storage prices are per GB, so
     each line item's sum is `amount x price` in the item's own unit and
     the per-region total adds those sums up.
     """)
@@ -271,7 +273,8 @@ def _():
             "performance": "Standard SSD",
             "redundancy": "LRS",
         },
-        {
+    
+    {
             "id": "block_premium_ssd",
             "item": "Block storage: Premium SSD / LRS",
             "unit": "GB",
@@ -342,7 +345,8 @@ def _(
             ]
             price = pd.to_numeric(rows["linux_price_hourly"], errors="coerce")
         elif spec["kind"] == "block":
-            rows = block_storage_pricing[
+            
+rows = block_storage_pricing[
                 (block_storage_pricing["Region"] == region)
                 & (block_storage_pricing["Performance"] == spec["performance"])
                 & (block_storage_pricing["Redundancy"] == spec["redundancy"])
@@ -410,7 +414,8 @@ def _(mo):
     mo.md(r"""
     ## Basket scores per silo
 
-    Same computation as the `global_rights` cell in `data_notebook.py`:
+    Sam
+e computation as the `global_rights` cell in `data_notebook.py`:
     for every silo, rank the member regions on their basket total
     (cheapest = rank 1) and compute count, average, and median; every
     tuple is inserted into `scores.db` with the adjustable KPI name
@@ -456,7 +461,7 @@ def _(engine):
 
 
 @app.cell
-def _(Session, basket_totals, engine, insert, kpi_input, silos):
+def _(ScoreEntry, Session, basket_totals, engine, insert, kpi_input, silos):
     basket_data = []
 
     for silo, regions in silos.items():
@@ -479,7 +484,8 @@ def _(Session, basket_totals, engine, insert, kpi_input, silos):
                 }
             )
         print(
-            f"{kpi_input.value}, {silo}, count={silo_spec['region'].count()}, "
+            f"{kpi_input.valu
+e}, {silo}, count={silo_spec['region'].count()}, "
             f"median={silo_spec['basket_total'].median()}, "
             f"max={silo_spec['basket_total'].max()}, "
             f"min={silo_spec['basket_total'].min()}, "
