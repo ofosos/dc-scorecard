@@ -30,7 +30,7 @@ import json
 import sys
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from datetime import date, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import numpy as np
@@ -49,7 +49,7 @@ TIMEOUT = 60  # seconds
 
 def date_range(years: int = 2) -> tuple[str, str]:
     """Return (start_date, end_date) ISO strings covering the last `years` years."""
-    end = date.today() - timedelta(days=5)  # archive lags a few days behind
+    end = datetime.now(tz=timezone.utc).date() - timedelta(days=5)  # archive lags a few days behind
     start = end - timedelta(days=365 * years)
     return start.isoformat(), end.isoformat()
 
@@ -141,10 +141,8 @@ def fetch_all(regions: list[dict], start_date: str, end_date: str, workers: int)
             pool.submit(fetch_region_daily_max, session, region, start_date, end_date): region
             for region in regions
         }
-        done = 0
-        for future in as_completed(futures):
+        for done, future in enumerate(as_completed(futures), start=1):
             region = futures[future]
-            done += 1
             try:
                 results.update(future.result())
                 n = len(next(iter(future.result().values())))
@@ -164,7 +162,7 @@ def run_test() -> int:
         {"name": "westus3", "displayName": "West US 3",
          "latitude": 33.45, "longitude": -112.07},
     ]
-    end = date.today() - timedelta(days=7)
+    end = datetime.now(tz=timezone.utc).date() - timedelta(days=7)
     start = end - timedelta(days=7)
     print(f"Live API test: {start} .. {end}")
     results = fetch_all(regions, start.isoformat(), end.isoformat(), workers=3)

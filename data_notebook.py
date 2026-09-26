@@ -16,7 +16,6 @@ def _():
     import json
     from pathlib import Path
 
-    import numpy as np
     import pandas as pd
 
     return Path, json, pd
@@ -380,7 +379,7 @@ def _():
 
 @app.cell
 def _(engine):
-    from sqlmodel import Field, SQLModel, select, Session, insert
+    from sqlmodel import Field, Session, SQLModel, insert, select
 
 
     class SiloRegionMapping(SQLModel, table=True):
@@ -503,7 +502,7 @@ def _(
 ):
     ged_data = []
 
-    for silog, regionsg in silos.items():
+    for silog in silos:
         silo_spec_ged = ged_azure_agg[ged_azure_agg["az_region"].isin(regionsc)]
 
         silo_spec_ged["rank"] = silo_spec_ged["total_events"].rank(ascending=True)
