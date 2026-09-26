@@ -5,2049 +5,2049 @@ australiacentral,Hot Tier,Premium SSD,ZRS,na
 australiacentral,Hot Tier,Premium SSD,GZRS,na
 australiacentral,Hot Tier,Premium SSD,RA-GRS,na
 australiacentral,Hot Tier,Premium SSD,RA-GZRS,na
-australiacentral,Hot Tier,Standard SSD,LRS,0.02
-australiacentral,Hot Tier,Standard SSD,GRS,0.04
-australiacentral,Hot Tier,Standard SSD,ZRS,na
-australiacentral,Hot Tier,Standard SSD,GZRS,na
-australiacentral,Hot Tier,Standard SSD,RA-GRS,0.05
-australiacentral,Hot Tier,Standard SSD,RA-GZRS,na
+australiacentral,Hot Tier,Standard,LRS,0.02
+australiacentral,Hot Tier,Standard,GRS,0.04
+australiacentral,Hot Tier,Standard,ZRS,na
+australiacentral,Hot Tier,Standard,GZRS,na
+australiacentral,Hot Tier,Standard,RA-GRS,0.05
+australiacentral,Hot Tier,Standard,RA-GZRS,na
 australiacentral,Cold Tier,Premium SSD,LRS,na
 australiacentral,Cold Tier,Premium SSD,GRS,na
 australiacentral,Cold Tier,Premium SSD,ZRS,na
 australiacentral,Cold Tier,Premium SSD,GZRS,na
 australiacentral,Cold Tier,Premium SSD,RA-GRS,na
 australiacentral,Cold Tier,Premium SSD,RA-GZRS,na
-australiacentral,Cold Tier,Standard SSD,LRS,0.015
-australiacentral,Cold Tier,Standard SSD,GRS,0.03
-australiacentral,Cold Tier,Standard SSD,ZRS,na
-australiacentral,Cold Tier,Standard SSD,GZRS,na
-australiacentral,Cold Tier,Standard SSD,RA-GRS,0.0375
-australiacentral,Cold Tier,Standard SSD,RA-GZRS,na
+australiacentral,Cold Tier,Standard,LRS,0.015
+australiacentral,Cold Tier,Standard,GRS,0.03
+australiacentral,Cold Tier,Standard,ZRS,na
+australiacentral,Cold Tier,Standard,GZRS,na
+australiacentral,Cold Tier,Standard,RA-GRS,0.0375
+australiacentral,Cold Tier,Standard,RA-GZRS,na
 australiacentral,Archive Tier,Premium SSD,LRS,na
 australiacentral,Archive Tier,Premium SSD,GRS,na
 australiacentral,Archive Tier,Premium SSD,ZRS,na
 australiacentral,Archive Tier,Premium SSD,GZRS,na
 australiacentral,Archive Tier,Premium SSD,RA-GRS,na
 australiacentral,Archive Tier,Premium SSD,RA-GZRS,na
-australiacentral,Archive Tier,Standard SSD,LRS,0.00326
-australiacentral,Archive Tier,Standard SSD,GRS,0.00826
-australiacentral,Archive Tier,Standard SSD,ZRS,na
-australiacentral,Archive Tier,Standard SSD,GZRS,na
-australiacentral,Archive Tier,Standard SSD,RA-GRS,0.00826
-australiacentral,Archive Tier,Standard SSD,RA-GZRS,na
+australiacentral,Archive Tier,Standard,LRS,0.00326
+australiacentral,Archive Tier,Standard,GRS,0.00826
+australiacentral,Archive Tier,Standard,ZRS,na
+australiacentral,Archive Tier,Standard,GZRS,na
+australiacentral,Archive Tier,Standard,RA-GRS,0.00826
+australiacentral,Archive Tier,Standard,RA-GZRS,na
 australiacentral2,Hot Tier,Premium SSD,LRS,0.2175
 australiacentral2,Hot Tier,Premium SSD,GRS,na
 australiacentral2,Hot Tier,Premium SSD,ZRS,na
 australiacentral2,Hot Tier,Premium SSD,GZRS,na
 australiacentral2,Hot Tier,Premium SSD,RA-GRS,na
 australiacentral2,Hot Tier,Premium SSD,RA-GZRS,na
-australiacentral2,Hot Tier,Standard SSD,LRS,0.02
-australiacentral2,Hot Tier,Standard SSD,GRS,0.04
-australiacentral2,Hot Tier,Standard SSD,ZRS,na
-australiacentral2,Hot Tier,Standard SSD,GZRS,na
-australiacentral2,Hot Tier,Standard SSD,RA-GRS,0.05
-australiacentral2,Hot Tier,Standard SSD,RA-GZRS,na
+australiacentral2,Hot Tier,Standard,LRS,0.02
+australiacentral2,Hot Tier,Standard,GRS,0.04
+australiacentral2,Hot Tier,Standard,ZRS,na
+australiacentral2,Hot Tier,Standard,GZRS,na
+australiacentral2,Hot Tier,Standard,RA-GRS,0.05
+australiacentral2,Hot Tier,Standard,RA-GZRS,na
 australiacentral2,Cold Tier,Premium SSD,LRS,na
 australiacentral2,Cold Tier,Premium SSD,GRS,na
 australiacentral2,Cold Tier,Premium SSD,ZRS,na
 australiacentral2,Cold Tier,Premium SSD,GZRS,na
 australiacentral2,Cold Tier,Premium SSD,RA-GRS,na
 australiacentral2,Cold Tier,Premium SSD,RA-GZRS,na
-australiacentral2,Cold Tier,Standard SSD,LRS,0.015
-australiacentral2,Cold Tier,Standard SSD,GRS,0.03
-australiacentral2,Cold Tier,Standard SSD,ZRS,na
-australiacentral2,Cold Tier,Standard SSD,GZRS,na
-australiacentral2,Cold Tier,Standard SSD,RA-GRS,0.0375
-australiacentral2,Cold Tier,Standard SSD,RA-GZRS,na
+australiacentral2,Cold Tier,Standard,LRS,0.015
+australiacentral2,Cold Tier,Standard,GRS,0.03
+australiacentral2,Cold Tier,Standard,ZRS,na
+australiacentral2,Cold Tier,Standard,GZRS,na
+australiacentral2,Cold Tier,Standard,RA-GRS,0.0375
+australiacentral2,Cold Tier,Standard,RA-GZRS,na
 australiacentral2,Archive Tier,Premium SSD,LRS,na
 australiacentral2,Archive Tier,Premium SSD,GRS,na
 australiacentral2,Archive Tier,Premium SSD,ZRS,na
 australiacentral2,Archive Tier,Premium SSD,GZRS,na
 australiacentral2,Archive Tier,Premium SSD,RA-GRS,na
 australiacentral2,Archive Tier,Premium SSD,RA-GZRS,na
-australiacentral2,Archive Tier,Standard SSD,LRS,0.005
-australiacentral2,Archive Tier,Standard SSD,GRS,0.00826
-australiacentral2,Archive Tier,Standard SSD,ZRS,na
-australiacentral2,Archive Tier,Standard SSD,GZRS,na
-australiacentral2,Archive Tier,Standard SSD,RA-GRS,0.00826
-australiacentral2,Archive Tier,Standard SSD,RA-GZRS,na
+australiacentral2,Archive Tier,Standard,LRS,0.005
+australiacentral2,Archive Tier,Standard,GRS,0.00826
+australiacentral2,Archive Tier,Standard,ZRS,na
+australiacentral2,Archive Tier,Standard,GZRS,na
+australiacentral2,Archive Tier,Standard,RA-GRS,0.00826
+australiacentral2,Archive Tier,Standard,RA-GZRS,na
 australiaeast,Hot Tier,Premium SSD,LRS,0.218
 australiaeast,Hot Tier,Premium SSD,GRS,na
 australiaeast,Hot Tier,Premium SSD,ZRS,0.289
 australiaeast,Hot Tier,Premium SSD,GZRS,na
 australiaeast,Hot Tier,Premium SSD,RA-GRS,na
 australiaeast,Hot Tier,Premium SSD,RA-GZRS,na
-australiaeast,Hot Tier,Standard SSD,LRS,0.02
-australiaeast,Hot Tier,Standard SSD,GRS,0.04
-australiaeast,Hot Tier,Standard SSD,ZRS,0.025
-australiaeast,Hot Tier,Standard SSD,GZRS,0.045
-australiaeast,Hot Tier,Standard SSD,RA-GRS,0.05
-australiaeast,Hot Tier,Standard SSD,RA-GZRS,0.0563
+australiaeast,Hot Tier,Standard,LRS,0.02
+australiaeast,Hot Tier,Standard,GRS,0.04
+australiaeast,Hot Tier,Standard,ZRS,0.025
+australiaeast,Hot Tier,Standard,GZRS,0.045
+australiaeast,Hot Tier,Standard,RA-GRS,0.05
+australiaeast,Hot Tier,Standard,RA-GZRS,0.0563
 australiaeast,Cold Tier,Premium SSD,LRS,na
 australiaeast,Cold Tier,Premium SSD,GRS,na
 australiaeast,Cold Tier,Premium SSD,ZRS,na
 australiaeast,Cold Tier,Premium SSD,GZRS,na
 australiaeast,Cold Tier,Premium SSD,RA-GRS,na
 australiaeast,Cold Tier,Premium SSD,RA-GZRS,na
-australiaeast,Cold Tier,Standard SSD,LRS,0.011
-australiaeast,Cold Tier,Standard SSD,GRS,0.026
-australiaeast,Cold Tier,Standard SSD,ZRS,0.0138
-australiaeast,Cold Tier,Standard SSD,GZRS,0.0288
-australiaeast,Cold Tier,Standard SSD,RA-GRS,0.0325
-australiaeast,Cold Tier,Standard SSD,RA-GZRS,0.0359
+australiaeast,Cold Tier,Standard,LRS,0.011
+australiaeast,Cold Tier,Standard,GRS,0.026
+australiaeast,Cold Tier,Standard,ZRS,0.0138
+australiaeast,Cold Tier,Standard,GZRS,0.0288
+australiaeast,Cold Tier,Standard,RA-GRS,0.0325
+australiaeast,Cold Tier,Standard,RA-GZRS,0.0359
 australiaeast,Archive Tier,Premium SSD,LRS,na
 australiaeast,Archive Tier,Premium SSD,GRS,na
 australiaeast,Archive Tier,Premium SSD,ZRS,na
 australiaeast,Archive Tier,Premium SSD,GZRS,na
 australiaeast,Archive Tier,Premium SSD,RA-GRS,na
 australiaeast,Archive Tier,Premium SSD,RA-GZRS,na
-australiaeast,Archive Tier,Standard SSD,LRS,0.002
-australiaeast,Archive Tier,Standard SSD,GRS,0.0049
-australiaeast,Archive Tier,Standard SSD,ZRS,na
-australiaeast,Archive Tier,Standard SSD,GZRS,na
-australiaeast,Archive Tier,Standard SSD,RA-GRS,0.0049
-australiaeast,Archive Tier,Standard SSD,RA-GZRS,na
+australiaeast,Archive Tier,Standard,LRS,0.002
+australiaeast,Archive Tier,Standard,GRS,0.0049
+australiaeast,Archive Tier,Standard,ZRS,na
+australiaeast,Archive Tier,Standard,GZRS,na
+australiaeast,Archive Tier,Standard,RA-GRS,0.0049
+australiaeast,Archive Tier,Standard,RA-GZRS,na
 australiasoutheast,Hot Tier,Premium SSD,LRS,0.218
 australiasoutheast,Hot Tier,Premium SSD,GRS,na
 australiasoutheast,Hot Tier,Premium SSD,ZRS,na
 australiasoutheast,Hot Tier,Premium SSD,GZRS,na
 australiasoutheast,Hot Tier,Premium SSD,RA-GRS,na
 australiasoutheast,Hot Tier,Premium SSD,RA-GZRS,na
-australiasoutheast,Hot Tier,Standard SSD,LRS,0.02
-australiasoutheast,Hot Tier,Standard SSD,GRS,0.04
-australiasoutheast,Hot Tier,Standard SSD,ZRS,na
-australiasoutheast,Hot Tier,Standard SSD,GZRS,na
-australiasoutheast,Hot Tier,Standard SSD,RA-GRS,0.05
-australiasoutheast,Hot Tier,Standard SSD,RA-GZRS,na
+australiasoutheast,Hot Tier,Standard,LRS,0.02
+australiasoutheast,Hot Tier,Standard,GRS,0.04
+australiasoutheast,Hot Tier,Standard,ZRS,na
+australiasoutheast,Hot Tier,Standard,GZRS,na
+australiasoutheast,Hot Tier,Standard,RA-GRS,0.05
+australiasoutheast,Hot Tier,Standard,RA-GZRS,na
 australiasoutheast,Cold Tier,Premium SSD,LRS,na
 australiasoutheast,Cold Tier,Premium SSD,GRS,na
 australiasoutheast,Cold Tier,Premium SSD,ZRS,na
 australiasoutheast,Cold Tier,Premium SSD,GZRS,na
 australiasoutheast,Cold Tier,Premium SSD,RA-GRS,na
 australiasoutheast,Cold Tier,Premium SSD,RA-GZRS,na
-australiasoutheast,Cold Tier,Standard SSD,LRS,0.015
-australiasoutheast,Cold Tier,Standard SSD,GRS,0.03
-australiasoutheast,Cold Tier,Standard SSD,ZRS,na
-australiasoutheast,Cold Tier,Standard SSD,GZRS,na
-australiasoutheast,Cold Tier,Standard SSD,RA-GRS,0.0375
-australiasoutheast,Cold Tier,Standard SSD,RA-GZRS,na
+australiasoutheast,Cold Tier,Standard,LRS,0.015
+australiasoutheast,Cold Tier,Standard,GRS,0.03
+australiasoutheast,Cold Tier,Standard,ZRS,na
+australiasoutheast,Cold Tier,Standard,GZRS,na
+australiasoutheast,Cold Tier,Standard,RA-GRS,0.0375
+australiasoutheast,Cold Tier,Standard,RA-GZRS,na
 australiasoutheast,Archive Tier,Premium SSD,LRS,na
 australiasoutheast,Archive Tier,Premium SSD,GRS,na
 australiasoutheast,Archive Tier,Premium SSD,ZRS,na
 australiasoutheast,Archive Tier,Premium SSD,GZRS,na
 australiasoutheast,Archive Tier,Premium SSD,RA-GRS,na
 australiasoutheast,Archive Tier,Premium SSD,RA-GZRS,na
-australiasoutheast,Archive Tier,Standard SSD,LRS,0.0029
-australiasoutheast,Archive Tier,Standard SSD,GRS,0.0049
-australiasoutheast,Archive Tier,Standard SSD,ZRS,na
-australiasoutheast,Archive Tier,Standard SSD,GZRS,na
-australiasoutheast,Archive Tier,Standard SSD,RA-GRS,0.0049
-australiasoutheast,Archive Tier,Standard SSD,RA-GZRS,na
+australiasoutheast,Archive Tier,Standard,LRS,0.0029
+australiasoutheast,Archive Tier,Standard,GRS,0.0049
+australiasoutheast,Archive Tier,Standard,ZRS,na
+australiasoutheast,Archive Tier,Standard,GZRS,na
+australiasoutheast,Archive Tier,Standard,RA-GRS,0.0049
+australiasoutheast,Archive Tier,Standard,RA-GZRS,na
 austriaeast,Hot Tier,Premium SSD,LRS,0.195
 austriaeast,Hot Tier,Premium SSD,GRS,na
 austriaeast,Hot Tier,Premium SSD,ZRS,0.259
 austriaeast,Hot Tier,Premium SSD,GZRS,na
 austriaeast,Hot Tier,Premium SSD,RA-GRS,na
 austriaeast,Hot Tier,Premium SSD,RA-GZRS,na
-austriaeast,Hot Tier,Standard SSD,LRS,0.0196
-austriaeast,Hot Tier,Standard SSD,GRS,na
-austriaeast,Hot Tier,Standard SSD,ZRS,0.024
-austriaeast,Hot Tier,Standard SSD,GZRS,na
-austriaeast,Hot Tier,Standard SSD,RA-GRS,na
-austriaeast,Hot Tier,Standard SSD,RA-GZRS,na
+austriaeast,Hot Tier,Standard,LRS,0.0196
+austriaeast,Hot Tier,Standard,GRS,na
+austriaeast,Hot Tier,Standard,ZRS,0.024
+austriaeast,Hot Tier,Standard,GZRS,na
+austriaeast,Hot Tier,Standard,RA-GRS,na
+austriaeast,Hot Tier,Standard,RA-GZRS,na
 austriaeast,Cold Tier,Premium SSD,LRS,na
 austriaeast,Cold Tier,Premium SSD,GRS,na
 austriaeast,Cold Tier,Premium SSD,ZRS,na
 austriaeast,Cold Tier,Premium SSD,GZRS,na
 austriaeast,Cold Tier,Premium SSD,RA-GRS,na
 austriaeast,Cold Tier,Premium SSD,RA-GZRS,na
-austriaeast,Cold Tier,Standard SSD,LRS,0.01
-austriaeast,Cold Tier,Standard SSD,GRS,na
-austriaeast,Cold Tier,Standard SSD,ZRS,0.0131
-austriaeast,Cold Tier,Standard SSD,GZRS,na
-austriaeast,Cold Tier,Standard SSD,RA-GRS,na
-austriaeast,Cold Tier,Standard SSD,RA-GZRS,na
+austriaeast,Cold Tier,Standard,LRS,0.01
+austriaeast,Cold Tier,Standard,GRS,na
+austriaeast,Cold Tier,Standard,ZRS,0.0131
+austriaeast,Cold Tier,Standard,GZRS,na
+austriaeast,Cold Tier,Standard,RA-GRS,na
+austriaeast,Cold Tier,Standard,RA-GZRS,na
 austriaeast,Archive Tier,Premium SSD,LRS,na
 austriaeast,Archive Tier,Premium SSD,GRS,na
 austriaeast,Archive Tier,Premium SSD,ZRS,na
 austriaeast,Archive Tier,Premium SSD,GZRS,na
 austriaeast,Archive Tier,Premium SSD,RA-GRS,na
 austriaeast,Archive Tier,Premium SSD,RA-GZRS,na
-austriaeast,Archive Tier,Standard SSD,LRS,na
-austriaeast,Archive Tier,Standard SSD,GRS,na
-austriaeast,Archive Tier,Standard SSD,ZRS,na
-austriaeast,Archive Tier,Standard SSD,GZRS,na
-austriaeast,Archive Tier,Standard SSD,RA-GRS,na
-austriaeast,Archive Tier,Standard SSD,RA-GZRS,na
+austriaeast,Archive Tier,Standard,LRS,na
+austriaeast,Archive Tier,Standard,GRS,na
+austriaeast,Archive Tier,Standard,ZRS,na
+austriaeast,Archive Tier,Standard,GZRS,na
+austriaeast,Archive Tier,Standard,RA-GRS,na
+austriaeast,Archive Tier,Standard,RA-GZRS,na
 belgiumcentral,Hot Tier,Premium SSD,LRS,0.195
 belgiumcentral,Hot Tier,Premium SSD,GRS,na
 belgiumcentral,Hot Tier,Premium SSD,ZRS,0.259
 belgiumcentral,Hot Tier,Premium SSD,GZRS,na
 belgiumcentral,Hot Tier,Premium SSD,RA-GRS,na
 belgiumcentral,Hot Tier,Premium SSD,RA-GZRS,na
-belgiumcentral,Hot Tier,Standard SSD,LRS,0.0196
-belgiumcentral,Hot Tier,Standard SSD,GRS,na
-belgiumcentral,Hot Tier,Standard SSD,ZRS,0.024
-belgiumcentral,Hot Tier,Standard SSD,GZRS,na
-belgiumcentral,Hot Tier,Standard SSD,RA-GRS,na
-belgiumcentral,Hot Tier,Standard SSD,RA-GZRS,na
+belgiumcentral,Hot Tier,Standard,LRS,0.0196
+belgiumcentral,Hot Tier,Standard,GRS,na
+belgiumcentral,Hot Tier,Standard,ZRS,0.024
+belgiumcentral,Hot Tier,Standard,GZRS,na
+belgiumcentral,Hot Tier,Standard,RA-GRS,na
+belgiumcentral,Hot Tier,Standard,RA-GZRS,na
 belgiumcentral,Cold Tier,Premium SSD,LRS,na
 belgiumcentral,Cold Tier,Premium SSD,GRS,na
 belgiumcentral,Cold Tier,Premium SSD,ZRS,na
 belgiumcentral,Cold Tier,Premium SSD,GZRS,na
 belgiumcentral,Cold Tier,Premium SSD,RA-GRS,na
 belgiumcentral,Cold Tier,Premium SSD,RA-GZRS,na
-belgiumcentral,Cold Tier,Standard SSD,LRS,0.01
-belgiumcentral,Cold Tier,Standard SSD,GRS,na
-belgiumcentral,Cold Tier,Standard SSD,ZRS,0.0131
-belgiumcentral,Cold Tier,Standard SSD,GZRS,na
-belgiumcentral,Cold Tier,Standard SSD,RA-GRS,na
-belgiumcentral,Cold Tier,Standard SSD,RA-GZRS,na
+belgiumcentral,Cold Tier,Standard,LRS,0.01
+belgiumcentral,Cold Tier,Standard,GRS,na
+belgiumcentral,Cold Tier,Standard,ZRS,0.0131
+belgiumcentral,Cold Tier,Standard,GZRS,na
+belgiumcentral,Cold Tier,Standard,RA-GRS,na
+belgiumcentral,Cold Tier,Standard,RA-GZRS,na
 belgiumcentral,Archive Tier,Premium SSD,LRS,na
 belgiumcentral,Archive Tier,Premium SSD,GRS,na
 belgiumcentral,Archive Tier,Premium SSD,ZRS,na
 belgiumcentral,Archive Tier,Premium SSD,GZRS,na
 belgiumcentral,Archive Tier,Premium SSD,RA-GRS,na
 belgiumcentral,Archive Tier,Premium SSD,RA-GZRS,na
-belgiumcentral,Archive Tier,Standard SSD,LRS,na
-belgiumcentral,Archive Tier,Standard SSD,GRS,na
-belgiumcentral,Archive Tier,Standard SSD,ZRS,na
-belgiumcentral,Archive Tier,Standard SSD,GZRS,na
-belgiumcentral,Archive Tier,Standard SSD,RA-GRS,na
-belgiumcentral,Archive Tier,Standard SSD,RA-GZRS,na
+belgiumcentral,Archive Tier,Standard,LRS,na
+belgiumcentral,Archive Tier,Standard,GRS,na
+belgiumcentral,Archive Tier,Standard,ZRS,na
+belgiumcentral,Archive Tier,Standard,GZRS,na
+belgiumcentral,Archive Tier,Standard,RA-GRS,na
+belgiumcentral,Archive Tier,Standard,RA-GZRS,na
 brazilsouth,Hot Tier,Premium SSD,LRS,0.3
 brazilsouth,Hot Tier,Premium SSD,GRS,na
 brazilsouth,Hot Tier,Premium SSD,ZRS,0.399
 brazilsouth,Hot Tier,Premium SSD,GZRS,na
 brazilsouth,Hot Tier,Premium SSD,RA-GRS,na
 brazilsouth,Hot Tier,Premium SSD,RA-GZRS,na
-brazilsouth,Hot Tier,Standard SSD,LRS,0.0326
-brazilsouth,Hot Tier,Standard SSD,GRS,0.0652
-brazilsouth,Hot Tier,Standard SSD,ZRS,0.04075
-brazilsouth,Hot Tier,Standard SSD,GZRS,0.086112
-brazilsouth,Hot Tier,Standard SSD,RA-GRS,0.0832
-brazilsouth,Hot Tier,Standard SSD,RA-GZRS,0.10764
+brazilsouth,Hot Tier,Standard,LRS,0.0326
+brazilsouth,Hot Tier,Standard,GRS,0.0652
+brazilsouth,Hot Tier,Standard,ZRS,0.04075
+brazilsouth,Hot Tier,Standard,GZRS,0.086112
+brazilsouth,Hot Tier,Standard,RA-GRS,0.0832
+brazilsouth,Hot Tier,Standard,RA-GZRS,0.10764
 brazilsouth,Cold Tier,Premium SSD,LRS,na
 brazilsouth,Cold Tier,Premium SSD,GRS,na
 brazilsouth,Cold Tier,Premium SSD,ZRS,na
 brazilsouth,Cold Tier,Premium SSD,GZRS,na
 brazilsouth,Cold Tier,Premium SSD,RA-GRS,na
 brazilsouth,Cold Tier,Premium SSD,RA-GZRS,na
-brazilsouth,Cold Tier,Standard SSD,LRS,0.0177
-brazilsouth,Cold Tier,Standard SSD,GRS,0.0354
-brazilsouth,Cold Tier,Standard SSD,ZRS,0.0221
-brazilsouth,Cold Tier,Standard SSD,GZRS,0.0684
-brazilsouth,Cold Tier,Standard SSD,RA-GRS,0.0443
-brazilsouth,Cold Tier,Standard SSD,RA-GZRS,0.0855
+brazilsouth,Cold Tier,Standard,LRS,0.0177
+brazilsouth,Cold Tier,Standard,GRS,0.0354
+brazilsouth,Cold Tier,Standard,ZRS,0.0221
+brazilsouth,Cold Tier,Standard,GZRS,0.0684
+brazilsouth,Cold Tier,Standard,RA-GRS,0.0443
+brazilsouth,Cold Tier,Standard,RA-GZRS,0.0855
 brazilsouth,Archive Tier,Premium SSD,LRS,na
 brazilsouth,Archive Tier,Premium SSD,GRS,na
 brazilsouth,Archive Tier,Premium SSD,ZRS,na
 brazilsouth,Archive Tier,Premium SSD,GZRS,na
 brazilsouth,Archive Tier,Premium SSD,RA-GRS,na
 brazilsouth,Archive Tier,Premium SSD,RA-GZRS,na
-brazilsouth,Archive Tier,Standard SSD,LRS,0.0032
-brazilsouth,Archive Tier,Standard SSD,GRS,0.0056
-brazilsouth,Archive Tier,Standard SSD,ZRS,na
-brazilsouth,Archive Tier,Standard SSD,GZRS,na
-brazilsouth,Archive Tier,Standard SSD,RA-GRS,0.0056
-brazilsouth,Archive Tier,Standard SSD,RA-GZRS,na
+brazilsouth,Archive Tier,Standard,LRS,0.0032
+brazilsouth,Archive Tier,Standard,GRS,0.0056
+brazilsouth,Archive Tier,Standard,ZRS,na
+brazilsouth,Archive Tier,Standard,GZRS,na
+brazilsouth,Archive Tier,Standard,RA-GRS,0.0056
+brazilsouth,Archive Tier,Standard,RA-GZRS,na
 brazilsoutheast,Hot Tier,Premium SSD,LRS,0.39
 brazilsoutheast,Hot Tier,Premium SSD,GRS,na
 brazilsoutheast,Hot Tier,Premium SSD,ZRS,na
 brazilsoutheast,Hot Tier,Premium SSD,GZRS,na
 brazilsoutheast,Hot Tier,Premium SSD,RA-GRS,na
 brazilsoutheast,Hot Tier,Premium SSD,RA-GZRS,na
-brazilsoutheast,Hot Tier,Standard SSD,LRS,0.04238
-brazilsoutheast,Hot Tier,Standard SSD,GRS,0.07498
-brazilsoutheast,Hot Tier,Standard SSD,ZRS,na
-brazilsoutheast,Hot Tier,Standard SSD,GZRS,na
-brazilsoutheast,Hot Tier,Standard SSD,RA-GRS,0.09373
-brazilsoutheast,Hot Tier,Standard SSD,RA-GZRS,na
+brazilsoutheast,Hot Tier,Standard,LRS,0.04238
+brazilsoutheast,Hot Tier,Standard,GRS,0.07498
+brazilsoutheast,Hot Tier,Standard,ZRS,na
+brazilsoutheast,Hot Tier,Standard,GZRS,na
+brazilsoutheast,Hot Tier,Standard,RA-GRS,0.09373
+brazilsoutheast,Hot Tier,Standard,RA-GZRS,na
 brazilsoutheast,Cold Tier,Premium SSD,LRS,na
 brazilsoutheast,Cold Tier,Premium SSD,GRS,na
 brazilsoutheast,Cold Tier,Premium SSD,ZRS,na
 brazilsoutheast,Cold Tier,Premium SSD,GZRS,na
 brazilsoutheast,Cold Tier,Premium SSD,RA-GRS,na
 brazilsoutheast,Cold Tier,Premium SSD,RA-GZRS,na
-brazilsoutheast,Cold Tier,Standard SSD,LRS,0.02704
-brazilsoutheast,Cold Tier,Standard SSD,GRS,0.04784
-brazilsoutheast,Cold Tier,Standard SSD,ZRS,na
-brazilsoutheast,Cold Tier,Standard SSD,GZRS,na
-brazilsoutheast,Cold Tier,Standard SSD,RA-GRS,0.0598
-brazilsoutheast,Cold Tier,Standard SSD,RA-GZRS,na
+brazilsoutheast,Cold Tier,Standard,LRS,0.02704
+brazilsoutheast,Cold Tier,Standard,GRS,0.04784
+brazilsoutheast,Cold Tier,Standard,ZRS,na
+brazilsoutheast,Cold Tier,Standard,GZRS,na
+brazilsoutheast,Cold Tier,Standard,RA-GRS,0.0598
+brazilsoutheast,Cold Tier,Standard,RA-GZRS,na
 brazilsoutheast,Archive Tier,Premium SSD,LRS,na
 brazilsoutheast,Archive Tier,Premium SSD,GRS,na
 brazilsoutheast,Archive Tier,Premium SSD,ZRS,na
 brazilsoutheast,Archive Tier,Premium SSD,GZRS,na
 brazilsoutheast,Archive Tier,Premium SSD,RA-GRS,na
 brazilsoutheast,Archive Tier,Premium SSD,RA-GZRS,na
-brazilsoutheast,Archive Tier,Standard SSD,LRS,na
-brazilsoutheast,Archive Tier,Standard SSD,GRS,na
-brazilsoutheast,Archive Tier,Standard SSD,ZRS,na
-brazilsoutheast,Archive Tier,Standard SSD,GZRS,na
-brazilsoutheast,Archive Tier,Standard SSD,RA-GRS,na
-brazilsoutheast,Archive Tier,Standard SSD,RA-GZRS,na
+brazilsoutheast,Archive Tier,Standard,LRS,na
+brazilsoutheast,Archive Tier,Standard,GRS,na
+brazilsoutheast,Archive Tier,Standard,ZRS,na
+brazilsoutheast,Archive Tier,Standard,GZRS,na
+brazilsoutheast,Archive Tier,Standard,RA-GRS,na
+brazilsoutheast,Archive Tier,Standard,RA-GZRS,na
 canadacentral,Hot Tier,Premium SSD,LRS,0.18
 canadacentral,Hot Tier,Premium SSD,GRS,na
 canadacentral,Hot Tier,Premium SSD,ZRS,0.24
 canadacentral,Hot Tier,Premium SSD,GZRS,na
 canadacentral,Hot Tier,Premium SSD,RA-GRS,na
 canadacentral,Hot Tier,Premium SSD,RA-GZRS,na
-canadacentral,Hot Tier,Standard SSD,LRS,0.02
-canadacentral,Hot Tier,Standard SSD,GRS,0.04
-canadacentral,Hot Tier,Standard SSD,ZRS,0.025
-canadacentral,Hot Tier,Standard SSD,GZRS,0.045
-canadacentral,Hot Tier,Standard SSD,RA-GRS,0.05
-canadacentral,Hot Tier,Standard SSD,RA-GZRS,0.070313
+canadacentral,Hot Tier,Standard,LRS,0.02
+canadacentral,Hot Tier,Standard,GRS,0.04
+canadacentral,Hot Tier,Standard,ZRS,0.025
+canadacentral,Hot Tier,Standard,GZRS,0.045
+canadacentral,Hot Tier,Standard,RA-GRS,0.05
+canadacentral,Hot Tier,Standard,RA-GZRS,0.070313
 canadacentral,Cold Tier,Premium SSD,LRS,na
 canadacentral,Cold Tier,Premium SSD,GRS,na
 canadacentral,Cold Tier,Premium SSD,ZRS,na
 canadacentral,Cold Tier,Premium SSD,GZRS,na
 canadacentral,Cold Tier,Premium SSD,RA-GRS,na
 canadacentral,Cold Tier,Premium SSD,RA-GZRS,na
-canadacentral,Cold Tier,Standard SSD,LRS,0.011
-canadacentral,Cold Tier,Standard SSD,GRS,0.022
-canadacentral,Cold Tier,Standard SSD,ZRS,0.01375
-canadacentral,Cold Tier,Standard SSD,GZRS,0.0248
-canadacentral,Cold Tier,Standard SSD,RA-GRS,0.0275
-canadacentral,Cold Tier,Standard SSD,RA-GZRS,0.038812
+canadacentral,Cold Tier,Standard,LRS,0.011
+canadacentral,Cold Tier,Standard,GRS,0.022
+canadacentral,Cold Tier,Standard,ZRS,0.01375
+canadacentral,Cold Tier,Standard,GZRS,0.0248
+canadacentral,Cold Tier,Standard,RA-GRS,0.0275
+canadacentral,Cold Tier,Standard,RA-GZRS,0.038812
 canadacentral,Archive Tier,Premium SSD,LRS,na
 canadacentral,Archive Tier,Premium SSD,GRS,na
 canadacentral,Archive Tier,Premium SSD,ZRS,na
 canadacentral,Archive Tier,Premium SSD,GZRS,na
 canadacentral,Archive Tier,Premium SSD,RA-GRS,na
 canadacentral,Archive Tier,Premium SSD,RA-GZRS,na
-canadacentral,Archive Tier,Standard SSD,LRS,0.0018
-canadacentral,Archive Tier,Standard SSD,GRS,0.0042
-canadacentral,Archive Tier,Standard SSD,ZRS,na
-canadacentral,Archive Tier,Standard SSD,GZRS,na
-canadacentral,Archive Tier,Standard SSD,RA-GRS,0.0042
-canadacentral,Archive Tier,Standard SSD,RA-GZRS,na
+canadacentral,Archive Tier,Standard,LRS,0.0018
+canadacentral,Archive Tier,Standard,GRS,0.0042
+canadacentral,Archive Tier,Standard,ZRS,na
+canadacentral,Archive Tier,Standard,GZRS,na
+canadacentral,Archive Tier,Standard,RA-GRS,0.0042
+canadacentral,Archive Tier,Standard,RA-GZRS,na
 canadaeast,Hot Tier,Premium SSD,LRS,0.18
 canadaeast,Hot Tier,Premium SSD,GRS,na
 canadaeast,Hot Tier,Premium SSD,ZRS,na
 canadaeast,Hot Tier,Premium SSD,GZRS,na
 canadaeast,Hot Tier,Premium SSD,RA-GRS,na
 canadaeast,Hot Tier,Premium SSD,RA-GZRS,na
-canadaeast,Hot Tier,Standard SSD,LRS,0.02
-canadaeast,Hot Tier,Standard SSD,GRS,0.04
-canadaeast,Hot Tier,Standard SSD,ZRS,na
-canadaeast,Hot Tier,Standard SSD,GZRS,na
-canadaeast,Hot Tier,Standard SSD,RA-GRS,0.05
-canadaeast,Hot Tier,Standard SSD,RA-GZRS,na
+canadaeast,Hot Tier,Standard,LRS,0.02
+canadaeast,Hot Tier,Standard,GRS,0.04
+canadaeast,Hot Tier,Standard,ZRS,na
+canadaeast,Hot Tier,Standard,GZRS,na
+canadaeast,Hot Tier,Standard,RA-GRS,0.05
+canadaeast,Hot Tier,Standard,RA-GZRS,na
 canadaeast,Cold Tier,Premium SSD,LRS,na
 canadaeast,Cold Tier,Premium SSD,GRS,na
 canadaeast,Cold Tier,Premium SSD,ZRS,na
 canadaeast,Cold Tier,Premium SSD,GZRS,na
 canadaeast,Cold Tier,Premium SSD,RA-GRS,na
 canadaeast,Cold Tier,Premium SSD,RA-GZRS,na
-canadaeast,Cold Tier,Standard SSD,LRS,0.011
-canadaeast,Cold Tier,Standard SSD,GRS,0.022
-canadaeast,Cold Tier,Standard SSD,ZRS,na
-canadaeast,Cold Tier,Standard SSD,GZRS,na
-canadaeast,Cold Tier,Standard SSD,RA-GRS,0.0275
-canadaeast,Cold Tier,Standard SSD,RA-GZRS,na
+canadaeast,Cold Tier,Standard,LRS,0.011
+canadaeast,Cold Tier,Standard,GRS,0.022
+canadaeast,Cold Tier,Standard,ZRS,na
+canadaeast,Cold Tier,Standard,GZRS,na
+canadaeast,Cold Tier,Standard,RA-GRS,0.0275
+canadaeast,Cold Tier,Standard,RA-GZRS,na
 canadaeast,Archive Tier,Premium SSD,LRS,na
 canadaeast,Archive Tier,Premium SSD,GRS,na
 canadaeast,Archive Tier,Premium SSD,ZRS,na
 canadaeast,Archive Tier,Premium SSD,GZRS,na
 canadaeast,Archive Tier,Premium SSD,RA-GRS,na
 canadaeast,Archive Tier,Premium SSD,RA-GZRS,na
-canadaeast,Archive Tier,Standard SSD,LRS,0.0024
-canadaeast,Archive Tier,Standard SSD,GRS,0.0042
-canadaeast,Archive Tier,Standard SSD,ZRS,na
-canadaeast,Archive Tier,Standard SSD,GZRS,na
-canadaeast,Archive Tier,Standard SSD,RA-GRS,0.0042
-canadaeast,Archive Tier,Standard SSD,RA-GZRS,na
+canadaeast,Archive Tier,Standard,LRS,0.0024
+canadaeast,Archive Tier,Standard,GRS,0.0042
+canadaeast,Archive Tier,Standard,ZRS,na
+canadaeast,Archive Tier,Standard,GZRS,na
+canadaeast,Archive Tier,Standard,RA-GRS,0.0042
+canadaeast,Archive Tier,Standard,RA-GZRS,na
 centralindia,Hot Tier,Premium SSD,LRS,0.21
 centralindia,Hot Tier,Premium SSD,GRS,na
 centralindia,Hot Tier,Premium SSD,ZRS,0.279
 centralindia,Hot Tier,Premium SSD,GZRS,na
 centralindia,Hot Tier,Premium SSD,RA-GRS,na
 centralindia,Hot Tier,Premium SSD,RA-GZRS,na
-centralindia,Hot Tier,Standard SSD,LRS,0.02
-centralindia,Hot Tier,Standard SSD,GRS,0.04
-centralindia,Hot Tier,Standard SSD,ZRS,0.025
-centralindia,Hot Tier,Standard SSD,GZRS,0.060278
-centralindia,Hot Tier,Standard SSD,RA-GRS,0.05
-centralindia,Hot Tier,Standard SSD,RA-GZRS,0.075348
+centralindia,Hot Tier,Standard,LRS,0.02
+centralindia,Hot Tier,Standard,GRS,0.04
+centralindia,Hot Tier,Standard,ZRS,0.025
+centralindia,Hot Tier,Standard,GZRS,0.060278
+centralindia,Hot Tier,Standard,RA-GRS,0.05
+centralindia,Hot Tier,Standard,RA-GZRS,0.075348
 centralindia,Cold Tier,Premium SSD,LRS,na
 centralindia,Cold Tier,Premium SSD,GRS,na
 centralindia,Cold Tier,Premium SSD,ZRS,na
 centralindia,Cold Tier,Premium SSD,GZRS,na
 centralindia,Cold Tier,Premium SSD,RA-GRS,na
 centralindia,Cold Tier,Premium SSD,RA-GZRS,na
-centralindia,Cold Tier,Standard SSD,LRS,0.011
-centralindia,Cold Tier,Standard SSD,GRS,0.026
-centralindia,Cold Tier,Standard SSD,ZRS,0.0138
-centralindia,Cold Tier,Standard SSD,GZRS,0.04788
-centralindia,Cold Tier,Standard SSD,RA-GRS,0.0325
-centralindia,Cold Tier,Standard SSD,RA-GZRS,0.05985
+centralindia,Cold Tier,Standard,LRS,0.011
+centralindia,Cold Tier,Standard,GRS,0.026
+centralindia,Cold Tier,Standard,ZRS,0.0138
+centralindia,Cold Tier,Standard,GZRS,0.04788
+centralindia,Cold Tier,Standard,RA-GRS,0.0325
+centralindia,Cold Tier,Standard,RA-GZRS,0.05985
 centralindia,Archive Tier,Premium SSD,LRS,na
 centralindia,Archive Tier,Premium SSD,GRS,na
 centralindia,Archive Tier,Premium SSD,ZRS,na
 centralindia,Archive Tier,Premium SSD,GZRS,na
 centralindia,Archive Tier,Premium SSD,RA-GRS,na
 centralindia,Archive Tier,Premium SSD,RA-GZRS,na
-centralindia,Archive Tier,Standard SSD,LRS,0.002
-centralindia,Archive Tier,Standard SSD,GRS,0.005
-centralindia,Archive Tier,Standard SSD,ZRS,na
-centralindia,Archive Tier,Standard SSD,GZRS,na
-centralindia,Archive Tier,Standard SSD,RA-GRS,0.005
-centralindia,Archive Tier,Standard SSD,RA-GZRS,na
+centralindia,Archive Tier,Standard,LRS,0.002
+centralindia,Archive Tier,Standard,GRS,0.005
+centralindia,Archive Tier,Standard,ZRS,na
+centralindia,Archive Tier,Standard,GZRS,na
+centralindia,Archive Tier,Standard,RA-GRS,0.005
+centralindia,Archive Tier,Standard,RA-GZRS,na
 centralus,Hot Tier,Premium SSD,LRS,0.18
 centralus,Hot Tier,Premium SSD,GRS,na
 centralus,Hot Tier,Premium SSD,ZRS,0.246
 centralus,Hot Tier,Premium SSD,GZRS,na
 centralus,Hot Tier,Premium SSD,RA-GRS,na
 centralus,Hot Tier,Premium SSD,RA-GZRS,na
-centralus,Hot Tier,Standard SSD,LRS,0.0184
-centralus,Hot Tier,Standard SSD,GRS,0.0368
-centralus,Hot Tier,Standard SSD,ZRS,0.023
-centralus,Hot Tier,Standard SSD,GZRS,0.0414
-centralus,Hot Tier,Standard SSD,RA-GRS,0.046
-centralus,Hot Tier,Standard SSD,RA-GZRS,0.05175
+centralus,Hot Tier,Standard,LRS,0.0184
+centralus,Hot Tier,Standard,GRS,0.0368
+centralus,Hot Tier,Standard,ZRS,0.023
+centralus,Hot Tier,Standard,GZRS,0.0414
+centralus,Hot Tier,Standard,RA-GRS,0.046
+centralus,Hot Tier,Standard,RA-GZRS,0.05175
 centralus,Cold Tier,Premium SSD,LRS,na
 centralus,Cold Tier,Premium SSD,GRS,na
 centralus,Cold Tier,Premium SSD,ZRS,na
 centralus,Cold Tier,Premium SSD,GZRS,na
 centralus,Cold Tier,Premium SSD,RA-GRS,na
 centralus,Cold Tier,Premium SSD,RA-GZRS,na
-centralus,Cold Tier,Standard SSD,LRS,0.01
-centralus,Cold Tier,Standard SSD,GRS,0.02
-centralus,Cold Tier,Standard SSD,ZRS,0.0125
-centralus,Cold Tier,Standard SSD,GZRS,0.0225
-centralus,Cold Tier,Standard SSD,RA-GRS,0.025
-centralus,Cold Tier,Standard SSD,RA-GZRS,0.028125
+centralus,Cold Tier,Standard,LRS,0.01
+centralus,Cold Tier,Standard,GRS,0.02
+centralus,Cold Tier,Standard,ZRS,0.0125
+centralus,Cold Tier,Standard,GZRS,0.0225
+centralus,Cold Tier,Standard,RA-GRS,0.025
+centralus,Cold Tier,Standard,RA-GZRS,0.028125
 centralus,Archive Tier,Premium SSD,LRS,na
 centralus,Archive Tier,Premium SSD,GRS,na
 centralus,Archive Tier,Premium SSD,ZRS,na
 centralus,Archive Tier,Premium SSD,GZRS,na
 centralus,Archive Tier,Premium SSD,RA-GRS,na
 centralus,Archive Tier,Premium SSD,RA-GZRS,na
-centralus,Archive Tier,Standard SSD,LRS,0.002
-centralus,Archive Tier,Standard SSD,GRS,0.004
-centralus,Archive Tier,Standard SSD,ZRS,na
-centralus,Archive Tier,Standard SSD,GZRS,na
-centralus,Archive Tier,Standard SSD,RA-GRS,0.004
-centralus,Archive Tier,Standard SSD,RA-GZRS,na
+centralus,Archive Tier,Standard,LRS,0.002
+centralus,Archive Tier,Standard,GRS,0.004
+centralus,Archive Tier,Standard,ZRS,na
+centralus,Archive Tier,Standard,GZRS,na
+centralus,Archive Tier,Standard,RA-GRS,0.004
+centralus,Archive Tier,Standard,RA-GZRS,na
 chilecentral,Hot Tier,Premium SSD,LRS,0.21
 chilecentral,Hot Tier,Premium SSD,GRS,na
 chilecentral,Hot Tier,Premium SSD,ZRS,0.28
 chilecentral,Hot Tier,Premium SSD,GZRS,na
 chilecentral,Hot Tier,Premium SSD,RA-GRS,na
 chilecentral,Hot Tier,Premium SSD,RA-GZRS,na
-chilecentral,Hot Tier,Standard SSD,LRS,0.02576
-chilecentral,Hot Tier,Standard SSD,GRS,na
-chilecentral,Hot Tier,Standard SSD,ZRS,0.0322
-chilecentral,Hot Tier,Standard SSD,GZRS,na
-chilecentral,Hot Tier,Standard SSD,RA-GRS,na
-chilecentral,Hot Tier,Standard SSD,RA-GZRS,na
+chilecentral,Hot Tier,Standard,LRS,0.02576
+chilecentral,Hot Tier,Standard,GRS,na
+chilecentral,Hot Tier,Standard,ZRS,0.0322
+chilecentral,Hot Tier,Standard,GZRS,na
+chilecentral,Hot Tier,Standard,RA-GRS,na
+chilecentral,Hot Tier,Standard,RA-GZRS,na
 chilecentral,Cold Tier,Premium SSD,LRS,na
 chilecentral,Cold Tier,Premium SSD,GRS,na
 chilecentral,Cold Tier,Premium SSD,ZRS,na
 chilecentral,Cold Tier,Premium SSD,GZRS,na
 chilecentral,Cold Tier,Premium SSD,RA-GRS,na
 chilecentral,Cold Tier,Premium SSD,RA-GZRS,na
-chilecentral,Cold Tier,Standard SSD,LRS,0.02128
-chilecentral,Cold Tier,Standard SSD,GRS,na
-chilecentral,Cold Tier,Standard SSD,ZRS,0.026543
-chilecentral,Cold Tier,Standard SSD,GZRS,na
-chilecentral,Cold Tier,Standard SSD,RA-GRS,na
-chilecentral,Cold Tier,Standard SSD,RA-GZRS,na
+chilecentral,Cold Tier,Standard,LRS,0.02128
+chilecentral,Cold Tier,Standard,GRS,na
+chilecentral,Cold Tier,Standard,ZRS,0.026543
+chilecentral,Cold Tier,Standard,GZRS,na
+chilecentral,Cold Tier,Standard,RA-GRS,na
+chilecentral,Cold Tier,Standard,RA-GZRS,na
 chilecentral,Archive Tier,Premium SSD,LRS,na
 chilecentral,Archive Tier,Premium SSD,GRS,na
 chilecentral,Archive Tier,Premium SSD,ZRS,na
 chilecentral,Archive Tier,Premium SSD,GZRS,na
 chilecentral,Archive Tier,Premium SSD,RA-GRS,na
 chilecentral,Archive Tier,Premium SSD,RA-GZRS,na
-chilecentral,Archive Tier,Standard SSD,LRS,na
-chilecentral,Archive Tier,Standard SSD,GRS,na
-chilecentral,Archive Tier,Standard SSD,ZRS,na
-chilecentral,Archive Tier,Standard SSD,GZRS,na
-chilecentral,Archive Tier,Standard SSD,RA-GRS,na
-chilecentral,Archive Tier,Standard SSD,RA-GZRS,na
+chilecentral,Archive Tier,Standard,LRS,na
+chilecentral,Archive Tier,Standard,GRS,na
+chilecentral,Archive Tier,Standard,ZRS,na
+chilecentral,Archive Tier,Standard,GZRS,na
+chilecentral,Archive Tier,Standard,RA-GRS,na
+chilecentral,Archive Tier,Standard,RA-GZRS,na
 denmarkeast,Hot Tier,Premium SSD,LRS,0.195
 denmarkeast,Hot Tier,Premium SSD,GRS,na
 denmarkeast,Hot Tier,Premium SSD,ZRS,0.259
 denmarkeast,Hot Tier,Premium SSD,GZRS,na
 denmarkeast,Hot Tier,Premium SSD,RA-GRS,na
 denmarkeast,Hot Tier,Premium SSD,RA-GZRS,na
-denmarkeast,Hot Tier,Standard SSD,LRS,0.0196
-denmarkeast,Hot Tier,Standard SSD,GRS,na
-denmarkeast,Hot Tier,Standard SSD,ZRS,0.024
-denmarkeast,Hot Tier,Standard SSD,GZRS,na
-denmarkeast,Hot Tier,Standard SSD,RA-GRS,na
-denmarkeast,Hot Tier,Standard SSD,RA-GZRS,na
+denmarkeast,Hot Tier,Standard,LRS,0.0196
+denmarkeast,Hot Tier,Standard,GRS,na
+denmarkeast,Hot Tier,Standard,ZRS,0.024
+denmarkeast,Hot Tier,Standard,GZRS,na
+denmarkeast,Hot Tier,Standard,RA-GRS,na
+denmarkeast,Hot Tier,Standard,RA-GZRS,na
 denmarkeast,Cold Tier,Premium SSD,LRS,na
 denmarkeast,Cold Tier,Premium SSD,GRS,na
 denmarkeast,Cold Tier,Premium SSD,ZRS,na
 denmarkeast,Cold Tier,Premium SSD,GZRS,na
 denmarkeast,Cold Tier,Premium SSD,RA-GRS,na
 denmarkeast,Cold Tier,Premium SSD,RA-GZRS,na
-denmarkeast,Cold Tier,Standard SSD,LRS,0.01
-denmarkeast,Cold Tier,Standard SSD,GRS,na
-denmarkeast,Cold Tier,Standard SSD,ZRS,0.0131
-denmarkeast,Cold Tier,Standard SSD,GZRS,na
-denmarkeast,Cold Tier,Standard SSD,RA-GRS,na
-denmarkeast,Cold Tier,Standard SSD,RA-GZRS,na
+denmarkeast,Cold Tier,Standard,LRS,0.01
+denmarkeast,Cold Tier,Standard,GRS,na
+denmarkeast,Cold Tier,Standard,ZRS,0.0131
+denmarkeast,Cold Tier,Standard,GZRS,na
+denmarkeast,Cold Tier,Standard,RA-GRS,na
+denmarkeast,Cold Tier,Standard,RA-GZRS,na
 denmarkeast,Archive Tier,Premium SSD,LRS,na
 denmarkeast,Archive Tier,Premium SSD,GRS,na
 denmarkeast,Archive Tier,Premium SSD,ZRS,na
 denmarkeast,Archive Tier,Premium SSD,GZRS,na
 denmarkeast,Archive Tier,Premium SSD,RA-GRS,na
 denmarkeast,Archive Tier,Premium SSD,RA-GZRS,na
-denmarkeast,Archive Tier,Standard SSD,LRS,na
-denmarkeast,Archive Tier,Standard SSD,GRS,na
-denmarkeast,Archive Tier,Standard SSD,ZRS,na
-denmarkeast,Archive Tier,Standard SSD,GZRS,na
-denmarkeast,Archive Tier,Standard SSD,RA-GRS,na
-denmarkeast,Archive Tier,Standard SSD,RA-GZRS,na
+denmarkeast,Archive Tier,Standard,LRS,na
+denmarkeast,Archive Tier,Standard,GRS,na
+denmarkeast,Archive Tier,Standard,ZRS,na
+denmarkeast,Archive Tier,Standard,GZRS,na
+denmarkeast,Archive Tier,Standard,RA-GRS,na
+denmarkeast,Archive Tier,Standard,RA-GZRS,na
 eastasia,Hot Tier,Premium SSD,LRS,0.233
 eastasia,Hot Tier,Premium SSD,GRS,na
 eastasia,Hot Tier,Premium SSD,ZRS,0.309
 eastasia,Hot Tier,Premium SSD,GZRS,na
 eastasia,Hot Tier,Premium SSD,RA-GRS,na
 eastasia,Hot Tier,Premium SSD,RA-GZRS,na
-eastasia,Hot Tier,Standard SSD,LRS,0.024
-eastasia,Hot Tier,Standard SSD,GRS,0.048
-eastasia,Hot Tier,Standard SSD,ZRS,0.03
-eastasia,Hot Tier,Standard SSD,GZRS,0.0836
-eastasia,Hot Tier,Standard SSD,RA-GRS,0.06
-eastasia,Hot Tier,Standard SSD,RA-GZRS,0.105
+eastasia,Hot Tier,Standard,LRS,0.024
+eastasia,Hot Tier,Standard,GRS,0.048
+eastasia,Hot Tier,Standard,ZRS,0.03
+eastasia,Hot Tier,Standard,GZRS,0.0836
+eastasia,Hot Tier,Standard,RA-GRS,0.06
+eastasia,Hot Tier,Standard,RA-GZRS,0.105
 eastasia,Cold Tier,Premium SSD,LRS,na
 eastasia,Cold Tier,Premium SSD,GRS,na
 eastasia,Cold Tier,Premium SSD,ZRS,na
 eastasia,Cold Tier,Premium SSD,GZRS,na
 eastasia,Cold Tier,Premium SSD,RA-GRS,na
 eastasia,Cold Tier,Premium SSD,RA-GZRS,na
-eastasia,Cold Tier,Standard SSD,LRS,0.011
-eastasia,Cold Tier,Standard SSD,GRS,0.022
-eastasia,Cold Tier,Standard SSD,ZRS,0.0138
-eastasia,Cold Tier,Standard SSD,GZRS,0.0568
-eastasia,Cold Tier,Standard SSD,RA-GRS,0.0275
-eastasia,Cold Tier,Standard SSD,RA-GZRS,0.0455
+eastasia,Cold Tier,Standard,LRS,0.011
+eastasia,Cold Tier,Standard,GRS,0.022
+eastasia,Cold Tier,Standard,ZRS,0.0138
+eastasia,Cold Tier,Standard,GZRS,0.0568
+eastasia,Cold Tier,Standard,RA-GRS,0.0275
+eastasia,Cold Tier,Standard,RA-GZRS,0.0455
 eastasia,Archive Tier,Premium SSD,LRS,na
 eastasia,Archive Tier,Premium SSD,GRS,na
 eastasia,Archive Tier,Premium SSD,ZRS,na
 eastasia,Archive Tier,Premium SSD,GZRS,na
 eastasia,Archive Tier,Premium SSD,RA-GRS,na
 eastasia,Archive Tier,Premium SSD,RA-GZRS,na
-eastasia,Archive Tier,Standard SSD,LRS,0.002
-eastasia,Archive Tier,Standard SSD,GRS,0.004
-eastasia,Archive Tier,Standard SSD,ZRS,na
-eastasia,Archive Tier,Standard SSD,GZRS,na
-eastasia,Archive Tier,Standard SSD,RA-GRS,0.004
-eastasia,Archive Tier,Standard SSD,RA-GZRS,na
+eastasia,Archive Tier,Standard,LRS,0.002
+eastasia,Archive Tier,Standard,GRS,0.004
+eastasia,Archive Tier,Standard,ZRS,na
+eastasia,Archive Tier,Standard,GZRS,na
+eastasia,Archive Tier,Standard,RA-GRS,0.004
+eastasia,Archive Tier,Standard,RA-GZRS,na
 eastus,Hot Tier,Premium SSD,LRS,0.15
 eastus,Hot Tier,Premium SSD,GRS,na
 eastus,Hot Tier,Premium SSD,ZRS,0.2
 eastus,Hot Tier,Premium SSD,GZRS,na
 eastus,Hot Tier,Premium SSD,RA-GRS,na
 eastus,Hot Tier,Premium SSD,RA-GZRS,na
-eastus,Hot Tier,Standard SSD,LRS,0.0208
-eastus,Hot Tier,Standard SSD,GRS,0.0458
-eastus,Hot Tier,Standard SSD,ZRS,0.026
-eastus,Hot Tier,Standard SSD,GZRS,0.0468
-eastus,Hot Tier,Standard SSD,RA-GRS,0.0589
-eastus,Hot Tier,Standard SSD,RA-GZRS,0.0585
+eastus,Hot Tier,Standard,LRS,0.0208
+eastus,Hot Tier,Standard,GRS,0.0458
+eastus,Hot Tier,Standard,ZRS,0.026
+eastus,Hot Tier,Standard,GZRS,0.0468
+eastus,Hot Tier,Standard,RA-GRS,0.0589
+eastus,Hot Tier,Standard,RA-GZRS,0.0585
 eastus,Cold Tier,Premium SSD,LRS,na
 eastus,Cold Tier,Premium SSD,GRS,na
 eastus,Cold Tier,Premium SSD,ZRS,na
 eastus,Cold Tier,Premium SSD,GZRS,na
 eastus,Cold Tier,Premium SSD,RA-GRS,na
 eastus,Cold Tier,Premium SSD,RA-GZRS,na
-eastus,Cold Tier,Standard SSD,LRS,0.0152
-eastus,Cold Tier,Standard SSD,GRS,0.0334
-eastus,Cold Tier,Standard SSD,ZRS,0.019
-eastus,Cold Tier,Standard SSD,GZRS,0.0342
-eastus,Cold Tier,Standard SSD,RA-GRS,0.0425
-eastus,Cold Tier,Standard SSD,RA-GZRS,0.04275
+eastus,Cold Tier,Standard,LRS,0.0152
+eastus,Cold Tier,Standard,GRS,0.0334
+eastus,Cold Tier,Standard,ZRS,0.019
+eastus,Cold Tier,Standard,GZRS,0.0342
+eastus,Cold Tier,Standard,RA-GRS,0.0425
+eastus,Cold Tier,Standard,RA-GZRS,0.04275
 eastus,Archive Tier,Premium SSD,LRS,na
 eastus,Archive Tier,Premium SSD,GRS,na
 eastus,Archive Tier,Premium SSD,ZRS,na
 eastus,Archive Tier,Premium SSD,GZRS,na
 eastus,Archive Tier,Premium SSD,RA-GRS,na
 eastus,Archive Tier,Premium SSD,RA-GZRS,na
-eastus,Archive Tier,Standard SSD,LRS,0.00099
-eastus,Archive Tier,Standard SSD,GRS,0.00299
-eastus,Archive Tier,Standard SSD,ZRS,na
-eastus,Archive Tier,Standard SSD,GZRS,na
-eastus,Archive Tier,Standard SSD,RA-GRS,0.00299
-eastus,Archive Tier,Standard SSD,RA-GZRS,na
+eastus,Archive Tier,Standard,LRS,0.00099
+eastus,Archive Tier,Standard,GRS,0.00299
+eastus,Archive Tier,Standard,ZRS,na
+eastus,Archive Tier,Standard,GZRS,na
+eastus,Archive Tier,Standard,RA-GRS,0.00299
+eastus,Archive Tier,Standard,RA-GZRS,na
 eastus2,Hot Tier,Premium SSD,LRS,0.15
 eastus2,Hot Tier,Premium SSD,GRS,na
 eastus2,Hot Tier,Premium SSD,ZRS,0.2
 eastus2,Hot Tier,Premium SSD,GZRS,na
 eastus2,Hot Tier,Premium SSD,RA-GRS,na
 eastus2,Hot Tier,Premium SSD,RA-GZRS,na
-eastus2,Hot Tier,Standard SSD,LRS,0.0184
-eastus2,Hot Tier,Standard SSD,GRS,0.0368
-eastus2,Hot Tier,Standard SSD,ZRS,0.023
-eastus2,Hot Tier,Standard SSD,GZRS,0.0414
-eastus2,Hot Tier,Standard SSD,RA-GRS,0.046
-eastus2,Hot Tier,Standard SSD,RA-GZRS,0.05175
+eastus2,Hot Tier,Standard,LRS,0.0184
+eastus2,Hot Tier,Standard,GRS,0.0368
+eastus2,Hot Tier,Standard,ZRS,0.023
+eastus2,Hot Tier,Standard,GZRS,0.0414
+eastus2,Hot Tier,Standard,RA-GRS,0.046
+eastus2,Hot Tier,Standard,RA-GZRS,0.05175
 eastus2,Cold Tier,Premium SSD,LRS,na
 eastus2,Cold Tier,Premium SSD,GRS,na
 eastus2,Cold Tier,Premium SSD,ZRS,na
 eastus2,Cold Tier,Premium SSD,GZRS,na
 eastus2,Cold Tier,Premium SSD,RA-GRS,na
 eastus2,Cold Tier,Premium SSD,RA-GZRS,na
-eastus2,Cold Tier,Standard SSD,LRS,0.01
-eastus2,Cold Tier,Standard SSD,GRS,0.02
-eastus2,Cold Tier,Standard SSD,ZRS,0.0125
-eastus2,Cold Tier,Standard SSD,GZRS,0.0225
-eastus2,Cold Tier,Standard SSD,RA-GRS,0.025
-eastus2,Cold Tier,Standard SSD,RA-GZRS,0.028125
+eastus2,Cold Tier,Standard,LRS,0.01
+eastus2,Cold Tier,Standard,GRS,0.02
+eastus2,Cold Tier,Standard,ZRS,0.0125
+eastus2,Cold Tier,Standard,GZRS,0.0225
+eastus2,Cold Tier,Standard,RA-GRS,0.025
+eastus2,Cold Tier,Standard,RA-GZRS,0.028125
 eastus2,Archive Tier,Premium SSD,LRS,na
 eastus2,Archive Tier,Premium SSD,GRS,na
 eastus2,Archive Tier,Premium SSD,ZRS,na
 eastus2,Archive Tier,Premium SSD,GZRS,na
 eastus2,Archive Tier,Premium SSD,RA-GRS,na
 eastus2,Archive Tier,Premium SSD,RA-GZRS,na
-eastus2,Archive Tier,Standard SSD,LRS,0.002
-eastus2,Archive Tier,Standard SSD,GRS,0.004
-eastus2,Archive Tier,Standard SSD,ZRS,na
-eastus2,Archive Tier,Standard SSD,GZRS,na
-eastus2,Archive Tier,Standard SSD,RA-GRS,0.004
-eastus2,Archive Tier,Standard SSD,RA-GZRS,na
+eastus2,Archive Tier,Standard,LRS,0.002
+eastus2,Archive Tier,Standard,GRS,0.004
+eastus2,Archive Tier,Standard,ZRS,na
+eastus2,Archive Tier,Standard,GZRS,na
+eastus2,Archive Tier,Standard,RA-GRS,0.004
+eastus2,Archive Tier,Standard,RA-GZRS,na
 francecentral,Hot Tier,Premium SSD,LRS,0.188
 francecentral,Hot Tier,Premium SSD,GRS,na
 francecentral,Hot Tier,Premium SSD,ZRS,0.249
 francecentral,Hot Tier,Premium SSD,GZRS,na
 francecentral,Hot Tier,Premium SSD,RA-GRS,na
 francecentral,Hot Tier,Premium SSD,RA-GZRS,na
-francecentral,Hot Tier,Standard SSD,LRS,0.0192
-francecentral,Hot Tier,Standard SSD,GRS,0.0384
-francecentral,Hot Tier,Standard SSD,ZRS,0.024
-francecentral,Hot Tier,Standard SSD,GZRS,0.0612
-francecentral,Hot Tier,Standard SSD,RA-GRS,0.048
-francecentral,Hot Tier,Standard SSD,RA-GZRS,0.0765
+francecentral,Hot Tier,Standard,LRS,0.0192
+francecentral,Hot Tier,Standard,GRS,0.0384
+francecentral,Hot Tier,Standard,ZRS,0.024
+francecentral,Hot Tier,Standard,GZRS,0.0612
+francecentral,Hot Tier,Standard,RA-GRS,0.048
+francecentral,Hot Tier,Standard,RA-GZRS,0.0765
 francecentral,Cold Tier,Premium SSD,LRS,na
 francecentral,Cold Tier,Premium SSD,GRS,na
 francecentral,Cold Tier,Premium SSD,ZRS,na
 francecentral,Cold Tier,Premium SSD,GZRS,na
 francecentral,Cold Tier,Premium SSD,RA-GRS,na
 francecentral,Cold Tier,Premium SSD,RA-GZRS,na
-francecentral,Cold Tier,Standard SSD,LRS,0.0105
-francecentral,Cold Tier,Standard SSD,GRS,0.021
-francecentral,Cold Tier,Standard SSD,ZRS,0.0131
-francecentral,Cold Tier,Standard SSD,GZRS,0.0687
-francecentral,Cold Tier,Standard SSD,RA-GRS,0.02625
-francecentral,Cold Tier,Standard SSD,RA-GZRS,0.055
+francecentral,Cold Tier,Standard,LRS,0.0105
+francecentral,Cold Tier,Standard,GRS,0.021
+francecentral,Cold Tier,Standard,ZRS,0.0131
+francecentral,Cold Tier,Standard,GZRS,0.0687
+francecentral,Cold Tier,Standard,RA-GRS,0.02625
+francecentral,Cold Tier,Standard,RA-GZRS,0.055
 francecentral,Archive Tier,Premium SSD,LRS,na
 francecentral,Archive Tier,Premium SSD,GRS,na
 francecentral,Archive Tier,Premium SSD,ZRS,na
 francecentral,Archive Tier,Premium SSD,GZRS,na
 francecentral,Archive Tier,Premium SSD,RA-GRS,na
 francecentral,Archive Tier,Premium SSD,RA-GZRS,na
-francecentral,Archive Tier,Standard SSD,LRS,0.0018
-francecentral,Archive Tier,Standard SSD,GRS,0.00484
-francecentral,Archive Tier,Standard SSD,ZRS,na
-francecentral,Archive Tier,Standard SSD,GZRS,na
-francecentral,Archive Tier,Standard SSD,RA-GRS,0.00484
-francecentral,Archive Tier,Standard SSD,RA-GZRS,na
+francecentral,Archive Tier,Standard,LRS,0.0018
+francecentral,Archive Tier,Standard,GRS,0.00484
+francecentral,Archive Tier,Standard,ZRS,na
+francecentral,Archive Tier,Standard,GZRS,na
+francecentral,Archive Tier,Standard,RA-GRS,0.00484
+francecentral,Archive Tier,Standard,RA-GZRS,na
 francesouth,Hot Tier,Premium SSD,LRS,0.244
 francesouth,Hot Tier,Premium SSD,GRS,na
 francesouth,Hot Tier,Premium SSD,ZRS,na
 francesouth,Hot Tier,Premium SSD,GZRS,na
 francesouth,Hot Tier,Premium SSD,RA-GRS,na
 francesouth,Hot Tier,Premium SSD,RA-GZRS,na
-francesouth,Hot Tier,Standard SSD,LRS,0.02496
-francesouth,Hot Tier,Standard SSD,GRS,0.04992
-francesouth,Hot Tier,Standard SSD,ZRS,na
-francesouth,Hot Tier,Standard SSD,GZRS,na
-francesouth,Hot Tier,Standard SSD,RA-GRS,0.0624
-francesouth,Hot Tier,Standard SSD,RA-GZRS,na
+francesouth,Hot Tier,Standard,LRS,0.02496
+francesouth,Hot Tier,Standard,GRS,0.04992
+francesouth,Hot Tier,Standard,ZRS,na
+francesouth,Hot Tier,Standard,GZRS,na
+francesouth,Hot Tier,Standard,RA-GRS,0.0624
+francesouth,Hot Tier,Standard,RA-GZRS,na
 francesouth,Cold Tier,Premium SSD,LRS,na
 francesouth,Cold Tier,Premium SSD,GRS,na
 francesouth,Cold Tier,Premium SSD,ZRS,na
 francesouth,Cold Tier,Premium SSD,GZRS,na
 francesouth,Cold Tier,Premium SSD,RA-GRS,na
 francesouth,Cold Tier,Premium SSD,RA-GZRS,na
-francesouth,Cold Tier,Standard SSD,LRS,0.01365
-francesouth,Cold Tier,Standard SSD,GRS,0.0273
-francesouth,Cold Tier,Standard SSD,ZRS,na
-francesouth,Cold Tier,Standard SSD,GZRS,na
-francesouth,Cold Tier,Standard SSD,RA-GRS,0.034125
-francesouth,Cold Tier,Standard SSD,RA-GZRS,na
+francesouth,Cold Tier,Standard,LRS,0.01365
+francesouth,Cold Tier,Standard,GRS,0.0273
+francesouth,Cold Tier,Standard,ZRS,na
+francesouth,Cold Tier,Standard,GZRS,na
+francesouth,Cold Tier,Standard,RA-GRS,0.034125
+francesouth,Cold Tier,Standard,RA-GZRS,na
 francesouth,Archive Tier,Premium SSD,LRS,na
 francesouth,Archive Tier,Premium SSD,GRS,na
 francesouth,Archive Tier,Premium SSD,ZRS,na
 francesouth,Archive Tier,Premium SSD,GZRS,na
 francesouth,Archive Tier,Premium SSD,RA-GRS,na
 francesouth,Archive Tier,Premium SSD,RA-GZRS,na
-francesouth,Archive Tier,Standard SSD,LRS,0.00304
-francesouth,Archive Tier,Standard SSD,GRS,0.00484
-francesouth,Archive Tier,Standard SSD,ZRS,na
-francesouth,Archive Tier,Standard SSD,GZRS,na
-francesouth,Archive Tier,Standard SSD,RA-GRS,0.00484
-francesouth,Archive Tier,Standard SSD,RA-GZRS,na
+francesouth,Archive Tier,Standard,LRS,0.00304
+francesouth,Archive Tier,Standard,GRS,0.00484
+francesouth,Archive Tier,Standard,ZRS,na
+francesouth,Archive Tier,Standard,GZRS,na
+francesouth,Archive Tier,Standard,RA-GRS,0.00484
+francesouth,Archive Tier,Standard,RA-GZRS,na
 germanynorth,Hot Tier,Premium SSD,LRS,0.254
 germanynorth,Hot Tier,Premium SSD,GRS,na
 germanynorth,Hot Tier,Premium SSD,ZRS,na
 germanynorth,Hot Tier,Premium SSD,GZRS,na
 germanynorth,Hot Tier,Premium SSD,RA-GRS,na
 germanynorth,Hot Tier,Premium SSD,RA-GZRS,na
-germanynorth,Hot Tier,Standard SSD,LRS,0.0196
-germanynorth,Hot Tier,Standard SSD,GRS,0.0392
-germanynorth,Hot Tier,Standard SSD,ZRS,na
-germanynorth,Hot Tier,Standard SSD,GZRS,na
-germanynorth,Hot Tier,Standard SSD,RA-GRS,0.049
-germanynorth,Hot Tier,Standard SSD,RA-GZRS,na
+germanynorth,Hot Tier,Standard,LRS,0.0196
+germanynorth,Hot Tier,Standard,GRS,0.0392
+germanynorth,Hot Tier,Standard,ZRS,na
+germanynorth,Hot Tier,Standard,GZRS,na
+germanynorth,Hot Tier,Standard,RA-GRS,0.049
+germanynorth,Hot Tier,Standard,RA-GZRS,na
 germanynorth,Cold Tier,Premium SSD,LRS,na
 germanynorth,Cold Tier,Premium SSD,GRS,na
 germanynorth,Cold Tier,Premium SSD,ZRS,na
 germanynorth,Cold Tier,Premium SSD,GZRS,na
 germanynorth,Cold Tier,Premium SSD,RA-GRS,na
 germanynorth,Cold Tier,Premium SSD,RA-GZRS,na
-germanynorth,Cold Tier,Standard SSD,LRS,0.01
-germanynorth,Cold Tier,Standard SSD,GRS,0.02
-germanynorth,Cold Tier,Standard SSD,ZRS,na
-germanynorth,Cold Tier,Standard SSD,GZRS,na
-germanynorth,Cold Tier,Standard SSD,RA-GRS,0.025
-germanynorth,Cold Tier,Standard SSD,RA-GZRS,na
+germanynorth,Cold Tier,Standard,LRS,0.01
+germanynorth,Cold Tier,Standard,GRS,0.02
+germanynorth,Cold Tier,Standard,ZRS,na
+germanynorth,Cold Tier,Standard,GZRS,na
+germanynorth,Cold Tier,Standard,RA-GRS,0.025
+germanynorth,Cold Tier,Standard,RA-GZRS,na
 germanynorth,Archive Tier,Premium SSD,LRS,na
 germanynorth,Archive Tier,Premium SSD,GRS,na
 germanynorth,Archive Tier,Premium SSD,ZRS,na
 germanynorth,Archive Tier,Premium SSD,GZRS,na
 germanynorth,Archive Tier,Premium SSD,RA-GRS,na
 germanynorth,Archive Tier,Premium SSD,RA-GZRS,na
-germanynorth,Archive Tier,Standard SSD,LRS,0.0018
-germanynorth,Archive Tier,Standard SSD,GRS,0.00279
-germanynorth,Archive Tier,Standard SSD,ZRS,na
-germanynorth,Archive Tier,Standard SSD,GZRS,na
-germanynorth,Archive Tier,Standard SSD,RA-GRS,0.00279
-germanynorth,Archive Tier,Standard SSD,RA-GZRS,na
+germanynorth,Archive Tier,Standard,LRS,0.0018
+germanynorth,Archive Tier,Standard,GRS,0.00279
+germanynorth,Archive Tier,Standard,ZRS,na
+germanynorth,Archive Tier,Standard,GZRS,na
+germanynorth,Archive Tier,Standard,RA-GRS,0.00279
+germanynorth,Archive Tier,Standard,RA-GZRS,na
 germanywestcentral,Hot Tier,Premium SSD,LRS,0.195
 germanywestcentral,Hot Tier,Premium SSD,GRS,na
 germanywestcentral,Hot Tier,Premium SSD,ZRS,0.259
 germanywestcentral,Hot Tier,Premium SSD,GZRS,na
 germanywestcentral,Hot Tier,Premium SSD,RA-GRS,na
 germanywestcentral,Hot Tier,Premium SSD,RA-GZRS,na
-germanywestcentral,Hot Tier,Standard SSD,LRS,0.0196
-germanywestcentral,Hot Tier,Standard SSD,GRS,0.0392
-germanywestcentral,Hot Tier,Standard SSD,ZRS,0.0225
-germanywestcentral,Hot Tier,Standard SSD,GZRS,0.046
-germanywestcentral,Hot Tier,Standard SSD,RA-GRS,0.049
-germanywestcentral,Hot Tier,Standard SSD,RA-GZRS,0.0575
+germanywestcentral,Hot Tier,Standard,LRS,0.0196
+germanywestcentral,Hot Tier,Standard,GRS,0.0392
+germanywestcentral,Hot Tier,Standard,ZRS,0.0225
+germanywestcentral,Hot Tier,Standard,GZRS,0.046
+germanywestcentral,Hot Tier,Standard,RA-GRS,0.049
+germanywestcentral,Hot Tier,Standard,RA-GZRS,0.0575
 germanywestcentral,Cold Tier,Premium SSD,LRS,na
 germanywestcentral,Cold Tier,Premium SSD,GRS,na
 germanywestcentral,Cold Tier,Premium SSD,ZRS,na
 germanywestcentral,Cold Tier,Premium SSD,GZRS,na
 germanywestcentral,Cold Tier,Premium SSD,RA-GRS,na
 germanywestcentral,Cold Tier,Premium SSD,RA-GZRS,na
-germanywestcentral,Cold Tier,Standard SSD,LRS,0.01
-germanywestcentral,Cold Tier,Standard SSD,GRS,0.02
-germanywestcentral,Cold Tier,Standard SSD,ZRS,0.0131
-germanywestcentral,Cold Tier,Standard SSD,GZRS,0.0231
-germanywestcentral,Cold Tier,Standard SSD,RA-GRS,0.025
-germanywestcentral,Cold Tier,Standard SSD,RA-GZRS,0.0236
+germanywestcentral,Cold Tier,Standard,LRS,0.01
+germanywestcentral,Cold Tier,Standard,GRS,0.02
+germanywestcentral,Cold Tier,Standard,ZRS,0.0131
+germanywestcentral,Cold Tier,Standard,GZRS,0.0231
+germanywestcentral,Cold Tier,Standard,RA-GRS,0.025
+germanywestcentral,Cold Tier,Standard,RA-GZRS,0.0236
 germanywestcentral,Archive Tier,Premium SSD,LRS,na
 germanywestcentral,Archive Tier,Premium SSD,GRS,na
 germanywestcentral,Archive Tier,Premium SSD,ZRS,na
 germanywestcentral,Archive Tier,Premium SSD,GZRS,na
 germanywestcentral,Archive Tier,Premium SSD,RA-GRS,na
 germanywestcentral,Archive Tier,Premium SSD,RA-GZRS,na
-germanywestcentral,Archive Tier,Standard SSD,LRS,0.0018
-germanywestcentral,Archive Tier,Standard SSD,GRS,0.00279
-germanywestcentral,Archive Tier,Standard SSD,ZRS,na
-germanywestcentral,Archive Tier,Standard SSD,GZRS,na
-germanywestcentral,Archive Tier,Standard SSD,RA-GRS,0.00279
-germanywestcentral,Archive Tier,Standard SSD,RA-GZRS,na
+germanywestcentral,Archive Tier,Standard,LRS,0.0018
+germanywestcentral,Archive Tier,Standard,GRS,0.00279
+germanywestcentral,Archive Tier,Standard,ZRS,na
+germanywestcentral,Archive Tier,Standard,GZRS,na
+germanywestcentral,Archive Tier,Standard,RA-GRS,0.00279
+germanywestcentral,Archive Tier,Standard,RA-GZRS,na
 indiasouthcentral,Hot Tier,Premium SSD,LRS,0.21
 indiasouthcentral,Hot Tier,Premium SSD,GRS,na
 indiasouthcentral,Hot Tier,Premium SSD,ZRS,0.279
 indiasouthcentral,Hot Tier,Premium SSD,GZRS,na
 indiasouthcentral,Hot Tier,Premium SSD,RA-GRS,na
 indiasouthcentral,Hot Tier,Premium SSD,RA-GZRS,na
-indiasouthcentral,Hot Tier,Standard SSD,LRS,0.02
-indiasouthcentral,Hot Tier,Standard SSD,GRS,0.04
-indiasouthcentral,Hot Tier,Standard SSD,ZRS,0.025
-indiasouthcentral,Hot Tier,Standard SSD,GZRS,0.045
-indiasouthcentral,Hot Tier,Standard SSD,RA-GRS,0.05
-indiasouthcentral,Hot Tier,Standard SSD,RA-GZRS,0.05625
+indiasouthcentral,Hot Tier,Standard,LRS,0.02
+indiasouthcentral,Hot Tier,Standard,GRS,0.04
+indiasouthcentral,Hot Tier,Standard,ZRS,0.025
+indiasouthcentral,Hot Tier,Standard,GZRS,0.045
+indiasouthcentral,Hot Tier,Standard,RA-GRS,0.05
+indiasouthcentral,Hot Tier,Standard,RA-GZRS,0.05625
 indiasouthcentral,Cold Tier,Premium SSD,LRS,na
 indiasouthcentral,Cold Tier,Premium SSD,GRS,na
 indiasouthcentral,Cold Tier,Premium SSD,ZRS,na
 indiasouthcentral,Cold Tier,Premium SSD,GZRS,na
 indiasouthcentral,Cold Tier,Premium SSD,RA-GRS,na
 indiasouthcentral,Cold Tier,Premium SSD,RA-GZRS,na
-indiasouthcentral,Cold Tier,Standard SSD,LRS,0.011
-indiasouthcentral,Cold Tier,Standard SSD,GRS,0.022
-indiasouthcentral,Cold Tier,Standard SSD,ZRS,0.01375
-indiasouthcentral,Cold Tier,Standard SSD,GZRS,0.02475
-indiasouthcentral,Cold Tier,Standard SSD,RA-GRS,0.0275
-indiasouthcentral,Cold Tier,Standard SSD,RA-GZRS,0.030938
+indiasouthcentral,Cold Tier,Standard,LRS,0.011
+indiasouthcentral,Cold Tier,Standard,GRS,0.022
+indiasouthcentral,Cold Tier,Standard,ZRS,0.01375
+indiasouthcentral,Cold Tier,Standard,GZRS,0.02475
+indiasouthcentral,Cold Tier,Standard,RA-GRS,0.0275
+indiasouthcentral,Cold Tier,Standard,RA-GZRS,0.030938
 indiasouthcentral,Archive Tier,Premium SSD,LRS,na
 indiasouthcentral,Archive Tier,Premium SSD,GRS,na
 indiasouthcentral,Archive Tier,Premium SSD,ZRS,na
 indiasouthcentral,Archive Tier,Premium SSD,GZRS,na
 indiasouthcentral,Archive Tier,Premium SSD,RA-GRS,na
 indiasouthcentral,Archive Tier,Premium SSD,RA-GZRS,na
-indiasouthcentral,Archive Tier,Standard SSD,LRS,na
-indiasouthcentral,Archive Tier,Standard SSD,GRS,na
-indiasouthcentral,Archive Tier,Standard SSD,ZRS,na
-indiasouthcentral,Archive Tier,Standard SSD,GZRS,na
-indiasouthcentral,Archive Tier,Standard SSD,RA-GRS,na
-indiasouthcentral,Archive Tier,Standard SSD,RA-GZRS,na
+indiasouthcentral,Archive Tier,Standard,LRS,na
+indiasouthcentral,Archive Tier,Standard,GRS,na
+indiasouthcentral,Archive Tier,Standard,ZRS,na
+indiasouthcentral,Archive Tier,Standard,GZRS,na
+indiasouthcentral,Archive Tier,Standard,RA-GRS,na
+indiasouthcentral,Archive Tier,Standard,RA-GZRS,na
 indonesiacentral,Hot Tier,Premium SSD,LRS,0.1755
 indonesiacentral,Hot Tier,Premium SSD,GRS,na
 indonesiacentral,Hot Tier,Premium SSD,ZRS,0.233415
 indonesiacentral,Hot Tier,Premium SSD,GZRS,na
 indonesiacentral,Hot Tier,Premium SSD,RA-GRS,na
 indonesiacentral,Hot Tier,Premium SSD,RA-GZRS,na
-indonesiacentral,Hot Tier,Standard SSD,LRS,0.018
-indonesiacentral,Hot Tier,Standard SSD,GRS,na
-indonesiacentral,Hot Tier,Standard SSD,ZRS,0.0225
-indonesiacentral,Hot Tier,Standard SSD,GZRS,na
-indonesiacentral,Hot Tier,Standard SSD,RA-GRS,na
-indonesiacentral,Hot Tier,Standard SSD,RA-GZRS,na
+indonesiacentral,Hot Tier,Standard,LRS,0.018
+indonesiacentral,Hot Tier,Standard,GRS,na
+indonesiacentral,Hot Tier,Standard,ZRS,0.0225
+indonesiacentral,Hot Tier,Standard,GZRS,na
+indonesiacentral,Hot Tier,Standard,RA-GRS,na
+indonesiacentral,Hot Tier,Standard,RA-GZRS,na
 indonesiacentral,Cold Tier,Premium SSD,LRS,na
 indonesiacentral,Cold Tier,Premium SSD,GRS,na
 indonesiacentral,Cold Tier,Premium SSD,ZRS,na
 indonesiacentral,Cold Tier,Premium SSD,GZRS,na
 indonesiacentral,Cold Tier,Premium SSD,RA-GRS,na
 indonesiacentral,Cold Tier,Premium SSD,RA-GZRS,na
-indonesiacentral,Cold Tier,Standard SSD,LRS,0.01
-indonesiacentral,Cold Tier,Standard SSD,GRS,na
-indonesiacentral,Cold Tier,Standard SSD,ZRS,0.0125
-indonesiacentral,Cold Tier,Standard SSD,GZRS,na
-indonesiacentral,Cold Tier,Standard SSD,RA-GRS,na
-indonesiacentral,Cold Tier,Standard SSD,RA-GZRS,na
+indonesiacentral,Cold Tier,Standard,LRS,0.01
+indonesiacentral,Cold Tier,Standard,GRS,na
+indonesiacentral,Cold Tier,Standard,ZRS,0.0125
+indonesiacentral,Cold Tier,Standard,GZRS,na
+indonesiacentral,Cold Tier,Standard,RA-GRS,na
+indonesiacentral,Cold Tier,Standard,RA-GZRS,na
 indonesiacentral,Archive Tier,Premium SSD,LRS,na
 indonesiacentral,Archive Tier,Premium SSD,GRS,na
 indonesiacentral,Archive Tier,Premium SSD,ZRS,na
 indonesiacentral,Archive Tier,Premium SSD,GZRS,na
 indonesiacentral,Archive Tier,Premium SSD,RA-GRS,na
 indonesiacentral,Archive Tier,Premium SSD,RA-GZRS,na
-indonesiacentral,Archive Tier,Standard SSD,LRS,0.0018
-indonesiacentral,Archive Tier,Standard SSD,GRS,na
-indonesiacentral,Archive Tier,Standard SSD,ZRS,na
-indonesiacentral,Archive Tier,Standard SSD,GZRS,na
-indonesiacentral,Archive Tier,Standard SSD,RA-GRS,na
-indonesiacentral,Archive Tier,Standard SSD,RA-GZRS,na
+indonesiacentral,Archive Tier,Standard,LRS,0.0018
+indonesiacentral,Archive Tier,Standard,GRS,na
+indonesiacentral,Archive Tier,Standard,ZRS,na
+indonesiacentral,Archive Tier,Standard,GZRS,na
+indonesiacentral,Archive Tier,Standard,RA-GRS,na
+indonesiacentral,Archive Tier,Standard,RA-GZRS,na
 israelcentral,Hot Tier,Premium SSD,LRS,0.214
 israelcentral,Hot Tier,Premium SSD,GRS,na
 israelcentral,Hot Tier,Premium SSD,ZRS,0.285
 israelcentral,Hot Tier,Premium SSD,GZRS,na
 israelcentral,Hot Tier,Premium SSD,RA-GRS,na
 israelcentral,Hot Tier,Premium SSD,RA-GZRS,na
-israelcentral,Hot Tier,Standard SSD,LRS,0.02
-israelcentral,Hot Tier,Standard SSD,GRS,0.06578
-israelcentral,Hot Tier,Standard SSD,ZRS,0.025
-israelcentral,Hot Tier,Standard SSD,GZRS,na
-israelcentral,Hot Tier,Standard SSD,RA-GRS,na
-israelcentral,Hot Tier,Standard SSD,RA-GZRS,na
+israelcentral,Hot Tier,Standard,LRS,0.02
+israelcentral,Hot Tier,Standard,GRS,0.06578
+israelcentral,Hot Tier,Standard,ZRS,0.025
+israelcentral,Hot Tier,Standard,GZRS,na
+israelcentral,Hot Tier,Standard,RA-GRS,na
+israelcentral,Hot Tier,Standard,RA-GZRS,na
 israelcentral,Cold Tier,Premium SSD,LRS,na
 israelcentral,Cold Tier,Premium SSD,GRS,na
 israelcentral,Cold Tier,Premium SSD,ZRS,na
 israelcentral,Cold Tier,Premium SSD,GZRS,na
 israelcentral,Cold Tier,Premium SSD,RA-GRS,na
 israelcentral,Cold Tier,Premium SSD,RA-GZRS,na
-israelcentral,Cold Tier,Standard SSD,LRS,0.01104
-israelcentral,Cold Tier,Standard SSD,GRS,0.024
-israelcentral,Cold Tier,Standard SSD,ZRS,0.0138
-israelcentral,Cold Tier,Standard SSD,GZRS,na
-israelcentral,Cold Tier,Standard SSD,RA-GRS,0.03
-israelcentral,Cold Tier,Standard SSD,RA-GZRS,na
+israelcentral,Cold Tier,Standard,LRS,0.01104
+israelcentral,Cold Tier,Standard,GRS,0.024
+israelcentral,Cold Tier,Standard,ZRS,0.0138
+israelcentral,Cold Tier,Standard,GZRS,na
+israelcentral,Cold Tier,Standard,RA-GRS,0.03
+israelcentral,Cold Tier,Standard,RA-GZRS,na
 israelcentral,Archive Tier,Premium SSD,LRS,na
 israelcentral,Archive Tier,Premium SSD,GRS,na
 israelcentral,Archive Tier,Premium SSD,ZRS,na
 israelcentral,Archive Tier,Premium SSD,GZRS,na
 israelcentral,Archive Tier,Premium SSD,RA-GRS,na
 israelcentral,Archive Tier,Premium SSD,RA-GZRS,na
-israelcentral,Archive Tier,Standard SSD,LRS,na
-israelcentral,Archive Tier,Standard SSD,GRS,na
-israelcentral,Archive Tier,Standard SSD,ZRS,na
-israelcentral,Archive Tier,Standard SSD,GZRS,na
-israelcentral,Archive Tier,Standard SSD,RA-GRS,na
-israelcentral,Archive Tier,Standard SSD,RA-GZRS,na
+israelcentral,Archive Tier,Standard,LRS,na
+israelcentral,Archive Tier,Standard,GRS,na
+israelcentral,Archive Tier,Standard,ZRS,na
+israelcentral,Archive Tier,Standard,GZRS,na
+israelcentral,Archive Tier,Standard,RA-GRS,na
+israelcentral,Archive Tier,Standard,RA-GZRS,na
 italynorth,Hot Tier,Premium SSD,LRS,0.19425
 italynorth,Hot Tier,Premium SSD,GRS,na
 italynorth,Hot Tier,Premium SSD,ZRS,0.259
 italynorth,Hot Tier,Premium SSD,GZRS,na
 italynorth,Hot Tier,Premium SSD,RA-GRS,na
 italynorth,Hot Tier,Premium SSD,RA-GZRS,na
-italynorth,Hot Tier,Standard SSD,LRS,0.0192
-italynorth,Hot Tier,Standard SSD,GRS,na
-italynorth,Hot Tier,Standard SSD,ZRS,0.024
-italynorth,Hot Tier,Standard SSD,GZRS,na
-italynorth,Hot Tier,Standard SSD,RA-GRS,na
-italynorth,Hot Tier,Standard SSD,RA-GZRS,na
+italynorth,Hot Tier,Standard,LRS,0.0192
+italynorth,Hot Tier,Standard,GRS,na
+italynorth,Hot Tier,Standard,ZRS,0.024
+italynorth,Hot Tier,Standard,GZRS,na
+italynorth,Hot Tier,Standard,RA-GRS,na
+italynorth,Hot Tier,Standard,RA-GZRS,na
 italynorth,Cold Tier,Premium SSD,LRS,na
 italynorth,Cold Tier,Premium SSD,GRS,na
 italynorth,Cold Tier,Premium SSD,ZRS,na
 italynorth,Cold Tier,Premium SSD,GZRS,na
 italynorth,Cold Tier,Premium SSD,RA-GRS,na
 italynorth,Cold Tier,Premium SSD,RA-GZRS,na
-italynorth,Cold Tier,Standard SSD,LRS,0.01
-italynorth,Cold Tier,Standard SSD,GRS,na
-italynorth,Cold Tier,Standard SSD,ZRS,0.0131
-italynorth,Cold Tier,Standard SSD,GZRS,na
-italynorth,Cold Tier,Standard SSD,RA-GRS,na
-italynorth,Cold Tier,Standard SSD,RA-GZRS,na
+italynorth,Cold Tier,Standard,LRS,0.01
+italynorth,Cold Tier,Standard,GRS,na
+italynorth,Cold Tier,Standard,ZRS,0.0131
+italynorth,Cold Tier,Standard,GZRS,na
+italynorth,Cold Tier,Standard,RA-GRS,na
+italynorth,Cold Tier,Standard,RA-GZRS,na
 italynorth,Archive Tier,Premium SSD,LRS,na
 italynorth,Archive Tier,Premium SSD,GRS,na
 italynorth,Archive Tier,Premium SSD,ZRS,na
 italynorth,Archive Tier,Premium SSD,GZRS,na
 italynorth,Archive Tier,Premium SSD,RA-GRS,na
 italynorth,Archive Tier,Premium SSD,RA-GZRS,na
-italynorth,Archive Tier,Standard SSD,LRS,0.0018
-italynorth,Archive Tier,Standard SSD,GRS,na
-italynorth,Archive Tier,Standard SSD,ZRS,na
-italynorth,Archive Tier,Standard SSD,GZRS,na
-italynorth,Archive Tier,Standard SSD,RA-GRS,na
-italynorth,Archive Tier,Standard SSD,RA-GZRS,na
+italynorth,Archive Tier,Standard,LRS,0.0018
+italynorth,Archive Tier,Standard,GRS,na
+italynorth,Archive Tier,Standard,ZRS,na
+italynorth,Archive Tier,Standard,GZRS,na
+italynorth,Archive Tier,Standard,RA-GRS,na
+italynorth,Archive Tier,Standard,RA-GZRS,na
 japaneast,Hot Tier,Premium SSD,LRS,0.218
 japaneast,Hot Tier,Premium SSD,GRS,na
 japaneast,Hot Tier,Premium SSD,ZRS,0.289
 japaneast,Hot Tier,Premium SSD,GZRS,na
 japaneast,Hot Tier,Premium SSD,RA-GRS,na
 japaneast,Hot Tier,Premium SSD,RA-GZRS,na
-japaneast,Hot Tier,Standard SSD,LRS,0.02
-japaneast,Hot Tier,Standard SSD,GRS,0.04
-japaneast,Hot Tier,Standard SSD,ZRS,0.025
-japaneast,Hot Tier,Standard SSD,GZRS,0.045
-japaneast,Hot Tier,Standard SSD,RA-GRS,0.05
-japaneast,Hot Tier,Standard SSD,RA-GZRS,0.0563
+japaneast,Hot Tier,Standard,LRS,0.02
+japaneast,Hot Tier,Standard,GRS,0.04
+japaneast,Hot Tier,Standard,ZRS,0.025
+japaneast,Hot Tier,Standard,GZRS,0.045
+japaneast,Hot Tier,Standard,RA-GRS,0.05
+japaneast,Hot Tier,Standard,RA-GZRS,0.0563
 japaneast,Cold Tier,Premium SSD,LRS,na
 japaneast,Cold Tier,Premium SSD,GRS,na
 japaneast,Cold Tier,Premium SSD,ZRS,na
 japaneast,Cold Tier,Premium SSD,GZRS,na
 japaneast,Cold Tier,Premium SSD,RA-GRS,na
 japaneast,Cold Tier,Premium SSD,RA-GZRS,na
-japaneast,Cold Tier,Standard SSD,LRS,0.011
-japaneast,Cold Tier,Standard SSD,GRS,0.022
-japaneast,Cold Tier,Standard SSD,ZRS,0.0138
-japaneast,Cold Tier,Standard SSD,GZRS,0.0248
-japaneast,Cold Tier,Standard SSD,RA-GRS,0.0275
-japaneast,Cold Tier,Standard SSD,RA-GZRS,0.0309
+japaneast,Cold Tier,Standard,LRS,0.011
+japaneast,Cold Tier,Standard,GRS,0.022
+japaneast,Cold Tier,Standard,ZRS,0.0138
+japaneast,Cold Tier,Standard,GZRS,0.0248
+japaneast,Cold Tier,Standard,RA-GRS,0.0275
+japaneast,Cold Tier,Standard,RA-GZRS,0.0309
 japaneast,Archive Tier,Premium SSD,LRS,na
 japaneast,Archive Tier,Premium SSD,GRS,na
 japaneast,Archive Tier,Premium SSD,ZRS,na
 japaneast,Archive Tier,Premium SSD,GZRS,na
 japaneast,Archive Tier,Premium SSD,RA-GRS,na
 japaneast,Archive Tier,Premium SSD,RA-GZRS,na
-japaneast,Archive Tier,Standard SSD,LRS,0.002
-japaneast,Archive Tier,Standard SSD,GRS,0.004
-japaneast,Archive Tier,Standard SSD,ZRS,na
-japaneast,Archive Tier,Standard SSD,GZRS,na
-japaneast,Archive Tier,Standard SSD,RA-GRS,0.004
-japaneast,Archive Tier,Standard SSD,RA-GZRS,na
+japaneast,Archive Tier,Standard,LRS,0.002
+japaneast,Archive Tier,Standard,GRS,0.004
+japaneast,Archive Tier,Standard,ZRS,na
+japaneast,Archive Tier,Standard,GZRS,na
+japaneast,Archive Tier,Standard,RA-GRS,0.004
+japaneast,Archive Tier,Standard,RA-GZRS,na
 japanwest,Hot Tier,Premium SSD,LRS,0.233
 japanwest,Hot Tier,Premium SSD,GRS,na
 japanwest,Hot Tier,Premium SSD,ZRS,na
 japanwest,Hot Tier,Premium SSD,GZRS,na
 japanwest,Hot Tier,Premium SSD,RA-GRS,na
 japanwest,Hot Tier,Premium SSD,RA-GZRS,na
-japanwest,Hot Tier,Standard SSD,LRS,0.02
-japanwest,Hot Tier,Standard SSD,GRS,0.04
-japanwest,Hot Tier,Standard SSD,ZRS,0.025
-japanwest,Hot Tier,Standard SSD,GZRS,0.05625
-japanwest,Hot Tier,Standard SSD,RA-GRS,0.05
-japanwest,Hot Tier,Standard SSD,RA-GZRS,0.070313
+japanwest,Hot Tier,Standard,LRS,0.02
+japanwest,Hot Tier,Standard,GRS,0.04
+japanwest,Hot Tier,Standard,ZRS,0.025
+japanwest,Hot Tier,Standard,GZRS,0.05625
+japanwest,Hot Tier,Standard,RA-GRS,0.05
+japanwest,Hot Tier,Standard,RA-GZRS,0.070313
 japanwest,Cold Tier,Premium SSD,LRS,na
 japanwest,Cold Tier,Premium SSD,GRS,na
 japanwest,Cold Tier,Premium SSD,ZRS,na
 japanwest,Cold Tier,Premium SSD,GZRS,na
 japanwest,Cold Tier,Premium SSD,RA-GRS,na
 japanwest,Cold Tier,Premium SSD,RA-GZRS,na
-japanwest,Cold Tier,Standard SSD,LRS,0.011
-japanwest,Cold Tier,Standard SSD,GRS,0.022
-japanwest,Cold Tier,Standard SSD,ZRS,0.0138
-japanwest,Cold Tier,Standard SSD,GZRS,0.05301
-japanwest,Cold Tier,Standard SSD,RA-GRS,0.0275
-japanwest,Cold Tier,Standard SSD,RA-GZRS,0.066263
+japanwest,Cold Tier,Standard,LRS,0.011
+japanwest,Cold Tier,Standard,GRS,0.022
+japanwest,Cold Tier,Standard,ZRS,0.0138
+japanwest,Cold Tier,Standard,GZRS,0.05301
+japanwest,Cold Tier,Standard,RA-GRS,0.0275
+japanwest,Cold Tier,Standard,RA-GZRS,0.066263
 japanwest,Archive Tier,Premium SSD,LRS,na
 japanwest,Archive Tier,Premium SSD,GRS,na
 japanwest,Archive Tier,Premium SSD,ZRS,na
 japanwest,Archive Tier,Premium SSD,GZRS,na
 japanwest,Archive Tier,Premium SSD,RA-GRS,na
 japanwest,Archive Tier,Premium SSD,RA-GZRS,na
-japanwest,Archive Tier,Standard SSD,LRS,0.002
-japanwest,Archive Tier,Standard SSD,GRS,0.004
-japanwest,Archive Tier,Standard SSD,ZRS,na
-japanwest,Archive Tier,Standard SSD,GZRS,na
-japanwest,Archive Tier,Standard SSD,RA-GRS,0.004
-japanwest,Archive Tier,Standard SSD,RA-GZRS,na
+japanwest,Archive Tier,Standard,LRS,0.002
+japanwest,Archive Tier,Standard,GRS,0.004
+japanwest,Archive Tier,Standard,ZRS,na
+japanwest,Archive Tier,Standard,GZRS,na
+japanwest,Archive Tier,Standard,RA-GRS,0.004
+japanwest,Archive Tier,Standard,RA-GZRS,na
 koreacentral,Hot Tier,Premium SSD,LRS,0.203
 koreacentral,Hot Tier,Premium SSD,GRS,na
 koreacentral,Hot Tier,Premium SSD,ZRS,0.269
 koreacentral,Hot Tier,Premium SSD,GZRS,na
 koreacentral,Hot Tier,Premium SSD,RA-GRS,na
 koreacentral,Hot Tier,Premium SSD,RA-GZRS,na
-koreacentral,Hot Tier,Standard SSD,LRS,0.02
-koreacentral,Hot Tier,Standard SSD,GRS,0.04
-koreacentral,Hot Tier,Standard SSD,ZRS,0.025
-koreacentral,Hot Tier,Standard SSD,GZRS,0.058126
-koreacentral,Hot Tier,Standard SSD,RA-GRS,0.05
-koreacentral,Hot Tier,Standard SSD,RA-GZRS,0.072657
+koreacentral,Hot Tier,Standard,LRS,0.02
+koreacentral,Hot Tier,Standard,GRS,0.04
+koreacentral,Hot Tier,Standard,ZRS,0.025
+koreacentral,Hot Tier,Standard,GZRS,0.058126
+koreacentral,Hot Tier,Standard,RA-GRS,0.05
+koreacentral,Hot Tier,Standard,RA-GZRS,0.072657
 koreacentral,Cold Tier,Premium SSD,LRS,na
 koreacentral,Cold Tier,Premium SSD,GRS,na
 koreacentral,Cold Tier,Premium SSD,ZRS,na
 koreacentral,Cold Tier,Premium SSD,GZRS,na
 koreacentral,Cold Tier,Premium SSD,RA-GRS,na
 koreacentral,Cold Tier,Premium SSD,RA-GZRS,na
-koreacentral,Cold Tier,Standard SSD,LRS,0.011
-koreacentral,Cold Tier,Standard SSD,GRS,0.0254
-koreacentral,Cold Tier,Standard SSD,ZRS,0.0138
-koreacentral,Cold Tier,Standard SSD,GZRS,0.031625
-koreacentral,Cold Tier,Standard SSD,RA-GRS,0.0318
-koreacentral,Cold Tier,Standard SSD,RA-GZRS,0.057713
+koreacentral,Cold Tier,Standard,LRS,0.011
+koreacentral,Cold Tier,Standard,GRS,0.0254
+koreacentral,Cold Tier,Standard,ZRS,0.0138
+koreacentral,Cold Tier,Standard,GZRS,0.031625
+koreacentral,Cold Tier,Standard,RA-GRS,0.0318
+koreacentral,Cold Tier,Standard,RA-GZRS,0.057713
 koreacentral,Archive Tier,Premium SSD,LRS,na
 koreacentral,Archive Tier,Premium SSD,GRS,na
 koreacentral,Archive Tier,Premium SSD,ZRS,na
 koreacentral,Archive Tier,Premium SSD,GZRS,na
 koreacentral,Archive Tier,Premium SSD,RA-GRS,na
 koreacentral,Archive Tier,Premium SSD,RA-GZRS,na
-koreacentral,Archive Tier,Standard SSD,LRS,0.002
-koreacentral,Archive Tier,Standard SSD,GRS,0.0047
-koreacentral,Archive Tier,Standard SSD,ZRS,na
-koreacentral,Archive Tier,Standard SSD,GZRS,na
-koreacentral,Archive Tier,Standard SSD,RA-GRS,0.0047
-koreacentral,Archive Tier,Standard SSD,RA-GZRS,na
+koreacentral,Archive Tier,Standard,LRS,0.002
+koreacentral,Archive Tier,Standard,GRS,0.0047
+koreacentral,Archive Tier,Standard,ZRS,na
+koreacentral,Archive Tier,Standard,GZRS,na
+koreacentral,Archive Tier,Standard,RA-GRS,0.0047
+koreacentral,Archive Tier,Standard,RA-GZRS,na
 koreasouth,Hot Tier,Premium SSD,LRS,0.203
 koreasouth,Hot Tier,Premium SSD,GRS,na
 koreasouth,Hot Tier,Premium SSD,ZRS,na
 koreasouth,Hot Tier,Premium SSD,GZRS,na
 koreasouth,Hot Tier,Premium SSD,RA-GRS,na
 koreasouth,Hot Tier,Premium SSD,RA-GZRS,na
-koreasouth,Hot Tier,Standard SSD,LRS,0.02
-koreasouth,Hot Tier,Standard SSD,GRS,0.04
-koreasouth,Hot Tier,Standard SSD,ZRS,na
-koreasouth,Hot Tier,Standard SSD,GZRS,na
-koreasouth,Hot Tier,Standard SSD,RA-GRS,0.05
-koreasouth,Hot Tier,Standard SSD,RA-GZRS,na
+koreasouth,Hot Tier,Standard,LRS,0.02
+koreasouth,Hot Tier,Standard,GRS,0.04
+koreasouth,Hot Tier,Standard,ZRS,na
+koreasouth,Hot Tier,Standard,GZRS,na
+koreasouth,Hot Tier,Standard,RA-GRS,0.05
+koreasouth,Hot Tier,Standard,RA-GZRS,na
 koreasouth,Cold Tier,Premium SSD,LRS,na
 koreasouth,Cold Tier,Premium SSD,GRS,na
 koreasouth,Cold Tier,Premium SSD,ZRS,na
 koreasouth,Cold Tier,Premium SSD,GZRS,na
 koreasouth,Cold Tier,Premium SSD,RA-GRS,na
 koreasouth,Cold Tier,Premium SSD,RA-GZRS,na
-koreasouth,Cold Tier,Standard SSD,LRS,0.0144
-koreasouth,Cold Tier,Standard SSD,GRS,0.0288
-koreasouth,Cold Tier,Standard SSD,ZRS,na
-koreasouth,Cold Tier,Standard SSD,GZRS,na
-koreasouth,Cold Tier,Standard SSD,RA-GRS,0.036
-koreasouth,Cold Tier,Standard SSD,RA-GZRS,na
+koreasouth,Cold Tier,Standard,LRS,0.0144
+koreasouth,Cold Tier,Standard,GRS,0.0288
+koreasouth,Cold Tier,Standard,ZRS,na
+koreasouth,Cold Tier,Standard,GZRS,na
+koreasouth,Cold Tier,Standard,RA-GRS,0.036
+koreasouth,Cold Tier,Standard,RA-GZRS,na
 koreasouth,Archive Tier,Premium SSD,LRS,na
 koreasouth,Archive Tier,Premium SSD,GRS,na
 koreasouth,Archive Tier,Premium SSD,ZRS,na
 koreasouth,Archive Tier,Premium SSD,GZRS,na
 koreasouth,Archive Tier,Premium SSD,RA-GRS,na
 koreasouth,Archive Tier,Premium SSD,RA-GZRS,na
-koreasouth,Archive Tier,Standard SSD,LRS,0.0027
-koreasouth,Archive Tier,Standard SSD,GRS,0.0047
-koreasouth,Archive Tier,Standard SSD,ZRS,na
-koreasouth,Archive Tier,Standard SSD,GZRS,na
-koreasouth,Archive Tier,Standard SSD,RA-GRS,0.0047
-koreasouth,Archive Tier,Standard SSD,RA-GZRS,na
+koreasouth,Archive Tier,Standard,LRS,0.0027
+koreasouth,Archive Tier,Standard,GRS,0.0047
+koreasouth,Archive Tier,Standard,ZRS,na
+koreasouth,Archive Tier,Standard,GZRS,na
+koreasouth,Archive Tier,Standard,RA-GRS,0.0047
+koreasouth,Archive Tier,Standard,RA-GZRS,na
 malaysiawest,Hot Tier,Premium SSD,LRS,0.1755
 malaysiawest,Hot Tier,Premium SSD,GRS,na
 malaysiawest,Hot Tier,Premium SSD,ZRS,0.233415
 malaysiawest,Hot Tier,Premium SSD,GZRS,na
 malaysiawest,Hot Tier,Premium SSD,RA-GRS,na
 malaysiawest,Hot Tier,Premium SSD,RA-GZRS,na
-malaysiawest,Hot Tier,Standard SSD,LRS,0.018
-malaysiawest,Hot Tier,Standard SSD,GRS,na
-malaysiawest,Hot Tier,Standard SSD,ZRS,0.0225
-malaysiawest,Hot Tier,Standard SSD,GZRS,na
-malaysiawest,Hot Tier,Standard SSD,RA-GRS,na
-malaysiawest,Hot Tier,Standard SSD,RA-GZRS,na
+malaysiawest,Hot Tier,Standard,LRS,0.018
+malaysiawest,Hot Tier,Standard,GRS,na
+malaysiawest,Hot Tier,Standard,ZRS,0.0225
+malaysiawest,Hot Tier,Standard,GZRS,na
+malaysiawest,Hot Tier,Standard,RA-GRS,na
+malaysiawest,Hot Tier,Standard,RA-GZRS,na
 malaysiawest,Cold Tier,Premium SSD,LRS,na
 malaysiawest,Cold Tier,Premium SSD,GRS,na
 malaysiawest,Cold Tier,Premium SSD,ZRS,na
 malaysiawest,Cold Tier,Premium SSD,GZRS,na
 malaysiawest,Cold Tier,Premium SSD,RA-GRS,na
 malaysiawest,Cold Tier,Premium SSD,RA-GZRS,na
-malaysiawest,Cold Tier,Standard SSD,LRS,0.01
-malaysiawest,Cold Tier,Standard SSD,GRS,na
-malaysiawest,Cold Tier,Standard SSD,ZRS,0.0125
-malaysiawest,Cold Tier,Standard SSD,GZRS,na
-malaysiawest,Cold Tier,Standard SSD,RA-GRS,na
-malaysiawest,Cold Tier,Standard SSD,RA-GZRS,na
+malaysiawest,Cold Tier,Standard,LRS,0.01
+malaysiawest,Cold Tier,Standard,GRS,na
+malaysiawest,Cold Tier,Standard,ZRS,0.0125
+malaysiawest,Cold Tier,Standard,GZRS,na
+malaysiawest,Cold Tier,Standard,RA-GRS,na
+malaysiawest,Cold Tier,Standard,RA-GZRS,na
 malaysiawest,Archive Tier,Premium SSD,LRS,na
 malaysiawest,Archive Tier,Premium SSD,GRS,na
 malaysiawest,Archive Tier,Premium SSD,ZRS,na
 malaysiawest,Archive Tier,Premium SSD,GZRS,na
 malaysiawest,Archive Tier,Premium SSD,RA-GRS,na
 malaysiawest,Archive Tier,Premium SSD,RA-GZRS,na
-malaysiawest,Archive Tier,Standard SSD,LRS,0.0018
-malaysiawest,Archive Tier,Standard SSD,GRS,na
-malaysiawest,Archive Tier,Standard SSD,ZRS,na
-malaysiawest,Archive Tier,Standard SSD,GZRS,na
-malaysiawest,Archive Tier,Standard SSD,RA-GRS,na
-malaysiawest,Archive Tier,Standard SSD,RA-GZRS,na
+malaysiawest,Archive Tier,Standard,LRS,0.0018
+malaysiawest,Archive Tier,Standard,GRS,na
+malaysiawest,Archive Tier,Standard,ZRS,na
+malaysiawest,Archive Tier,Standard,GZRS,na
+malaysiawest,Archive Tier,Standard,RA-GRS,na
+malaysiawest,Archive Tier,Standard,RA-GZRS,na
 mexicocentral,Hot Tier,Premium SSD,LRS,0.165
 mexicocentral,Hot Tier,Premium SSD,GRS,na
 mexicocentral,Hot Tier,Premium SSD,ZRS,0.21945
 mexicocentral,Hot Tier,Premium SSD,GZRS,na
 mexicocentral,Hot Tier,Premium SSD,RA-GRS,na
 mexicocentral,Hot Tier,Premium SSD,RA-GZRS,na
-mexicocentral,Hot Tier,Standard SSD,LRS,0.02288
-mexicocentral,Hot Tier,Standard SSD,GRS,na
-mexicocentral,Hot Tier,Standard SSD,ZRS,0.0286
-mexicocentral,Hot Tier,Standard SSD,GZRS,na
-mexicocentral,Hot Tier,Standard SSD,RA-GRS,na
-mexicocentral,Hot Tier,Standard SSD,RA-GZRS,na
+mexicocentral,Hot Tier,Standard,LRS,0.02288
+mexicocentral,Hot Tier,Standard,GRS,na
+mexicocentral,Hot Tier,Standard,ZRS,0.0286
+mexicocentral,Hot Tier,Standard,GZRS,na
+mexicocentral,Hot Tier,Standard,RA-GRS,na
+mexicocentral,Hot Tier,Standard,RA-GZRS,na
 mexicocentral,Cold Tier,Premium SSD,LRS,na
 mexicocentral,Cold Tier,Premium SSD,GRS,na
 mexicocentral,Cold Tier,Premium SSD,ZRS,na
 mexicocentral,Cold Tier,Premium SSD,GZRS,na
 mexicocentral,Cold Tier,Premium SSD,RA-GRS,na
 mexicocentral,Cold Tier,Premium SSD,RA-GZRS,na
-mexicocentral,Cold Tier,Standard SSD,LRS,0.01672
-mexicocentral,Cold Tier,Standard SSD,GRS,na
-mexicocentral,Cold Tier,Standard SSD,ZRS,0.0209
-mexicocentral,Cold Tier,Standard SSD,GZRS,na
-mexicocentral,Cold Tier,Standard SSD,RA-GRS,na
-mexicocentral,Cold Tier,Standard SSD,RA-GZRS,na
+mexicocentral,Cold Tier,Standard,LRS,0.01672
+mexicocentral,Cold Tier,Standard,GRS,na
+mexicocentral,Cold Tier,Standard,ZRS,0.0209
+mexicocentral,Cold Tier,Standard,GZRS,na
+mexicocentral,Cold Tier,Standard,RA-GRS,na
+mexicocentral,Cold Tier,Standard,RA-GZRS,na
 mexicocentral,Archive Tier,Premium SSD,LRS,na
 mexicocentral,Archive Tier,Premium SSD,GRS,na
 mexicocentral,Archive Tier,Premium SSD,ZRS,na
 mexicocentral,Archive Tier,Premium SSD,GZRS,na
 mexicocentral,Archive Tier,Premium SSD,RA-GRS,na
 mexicocentral,Archive Tier,Premium SSD,RA-GZRS,na
-mexicocentral,Archive Tier,Standard SSD,LRS,na
-mexicocentral,Archive Tier,Standard SSD,GRS,na
-mexicocentral,Archive Tier,Standard SSD,ZRS,na
-mexicocentral,Archive Tier,Standard SSD,GZRS,na
-mexicocentral,Archive Tier,Standard SSD,RA-GRS,na
-mexicocentral,Archive Tier,Standard SSD,RA-GZRS,na
+mexicocentral,Archive Tier,Standard,LRS,na
+mexicocentral,Archive Tier,Standard,GRS,na
+mexicocentral,Archive Tier,Standard,ZRS,na
+mexicocentral,Archive Tier,Standard,GZRS,na
+mexicocentral,Archive Tier,Standard,RA-GRS,na
+mexicocentral,Archive Tier,Standard,RA-GZRS,na
 newzealandnorth,Hot Tier,Premium SSD,LRS,0.2289
 newzealandnorth,Hot Tier,Premium SSD,GRS,na
 newzealandnorth,Hot Tier,Premium SSD,ZRS,0.30345
 newzealandnorth,Hot Tier,Premium SSD,GZRS,na
 newzealandnorth,Hot Tier,Premium SSD,RA-GRS,na
 newzealandnorth,Hot Tier,Premium SSD,RA-GZRS,na
-newzealandnorth,Hot Tier,Standard SSD,LRS,0.02
-newzealandnorth,Hot Tier,Standard SSD,GRS,na
-newzealandnorth,Hot Tier,Standard SSD,ZRS,0.02625
-newzealandnorth,Hot Tier,Standard SSD,GZRS,na
-newzealandnorth,Hot Tier,Standard SSD,RA-GRS,na
-newzealandnorth,Hot Tier,Standard SSD,RA-GZRS,na
+newzealandnorth,Hot Tier,Standard,LRS,0.02
+newzealandnorth,Hot Tier,Standard,GRS,na
+newzealandnorth,Hot Tier,Standard,ZRS,0.02625
+newzealandnorth,Hot Tier,Standard,GZRS,na
+newzealandnorth,Hot Tier,Standard,RA-GRS,na
+newzealandnorth,Hot Tier,Standard,RA-GZRS,na
 newzealandnorth,Cold Tier,Premium SSD,LRS,na
 newzealandnorth,Cold Tier,Premium SSD,GRS,na
 newzealandnorth,Cold Tier,Premium SSD,ZRS,na
 newzealandnorth,Cold Tier,Premium SSD,GZRS,na
 newzealandnorth,Cold Tier,Premium SSD,RA-GRS,na
 newzealandnorth,Cold Tier,Premium SSD,RA-GZRS,na
-newzealandnorth,Cold Tier,Standard SSD,LRS,0.01155
-newzealandnorth,Cold Tier,Standard SSD,GRS,na
-newzealandnorth,Cold Tier,Standard SSD,ZRS,0.01449
-newzealandnorth,Cold Tier,Standard SSD,GZRS,na
-newzealandnorth,Cold Tier,Standard SSD,RA-GRS,na
-newzealandnorth,Cold Tier,Standard SSD,RA-GZRS,na
+newzealandnorth,Cold Tier,Standard,LRS,0.01155
+newzealandnorth,Cold Tier,Standard,GRS,na
+newzealandnorth,Cold Tier,Standard,ZRS,0.01449
+newzealandnorth,Cold Tier,Standard,GZRS,na
+newzealandnorth,Cold Tier,Standard,RA-GRS,na
+newzealandnorth,Cold Tier,Standard,RA-GZRS,na
 newzealandnorth,Archive Tier,Premium SSD,LRS,na
 newzealandnorth,Archive Tier,Premium SSD,GRS,na
 newzealandnorth,Archive Tier,Premium SSD,ZRS,na
 newzealandnorth,Archive Tier,Premium SSD,GZRS,na
 newzealandnorth,Archive Tier,Premium SSD,RA-GRS,na
 newzealandnorth,Archive Tier,Premium SSD,RA-GZRS,na
-newzealandnorth,Archive Tier,Standard SSD,LRS,na
-newzealandnorth,Archive Tier,Standard SSD,GRS,na
-newzealandnorth,Archive Tier,Standard SSD,ZRS,na
-newzealandnorth,Archive Tier,Standard SSD,GZRS,na
-newzealandnorth,Archive Tier,Standard SSD,RA-GRS,na
-newzealandnorth,Archive Tier,Standard SSD,RA-GZRS,na
+newzealandnorth,Archive Tier,Standard,LRS,na
+newzealandnorth,Archive Tier,Standard,GRS,na
+newzealandnorth,Archive Tier,Standard,ZRS,na
+newzealandnorth,Archive Tier,Standard,GZRS,na
+newzealandnorth,Archive Tier,Standard,RA-GRS,na
+newzealandnorth,Archive Tier,Standard,RA-GZRS,na
 northcentralus,Hot Tier,Premium SSD,LRS,0.18
 northcentralus,Hot Tier,Premium SSD,GRS,na
 northcentralus,Hot Tier,Premium SSD,ZRS,na
 northcentralus,Hot Tier,Premium SSD,GZRS,na
 northcentralus,Hot Tier,Premium SSD,RA-GRS,na
 northcentralus,Hot Tier,Premium SSD,RA-GZRS,na
-northcentralus,Hot Tier,Standard SSD,LRS,0.0208
-northcentralus,Hot Tier,Standard SSD,GRS,0.0416
-northcentralus,Hot Tier,Standard SSD,ZRS,na
-northcentralus,Hot Tier,Standard SSD,GZRS,na
-northcentralus,Hot Tier,Standard SSD,RA-GRS,0.052
-northcentralus,Hot Tier,Standard SSD,RA-GZRS,na
+northcentralus,Hot Tier,Standard,LRS,0.0208
+northcentralus,Hot Tier,Standard,GRS,0.0416
+northcentralus,Hot Tier,Standard,ZRS,na
+northcentralus,Hot Tier,Standard,GZRS,na
+northcentralus,Hot Tier,Standard,RA-GRS,0.052
+northcentralus,Hot Tier,Standard,RA-GZRS,na
 northcentralus,Cold Tier,Premium SSD,LRS,na
 northcentralus,Cold Tier,Premium SSD,GRS,na
 northcentralus,Cold Tier,Premium SSD,ZRS,na
 northcentralus,Cold Tier,Premium SSD,GZRS,na
 northcentralus,Cold Tier,Premium SSD,RA-GRS,na
 northcentralus,Cold Tier,Premium SSD,RA-GZRS,na
-northcentralus,Cold Tier,Standard SSD,LRS,0.0152
-northcentralus,Cold Tier,Standard SSD,GRS,0.0304
-northcentralus,Cold Tier,Standard SSD,ZRS,na
-northcentralus,Cold Tier,Standard SSD,GZRS,na
-northcentralus,Cold Tier,Standard SSD,RA-GRS,0.038
-northcentralus,Cold Tier,Standard SSD,RA-GZRS,na
+northcentralus,Cold Tier,Standard,LRS,0.0152
+northcentralus,Cold Tier,Standard,GRS,0.0304
+northcentralus,Cold Tier,Standard,ZRS,na
+northcentralus,Cold Tier,Standard,GZRS,na
+northcentralus,Cold Tier,Standard,RA-GRS,0.038
+northcentralus,Cold Tier,Standard,RA-GZRS,na
 northcentralus,Archive Tier,Premium SSD,LRS,na
 northcentralus,Archive Tier,Premium SSD,GRS,na
 northcentralus,Archive Tier,Premium SSD,ZRS,na
 northcentralus,Archive Tier,Premium SSD,GZRS,na
 northcentralus,Archive Tier,Premium SSD,RA-GRS,na
 northcentralus,Archive Tier,Premium SSD,RA-GZRS,na
-northcentralus,Archive Tier,Standard SSD,LRS,0.00099
-northcentralus,Archive Tier,Standard SSD,GRS,0.00339
-northcentralus,Archive Tier,Standard SSD,ZRS,na
-northcentralus,Archive Tier,Standard SSD,GZRS,na
-northcentralus,Archive Tier,Standard SSD,RA-GRS,0.00339
-northcentralus,Archive Tier,Standard SSD,RA-GZRS,na
+northcentralus,Archive Tier,Standard,LRS,0.00099
+northcentralus,Archive Tier,Standard,GRS,0.00339
+northcentralus,Archive Tier,Standard,ZRS,na
+northcentralus,Archive Tier,Standard,GZRS,na
+northcentralus,Archive Tier,Standard,RA-GRS,0.00339
+northcentralus,Archive Tier,Standard,RA-GZRS,na
 northeurope,Hot Tier,Premium SSD,LRS,0.18
 northeurope,Hot Tier,Premium SSD,GRS,na
 northeurope,Hot Tier,Premium SSD,ZRS,0.239
 northeurope,Hot Tier,Premium SSD,GZRS,na
 northeurope,Hot Tier,Premium SSD,RA-GRS,na
 northeurope,Hot Tier,Premium SSD,RA-GZRS,na
-northeurope,Hot Tier,Standard SSD,LRS,0.022
-northeurope,Hot Tier,Standard SSD,GRS,0.0368
-northeurope,Hot Tier,Standard SSD,ZRS,0.023
-northeurope,Hot Tier,Standard SSD,GZRS,0.0426
-northeurope,Hot Tier,Standard SSD,RA-GRS,0.046
-northeurope,Hot Tier,Standard SSD,RA-GZRS,0.05325
+northeurope,Hot Tier,Standard,LRS,0.022
+northeurope,Hot Tier,Standard,GRS,0.0368
+northeurope,Hot Tier,Standard,ZRS,0.023
+northeurope,Hot Tier,Standard,GZRS,0.0426
+northeurope,Hot Tier,Standard,RA-GRS,0.046
+northeurope,Hot Tier,Standard,RA-GZRS,0.05325
 northeurope,Cold Tier,Premium SSD,LRS,na
 northeurope,Cold Tier,Premium SSD,GRS,na
 northeurope,Cold Tier,Premium SSD,ZRS,na
 northeurope,Cold Tier,Premium SSD,GZRS,na
 northeurope,Cold Tier,Premium SSD,RA-GRS,na
 northeurope,Cold Tier,Premium SSD,RA-GZRS,na
-northeurope,Cold Tier,Standard SSD,LRS,0.01
-northeurope,Cold Tier,Standard SSD,GRS,0.02
-northeurope,Cold Tier,Standard SSD,ZRS,0.0125
-northeurope,Cold Tier,Standard SSD,GZRS,0.0225
-northeurope,Cold Tier,Standard SSD,RA-GRS,0.025
-northeurope,Cold Tier,Standard SSD,RA-GZRS,0.028125
+northeurope,Cold Tier,Standard,LRS,0.01
+northeurope,Cold Tier,Standard,GRS,0.02
+northeurope,Cold Tier,Standard,ZRS,0.0125
+northeurope,Cold Tier,Standard,GZRS,0.0225
+northeurope,Cold Tier,Standard,RA-GRS,0.025
+northeurope,Cold Tier,Standard,RA-GZRS,0.028125
 northeurope,Archive Tier,Premium SSD,LRS,na
 northeurope,Archive Tier,Premium SSD,GRS,na
 northeurope,Archive Tier,Premium SSD,ZRS,na
 northeurope,Archive Tier,Premium SSD,GZRS,na
 northeurope,Archive Tier,Premium SSD,RA-GRS,na
 northeurope,Archive Tier,Premium SSD,RA-GZRS,na
-northeurope,Archive Tier,Standard SSD,LRS,0.00099
-northeurope,Archive Tier,Standard SSD,GRS,0.00279
-northeurope,Archive Tier,Standard SSD,ZRS,na
-northeurope,Archive Tier,Standard SSD,GZRS,na
-northeurope,Archive Tier,Standard SSD,RA-GRS,0.00279
-northeurope,Archive Tier,Standard SSD,RA-GZRS,na
+northeurope,Archive Tier,Standard,LRS,0.00099
+northeurope,Archive Tier,Standard,GRS,0.00279
+northeurope,Archive Tier,Standard,ZRS,na
+northeurope,Archive Tier,Standard,GZRS,na
+northeurope,Archive Tier,Standard,RA-GRS,0.00279
+northeurope,Archive Tier,Standard,RA-GZRS,na
 norwayeast,Hot Tier,Premium SSD,LRS,0.215
 norwayeast,Hot Tier,Premium SSD,GRS,na
 norwayeast,Hot Tier,Premium SSD,ZRS,0.286
 norwayeast,Hot Tier,Premium SSD,GZRS,na
 norwayeast,Hot Tier,Premium SSD,RA-GRS,na
 norwayeast,Hot Tier,Premium SSD,RA-GZRS,na
-norwayeast,Hot Tier,Standard SSD,LRS,0.0216
-norwayeast,Hot Tier,Standard SSD,GRS,0.0496
-norwayeast,Hot Tier,Standard SSD,ZRS,0.0264
-norwayeast,Hot Tier,Standard SSD,GZRS,0.06157
-norwayeast,Hot Tier,Standard SSD,RA-GRS,0.062
-norwayeast,Hot Tier,Standard SSD,RA-GZRS,0.076963
+norwayeast,Hot Tier,Standard,LRS,0.0216
+norwayeast,Hot Tier,Standard,GRS,0.0496
+norwayeast,Hot Tier,Standard,ZRS,0.0264
+norwayeast,Hot Tier,Standard,GZRS,0.06157
+norwayeast,Hot Tier,Standard,RA-GRS,0.062
+norwayeast,Hot Tier,Standard,RA-GZRS,0.076963
 norwayeast,Cold Tier,Premium SSD,LRS,na
 norwayeast,Cold Tier,Premium SSD,GRS,na
 norwayeast,Cold Tier,Premium SSD,ZRS,na
 norwayeast,Cold Tier,Premium SSD,GZRS,na
 norwayeast,Cold Tier,Premium SSD,RA-GRS,na
 norwayeast,Cold Tier,Premium SSD,RA-GZRS,na
-norwayeast,Cold Tier,Standard SSD,LRS,0.011
-norwayeast,Cold Tier,Standard SSD,GRS,0.0253
-norwayeast,Cold Tier,Standard SSD,ZRS,0.0144
-norwayeast,Cold Tier,Standard SSD,GZRS,0.048906
-norwayeast,Cold Tier,Standard SSD,RA-GRS,0.0316
-norwayeast,Cold Tier,Standard SSD,RA-GZRS,0.0264
+norwayeast,Cold Tier,Standard,LRS,0.011
+norwayeast,Cold Tier,Standard,GRS,0.0253
+norwayeast,Cold Tier,Standard,ZRS,0.0144
+norwayeast,Cold Tier,Standard,GZRS,0.048906
+norwayeast,Cold Tier,Standard,RA-GRS,0.0316
+norwayeast,Cold Tier,Standard,RA-GZRS,0.0264
 norwayeast,Archive Tier,Premium SSD,LRS,na
 norwayeast,Archive Tier,Premium SSD,GRS,na
 norwayeast,Archive Tier,Premium SSD,ZRS,na
 norwayeast,Archive Tier,Premium SSD,GZRS,na
 norwayeast,Archive Tier,Premium SSD,RA-GRS,na
 norwayeast,Archive Tier,Premium SSD,RA-GZRS,na
-norwayeast,Archive Tier,Standard SSD,LRS,0.001416
-norwayeast,Archive Tier,Standard SSD,GRS,0.003256
-norwayeast,Archive Tier,Standard SSD,ZRS,na
-norwayeast,Archive Tier,Standard SSD,GZRS,na
-norwayeast,Archive Tier,Standard SSD,RA-GRS,0.003256
-norwayeast,Archive Tier,Standard SSD,RA-GZRS,na
+norwayeast,Archive Tier,Standard,LRS,0.001416
+norwayeast,Archive Tier,Standard,GRS,0.003256
+norwayeast,Archive Tier,Standard,ZRS,na
+norwayeast,Archive Tier,Standard,GZRS,na
+norwayeast,Archive Tier,Standard,RA-GRS,0.003256
+norwayeast,Archive Tier,Standard,RA-GZRS,na
 norwaywest,Hot Tier,Premium SSD,LRS,0.279
 norwaywest,Hot Tier,Premium SSD,GRS,na
 norwaywest,Hot Tier,Premium SSD,ZRS,na
 norwaywest,Hot Tier,Premium SSD,GZRS,na
 norwaywest,Hot Tier,Premium SSD,RA-GRS,na
 norwaywest,Hot Tier,Premium SSD,RA-GZRS,na
-norwaywest,Hot Tier,Standard SSD,LRS,0.028
-norwaywest,Hot Tier,Standard SSD,GRS,0.0496
-norwaywest,Hot Tier,Standard SSD,ZRS,na
-norwaywest,Hot Tier,Standard SSD,GZRS,na
-norwaywest,Hot Tier,Standard SSD,RA-GRS,0.062
-norwaywest,Hot Tier,Standard SSD,RA-GZRS,na
+norwaywest,Hot Tier,Standard,LRS,0.028
+norwaywest,Hot Tier,Standard,GRS,0.0496
+norwaywest,Hot Tier,Standard,ZRS,na
+norwaywest,Hot Tier,Standard,GZRS,na
+norwaywest,Hot Tier,Standard,RA-GRS,0.062
+norwaywest,Hot Tier,Standard,RA-GZRS,na
 norwaywest,Cold Tier,Premium SSD,LRS,na
 norwaywest,Cold Tier,Premium SSD,GRS,na
 norwaywest,Cold Tier,Premium SSD,ZRS,na
 norwaywest,Cold Tier,Premium SSD,GZRS,na
 norwaywest,Cold Tier,Premium SSD,RA-GRS,na
 norwaywest,Cold Tier,Premium SSD,RA-GZRS,na
-norwaywest,Cold Tier,Standard SSD,LRS,0.0143
-norwaywest,Cold Tier,Standard SSD,GRS,0.0253
-norwaywest,Cold Tier,Standard SSD,ZRS,na
-norwaywest,Cold Tier,Standard SSD,GZRS,na
-norwaywest,Cold Tier,Standard SSD,RA-GRS,0.0316
-norwaywest,Cold Tier,Standard SSD,RA-GZRS,na
+norwaywest,Cold Tier,Standard,LRS,0.0143
+norwaywest,Cold Tier,Standard,GRS,0.0253
+norwaywest,Cold Tier,Standard,ZRS,na
+norwaywest,Cold Tier,Standard,GZRS,na
+norwaywest,Cold Tier,Standard,RA-GRS,0.0316
+norwaywest,Cold Tier,Standard,RA-GZRS,na
 norwaywest,Archive Tier,Premium SSD,LRS,na
 norwaywest,Archive Tier,Premium SSD,GRS,na
 norwaywest,Archive Tier,Premium SSD,ZRS,na
 norwaywest,Archive Tier,Premium SSD,GZRS,na
 norwaywest,Archive Tier,Premium SSD,RA-GRS,na
 norwaywest,Archive Tier,Premium SSD,RA-GZRS,na
-norwaywest,Archive Tier,Standard SSD,LRS,0.00184
-norwaywest,Archive Tier,Standard SSD,GRS,0.004233
-norwaywest,Archive Tier,Standard SSD,ZRS,na
-norwaywest,Archive Tier,Standard SSD,GZRS,na
-norwaywest,Archive Tier,Standard SSD,RA-GRS,0.004233
-norwaywest,Archive Tier,Standard SSD,RA-GZRS,na
+norwaywest,Archive Tier,Standard,LRS,0.00184
+norwaywest,Archive Tier,Standard,GRS,0.004233
+norwaywest,Archive Tier,Standard,ZRS,na
+norwaywest,Archive Tier,Standard,GZRS,na
+norwaywest,Archive Tier,Standard,RA-GRS,0.004233
+norwaywest,Archive Tier,Standard,RA-GZRS,na
 polandcentral,Hot Tier,Premium SSD,LRS,0.195
 polandcentral,Hot Tier,Premium SSD,GRS,na
 polandcentral,Hot Tier,Premium SSD,ZRS,0.259
 polandcentral,Hot Tier,Premium SSD,GZRS,na
 polandcentral,Hot Tier,Premium SSD,RA-GRS,na
 polandcentral,Hot Tier,Premium SSD,RA-GZRS,na
-polandcentral,Hot Tier,Standard SSD,LRS,0.0196
-polandcentral,Hot Tier,Standard SSD,GRS,na
-polandcentral,Hot Tier,Standard SSD,ZRS,0.0225
-polandcentral,Hot Tier,Standard SSD,GZRS,na
-polandcentral,Hot Tier,Standard SSD,RA-GRS,na
-polandcentral,Hot Tier,Standard SSD,RA-GZRS,na
+polandcentral,Hot Tier,Standard,LRS,0.0196
+polandcentral,Hot Tier,Standard,GRS,na
+polandcentral,Hot Tier,Standard,ZRS,0.0225
+polandcentral,Hot Tier,Standard,GZRS,na
+polandcentral,Hot Tier,Standard,RA-GRS,na
+polandcentral,Hot Tier,Standard,RA-GZRS,na
 polandcentral,Cold Tier,Premium SSD,LRS,na
 polandcentral,Cold Tier,Premium SSD,GRS,na
 polandcentral,Cold Tier,Premium SSD,ZRS,na
 polandcentral,Cold Tier,Premium SSD,GZRS,na
 polandcentral,Cold Tier,Premium SSD,RA-GRS,na
 polandcentral,Cold Tier,Premium SSD,RA-GZRS,na
-polandcentral,Cold Tier,Standard SSD,LRS,0.01
-polandcentral,Cold Tier,Standard SSD,GRS,na
-polandcentral,Cold Tier,Standard SSD,ZRS,0.0131
-polandcentral,Cold Tier,Standard SSD,GZRS,na
-polandcentral,Cold Tier,Standard SSD,RA-GRS,na
-polandcentral,Cold Tier,Standard SSD,RA-GZRS,na
+polandcentral,Cold Tier,Standard,LRS,0.01
+polandcentral,Cold Tier,Standard,GRS,na
+polandcentral,Cold Tier,Standard,ZRS,0.0131
+polandcentral,Cold Tier,Standard,GZRS,na
+polandcentral,Cold Tier,Standard,RA-GRS,na
+polandcentral,Cold Tier,Standard,RA-GZRS,na
 polandcentral,Archive Tier,Premium SSD,LRS,na
 polandcentral,Archive Tier,Premium SSD,GRS,na
 polandcentral,Archive Tier,Premium SSD,ZRS,na
 polandcentral,Archive Tier,Premium SSD,GZRS,na
 polandcentral,Archive Tier,Premium SSD,RA-GRS,na
 polandcentral,Archive Tier,Premium SSD,RA-GZRS,na
-polandcentral,Archive Tier,Standard SSD,LRS,na
-polandcentral,Archive Tier,Standard SSD,GRS,na
-polandcentral,Archive Tier,Standard SSD,ZRS,na
-polandcentral,Archive Tier,Standard SSD,GZRS,na
-polandcentral,Archive Tier,Standard SSD,RA-GRS,na
-polandcentral,Archive Tier,Standard SSD,RA-GZRS,na
+polandcentral,Archive Tier,Standard,LRS,na
+polandcentral,Archive Tier,Standard,GRS,na
+polandcentral,Archive Tier,Standard,ZRS,na
+polandcentral,Archive Tier,Standard,GZRS,na
+polandcentral,Archive Tier,Standard,RA-GRS,na
+polandcentral,Archive Tier,Standard,RA-GZRS,na
 qatarcentral,Hot Tier,Premium SSD,LRS,0.214
 qatarcentral,Hot Tier,Premium SSD,GRS,na
 qatarcentral,Hot Tier,Premium SSD,ZRS,0.285
 qatarcentral,Hot Tier,Premium SSD,GZRS,na
 qatarcentral,Hot Tier,Premium SSD,RA-GRS,na
 qatarcentral,Hot Tier,Premium SSD,RA-GZRS,na
-qatarcentral,Hot Tier,Standard SSD,LRS,0.02
-qatarcentral,Hot Tier,Standard SSD,GRS,na
-qatarcentral,Hot Tier,Standard SSD,ZRS,0.025
-qatarcentral,Hot Tier,Standard SSD,GZRS,na
-qatarcentral,Hot Tier,Standard SSD,RA-GRS,na
-qatarcentral,Hot Tier,Standard SSD,RA-GZRS,na
+qatarcentral,Hot Tier,Standard,LRS,0.02
+qatarcentral,Hot Tier,Standard,GRS,na
+qatarcentral,Hot Tier,Standard,ZRS,0.025
+qatarcentral,Hot Tier,Standard,GZRS,na
+qatarcentral,Hot Tier,Standard,RA-GRS,na
+qatarcentral,Hot Tier,Standard,RA-GZRS,na
 qatarcentral,Cold Tier,Premium SSD,LRS,na
 qatarcentral,Cold Tier,Premium SSD,GRS,na
 qatarcentral,Cold Tier,Premium SSD,ZRS,na
 qatarcentral,Cold Tier,Premium SSD,GZRS,na
 qatarcentral,Cold Tier,Premium SSD,RA-GRS,na
 qatarcentral,Cold Tier,Premium SSD,RA-GZRS,na
-qatarcentral,Cold Tier,Standard SSD,LRS,0.01104
-qatarcentral,Cold Tier,Standard SSD,GRS,na
-qatarcentral,Cold Tier,Standard SSD,ZRS,0.0138
-qatarcentral,Cold Tier,Standard SSD,GZRS,na
-qatarcentral,Cold Tier,Standard SSD,RA-GRS,na
-qatarcentral,Cold Tier,Standard SSD,RA-GZRS,na
+qatarcentral,Cold Tier,Standard,LRS,0.01104
+qatarcentral,Cold Tier,Standard,GRS,na
+qatarcentral,Cold Tier,Standard,ZRS,0.0138
+qatarcentral,Cold Tier,Standard,GZRS,na
+qatarcentral,Cold Tier,Standard,RA-GRS,na
+qatarcentral,Cold Tier,Standard,RA-GZRS,na
 qatarcentral,Archive Tier,Premium SSD,LRS,na
 qatarcentral,Archive Tier,Premium SSD,GRS,na
 qatarcentral,Archive Tier,Premium SSD,ZRS,na
 qatarcentral,Archive Tier,Premium SSD,GZRS,na
 qatarcentral,Archive Tier,Premium SSD,RA-GRS,na
 qatarcentral,Archive Tier,Premium SSD,RA-GZRS,na
-qatarcentral,Archive Tier,Standard SSD,LRS,na
-qatarcentral,Archive Tier,Standard SSD,GRS,na
-qatarcentral,Archive Tier,Standard SSD,ZRS,na
-qatarcentral,Archive Tier,Standard SSD,GZRS,na
-qatarcentral,Archive Tier,Standard SSD,RA-GRS,na
-qatarcentral,Archive Tier,Standard SSD,RA-GZRS,na
+qatarcentral,Archive Tier,Standard,LRS,na
+qatarcentral,Archive Tier,Standard,GRS,na
+qatarcentral,Archive Tier,Standard,ZRS,na
+qatarcentral,Archive Tier,Standard,GZRS,na
+qatarcentral,Archive Tier,Standard,RA-GRS,na
+qatarcentral,Archive Tier,Standard,RA-GZRS,na
 southafricanorth,Hot Tier,Premium SSD,LRS,0.219
 southafricanorth,Hot Tier,Premium SSD,GRS,na
 southafricanorth,Hot Tier,Premium SSD,ZRS,0.292
 southafricanorth,Hot Tier,Premium SSD,GZRS,na
 southafricanorth,Hot Tier,Premium SSD,RA-GRS,na
 southafricanorth,Hot Tier,Premium SSD,RA-GZRS,na
-southafricanorth,Hot Tier,Standard SSD,LRS,0.0219
-southafricanorth,Hot Tier,Standard SSD,GRS,0.0493
-southafricanorth,Hot Tier,Standard SSD,ZRS,0.0274
-southafricanorth,Hot Tier,Standard SSD,GZRS,0.062862
-southafricanorth,Hot Tier,Standard SSD,RA-GRS,0.0616
-southafricanorth,Hot Tier,Standard SSD,RA-GZRS,0.078577
+southafricanorth,Hot Tier,Standard,LRS,0.0219
+southafricanorth,Hot Tier,Standard,GRS,0.0493
+southafricanorth,Hot Tier,Standard,ZRS,0.0274
+southafricanorth,Hot Tier,Standard,GZRS,0.062862
+southafricanorth,Hot Tier,Standard,RA-GRS,0.0616
+southafricanorth,Hot Tier,Standard,RA-GZRS,0.078577
 southafricanorth,Cold Tier,Premium SSD,LRS,na
 southafricanorth,Cold Tier,Premium SSD,GRS,na
 southafricanorth,Cold Tier,Premium SSD,ZRS,na
 southafricanorth,Cold Tier,Premium SSD,GZRS,na
 southafricanorth,Cold Tier,Premium SSD,RA-GRS,na
 southafricanorth,Cold Tier,Premium SSD,RA-GZRS,na
-southafricanorth,Cold Tier,Standard SSD,LRS,0.0119
-southafricanorth,Cold Tier,Standard SSD,GRS,0.0268
-southafricanorth,Cold Tier,Standard SSD,ZRS,0.0149
-southafricanorth,Cold Tier,Standard SSD,GZRS,0.037995
-southafricanorth,Cold Tier,Standard SSD,RA-GRS,0.0335
-southafricanorth,Cold Tier,Standard SSD,RA-GZRS,0.047494
+southafricanorth,Cold Tier,Standard,LRS,0.0119
+southafricanorth,Cold Tier,Standard,GRS,0.0268
+southafricanorth,Cold Tier,Standard,ZRS,0.0149
+southafricanorth,Cold Tier,Standard,GZRS,0.037995
+southafricanorth,Cold Tier,Standard,RA-GRS,0.0335
+southafricanorth,Cold Tier,Standard,RA-GZRS,0.047494
 southafricanorth,Archive Tier,Premium SSD,LRS,na
 southafricanorth,Archive Tier,Premium SSD,GRS,na
 southafricanorth,Archive Tier,Premium SSD,ZRS,na
 southafricanorth,Archive Tier,Premium SSD,GZRS,na
 southafricanorth,Archive Tier,Premium SSD,RA-GRS,na
 southafricanorth,Archive Tier,Premium SSD,RA-GZRS,na
-southafricanorth,Archive Tier,Standard SSD,LRS,0.001326
-southafricanorth,Archive Tier,Standard SSD,GRS,0.002989
-southafricanorth,Archive Tier,Standard SSD,ZRS,na
-southafricanorth,Archive Tier,Standard SSD,GZRS,na
-southafricanorth,Archive Tier,Standard SSD,RA-GRS,0.002989
-southafricanorth,Archive Tier,Standard SSD,RA-GZRS,na
+southafricanorth,Archive Tier,Standard,LRS,0.001326
+southafricanorth,Archive Tier,Standard,GRS,0.002989
+southafricanorth,Archive Tier,Standard,ZRS,na
+southafricanorth,Archive Tier,Standard,GZRS,na
+southafricanorth,Archive Tier,Standard,RA-GRS,0.002989
+southafricanorth,Archive Tier,Standard,RA-GZRS,na
 southafricawest,Hot Tier,Premium SSD,LRS,0.285
 southafricawest,Hot Tier,Premium SSD,GRS,na
 southafricawest,Hot Tier,Premium SSD,ZRS,na
 southafricawest,Hot Tier,Premium SSD,GZRS,na
 southafricawest,Hot Tier,Premium SSD,RA-GRS,na
 southafricawest,Hot Tier,Premium SSD,RA-GZRS,na
-southafricawest,Hot Tier,Standard SSD,LRS,0.0274
-southafricawest,Hot Tier,Standard SSD,GRS,0.0493
-southafricawest,Hot Tier,Standard SSD,ZRS,na
-southafricawest,Hot Tier,Standard SSD,GZRS,na
-southafricawest,Hot Tier,Standard SSD,RA-GRS,0.0617
-southafricawest,Hot Tier,Standard SSD,RA-GZRS,na
+southafricawest,Hot Tier,Standard,LRS,0.0274
+southafricawest,Hot Tier,Standard,GRS,0.0493
+southafricawest,Hot Tier,Standard,ZRS,na
+southafricawest,Hot Tier,Standard,GZRS,na
+southafricawest,Hot Tier,Standard,RA-GRS,0.0617
+southafricawest,Hot Tier,Standard,RA-GZRS,na
 southafricawest,Cold Tier,Premium SSD,LRS,na
 southafricawest,Cold Tier,Premium SSD,GRS,na
 southafricawest,Cold Tier,Premium SSD,ZRS,na
 southafricawest,Cold Tier,Premium SSD,GZRS,na
 southafricawest,Cold Tier,Premium SSD,RA-GRS,na
 southafricawest,Cold Tier,Premium SSD,RA-GZRS,na
-southafricawest,Cold Tier,Standard SSD,LRS,0.0149
-southafricawest,Cold Tier,Standard SSD,GRS,0.0268
-southafricawest,Cold Tier,Standard SSD,ZRS,na
-southafricawest,Cold Tier,Standard SSD,GZRS,na
-southafricawest,Cold Tier,Standard SSD,RA-GRS,0.0335
-southafricawest,Cold Tier,Standard SSD,RA-GZRS,na
+southafricawest,Cold Tier,Standard,LRS,0.0149
+southafricawest,Cold Tier,Standard,GRS,0.0268
+southafricawest,Cold Tier,Standard,ZRS,na
+southafricawest,Cold Tier,Standard,GZRS,na
+southafricawest,Cold Tier,Standard,RA-GRS,0.0335
+southafricawest,Cold Tier,Standard,RA-GZRS,na
 southafricawest,Archive Tier,Premium SSD,LRS,na
 southafricawest,Archive Tier,Premium SSD,GRS,na
 southafricawest,Archive Tier,Premium SSD,ZRS,na
 southafricawest,Archive Tier,Premium SSD,GZRS,na
 southafricawest,Archive Tier,Premium SSD,RA-GRS,na
 southafricawest,Archive Tier,Premium SSD,RA-GZRS,na
-southafricawest,Archive Tier,Standard SSD,LRS,0.001663
-southafricawest,Archive Tier,Standard SSD,GRS,0.002989
-southafricawest,Archive Tier,Standard SSD,ZRS,na
-southafricawest,Archive Tier,Standard SSD,GZRS,na
-southafricawest,Archive Tier,Standard SSD,RA-GRS,0.00506
-southafricawest,Archive Tier,Standard SSD,RA-GZRS,na
+southafricawest,Archive Tier,Standard,LRS,0.001663
+southafricawest,Archive Tier,Standard,GRS,0.002989
+southafricawest,Archive Tier,Standard,ZRS,na
+southafricawest,Archive Tier,Standard,GZRS,na
+southafricawest,Archive Tier,Standard,RA-GRS,0.00506
+southafricawest,Archive Tier,Standard,RA-GZRS,na
 southcentralus,Hot Tier,Premium SSD,LRS,0.18
 southcentralus,Hot Tier,Premium SSD,GRS,na
 southcentralus,Hot Tier,Premium SSD,ZRS,na
 southcentralus,Hot Tier,Premium SSD,GZRS,na
 southcentralus,Hot Tier,Premium SSD,RA-GRS,na
 southcentralus,Hot Tier,Premium SSD,RA-GZRS,na
-southcentralus,Hot Tier,Standard SSD,LRS,0.0184
-southcentralus,Hot Tier,Standard SSD,GRS,0.0368
-southcentralus,Hot Tier,Standard SSD,ZRS,0.023
-southcentralus,Hot Tier,Standard SSD,GZRS,0.0414
-southcentralus,Hot Tier,Standard SSD,RA-GRS,0.046
-southcentralus,Hot Tier,Standard SSD,RA-GZRS,0.05175
+southcentralus,Hot Tier,Standard,LRS,0.0184
+southcentralus,Hot Tier,Standard,GRS,0.0368
+southcentralus,Hot Tier,Standard,ZRS,0.023
+southcentralus,Hot Tier,Standard,GZRS,0.0414
+southcentralus,Hot Tier,Standard,RA-GRS,0.046
+southcentralus,Hot Tier,Standard,RA-GZRS,0.05175
 southcentralus,Cold Tier,Premium SSD,LRS,na
 southcentralus,Cold Tier,Premium SSD,GRS,na
 southcentralus,Cold Tier,Premium SSD,ZRS,na
 southcentralus,Cold Tier,Premium SSD,GZRS,na
 southcentralus,Cold Tier,Premium SSD,RA-GRS,na
 southcentralus,Cold Tier,Premium SSD,RA-GZRS,na
-southcentralus,Cold Tier,Standard SSD,LRS,0.01
-southcentralus,Cold Tier,Standard SSD,GRS,0.02
-southcentralus,Cold Tier,Standard SSD,ZRS,0.0125
-southcentralus,Cold Tier,Standard SSD,GZRS,0.0225
-southcentralus,Cold Tier,Standard SSD,RA-GRS,0.025
-southcentralus,Cold Tier,Standard SSD,RA-GZRS,0.028125
+southcentralus,Cold Tier,Standard,LRS,0.01
+southcentralus,Cold Tier,Standard,GRS,0.02
+southcentralus,Cold Tier,Standard,ZRS,0.0125
+southcentralus,Cold Tier,Standard,GZRS,0.0225
+southcentralus,Cold Tier,Standard,RA-GRS,0.025
+southcentralus,Cold Tier,Standard,RA-GZRS,0.028125
 southcentralus,Archive Tier,Premium SSD,LRS,na
 southcentralus,Archive Tier,Premium SSD,GRS,na
 southcentralus,Archive Tier,Premium SSD,ZRS,na
 southcentralus,Archive Tier,Premium SSD,GZRS,na
 southcentralus,Archive Tier,Premium SSD,RA-GRS,na
 southcentralus,Archive Tier,Premium SSD,RA-GZRS,na
-southcentralus,Archive Tier,Standard SSD,LRS,0.0024
-southcentralus,Archive Tier,Standard SSD,GRS,0.00339
-southcentralus,Archive Tier,Standard SSD,ZRS,na
-southcentralus,Archive Tier,Standard SSD,GZRS,na
-southcentralus,Archive Tier,Standard SSD,RA-GRS,0.00339
-southcentralus,Archive Tier,Standard SSD,RA-GZRS,na
+southcentralus,Archive Tier,Standard,LRS,0.0024
+southcentralus,Archive Tier,Standard,GRS,0.00339
+southcentralus,Archive Tier,Standard,ZRS,na
+southcentralus,Archive Tier,Standard,GZRS,na
+southcentralus,Archive Tier,Standard,RA-GRS,0.00339
+southcentralus,Archive Tier,Standard,RA-GZRS,na
 southeastasia,Hot Tier,Premium SSD,LRS,0.195
 southeastasia,Hot Tier,Premium SSD,GRS,na
 southeastasia,Hot Tier,Premium SSD,ZRS,0.259
 southeastasia,Hot Tier,Premium SSD,GZRS,na
 southeastasia,Hot Tier,Premium SSD,RA-GRS,na
 southeastasia,Hot Tier,Premium SSD,RA-GZRS,na
-southeastasia,Hot Tier,Standard SSD,LRS,0.02
-southeastasia,Hot Tier,Standard SSD,GRS,0.04
-southeastasia,Hot Tier,Standard SSD,ZRS,0.025
-southeastasia,Hot Tier,Standard SSD,GZRS,0.049
-southeastasia,Hot Tier,Standard SSD,RA-GRS,0.05
-southeastasia,Hot Tier,Standard SSD,RA-GZRS,0.06125
+southeastasia,Hot Tier,Standard,LRS,0.02
+southeastasia,Hot Tier,Standard,GRS,0.04
+southeastasia,Hot Tier,Standard,ZRS,0.025
+southeastasia,Hot Tier,Standard,GZRS,0.049
+southeastasia,Hot Tier,Standard,RA-GRS,0.05
+southeastasia,Hot Tier,Standard,RA-GZRS,0.06125
 southeastasia,Cold Tier,Premium SSD,LRS,na
 southeastasia,Cold Tier,Premium SSD,GRS,na
 southeastasia,Cold Tier,Premium SSD,ZRS,na
 southeastasia,Cold Tier,Premium SSD,GZRS,na
 southeastasia,Cold Tier,Premium SSD,RA-GRS,na
 southeastasia,Cold Tier,Premium SSD,RA-GZRS,na
-southeastasia,Cold Tier,Standard SSD,LRS,0.011
-southeastasia,Cold Tier,Standard SSD,GRS,0.022
-southeastasia,Cold Tier,Standard SSD,ZRS,0.0138
-southeastasia,Cold Tier,Standard SSD,GZRS,0.0248
-southeastasia,Cold Tier,Standard SSD,RA-GRS,0.0275
-southeastasia,Cold Tier,Standard SSD,RA-GZRS,0.0309
+southeastasia,Cold Tier,Standard,LRS,0.011
+southeastasia,Cold Tier,Standard,GRS,0.022
+southeastasia,Cold Tier,Standard,ZRS,0.0138
+southeastasia,Cold Tier,Standard,GZRS,0.0248
+southeastasia,Cold Tier,Standard,RA-GRS,0.0275
+southeastasia,Cold Tier,Standard,RA-GZRS,0.0309
 southeastasia,Archive Tier,Premium SSD,LRS,na
 southeastasia,Archive Tier,Premium SSD,GRS,na
 southeastasia,Archive Tier,Premium SSD,ZRS,na
 southeastasia,Archive Tier,Premium SSD,GZRS,na
 southeastasia,Archive Tier,Premium SSD,RA-GRS,na
 southeastasia,Archive Tier,Premium SSD,RA-GZRS,na
-southeastasia,Archive Tier,Standard SSD,LRS,0.002
-southeastasia,Archive Tier,Standard SSD,GRS,0.004
-southeastasia,Archive Tier,Standard SSD,ZRS,na
-southeastasia,Archive Tier,Standard SSD,GZRS,na
-southeastasia,Archive Tier,Standard SSD,RA-GRS,0.004
-southeastasia,Archive Tier,Standard SSD,RA-GZRS,na
+southeastasia,Archive Tier,Standard,LRS,0.002
+southeastasia,Archive Tier,Standard,GRS,0.004
+southeastasia,Archive Tier,Standard,ZRS,na
+southeastasia,Archive Tier,Standard,GZRS,na
+southeastasia,Archive Tier,Standard,RA-GRS,0.004
+southeastasia,Archive Tier,Standard,RA-GZRS,na
 southindia,Hot Tier,Premium SSD,LRS,0.225
 southindia,Hot Tier,Premium SSD,GRS,na
 southindia,Hot Tier,Premium SSD,ZRS,na
 southindia,Hot Tier,Premium SSD,GZRS,na
 southindia,Hot Tier,Premium SSD,RA-GRS,na
 southindia,Hot Tier,Premium SSD,RA-GZRS,na
-southindia,Hot Tier,Standard SSD,LRS,0.0238
-southindia,Hot Tier,Standard SSD,GRS,0.0475
-southindia,Hot Tier,Standard SSD,ZRS,na
-southindia,Hot Tier,Standard SSD,GZRS,na
-southindia,Hot Tier,Standard SSD,RA-GRS,0.0595
-southindia,Hot Tier,Standard SSD,RA-GZRS,na
+southindia,Hot Tier,Standard,LRS,0.0238
+southindia,Hot Tier,Standard,GRS,0.0475
+southindia,Hot Tier,Standard,ZRS,na
+southindia,Hot Tier,Standard,GZRS,na
+southindia,Hot Tier,Standard,RA-GRS,0.0595
+southindia,Hot Tier,Standard,RA-GZRS,na
 southindia,Cold Tier,Premium SSD,LRS,na
 southindia,Cold Tier,Premium SSD,GRS,na
 southindia,Cold Tier,Premium SSD,ZRS,na
 southindia,Cold Tier,Premium SSD,GZRS,na
 southindia,Cold Tier,Premium SSD,RA-GRS,na
 southindia,Cold Tier,Premium SSD,RA-GZRS,na
-southindia,Cold Tier,Standard SSD,LRS,0.015
-southindia,Cold Tier,Standard SSD,GRS,0.03
-southindia,Cold Tier,Standard SSD,ZRS,na
-southindia,Cold Tier,Standard SSD,GZRS,na
-southindia,Cold Tier,Standard SSD,RA-GRS,0.0375
-southindia,Cold Tier,Standard SSD,RA-GZRS,na
+southindia,Cold Tier,Standard,LRS,0.015
+southindia,Cold Tier,Standard,GRS,0.03
+southindia,Cold Tier,Standard,ZRS,na
+southindia,Cold Tier,Standard,GZRS,na
+southindia,Cold Tier,Standard,RA-GRS,0.0375
+southindia,Cold Tier,Standard,RA-GZRS,na
 southindia,Archive Tier,Premium SSD,LRS,na
 southindia,Archive Tier,Premium SSD,GRS,na
 southindia,Archive Tier,Premium SSD,ZRS,na
 southindia,Archive Tier,Premium SSD,GZRS,na
 southindia,Archive Tier,Premium SSD,RA-GRS,na
 southindia,Archive Tier,Premium SSD,RA-GZRS,na
-southindia,Archive Tier,Standard SSD,LRS,0.003
-southindia,Archive Tier,Standard SSD,GRS,0.005
-southindia,Archive Tier,Standard SSD,ZRS,na
-southindia,Archive Tier,Standard SSD,GZRS,na
-southindia,Archive Tier,Standard SSD,RA-GRS,0.005
-southindia,Archive Tier,Standard SSD,RA-GZRS,na
+southindia,Archive Tier,Standard,LRS,0.003
+southindia,Archive Tier,Standard,GRS,0.005
+southindia,Archive Tier,Standard,ZRS,na
+southindia,Archive Tier,Standard,GZRS,na
+southindia,Archive Tier,Standard,RA-GRS,0.005
+southindia,Archive Tier,Standard,RA-GZRS,na
 spaincentral,Hot Tier,Premium SSD,LRS,0.195
 spaincentral,Hot Tier,Premium SSD,GRS,na
 spaincentral,Hot Tier,Premium SSD,ZRS,0.25935
 spaincentral,Hot Tier,Premium SSD,GZRS,na
 spaincentral,Hot Tier,Premium SSD,RA-GRS,na
 spaincentral,Hot Tier,Premium SSD,RA-GZRS,na
-spaincentral,Hot Tier,Standard SSD,LRS,0.0184
-spaincentral,Hot Tier,Standard SSD,GRS,na
-spaincentral,Hot Tier,Standard SSD,ZRS,0.023
-spaincentral,Hot Tier,Standard SSD,GZRS,na
-spaincentral,Hot Tier,Standard SSD,RA-GRS,na
-spaincentral,Hot Tier,Standard SSD,RA-GZRS,na
+spaincentral,Hot Tier,Standard,LRS,0.0184
+spaincentral,Hot Tier,Standard,GRS,na
+spaincentral,Hot Tier,Standard,ZRS,0.023
+spaincentral,Hot Tier,Standard,GZRS,na
+spaincentral,Hot Tier,Standard,RA-GRS,na
+spaincentral,Hot Tier,Standard,RA-GZRS,na
 spaincentral,Cold Tier,Premium SSD,LRS,na
 spaincentral,Cold Tier,Premium SSD,GRS,na
 spaincentral,Cold Tier,Premium SSD,ZRS,na
 spaincentral,Cold Tier,Premium SSD,GZRS,na
 spaincentral,Cold Tier,Premium SSD,RA-GRS,na
 spaincentral,Cold Tier,Premium SSD,RA-GZRS,na
-spaincentral,Cold Tier,Standard SSD,LRS,0.01
-spaincentral,Cold Tier,Standard SSD,GRS,na
-spaincentral,Cold Tier,Standard SSD,ZRS,0.0125
-spaincentral,Cold Tier,Standard SSD,GZRS,na
-spaincentral,Cold Tier,Standard SSD,RA-GRS,na
-spaincentral,Cold Tier,Standard SSD,RA-GZRS,na
+spaincentral,Cold Tier,Standard,LRS,0.01
+spaincentral,Cold Tier,Standard,GRS,na
+spaincentral,Cold Tier,Standard,ZRS,0.0125
+spaincentral,Cold Tier,Standard,GZRS,na
+spaincentral,Cold Tier,Standard,RA-GRS,na
+spaincentral,Cold Tier,Standard,RA-GZRS,na
 spaincentral,Archive Tier,Premium SSD,LRS,na
 spaincentral,Archive Tier,Premium SSD,GRS,na
 spaincentral,Archive Tier,Premium SSD,ZRS,na
 spaincentral,Archive Tier,Premium SSD,GZRS,na
 spaincentral,Archive Tier,Premium SSD,RA-GRS,na
 spaincentral,Archive Tier,Premium SSD,RA-GZRS,na
-spaincentral,Archive Tier,Standard SSD,LRS,0.0018
-spaincentral,Archive Tier,Standard SSD,GRS,na
-spaincentral,Archive Tier,Standard SSD,ZRS,na
-spaincentral,Archive Tier,Standard SSD,GZRS,na
-spaincentral,Archive Tier,Standard SSD,RA-GRS,na
-spaincentral,Archive Tier,Standard SSD,RA-GZRS,na
+spaincentral,Archive Tier,Standard,LRS,0.0018
+spaincentral,Archive Tier,Standard,GRS,na
+spaincentral,Archive Tier,Standard,ZRS,na
+spaincentral,Archive Tier,Standard,GZRS,na
+spaincentral,Archive Tier,Standard,RA-GRS,na
+spaincentral,Archive Tier,Standard,RA-GZRS,na
 swedencentral,Hot Tier,Premium SSD,LRS,0.15
 swedencentral,Hot Tier,Premium SSD,GRS,na
 swedencentral,Hot Tier,Premium SSD,ZRS,0.259
 swedencentral,Hot Tier,Premium SSD,GZRS,na
 swedencentral,Hot Tier,Premium SSD,RA-GRS,na
 swedencentral,Hot Tier,Premium SSD,RA-GZRS,na
-swedencentral,Hot Tier,Standard SSD,LRS,0.0184
-swedencentral,Hot Tier,Standard SSD,GRS,0.0392
-swedencentral,Hot Tier,Standard SSD,ZRS,0.023
-swedencentral,Hot Tier,Standard SSD,GZRS,0.046
-swedencentral,Hot Tier,Standard SSD,RA-GRS,0.049
-swedencentral,Hot Tier,Standard SSD,RA-GZRS,0.0575
+swedencentral,Hot Tier,Standard,LRS,0.0184
+swedencentral,Hot Tier,Standard,GRS,0.0392
+swedencentral,Hot Tier,Standard,ZRS,0.023
+swedencentral,Hot Tier,Standard,GZRS,0.046
+swedencentral,Hot Tier,Standard,RA-GRS,0.049
+swedencentral,Hot Tier,Standard,RA-GZRS,0.0575
 swedencentral,Cold Tier,Premium SSD,LRS,na
 swedencentral,Cold Tier,Premium SSD,GRS,na
 swedencentral,Cold Tier,Premium SSD,ZRS,na
 swedencentral,Cold Tier,Premium SSD,GZRS,na
 swedencentral,Cold Tier,Premium SSD,RA-GRS,na
 swedencentral,Cold Tier,Premium SSD,RA-GZRS,na
-swedencentral,Cold Tier,Standard SSD,LRS,0.01
-swedencentral,Cold Tier,Standard SSD,GRS,0.02
-swedencentral,Cold Tier,Standard SSD,ZRS,0.0125
-swedencentral,Cold Tier,Standard SSD,GZRS,0.0231
-swedencentral,Cold Tier,Standard SSD,RA-GRS,0.025
-swedencentral,Cold Tier,Standard SSD,RA-GZRS,0.0225
+swedencentral,Cold Tier,Standard,LRS,0.01
+swedencentral,Cold Tier,Standard,GRS,0.02
+swedencentral,Cold Tier,Standard,ZRS,0.0125
+swedencentral,Cold Tier,Standard,GZRS,0.0231
+swedencentral,Cold Tier,Standard,RA-GRS,0.025
+swedencentral,Cold Tier,Standard,RA-GZRS,0.0225
 swedencentral,Archive Tier,Premium SSD,LRS,na
 swedencentral,Archive Tier,Premium SSD,GRS,na
 swedencentral,Archive Tier,Premium SSD,ZRS,na
 swedencentral,Archive Tier,Premium SSD,GZRS,na
 swedencentral,Archive Tier,Premium SSD,RA-GRS,na
 swedencentral,Archive Tier,Premium SSD,RA-GZRS,na
-swedencentral,Archive Tier,Standard SSD,LRS,0.00099
-swedencentral,Archive Tier,Standard SSD,GRS,0.002277
-swedencentral,Archive Tier,Standard SSD,ZRS,na
-swedencentral,Archive Tier,Standard SSD,GZRS,na
-swedencentral,Archive Tier,Standard SSD,RA-GRS,0.00279
-swedencentral,Archive Tier,Standard SSD,RA-GZRS,na
+swedencentral,Archive Tier,Standard,LRS,0.00099
+swedencentral,Archive Tier,Standard,GRS,0.002277
+swedencentral,Archive Tier,Standard,ZRS,na
+swedencentral,Archive Tier,Standard,GZRS,na
+swedencentral,Archive Tier,Standard,RA-GRS,0.00279
+swedencentral,Archive Tier,Standard,RA-GZRS,na
 switzerlandnorth,Hot Tier,Premium SSD,LRS,0.225
 switzerlandnorth,Hot Tier,Premium SSD,GRS,na
 switzerlandnorth,Hot Tier,Premium SSD,ZRS,0.286
 switzerlandnorth,Hot Tier,Premium SSD,GZRS,na
 switzerlandnorth,Hot Tier,Premium SSD,RA-GRS,na
 switzerlandnorth,Hot Tier,Premium SSD,RA-GZRS,na
-switzerlandnorth,Hot Tier,Standard SSD,LRS,0.02156
-switzerlandnorth,Hot Tier,Standard SSD,GRS,0.04312
-switzerlandnorth,Hot Tier,Standard SSD,ZRS,0.0264
-switzerlandnorth,Hot Tier,Standard SSD,GZRS,0.06157
-switzerlandnorth,Hot Tier,Standard SSD,RA-GRS,0.0539
-switzerlandnorth,Hot Tier,Standard SSD,RA-GZRS,0.076963
+switzerlandnorth,Hot Tier,Standard,LRS,0.02156
+switzerlandnorth,Hot Tier,Standard,GRS,0.04312
+switzerlandnorth,Hot Tier,Standard,ZRS,0.0264
+switzerlandnorth,Hot Tier,Standard,GZRS,0.06157
+switzerlandnorth,Hot Tier,Standard,RA-GRS,0.0539
+switzerlandnorth,Hot Tier,Standard,RA-GZRS,0.076963
 switzerlandnorth,Cold Tier,Premium SSD,LRS,na
 switzerlandnorth,Cold Tier,Premium SSD,GRS,na
 switzerlandnorth,Cold Tier,Premium SSD,ZRS,na
 switzerlandnorth,Cold Tier,Premium SSD,GZRS,na
 switzerlandnorth,Cold Tier,Premium SSD,RA-GRS,na
 switzerlandnorth,Cold Tier,Premium SSD,RA-GZRS,na
-switzerlandnorth,Cold Tier,Standard SSD,LRS,0.011
-switzerlandnorth,Cold Tier,Standard SSD,GRS,0.022
-switzerlandnorth,Cold Tier,Standard SSD,ZRS,0.01441
-switzerlandnorth,Cold Tier,Standard SSD,GZRS,0.037868
-switzerlandnorth,Cold Tier,Standard SSD,RA-GRS,0.0275
-switzerlandnorth,Cold Tier,Standard SSD,RA-GZRS,0.0283
+switzerlandnorth,Cold Tier,Standard,LRS,0.011
+switzerlandnorth,Cold Tier,Standard,GRS,0.022
+switzerlandnorth,Cold Tier,Standard,ZRS,0.01441
+switzerlandnorth,Cold Tier,Standard,GZRS,0.037868
+switzerlandnorth,Cold Tier,Standard,RA-GRS,0.0275
+switzerlandnorth,Cold Tier,Standard,RA-GZRS,0.0283
 switzerlandnorth,Archive Tier,Premium SSD,LRS,na
 switzerlandnorth,Archive Tier,Premium SSD,GRS,na
 switzerlandnorth,Archive Tier,Premium SSD,ZRS,na
 switzerlandnorth,Archive Tier,Premium SSD,GZRS,na
 switzerlandnorth,Archive Tier,Premium SSD,RA-GRS,na
 switzerlandnorth,Archive Tier,Premium SSD,RA-GZRS,na
-switzerlandnorth,Archive Tier,Standard SSD,LRS,0.00198
-switzerlandnorth,Archive Tier,Standard SSD,GRS,0.003069
-switzerlandnorth,Archive Tier,Standard SSD,ZRS,na
-switzerlandnorth,Archive Tier,Standard SSD,GZRS,na
-switzerlandnorth,Archive Tier,Standard SSD,RA-GRS,0.003069
-switzerlandnorth,Archive Tier,Standard SSD,RA-GZRS,na
+switzerlandnorth,Archive Tier,Standard,LRS,0.00198
+switzerlandnorth,Archive Tier,Standard,GRS,0.003069
+switzerlandnorth,Archive Tier,Standard,ZRS,na
+switzerlandnorth,Archive Tier,Standard,GZRS,na
+switzerlandnorth,Archive Tier,Standard,RA-GRS,0.003069
+switzerlandnorth,Archive Tier,Standard,RA-GZRS,na
 switzerlandwest,Hot Tier,Premium SSD,LRS,0.292
 switzerlandwest,Hot Tier,Premium SSD,GRS,na
 switzerlandwest,Hot Tier,Premium SSD,ZRS,na
 switzerlandwest,Hot Tier,Premium SSD,GZRS,na
 switzerlandwest,Hot Tier,Premium SSD,RA-GRS,na
 switzerlandwest,Hot Tier,Premium SSD,RA-GZRS,na
-switzerlandwest,Hot Tier,Standard SSD,LRS,0.028074
-switzerlandwest,Hot Tier,Standard SSD,GRS,0.056148
-switzerlandwest,Hot Tier,Standard SSD,ZRS,na
-switzerlandwest,Hot Tier,Standard SSD,GZRS,na
-switzerlandwest,Hot Tier,Standard SSD,RA-GRS,0.070033
-switzerlandwest,Hot Tier,Standard SSD,RA-GZRS,na
+switzerlandwest,Hot Tier,Standard,LRS,0.028074
+switzerlandwest,Hot Tier,Standard,GRS,0.056148
+switzerlandwest,Hot Tier,Standard,ZRS,na
+switzerlandwest,Hot Tier,Standard,GZRS,na
+switzerlandwest,Hot Tier,Standard,RA-GRS,0.070033
+switzerlandwest,Hot Tier,Standard,RA-GZRS,na
 switzerlandwest,Cold Tier,Premium SSD,LRS,na
 switzerlandwest,Cold Tier,Premium SSD,GRS,na
 switzerlandwest,Cold Tier,Premium SSD,ZRS,na
 switzerlandwest,Cold Tier,Premium SSD,GZRS,na
 switzerlandwest,Cold Tier,Premium SSD,RA-GRS,na
 switzerlandwest,Cold Tier,Premium SSD,RA-GZRS,na
-switzerlandwest,Cold Tier,Standard SSD,LRS,0.0143
-switzerlandwest,Cold Tier,Standard SSD,GRS,0.0286
-switzerlandwest,Cold Tier,Standard SSD,ZRS,na
-switzerlandwest,Cold Tier,Standard SSD,GZRS,na
-switzerlandwest,Cold Tier,Standard SSD,RA-GRS,0.03575
-switzerlandwest,Cold Tier,Standard SSD,RA-GZRS,na
+switzerlandwest,Cold Tier,Standard,LRS,0.0143
+switzerlandwest,Cold Tier,Standard,GRS,0.0286
+switzerlandwest,Cold Tier,Standard,ZRS,na
+switzerlandwest,Cold Tier,Standard,GZRS,na
+switzerlandwest,Cold Tier,Standard,RA-GRS,0.03575
+switzerlandwest,Cold Tier,Standard,RA-GZRS,na
 switzerlandwest,Archive Tier,Premium SSD,LRS,na
 switzerlandwest,Archive Tier,Premium SSD,GRS,na
 switzerlandwest,Archive Tier,Premium SSD,ZRS,na
 switzerlandwest,Archive Tier,Premium SSD,GZRS,na
 switzerlandwest,Archive Tier,Premium SSD,RA-GRS,na
 switzerlandwest,Archive Tier,Premium SSD,RA-GZRS,na
-switzerlandwest,Archive Tier,Standard SSD,LRS,0.00351
-switzerlandwest,Archive Tier,Standard SSD,GRS,0.00702
-switzerlandwest,Archive Tier,Standard SSD,ZRS,na
-switzerlandwest,Archive Tier,Standard SSD,GZRS,na
-switzerlandwest,Archive Tier,Standard SSD,RA-GRS,0.00878
-switzerlandwest,Archive Tier,Standard SSD,RA-GZRS,na
+switzerlandwest,Archive Tier,Standard,LRS,0.00351
+switzerlandwest,Archive Tier,Standard,GRS,0.00702
+switzerlandwest,Archive Tier,Standard,ZRS,na
+switzerlandwest,Archive Tier,Standard,GZRS,na
+switzerlandwest,Archive Tier,Standard,RA-GRS,0.00878
+switzerlandwest,Archive Tier,Standard,RA-GZRS,na
 uaecentral,Hot Tier,Premium SSD,LRS,0.279
 uaecentral,Hot Tier,Premium SSD,GRS,na
 uaecentral,Hot Tier,Premium SSD,ZRS,na
 uaecentral,Hot Tier,Premium SSD,GZRS,na
 uaecentral,Hot Tier,Premium SSD,RA-GRS,na
 uaecentral,Hot Tier,Premium SSD,RA-GZRS,na
-uaecentral,Hot Tier,Standard SSD,LRS,0.02548
-uaecentral,Hot Tier,Standard SSD,GRS,0.05096
-uaecentral,Hot Tier,Standard SSD,ZRS,na
-uaecentral,Hot Tier,Standard SSD,GZRS,na
-uaecentral,Hot Tier,Standard SSD,RA-GRS,0.0637
-uaecentral,Hot Tier,Standard SSD,RA-GZRS,na
+uaecentral,Hot Tier,Standard,LRS,0.02548
+uaecentral,Hot Tier,Standard,GRS,0.05096
+uaecentral,Hot Tier,Standard,ZRS,na
+uaecentral,Hot Tier,Standard,GZRS,na
+uaecentral,Hot Tier,Standard,RA-GRS,0.0637
+uaecentral,Hot Tier,Standard,RA-GZRS,na
 uaecentral,Cold Tier,Premium SSD,LRS,na
 uaecentral,Cold Tier,Premium SSD,GRS,na
 uaecentral,Cold Tier,Premium SSD,ZRS,na
 uaecentral,Cold Tier,Premium SSD,GZRS,na
 uaecentral,Cold Tier,Premium SSD,RA-GRS,na
 uaecentral,Cold Tier,Premium SSD,RA-GZRS,na
-uaecentral,Cold Tier,Standard SSD,LRS,0.013
-uaecentral,Cold Tier,Standard SSD,GRS,0.026
-uaecentral,Cold Tier,Standard SSD,ZRS,na
-uaecentral,Cold Tier,Standard SSD,GZRS,na
-uaecentral,Cold Tier,Standard SSD,RA-GRS,0.0325
-uaecentral,Cold Tier,Standard SSD,RA-GZRS,na
+uaecentral,Cold Tier,Standard,LRS,0.013
+uaecentral,Cold Tier,Standard,GRS,0.026
+uaecentral,Cold Tier,Standard,ZRS,na
+uaecentral,Cold Tier,Standard,GZRS,na
+uaecentral,Cold Tier,Standard,RA-GRS,0.0325
+uaecentral,Cold Tier,Standard,RA-GZRS,na
 uaecentral,Archive Tier,Premium SSD,LRS,na
 uaecentral,Archive Tier,Premium SSD,GRS,na
 uaecentral,Archive Tier,Premium SSD,ZRS,na
 uaecentral,Archive Tier,Premium SSD,GZRS,na
 uaecentral,Archive Tier,Premium SSD,RA-GRS,na
 uaecentral,Archive Tier,Premium SSD,RA-GZRS,na
-uaecentral,Archive Tier,Standard SSD,LRS,0.00234
-uaecentral,Archive Tier,Standard SSD,GRS,0.00414
-uaecentral,Archive Tier,Standard SSD,ZRS,na
-uaecentral,Archive Tier,Standard SSD,GZRS,na
-uaecentral,Archive Tier,Standard SSD,RA-GRS,0.00414
-uaecentral,Archive Tier,Standard SSD,RA-GZRS,na
+uaecentral,Archive Tier,Standard,LRS,0.00234
+uaecentral,Archive Tier,Standard,GRS,0.00414
+uaecentral,Archive Tier,Standard,ZRS,na
+uaecentral,Archive Tier,Standard,GZRS,na
+uaecentral,Archive Tier,Standard,RA-GRS,0.00414
+uaecentral,Archive Tier,Standard,RA-GZRS,na
 uaenorth,Hot Tier,Premium SSD,LRS,0.214
 uaenorth,Hot Tier,Premium SSD,GRS,na
 uaenorth,Hot Tier,Premium SSD,ZRS,0.286
 uaenorth,Hot Tier,Premium SSD,GZRS,na
 uaenorth,Hot Tier,Premium SSD,RA-GRS,na
 uaenorth,Hot Tier,Premium SSD,RA-GZRS,na
-uaenorth,Hot Tier,Standard SSD,LRS,0.020275
-uaenorth,Hot Tier,Standard SSD,GRS,0.04055
-uaenorth,Hot Tier,Standard SSD,ZRS,0.025344
-uaenorth,Hot Tier,Standard SSD,GZRS,0.06157
-uaenorth,Hot Tier,Standard SSD,RA-GRS,0.050688
-uaenorth,Hot Tier,Standard SSD,RA-GZRS,0.076963
+uaenorth,Hot Tier,Standard,LRS,0.020275
+uaenorth,Hot Tier,Standard,GRS,0.04055
+uaenorth,Hot Tier,Standard,ZRS,0.025344
+uaenorth,Hot Tier,Standard,GZRS,0.06157
+uaenorth,Hot Tier,Standard,RA-GRS,0.050688
+uaenorth,Hot Tier,Standard,RA-GZRS,0.076963
 uaenorth,Cold Tier,Premium SSD,LRS,na
 uaenorth,Cold Tier,Premium SSD,GRS,na
 uaenorth,Cold Tier,Premium SSD,ZRS,na
 uaenorth,Cold Tier,Premium SSD,GZRS,na
 uaenorth,Cold Tier,Premium SSD,RA-GRS,na
 uaenorth,Cold Tier,Premium SSD,RA-GZRS,na
-uaenorth,Cold Tier,Standard SSD,LRS,0.012
-uaenorth,Cold Tier,Standard SSD,GRS,0.024
-uaenorth,Cold Tier,Standard SSD,ZRS,0.015
-uaenorth,Cold Tier,Standard SSD,GZRS,0.03519
-uaenorth,Cold Tier,Standard SSD,RA-GRS,0.03
-uaenorth,Cold Tier,Standard SSD,RA-GZRS,0.027
+uaenorth,Cold Tier,Standard,LRS,0.012
+uaenorth,Cold Tier,Standard,GRS,0.024
+uaenorth,Cold Tier,Standard,ZRS,0.015
+uaenorth,Cold Tier,Standard,GZRS,0.03519
+uaenorth,Cold Tier,Standard,RA-GRS,0.03
+uaenorth,Cold Tier,Standard,RA-GZRS,0.027
 uaenorth,Archive Tier,Premium SSD,LRS,na
 uaenorth,Archive Tier,Premium SSD,GRS,na
 uaenorth,Archive Tier,Premium SSD,ZRS,na
 uaenorth,Archive Tier,Premium SSD,GZRS,na
 uaenorth,Archive Tier,Premium SSD,RA-GRS,na
 uaenorth,Archive Tier,Premium SSD,RA-GZRS,na
-uaenorth,Archive Tier,Standard SSD,LRS,0.0018
-uaenorth,Archive Tier,Standard SSD,GRS,0.00414
-uaenorth,Archive Tier,Standard SSD,ZRS,na
-uaenorth,Archive Tier,Standard SSD,GZRS,na
-uaenorth,Archive Tier,Standard SSD,RA-GRS,0.00414
-uaenorth,Archive Tier,Standard SSD,RA-GZRS,na
+uaenorth,Archive Tier,Standard,LRS,0.0018
+uaenorth,Archive Tier,Standard,GRS,0.00414
+uaenorth,Archive Tier,Standard,ZRS,na
+uaenorth,Archive Tier,Standard,GZRS,na
+uaenorth,Archive Tier,Standard,RA-GRS,0.00414
+uaenorth,Archive Tier,Standard,RA-GZRS,na
 uksouth,Hot Tier,Premium SSD,LRS,0.188
 uksouth,Hot Tier,Premium SSD,GRS,na
 uksouth,Hot Tier,Premium SSD,ZRS,0.249
 uksouth,Hot Tier,Premium SSD,GZRS,na
 uksouth,Hot Tier,Premium SSD,RA-GRS,na
 uksouth,Hot Tier,Premium SSD,RA-GZRS,na
-uksouth,Hot Tier,Standard SSD,LRS,0.0192
-uksouth,Hot Tier,Standard SSD,GRS,0.0384
-uksouth,Hot Tier,Standard SSD,ZRS,0.024
-uksouth,Hot Tier,Standard SSD,GZRS,0.0432
-uksouth,Hot Tier,Standard SSD,RA-GRS,0.048
-uksouth,Hot Tier,Standard SSD,RA-GZRS,0.067275
+uksouth,Hot Tier,Standard,LRS,0.0192
+uksouth,Hot Tier,Standard,GRS,0.0384
+uksouth,Hot Tier,Standard,ZRS,0.024
+uksouth,Hot Tier,Standard,GZRS,0.0432
+uksouth,Hot Tier,Standard,RA-GRS,0.048
+uksouth,Hot Tier,Standard,RA-GZRS,0.067275
 uksouth,Cold Tier,Premium SSD,LRS,na
 uksouth,Cold Tier,Premium SSD,GRS,na
 uksouth,Cold Tier,Premium SSD,ZRS,na
 uksouth,Cold Tier,Premium SSD,GZRS,na
 uksouth,Cold Tier,Premium SSD,RA-GRS,na
 uksouth,Cold Tier,Premium SSD,RA-GZRS,na
-uksouth,Cold Tier,Standard SSD,LRS,0.0105
-uksouth,Cold Tier,Standard SSD,GRS,0.021
-uksouth,Cold Tier,Standard SSD,ZRS,0.013125
-uksouth,Cold Tier,Standard SSD,GZRS,0.0236
-uksouth,Cold Tier,Standard SSD,RA-GRS,0.02625
-uksouth,Cold Tier,Standard SSD,RA-GZRS,0.053438
+uksouth,Cold Tier,Standard,LRS,0.0105
+uksouth,Cold Tier,Standard,GRS,0.021
+uksouth,Cold Tier,Standard,ZRS,0.013125
+uksouth,Cold Tier,Standard,GZRS,0.0236
+uksouth,Cold Tier,Standard,RA-GRS,0.02625
+uksouth,Cold Tier,Standard,RA-GZRS,0.053438
 uksouth,Archive Tier,Premium SSD,LRS,na
 uksouth,Archive Tier,Premium SSD,GRS,na
 uksouth,Archive Tier,Premium SSD,ZRS,na
 uksouth,Archive Tier,Premium SSD,GZRS,na
 uksouth,Archive Tier,Premium SSD,RA-GRS,na
 uksouth,Archive Tier,Premium SSD,RA-GZRS,na
-uksouth,Archive Tier,Standard SSD,LRS,0.0018
-uksouth,Archive Tier,Standard SSD,GRS,0.0043
-uksouth,Archive Tier,Standard SSD,ZRS,na
-uksouth,Archive Tier,Standard SSD,GZRS,na
-uksouth,Archive Tier,Standard SSD,RA-GRS,0.0043
-uksouth,Archive Tier,Standard SSD,RA-GZRS,na
+uksouth,Archive Tier,Standard,LRS,0.0018
+uksouth,Archive Tier,Standard,GRS,0.0043
+uksouth,Archive Tier,Standard,ZRS,na
+uksouth,Archive Tier,Standard,GZRS,na
+uksouth,Archive Tier,Standard,RA-GRS,0.0043
+uksouth,Archive Tier,Standard,RA-GZRS,na
 ukwest,Hot Tier,Premium SSD,LRS,0.188
 ukwest,Hot Tier,Premium SSD,GRS,na
 ukwest,Hot Tier,Premium SSD,ZRS,na
 ukwest,Hot Tier,Premium SSD,GZRS,na
 ukwest,Hot Tier,Premium SSD,RA-GRS,na
 ukwest,Hot Tier,Premium SSD,RA-GZRS,na
-ukwest,Hot Tier,Standard SSD,LRS,0.0192
-ukwest,Hot Tier,Standard SSD,GRS,0.0384
-ukwest,Hot Tier,Standard SSD,ZRS,na
-ukwest,Hot Tier,Standard SSD,GZRS,na
-ukwest,Hot Tier,Standard SSD,RA-GRS,0.048
-ukwest,Hot Tier,Standard SSD,RA-GZRS,na
+ukwest,Hot Tier,Standard,LRS,0.0192
+ukwest,Hot Tier,Standard,GRS,0.0384
+ukwest,Hot Tier,Standard,ZRS,na
+ukwest,Hot Tier,Standard,GZRS,na
+ukwest,Hot Tier,Standard,RA-GRS,0.048
+ukwest,Hot Tier,Standard,RA-GZRS,na
 ukwest,Cold Tier,Premium SSD,LRS,na
 ukwest,Cold Tier,Premium SSD,GRS,na
 ukwest,Cold Tier,Premium SSD,ZRS,na
 ukwest,Cold Tier,Premium SSD,GZRS,na
 ukwest,Cold Tier,Premium SSD,RA-GRS,na
 ukwest,Cold Tier,Premium SSD,RA-GZRS,na
-ukwest,Cold Tier,Standard SSD,LRS,0.0105
-ukwest,Cold Tier,Standard SSD,GRS,0.021
-ukwest,Cold Tier,Standard SSD,ZRS,na
-ukwest,Cold Tier,Standard SSD,GZRS,na
-ukwest,Cold Tier,Standard SSD,RA-GRS,0.02625
-ukwest,Cold Tier,Standard SSD,RA-GZRS,na
+ukwest,Cold Tier,Standard,LRS,0.0105
+ukwest,Cold Tier,Standard,GRS,0.021
+ukwest,Cold Tier,Standard,ZRS,na
+ukwest,Cold Tier,Standard,GZRS,na
+ukwest,Cold Tier,Standard,RA-GRS,0.02625
+ukwest,Cold Tier,Standard,RA-GZRS,na
 ukwest,Archive Tier,Premium SSD,LRS,na
 ukwest,Archive Tier,Premium SSD,GRS,na
 ukwest,Archive Tier,Premium SSD,ZRS,na
 ukwest,Archive Tier,Premium SSD,GZRS,na
 ukwest,Archive Tier,Premium SSD,RA-GRS,na
 ukwest,Archive Tier,Premium SSD,RA-GZRS,na
-ukwest,Archive Tier,Standard SSD,LRS,0.0025
-ukwest,Archive Tier,Standard SSD,GRS,0.0043
-ukwest,Archive Tier,Standard SSD,ZRS,na
-ukwest,Archive Tier,Standard SSD,GZRS,na
-ukwest,Archive Tier,Standard SSD,RA-GRS,0.0043
-ukwest,Archive Tier,Standard SSD,RA-GZRS,na
+ukwest,Archive Tier,Standard,LRS,0.0025
+ukwest,Archive Tier,Standard,GRS,0.0043
+ukwest,Archive Tier,Standard,ZRS,na
+ukwest,Archive Tier,Standard,GZRS,na
+ukwest,Archive Tier,Standard,RA-GRS,0.0043
+ukwest,Archive Tier,Standard,RA-GZRS,na
 westcentralus,Hot Tier,Premium SSD,LRS,0.18
 westcentralus,Hot Tier,Premium SSD,GRS,na
 westcentralus,Hot Tier,Premium SSD,ZRS,na
 westcentralus,Hot Tier,Premium SSD,GZRS,na
 westcentralus,Hot Tier,Premium SSD,RA-GRS,na
 westcentralus,Hot Tier,Premium SSD,RA-GZRS,na
-westcentralus,Hot Tier,Standard SSD,LRS,0.0184
-westcentralus,Hot Tier,Standard SSD,GRS,0.0368
-westcentralus,Hot Tier,Standard SSD,ZRS,na
-westcentralus,Hot Tier,Standard SSD,GZRS,na
-westcentralus,Hot Tier,Standard SSD,RA-GRS,0.046
-westcentralus,Hot Tier,Standard SSD,RA-GZRS,na
+westcentralus,Hot Tier,Standard,LRS,0.0184
+westcentralus,Hot Tier,Standard,GRS,0.0368
+westcentralus,Hot Tier,Standard,ZRS,na
+westcentralus,Hot Tier,Standard,GZRS,na
+westcentralus,Hot Tier,Standard,RA-GRS,0.046
+westcentralus,Hot Tier,Standard,RA-GZRS,na
 westcentralus,Cold Tier,Premium SSD,LRS,na
 westcentralus,Cold Tier,Premium SSD,GRS,na
 westcentralus,Cold Tier,Premium SSD,ZRS,na
 westcentralus,Cold Tier,Premium SSD,GZRS,na
 westcentralus,Cold Tier,Premium SSD,RA-GRS,na
 westcentralus,Cold Tier,Premium SSD,RA-GZRS,na
-westcentralus,Cold Tier,Standard SSD,LRS,0.01
-westcentralus,Cold Tier,Standard SSD,GRS,0.02
-westcentralus,Cold Tier,Standard SSD,ZRS,na
-westcentralus,Cold Tier,Standard SSD,GZRS,na
-westcentralus,Cold Tier,Standard SSD,RA-GRS,0.025
-westcentralus,Cold Tier,Standard SSD,RA-GZRS,na
+westcentralus,Cold Tier,Standard,LRS,0.01
+westcentralus,Cold Tier,Standard,GRS,0.02
+westcentralus,Cold Tier,Standard,ZRS,na
+westcentralus,Cold Tier,Standard,GZRS,na
+westcentralus,Cold Tier,Standard,RA-GRS,0.025
+westcentralus,Cold Tier,Standard,RA-GZRS,na
 westcentralus,Archive Tier,Premium SSD,LRS,na
 westcentralus,Archive Tier,Premium SSD,GRS,na
 westcentralus,Archive Tier,Premium SSD,ZRS,na
 westcentralus,Archive Tier,Premium SSD,GZRS,na
 westcentralus,Archive Tier,Premium SSD,RA-GRS,na
 westcentralus,Archive Tier,Premium SSD,RA-GZRS,na
-westcentralus,Archive Tier,Standard SSD,LRS,0.002
-westcentralus,Archive Tier,Standard SSD,GRS,0.00299
-westcentralus,Archive Tier,Standard SSD,ZRS,na
-westcentralus,Archive Tier,Standard SSD,GZRS,na
-westcentralus,Archive Tier,Standard SSD,RA-GRS,0.00299
-westcentralus,Archive Tier,Standard SSD,RA-GZRS,na
+westcentralus,Archive Tier,Standard,LRS,0.002
+westcentralus,Archive Tier,Standard,GRS,0.00299
+westcentralus,Archive Tier,Standard,ZRS,na
+westcentralus,Archive Tier,Standard,GZRS,na
+westcentralus,Archive Tier,Standard,RA-GRS,0.00299
+westcentralus,Archive Tier,Standard,RA-GZRS,na
 westeurope,Hot Tier,Premium SSD,LRS,0.195
 westeurope,Hot Tier,Premium SSD,GRS,na
 westeurope,Hot Tier,Premium SSD,ZRS,0.259
 westeurope,Hot Tier,Premium SSD,GZRS,na
 westeurope,Hot Tier,Premium SSD,RA-GRS,na
 westeurope,Hot Tier,Premium SSD,RA-GZRS,na
-westeurope,Hot Tier,Standard SSD,LRS,0.0196
-westeurope,Hot Tier,Standard SSD,GRS,0.0392
-westeurope,Hot Tier,Standard SSD,ZRS,0.024
-westeurope,Hot Tier,Standard SSD,GZRS,0.046
-westeurope,Hot Tier,Standard SSD,RA-GRS,0.049
-westeurope,Hot Tier,Standard SSD,RA-GZRS,0.0575
+westeurope,Hot Tier,Standard,LRS,0.0196
+westeurope,Hot Tier,Standard,GRS,0.0392
+westeurope,Hot Tier,Standard,ZRS,0.024
+westeurope,Hot Tier,Standard,GZRS,0.046
+westeurope,Hot Tier,Standard,RA-GRS,0.049
+westeurope,Hot Tier,Standard,RA-GZRS,0.0575
 westeurope,Cold Tier,Premium SSD,LRS,na
 westeurope,Cold Tier,Premium SSD,GRS,na
 westeurope,Cold Tier,Premium SSD,ZRS,na
 westeurope,Cold Tier,Premium SSD,GZRS,na
 westeurope,Cold Tier,Premium SSD,RA-GRS,na
 westeurope,Cold Tier,Premium SSD,RA-GZRS,na
-westeurope,Cold Tier,Standard SSD,LRS,0.01
-westeurope,Cold Tier,Standard SSD,GRS,0.02
-westeurope,Cold Tier,Standard SSD,ZRS,0.0131
-westeurope,Cold Tier,Standard SSD,GZRS,0.0231
-westeurope,Cold Tier,Standard SSD,RA-GRS,0.025
-westeurope,Cold Tier,Standard SSD,RA-GZRS,0.028875
+westeurope,Cold Tier,Standard,LRS,0.01
+westeurope,Cold Tier,Standard,GRS,0.02
+westeurope,Cold Tier,Standard,ZRS,0.0131
+westeurope,Cold Tier,Standard,GZRS,0.0231
+westeurope,Cold Tier,Standard,RA-GRS,0.025
+westeurope,Cold Tier,Standard,RA-GZRS,0.028875
 westeurope,Archive Tier,Premium SSD,LRS,na
 westeurope,Archive Tier,Premium SSD,GRS,na
 westeurope,Archive Tier,Premium SSD,ZRS,na
 westeurope,Archive Tier,Premium SSD,GZRS,na
 westeurope,Archive Tier,Premium SSD,RA-GRS,na
 westeurope,Archive Tier,Premium SSD,RA-GZRS,na
-westeurope,Archive Tier,Standard SSD,LRS,0.0018
-westeurope,Archive Tier,Standard SSD,GRS,0.00279
-westeurope,Archive Tier,Standard SSD,ZRS,na
-westeurope,Archive Tier,Standard SSD,GZRS,na
-westeurope,Archive Tier,Standard SSD,RA-GRS,0.00279
-westeurope,Archive Tier,Standard SSD,RA-GZRS,na
+westeurope,Archive Tier,Standard,LRS,0.0018
+westeurope,Archive Tier,Standard,GRS,0.00279
+westeurope,Archive Tier,Standard,ZRS,na
+westeurope,Archive Tier,Standard,GZRS,na
+westeurope,Archive Tier,Standard,RA-GRS,0.00279
+westeurope,Archive Tier,Standard,RA-GZRS,na
 westindia,Hot Tier,Premium SSD,LRS,0.225
 westindia,Hot Tier,Premium SSD,GRS,na
 westindia,Hot Tier,Premium SSD,ZRS,na
 westindia,Hot Tier,Premium SSD,GZRS,na
 westindia,Hot Tier,Premium SSD,RA-GRS,na
 westindia,Hot Tier,Premium SSD,RA-GZRS,na
-westindia,Hot Tier,Standard SSD,LRS,0.02
-westindia,Hot Tier,Standard SSD,GRS,0.04
-westindia,Hot Tier,Standard SSD,ZRS,na
-westindia,Hot Tier,Standard SSD,GZRS,na
-westindia,Hot Tier,Standard SSD,RA-GRS,0.05
-westindia,Hot Tier,Standard SSD,RA-GZRS,na
+westindia,Hot Tier,Standard,LRS,0.02
+westindia,Hot Tier,Standard,GRS,0.04
+westindia,Hot Tier,Standard,ZRS,na
+westindia,Hot Tier,Standard,GZRS,na
+westindia,Hot Tier,Standard,RA-GRS,0.05
+westindia,Hot Tier,Standard,RA-GZRS,na
 westindia,Cold Tier,Premium SSD,LRS,na
 westindia,Cold Tier,Premium SSD,GRS,na
 westindia,Cold Tier,Premium SSD,ZRS,na
 westindia,Cold Tier,Premium SSD,GZRS,na
 westindia,Cold Tier,Premium SSD,RA-GRS,na
 westindia,Cold Tier,Premium SSD,RA-GZRS,na
-westindia,Cold Tier,Standard SSD,LRS,0.0152
-westindia,Cold Tier,Standard SSD,GRS,0.0304
-westindia,Cold Tier,Standard SSD,ZRS,na
-westindia,Cold Tier,Standard SSD,GZRS,na
-westindia,Cold Tier,Standard SSD,RA-GRS,0.038
-westindia,Cold Tier,Standard SSD,RA-GZRS,na
+westindia,Cold Tier,Standard,LRS,0.0152
+westindia,Cold Tier,Standard,GRS,0.0304
+westindia,Cold Tier,Standard,ZRS,na
+westindia,Cold Tier,Standard,GZRS,na
+westindia,Cold Tier,Standard,RA-GRS,0.038
+westindia,Cold Tier,Standard,RA-GZRS,na
 westindia,Archive Tier,Premium SSD,LRS,na
 westindia,Archive Tier,Premium SSD,GRS,na
 westindia,Archive Tier,Premium SSD,ZRS,na
 westindia,Archive Tier,Premium SSD,GZRS,na
 westindia,Archive Tier,Premium SSD,RA-GRS,na
 westindia,Archive Tier,Premium SSD,RA-GZRS,na
-westindia,Archive Tier,Standard SSD,LRS,na
-westindia,Archive Tier,Standard SSD,GRS,na
-westindia,Archive Tier,Standard SSD,ZRS,na
-westindia,Archive Tier,Standard SSD,GZRS,na
-westindia,Archive Tier,Standard SSD,RA-GRS,na
-westindia,Archive Tier,Standard SSD,RA-GZRS,na
+westindia,Archive Tier,Standard,LRS,na
+westindia,Archive Tier,Standard,GRS,na
+westindia,Archive Tier,Standard,ZRS,na
+westindia,Archive Tier,Standard,GZRS,na
+westindia,Archive Tier,Standard,RA-GRS,na
+westindia,Archive Tier,Standard,RA-GZRS,na
 westus,Hot Tier,Premium SSD,LRS,0.195
 westus,Hot Tier,Premium SSD,GRS,na
 westus,Hot Tier,Premium SSD,ZRS,na
 westus,Hot Tier,Premium SSD,GZRS,na
 westus,Hot Tier,Premium SSD,RA-GRS,na
 westus,Hot Tier,Premium SSD,RA-GZRS,na
-westus,Hot Tier,Standard SSD,LRS,0.0208
-westus,Hot Tier,Standard SSD,GRS,0.0458
-westus,Hot Tier,Standard SSD,ZRS,na
-westus,Hot Tier,Standard SSD,GZRS,na
-westus,Hot Tier,Standard SSD,RA-GRS,0.0478
-westus,Hot Tier,Standard SSD,RA-GZRS,na
+westus,Hot Tier,Standard,LRS,0.0208
+westus,Hot Tier,Standard,GRS,0.0458
+westus,Hot Tier,Standard,ZRS,na
+westus,Hot Tier,Standard,GZRS,na
+westus,Hot Tier,Standard,RA-GRS,0.0478
+westus,Hot Tier,Standard,RA-GZRS,na
 westus,Cold Tier,Premium SSD,LRS,na
 westus,Cold Tier,Premium SSD,GRS,na
 westus,Cold Tier,Premium SSD,ZRS,na
 westus,Cold Tier,Premium SSD,GZRS,na
 westus,Cold Tier,Premium SSD,RA-GRS,na
 westus,Cold Tier,Premium SSD,RA-GZRS,na
-westus,Cold Tier,Standard SSD,LRS,0.0115
-westus,Cold Tier,Standard SSD,GRS,0.023
-westus,Cold Tier,Standard SSD,ZRS,na
-westus,Cold Tier,Standard SSD,GZRS,na
-westus,Cold Tier,Standard SSD,RA-GRS,0.0288
-westus,Cold Tier,Standard SSD,RA-GZRS,na
+westus,Cold Tier,Standard,LRS,0.0115
+westus,Cold Tier,Standard,GRS,0.023
+westus,Cold Tier,Standard,ZRS,na
+westus,Cold Tier,Standard,GZRS,na
+westus,Cold Tier,Standard,RA-GRS,0.0288
+westus,Cold Tier,Standard,RA-GZRS,na
 westus,Archive Tier,Premium SSD,LRS,na
 westus,Archive Tier,Premium SSD,GRS,na
 westus,Archive Tier,Premium SSD,ZRS,na
 westus,Archive Tier,Premium SSD,GZRS,na
 westus,Archive Tier,Premium SSD,RA-GRS,na
 westus,Archive Tier,Premium SSD,RA-GZRS,na
-westus,Archive Tier,Standard SSD,LRS,0.002
-westus,Archive Tier,Standard SSD,GRS,0.00299
-westus,Archive Tier,Standard SSD,ZRS,na
-westus,Archive Tier,Standard SSD,GZRS,na
-westus,Archive Tier,Standard SSD,RA-GRS,0.00299
-westus,Archive Tier,Standard SSD,RA-GZRS,na
+westus,Archive Tier,Standard,LRS,0.002
+westus,Archive Tier,Standard,GRS,0.00299
+westus,Archive Tier,Standard,ZRS,na
+westus,Archive Tier,Standard,GZRS,na
+westus,Archive Tier,Standard,RA-GRS,0.00299
+westus,Archive Tier,Standard,RA-GZRS,na
 westus2,Hot Tier,Premium SSD,LRS,0.15
 westus2,Hot Tier,Premium SSD,GRS,na
 westus2,Hot Tier,Premium SSD,ZRS,0.2
 westus2,Hot Tier,Premium SSD,GZRS,na
 westus2,Hot Tier,Premium SSD,RA-GRS,na
 westus2,Hot Tier,Premium SSD,RA-GZRS,na
-westus2,Hot Tier,Standard SSD,LRS,0.0184
-westus2,Hot Tier,Standard SSD,GRS,0.0368
-westus2,Hot Tier,Standard SSD,ZRS,0.023
-westus2,Hot Tier,Standard SSD,GZRS,0.0414
-westus2,Hot Tier,Standard SSD,RA-GRS,0.046
-westus2,Hot Tier,Standard SSD,RA-GZRS,0.05175
+westus2,Hot Tier,Standard,LRS,0.0184
+westus2,Hot Tier,Standard,GRS,0.0368
+westus2,Hot Tier,Standard,ZRS,0.023
+westus2,Hot Tier,Standard,GZRS,0.0414
+westus2,Hot Tier,Standard,RA-GRS,0.046
+westus2,Hot Tier,Standard,RA-GZRS,0.05175
 westus2,Cold Tier,Premium SSD,LRS,na
 westus2,Cold Tier,Premium SSD,GRS,na
 westus2,Cold Tier,Premium SSD,ZRS,na
 westus2,Cold Tier,Premium SSD,GZRS,na
 westus2,Cold Tier,Premium SSD,RA-GRS,na
 westus2,Cold Tier,Premium SSD,RA-GZRS,na
-westus2,Cold Tier,Standard SSD,LRS,0.01
-westus2,Cold Tier,Standard SSD,GRS,0.02
-westus2,Cold Tier,Standard SSD,ZRS,0.0125
-westus2,Cold Tier,Standard SSD,GZRS,0.0225
-westus2,Cold Tier,Standard SSD,RA-GRS,0.025
-westus2,Cold Tier,Standard SSD,RA-GZRS,0.028125
+westus2,Cold Tier,Standard,LRS,0.01
+westus2,Cold Tier,Standard,GRS,0.02
+westus2,Cold Tier,Standard,ZRS,0.0125
+westus2,Cold Tier,Standard,GZRS,0.0225
+westus2,Cold Tier,Standard,RA-GRS,0.025
+westus2,Cold Tier,Standard,RA-GZRS,0.028125
 westus2,Archive Tier,Premium SSD,LRS,na
 westus2,Archive Tier,Premium SSD,GRS,na
 westus2,Archive Tier,Premium SSD,ZRS,na
 westus2,Archive Tier,Premium SSD,GZRS,na
 westus2,Archive Tier,Premium SSD,RA-GRS,na
 westus2,Archive Tier,Premium SSD,RA-GZRS,na
-westus2,Archive Tier,Standard SSD,LRS,0.00099
-westus2,Archive Tier,Standard SSD,GRS,0.00299
-westus2,Archive Tier,Standard SSD,ZRS,na
-westus2,Archive Tier,Standard SSD,GZRS,na
-westus2,Archive Tier,Standard SSD,RA-GRS,0.00299
-westus2,Archive Tier,Standard SSD,RA-GZRS,na
+westus2,Archive Tier,Standard,LRS,0.00099
+westus2,Archive Tier,Standard,GRS,0.00299
+westus2,Archive Tier,Standard,ZRS,na
+westus2,Archive Tier,Standard,GZRS,na
+westus2,Archive Tier,Standard,RA-GRS,0.00299
+westus2,Archive Tier,Standard,RA-GZRS,na
 westus3,Hot Tier,Premium SSD,LRS,0.15
 westus3,Hot Tier,Premium SSD,GRS,na
 westus3,Hot Tier,Premium SSD,ZRS,0.2
 westus3,Hot Tier,Premium SSD,GZRS,na
 westus3,Hot Tier,Premium SSD,RA-GRS,na
 westus3,Hot Tier,Premium SSD,RA-GZRS,na
-westus3,Hot Tier,Standard SSD,LRS,0.0184
-westus3,Hot Tier,Standard SSD,GRS,0.0368
-westus3,Hot Tier,Standard SSD,ZRS,0.023
-westus3,Hot Tier,Standard SSD,GZRS,0.043056
-westus3,Hot Tier,Standard SSD,RA-GRS,0.046
-westus3,Hot Tier,Standard SSD,RA-GZRS,0.05382
+westus3,Hot Tier,Standard,LRS,0.0184
+westus3,Hot Tier,Standard,GRS,0.0368
+westus3,Hot Tier,Standard,ZRS,0.023
+westus3,Hot Tier,Standard,GZRS,0.043056
+westus3,Hot Tier,Standard,RA-GRS,0.046
+westus3,Hot Tier,Standard,RA-GZRS,0.05382
 westus3,Cold Tier,Premium SSD,LRS,na
 westus3,Cold Tier,Premium SSD,GRS,na
 westus3,Cold Tier,Premium SSD,ZRS,na
 westus3,Cold Tier,Premium SSD,GZRS,na
 westus3,Cold Tier,Premium SSD,RA-GRS,na
 westus3,Cold Tier,Premium SSD,RA-GZRS,na
-westus3,Cold Tier,Standard SSD,LRS,0.01
-westus3,Cold Tier,Standard SSD,GRS,0.02
-westus3,Cold Tier,Standard SSD,ZRS,0.0125
-westus3,Cold Tier,Standard SSD,GZRS,0.0342
-westus3,Cold Tier,Standard SSD,RA-GRS,0.025
-westus3,Cold Tier,Standard SSD,RA-GZRS,0.0225
+westus3,Cold Tier,Standard,LRS,0.01
+westus3,Cold Tier,Standard,GRS,0.02
+westus3,Cold Tier,Standard,ZRS,0.0125
+westus3,Cold Tier,Standard,GZRS,0.0342
+westus3,Cold Tier,Standard,RA-GRS,0.025
+westus3,Cold Tier,Standard,RA-GZRS,0.0225
 westus3,Archive Tier,Premium SSD,LRS,na
 westus3,Archive Tier,Premium SSD,GRS,na
 westus3,Archive Tier,Premium SSD,ZRS,na
 westus3,Archive Tier,Premium SSD,GZRS,na
 westus3,Archive Tier,Premium SSD,RA-GRS,na
 westus3,Archive Tier,Premium SSD,RA-GZRS,na
-westus3,Archive Tier,Standard SSD,LRS,0.00099
-westus3,Archive Tier,Standard SSD,GRS,0.00299
-westus3,Archive Tier,Standard SSD,ZRS,na
-westus3,Archive Tier,Standard SSD,GZRS,na
-westus3,Archive Tier,Standard SSD,RA-GRS,0.00299
-westus3,Archive Tier,Standard SSD,RA-GZRS,na
+westus3,Archive Tier,Standard,LRS,0.00099
+westus3,Archive Tier,Standard,GRS,0.00299
+westus3,Archive Tier,Standard,ZRS,na
+westus3,Archive Tier,Standard,GZRS,na
+westus3,Archive Tier,Standard,RA-GRS,0.00299
+westus3,Archive Tier,Standard,RA-GZRS,na

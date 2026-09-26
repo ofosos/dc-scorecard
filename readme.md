@@ -129,7 +129,8 @@ Output: `block_storage_pricing.csv`
 
 Per GB Azure Files (file share) prices from the Azure Retail Prices
 API, for the full (access frequency, performance, redundancy) matrix
-per region: Hot, Cool and Standard tiers, Standard HDD and Premium SSD
+per region: Hot, Cool and Transaction Optimized tiers (the SKU tier
+the Retail Prices API names "Standard"), Standard HDD and Premium SSD
 performance, each with LRS, GRS, ZRS and GZRS. Standard HDD prices
 from the "Files v2" share "Data Stored" meters (classic "Files"
 product as fallback for LRS/GRS), Premium SSD from the "Premium Files"

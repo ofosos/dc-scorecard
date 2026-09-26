@@ -53,36 +53,36 @@ offerings available in 100% of regions.
   - [Archive Tier / Premium SSD / RA-GRS](#archive-tier--premium-ssd--ra-grs)
   - [Archive Tier / Premium SSD / RA-GZRS](#archive-tier--premium-ssd--ra-gzrs)
   - [Archive Tier / Premium SSD / ZRS](#archive-tier--premium-ssd--zrs)
-  - [Archive Tier / Standard SSD / GRS](#archive-tier--standard-ssd--grs)
-  - [Archive Tier / Standard SSD / GZRS](#archive-tier--standard-ssd--gzrs)
-  - [Archive Tier / Standard SSD / LRS](#archive-tier--standard-ssd--lrs)
-  - [Archive Tier / Standard SSD / RA-GRS](#archive-tier--standard-ssd--ra-grs)
-  - [Archive Tier / Standard SSD / RA-GZRS](#archive-tier--standard-ssd--ra-gzrs)
-  - [Archive Tier / Standard SSD / ZRS](#archive-tier--standard-ssd--zrs)
+  - [Archive Tier / Standard / GRS](#archive-tier--standard--grs)
+  - [Archive Tier / Standard / GZRS](#archive-tier--standard--gzrs)
+  - [Archive Tier / Standard / LRS](#archive-tier--standard--lrs)
+  - [Archive Tier / Standard / RA-GRS](#archive-tier--standard--ra-grs)
+  - [Archive Tier / Standard / RA-GZRS](#archive-tier--standard--ra-gzrs)
+  - [Archive Tier / Standard / ZRS](#archive-tier--standard--zrs)
   - [Cold Tier / Premium SSD / GRS](#cold-tier--premium-ssd--grs)
   - [Cold Tier / Premium SSD / GZRS](#cold-tier--premium-ssd--gzrs)
   - [Cold Tier / Premium SSD / LRS](#cold-tier--premium-ssd--lrs)
   - [Cold Tier / Premium SSD / RA-GRS](#cold-tier--premium-ssd--ra-grs)
   - [Cold Tier / Premium SSD / RA-GZRS](#cold-tier--premium-ssd--ra-gzrs)
   - [Cold Tier / Premium SSD / ZRS](#cold-tier--premium-ssd--zrs)
-  - [Cold Tier / Standard SSD / GRS](#cold-tier--standard-ssd--grs)
-  - [Cold Tier / Standard SSD / GZRS](#cold-tier--standard-ssd--gzrs)
-  - [Cold Tier / Standard SSD / LRS](#cold-tier--standard-ssd--lrs) °
-  - [Cold Tier / Standard SSD / RA-GRS](#cold-tier--standard-ssd--ra-grs)
-  - [Cold Tier / Standard SSD / RA-GZRS](#cold-tier--standard-ssd--ra-gzrs)
-  - [Cold Tier / Standard SSD / ZRS](#cold-tier--standard-ssd--zrs)
+  - [Cold Tier / Standard / GRS](#cold-tier--standard--grs)
+  - [Cold Tier / Standard / GZRS](#cold-tier--standard--gzrs)
+  - [Cold Tier / Standard / LRS](#cold-tier--standard--lrs) °
+  - [Cold Tier / Standard / RA-GRS](#cold-tier--standard--ra-grs)
+  - [Cold Tier / Standard / RA-GZRS](#cold-tier--standard--ra-gzrs)
+  - [Cold Tier / Standard / ZRS](#cold-tier--standard--zrs)
   - [Hot Tier / Premium SSD / GRS](#hot-tier--premium-ssd--grs)
   - [Hot Tier / Premium SSD / GZRS](#hot-tier--premium-ssd--gzrs)
   - [Hot Tier / Premium SSD / LRS](#hot-tier--premium-ssd--lrs) °
   - [Hot Tier / Premium SSD / RA-GRS](#hot-tier--premium-ssd--ra-grs)
   - [Hot Tier / Premium SSD / RA-GZRS](#hot-tier--premium-ssd--ra-gzrs)
   - [Hot Tier / Premium SSD / ZRS](#hot-tier--premium-ssd--zrs)
-  - [Hot Tier / Standard SSD / GRS](#hot-tier--standard-ssd--grs)
-  - [Hot Tier / Standard SSD / GZRS](#hot-tier--standard-ssd--gzrs)
-  - [Hot Tier / Standard SSD / LRS](#hot-tier--standard-ssd--lrs) °
-  - [Hot Tier / Standard SSD / RA-GRS](#hot-tier--standard-ssd--ra-grs)
-  - [Hot Tier / Standard SSD / RA-GZRS](#hot-tier--standard-ssd--ra-gzrs)
-  - [Hot Tier / Standard SSD / ZRS](#hot-tier--standard-ssd--zrs)
+  - [Hot Tier / Standard / GRS](#hot-tier--standard--grs)
+  - [Hot Tier / Standard / GZRS](#hot-tier--standard--gzrs)
+  - [Hot Tier / Standard / LRS](#hot-tier--standard--lrs) °
+  - [Hot Tier / Standard / RA-GRS](#hot-tier--standard--ra-grs)
+  - [Hot Tier / Standard / RA-GZRS](#hot-tier--standard--ra-gzrs)
+  - [Hot Tier / Standard / ZRS](#hot-tier--standard--zrs)
 - [Block storage (managed disks)](#block-storage-managed-disks)
   - [Premium SSD / LRS](#premium-ssd--lrs) °
   - [Premium SSD / ZRS](#premium-ssd--zrs)
@@ -109,14 +109,14 @@ offerings available in 100% of regions.
   - [Hot Tier / Standard HDD / GZRS](#hot-tier--standard-hdd--gzrs)
   - [Hot Tier / Standard HDD / LRS](#hot-tier--standard-hdd--lrs) °
   - [Hot Tier / Standard HDD / ZRS](#hot-tier--standard-hdd--zrs)
-  - [Standard Tier / Premium SSD / GRS](#standard-tier--premium-ssd--grs)
-  - [Standard Tier / Premium SSD / GZRS](#standard-tier--premium-ssd--gzrs)
-  - [Standard Tier / Premium SSD / LRS](#standard-tier--premium-ssd--lrs)
-  - [Standard Tier / Premium SSD / ZRS](#standard-tier--premium-ssd--zrs)
-  - [Standard Tier / Standard HDD / GRS](#standard-tier--standard-hdd--grs)
-  - [Standard Tier / Standard HDD / GZRS](#standard-tier--standard-hdd--gzrs)
-  - [Standard Tier / Standard HDD / LRS](#standard-tier--standard-hdd--lrs) °
-  - [Standard Tier / Standard HDD / ZRS](#standard-tier--standard-hdd--zrs)
+  - [Transaction Optimized / Premium SSD / GRS](#transaction-optimized--premium-ssd--grs)
+  - [Transaction Optimized / Premium SSD / GZRS](#transaction-optimized--premium-ssd--gzrs)
+  - [Transaction Optimized / Premium SSD / LRS](#transaction-optimized--premium-ssd--lrs)
+  - [Transaction Optimized / Premium SSD / ZRS](#transaction-optimized--premium-ssd--zrs)
+  - [Transaction Optimized / Standard HDD / GRS](#transaction-optimized--standard-hdd--grs)
+  - [Transaction Optimized / Standard HDD / GZRS](#transaction-optimized--standard-hdd--gzrs)
+  - [Transaction Optimized / Standard HDD / LRS](#transaction-optimized--standard-hdd--lrs) °
+  - [Transaction Optimized / Standard HDD / ZRS](#transaction-optimized--standard-hdd--zrs)
 
 ## Compute (virtual machines)
 
@@ -1162,7 +1162,7 @@ Price distribution across the 18 regions with a price (USD/hour); rows are bins 
 | Number of regions with a price | 0 | |
 | Offered in | 0.0% of regions | |
 
-### Archive Tier / Standard SSD / GRS
+### Archive Tier / Standard / GRS
 
 | Statistic | Price/Count | Regions |
 | --- | --- | --- |
@@ -1191,7 +1191,7 @@ Price distribution across the 41 regions with a price (USD/GB/month); rows are b
        top   0.00826
 ```
 
-### Archive Tier / Standard SSD / GZRS
+### Archive Tier / Standard / GZRS
 
 | Statistic | Price/Count | Regions |
 | --- | --- | --- |
@@ -1200,7 +1200,7 @@ Price distribution across the 41 regions with a price (USD/GB/month); rows are b
 | Number of regions with a price | 0 | |
 | Offered in | 0.0% of regions | |
 
-### Archive Tier / Standard SSD / LRS
+### Archive Tier / Standard / LRS
 
 | Statistic | Price/Count | Regions |
 | --- | --- | --- |
@@ -1229,7 +1229,7 @@ Price distribution across the 45 regions with a price (USD/GB/month); rows are b
        top   0.005
 ```
 
-### Archive Tier / Standard SSD / RA-GRS
+### Archive Tier / Standard / RA-GRS
 
 | Statistic | Price/Count | Regions |
 | --- | --- | --- |
@@ -1258,7 +1258,7 @@ Price distribution across the 41 regions with a price (USD/GB/month); rows are b
        top   0.00878
 ```
 
-### Archive Tier / Standard SSD / RA-GZRS
+### Archive Tier / Standard / RA-GZRS
 
 | Statistic | Price/Count | Regions |
 | --- | --- | --- |
@@ -1267,7 +1267,7 @@ Price distribution across the 41 regions with a price (USD/GB/month); rows are b
 | Number of regions with a price | 0 | |
 | Offered in | 0.0% of regions | |
 
-### Archive Tier / Standard SSD / ZRS
+### Archive Tier / Standard / ZRS
 
 | Statistic | Price/Count | Regions |
 | --- | --- | --- |
@@ -1330,7 +1330,7 @@ Price distribution across the 41 regions with a price (USD/GB/month); rows are b
 | Number of regions with a price | 0 | |
 | Offered in | 0.0% of regions | |
 
-### Cold Tier / Standard SSD / GRS
+### Cold Tier / Standard / GRS
 
 | Statistic | Price/Count | Regions |
 | --- | --- | --- |
@@ -1359,7 +1359,7 @@ Price distribution across the 45 regions with a price (USD/GB/month); rows are b
     top   0.04784
 ```
 
-### Cold Tier / Standard SSD / GZRS
+### Cold Tier / Standard / GZRS
 
 | Statistic | Price/Count | Regions |
 | --- | --- | --- |
@@ -1388,7 +1388,7 @@ Price distribution across the 26 regions with a price (USD/GB/month); rows are b
      top   0.0687
 ```
 
-### Cold Tier / Standard SSD / LRS
+### Cold Tier / Standard / LRS
 
 | Statistic | Price/Count | Regions |
 | --- | --- | --- |
@@ -1417,7 +1417,7 @@ Price distribution across the 57 regions with a price (USD/GB/month); rows are b
     top   0.02704
 ```
 
-### Cold Tier / Standard SSD / RA-GRS
+### Cold Tier / Standard / RA-GRS
 
 | Statistic | Price/Count | Regions |
 | --- | --- | --- |
@@ -1446,7 +1446,7 @@ Price distribution across the 45 regions with a price (USD/GB/month); rows are b
     top   0.0598
 ```
 
-### Cold Tier / Standard SSD / RA-GZRS
+### Cold Tier / Standard / RA-GZRS
 
 | Statistic | Price/Count | Regions |
 | --- | --- | --- |
@@ -1475,7 +1475,7 @@ Price distribution across the 26 regions with a price (USD/GB/month); rows are b
      top   0.0855
 ```
 
-### Cold Tier / Standard SSD / ZRS
+### Cold Tier / Standard / ZRS
 
 | Statistic | Price/Count | Regions |
 | --- | --- | --- |
@@ -1598,7 +1598,7 @@ Price distribution across the 37 regions with a price (USD/GB/month); rows are b
      top   0.399
 ```
 
-### Hot Tier / Standard SSD / GRS
+### Hot Tier / Standard / GRS
 
 | Statistic | Price/Count | Regions |
 | --- | --- | --- |
@@ -1627,7 +1627,7 @@ Price distribution across the 45 regions with a price (USD/GB/month); rows are b
       top   0.07498
 ```
 
-### Hot Tier / Standard SSD / GZRS
+### Hot Tier / Standard / GZRS
 
 | Statistic | Price/Count | Regions |
 | --- | --- | --- |
@@ -1656,7 +1656,7 @@ Price distribution across the 26 regions with a price (USD/GB/month); rows are b
      top   0.086112
 ```
 
-### Hot Tier / Standard SSD / LRS
+### Hot Tier / Standard / LRS
 
 | Statistic | Price/Count | Regions |
 | --- | --- | --- |
@@ -1685,7 +1685,7 @@ Price distribution across the 57 regions with a price (USD/GB/month); rows are b
       top   0.04238
 ```
 
-### Hot Tier / Standard SSD / RA-GRS
+### Hot Tier / Standard / RA-GRS
 
 | Statistic | Price/Count | Regions |
 | --- | --- | --- |
@@ -1714,7 +1714,7 @@ Price distribution across the 44 regions with a price (USD/GB/month); rows are b
       top   0.09373
 ```
 
-### Hot Tier / Standard SSD / RA-GZRS
+### Hot Tier / Standard / RA-GZRS
 
 | Statistic | Price/Count | Regions |
 | --- | --- | --- |
@@ -1743,7 +1743,7 @@ Price distribution across the 26 regions with a price (USD/GB/month); rows are b
       top   0.10764
 ```
 
-### Hot Tier / Standard SSD / ZRS
+### Hot Tier / Standard / ZRS
 
 | Statistic | Price/Count | Regions |
 | --- | --- | --- |
@@ -2312,7 +2312,7 @@ Price distribution across the 40 regions with a price (USD/GB/month); rows are b
      top   0.0611
 ```
 
-### Standard Tier / Premium SSD / GRS
+### Transaction Optimized / Premium SSD / GRS
 
 | Statistic | Price/Count | Regions |
 | --- | --- | --- |
@@ -2321,7 +2321,7 @@ Price distribution across the 40 regions with a price (USD/GB/month); rows are b
 | Number of regions with a price | 0 | |
 | Offered in | 0.0% of regions | |
 
-### Standard Tier / Premium SSD / GZRS
+### Transaction Optimized / Premium SSD / GZRS
 
 | Statistic | Price/Count | Regions |
 | --- | --- | --- |
@@ -2330,7 +2330,7 @@ Price distribution across the 40 regions with a price (USD/GB/month); rows are b
 | Number of regions with a price | 0 | |
 | Offered in | 0.0% of regions | |
 
-### Standard Tier / Premium SSD / LRS
+### Transaction Optimized / Premium SSD / LRS
 
 | Statistic | Price/Count | Regions |
 | --- | --- | --- |
@@ -2339,7 +2339,7 @@ Price distribution across the 40 regions with a price (USD/GB/month); rows are b
 | Number of regions with a price | 0 | |
 | Offered in | 0.0% of regions | |
 
-### Standard Tier / Premium SSD / ZRS
+### Transaction Optimized / Premium SSD / ZRS
 
 | Statistic | Price/Count | Regions |
 | --- | --- | --- |
@@ -2348,7 +2348,7 @@ Price distribution across the 40 regions with a price (USD/GB/month); rows are b
 | Number of regions with a price | 0 | |
 | Offered in | 0.0% of regions | |
 
-### Standard Tier / Standard HDD / GRS
+### Transaction Optimized / Standard HDD / GRS
 
 | Statistic | Price/Count | Regions |
 | --- | --- | --- |
@@ -2377,7 +2377,7 @@ Price distribution across the 45 regions with a price (USD/GB/month); rows are b
      top   0.18814
 ```
 
-### Standard Tier / Standard HDD / GZRS
+### Transaction Optimized / Standard HDD / GZRS
 
 | Statistic | Price/Count | Regions |
 | --- | --- | --- |
@@ -2406,7 +2406,7 @@ Price distribution across the 25 regions with a price (USD/GB/month); rows are b
      top   0.20925
 ```
 
-### Standard Tier / Standard HDD / LRS
+### Transaction Optimized / Standard HDD / LRS
 
 | Statistic | Price/Count | Regions |
 | --- | --- | --- |
@@ -2435,7 +2435,7 @@ Price distribution across the 57 regions with a price (USD/GB/month); rows are b
     top   0.10634
 ```
 
-### Standard Tier / Standard HDD / ZRS
+### Transaction Optimized / Standard HDD / ZRS
 
 | Statistic | Price/Count | Regions |
 | --- | --- | --- |
