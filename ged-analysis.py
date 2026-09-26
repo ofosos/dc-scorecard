@@ -1,17 +1,100 @@
-import numpy as np
-import pandas as pd
+#!/usr/bin/env python3
+"""Spatial matching of UCDP GED events to Azure regions with GeoPandas.
+
+The custom haversine point/circle intersection was replaced by GeoPandas
+algorithms:
+
+  - `filter_events_by_distance` performs the point/circle intersection
+    with `geopandas.sjoin` (`predicate="within"`) against a geodesic
+    circle around the query point;
+  - `events_by_az_region` buffers every Azure region centroid into a
+    geodesic circle and assigns all events with a single spatial join.
+
+The circles are true WGS84 geodesic circles: the boundary points are
+placed on the ellipsoid with `pyproj.Geod.fwd` (geodesic densification),
+so the radius is correct at every latitude without any planar projection.
+Distances in the `distance_km` column are computed with `pyproj.Geod.inv`,
+the WGS84 geodesic inverse, replacing the haversine approximation.
+
+Dependencies: geopandas, pandas, pyproj
+"""
+
 import json
+import math
 
-EARTH_RADIUS_KM = 6371.0088
+import geopandas as gpd
+import pandas as pd
+from pyproj import Geod
+from shapely.geometry import Polygon
+
+GEOD = Geod(ellps="WGS84")
+
+WGS84 = "EPSG:4326"
+
+# Maximum inward deviation (meters) of the densified circle boundary from
+# the true geodesic circle. 100 m is well below the coordinate precision
+# of the event data.
+DEFAULT_CIRCLE_TOLERANCE_METERS = 100
 
 
-def _haversine_km(lat1, lon1, lat2, lon2):
-    """Vectorized haversine distance in kilometers."""
-    lat1, lon1, lat2, lon2 = map(np.radians, [lat1, lon1, lat2, lon2])
-    dlat = lat2 - lat1
-    dlon = lon2 - lon1
-    a = np.sin(dlat / 2) ** 2 + np.cos(lat1) * np.cos(lat2) * np.sin(dlon / 2) ** 2
-    return 2 * EARTH_RADIUS_KM * np.arcsin(np.sqrt(a))
+def geodesic_circle(lon, lat, radius_km,
+                    tolerance_m=DEFAULT_CIRCLE_TOLERANCE_METERS):
+    """Build a Shapely Polygon approximating a WGS84 geodesic circle.
+
+    The boundary is densified geodesically: `pyproj.Geod.fwd` projects
+    boundary points from the center at evenly spaced azimuths and the
+    geodesic distance radius_km, so the circle follows the ellipsoid
+    instead of a planar projection. The number of boundary points is
+    chosen so the polygon stays within tolerance_m of the true geodesic
+    circle. The polygon is valid for the default 100 km radius; circles
+    wide enough to wrap the antimeridian are not supported (no Azure
+    region is affected).
+    """
+    radius_m = radius_km * 1000.0
+    tol = min(float(tolerance_m), radius_m)
+    half_angle = 2 * math.asin(math.sqrt(tol / (2 * radius_m)))
+    n = max(int(math.ceil(math.pi / half_angle)), 8)
+    azimuths = [360.0 * i / n for i in range(n)]
+    lons, lats, _ = GEOD.fwd([float(lon)] * n, [float(lat)] * n,
+                             azimuths, [radius_m] * n)
+    return Polygon(zip(lons, lats))
+
+
+def events_geodataframe(df):
+    """Convert a DataFrame with latitude/longitude columns to a
+    GeoDataFrame of WGS84 points (a copy; the geometry column is last)."""
+    return gpd.GeoDataFrame(
+        df.copy(),
+        geometry=gpd.points_from_xy(df["longitude"], df["latitude"]),
+        crs=WGS84)
+
+
+def filter_events_by_distance(df, point, radius_km,
+                              tolerance_m=DEFAULT_CIRCLE_TOLERANCE_METERS):
+    """Return the rows of `df` within `radius_km` (geodesic) of `point`.
+
+    Parameters
+    ----------
+    df : pandas.DataFrame with "latitude" and "longitude" columns.
+    point : (latitude, longitude) tuple or None. If None, `df` is
+        returned unchanged.
+    radius_km : float
+        Geodesic radius of the circle around `point`.
+
+    Notes
+    -----
+    GeoPandas point/circle intersection: events are joined to the
+    geodesic circle with `geopandas.sjoin` and `predicate="within"`.
+    """
+    if point is None:
+        return df
+    events = events_geodataframe(df)
+    circle = gpd.GeoDataFrame(geometry=[geodesic_circle(point[1], point[0],
+                                                        radius_km,
+                                                        tolerance_m)],
+                              crs=WGS84)
+    hits = gpd.sjoin(events, circle, how="inner", predicate="within")
+    return hits.drop(columns=["index_right", "geometry"])
 
 
 def load_ged_events(csv_path="GEDEvent_v26_1.csv",
@@ -47,15 +130,9 @@ def load_ged_events(csv_path="GEDEvent_v26_1.csv",
     if start_year is not None:
         df = df[df["year"] >= start_year]
 
-    # --- Spatial filter ---
-    if point is not None:
-        lat0, lon0 = point
-        dist = _haversine_km(lat0, lon0,
-                             df["latitude"].to_numpy(),
-                             df["longitude"].to_numpy())
-        df = df[dist <= radius_km]
+    # --- Spatial filter (GeoPandas point/circle intersection) ---
+    return filter_events_by_distance(df, point, radius_km)
 
-    return df
 
 def load_az_regions(json_path="az_regions.json"):
     """
@@ -83,6 +160,7 @@ def load_az_regions(json_path="az_regions.json"):
         })
     return pd.DataFrame(rows)
 
+
 def events_by_az_region(ged_csv="GEDEvent_v26_1.csv",
                         az_json="az_regions.json",
                         radius_km=100,
@@ -92,34 +170,49 @@ def events_by_az_region(ged_csv="GEDEvent_v26_1.csv",
     with the region's radius (default 100 km) and occurred in `start_year`
     or later.
 
-    Returns a DataFrame of all matching events with an added column
-    `az_region` naming the matched Azure region. An event can appear
-    multiple times if it falls within radius of several regions.
+    Returns a DataFrame of all matching events with added columns
+    `az_region` naming the matched Azure region and `distance_km`, the
+    WGS84 geodesic distance from the event to the region centroid. An
+    event can appear multiple times if it falls within radius of several
+    regions.
+
+    GeoPandas algorithm: every region centroid becomes a geodesic circle
+    and all events are assigned in one `geopandas.sjoin` spatial join
+    (`predicate="within"`), replacing the per-region haversine loop.
     """
     regions = load_az_regions(az_json)
     ged = load_ged_events(ged_csv, start_year=start_year)
 
     if regions.empty or ged.empty:
-        return pd.DataFrame(columns=ged.columns.tolist() + ["az_region"])
+        return pd.DataFrame(columns=ged.columns.tolist() +
+                            ["az_region", "distance_km"])
 
-    ev_lat = ged["latitude"].to_numpy()
-    ev_lon = ged["longitude"].to_numpy()
+    region_circles = gpd.GeoDataFrame(
+        regions[["name"]].rename(columns={"name": "az_region"}),
+        geometry=[geodesic_circle(lon, lat, radius_km)
+                  for lon, lat in zip(regions["longitude"],
+                                      regions["latitude"])],
+        crs=WGS84)
+    events = events_geodataframe(ged).assign(_event_order=range(len(ged)))
 
-    matched = []
-    for _, region in regions.iterrows():
-        dist = _haversine_km(region["latitude"], region["longitude"],
-                             ev_lat, ev_lon)
-        hits = ged[dist <= radius_km]
-        if not hits.empty:
-            hits = hits.copy()
-            hits["az_region"] = region["name"]
-            hits["distance_km"] = dist[dist <= radius_km]
-            matched.append(hits)
+    joined = gpd.sjoin(events, region_circles, how="inner", predicate="within")
 
-    if not matched:
-        return pd.DataFrame(columns=ged.columns.tolist() + ["az_region"])
+    # Keep the historical row order: region order, then event order.
+    joined = joined.sort_values(["index_right", "_event_order"])
 
-    return pd.concat(matched, ignore_index=True)
+    # WGS84 geodesic distance per matched (event, region) pair.
+    region_lon = dict(zip(regions["name"], regions["longitude"]))
+    region_lat = dict(zip(regions["name"], regions["latitude"]))
+    _, _, dist_m = GEOD.inv(joined["longitude"].to_numpy(),
+                            joined["latitude"].to_numpy(),
+                            joined["az_region"].map(region_lon).to_numpy(),
+                            joined["az_region"].map(region_lat).to_numpy())
+    joined["distance_km"] = dist_m / 1000.0
+
+    drop = [c for c in ["index_right", "geometry", "_event_order"]
+            if c in joined.columns]
+    return joined.drop(columns=drop).reset_index(drop=True)
+
 
 def aggregate_events_by_region(events_df):
     """
