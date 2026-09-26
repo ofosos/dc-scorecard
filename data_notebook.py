@@ -424,7 +424,14 @@ def _(Session, SiloRegionMapping, engine, select, silos):
 
 
 @app.cell
-def _(ScoreEntry, Session, engine, global_rights_azure_regions, insert, silos):
+def global_rights(
+    ScoreEntry,
+    Session,
+    engine,
+    global_rights_azure_regions,
+    insert,
+    silos,
+):
     global_rights_data = []
 
     for siloi, regionsi in silos.items():
@@ -520,7 +527,7 @@ def _(
         gedsession.exec(insert(ScoreEntry), params=ged_data)
 
         gedsession.commit()
-    return (silog,)
+    return
 
 
 @app.cell
@@ -531,7 +538,6 @@ def _(
     insert,
     math,
     region_temperatures_sweatscore,
-    silog,
     silos,
 ):
     sweat_data = []
@@ -554,7 +560,7 @@ def _(
                     average=silo_spec_sweat['SweatScore'].mean(),
                     median=silo_spec_sweat['SweatScore'].median(),
                 ))
-        print(f"co2i, {silog}, count={silo_spec_sweat['Region'].count()}, median={silo_spec_sweat['SweatScore'].median()}, max={silo_spec_sweat['SweatScore'].max()}, min={silo_spec_sweat['SweatScore'].min()}, avg={silo_spec_sweat['SweatScore'].mean()}")
+        print(f"co2i, {silosw}, count={silo_spec_sweat['Region'].count()}, median={silo_spec_sweat['SweatScore'].median()}, max={silo_spec_sweat['SweatScore'].max()}, min={silo_spec_sweat['SweatScore'].min()}, avg={silo_spec_sweat['SweatScore'].mean()}")
 
     with Session(engine) as sweat_session:
         sweat_session.exec(insert(ScoreEntry), params=sweat_data)

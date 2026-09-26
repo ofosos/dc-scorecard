@@ -56,7 +56,7 @@ def _(DATA_DIR, json, pd):
         json.loads((DATA_DIR / "az_regions_annotated.json").read_text()), sep="_"
     )
     az_regions_annotated
-    return (az_regions_annotated,)
+    return
 
 
 @app.cell
@@ -194,13 +194,13 @@ def _(mo):
     item_amounts = {
         "vm_e2s_v4": 730,
         "vm_d4s_v5": 730,
-        "blob_hot": 1000,
-        "blob_cold": 5000,
-        "block_std_ssd": 500,
+        "blob_hot": 100,
+        "blob_cold": 200,
+        "block_std_ssd": 200,
         "block_premium_ssd": 100,
-        "files_cool": 1000,
-        "files_standard": 1000,
-        "files_hot": 200,
+        "files_cool": 200,
+        "files_standard": 100,
+        "files_hot": 50,
     }
     amounts = mo.ui.dictionary(
         {
@@ -377,7 +377,7 @@ def _(mo):
 
 
 @app.cell
-def _(basket, pd):
+def _(basket):
     basket_totals = (
         basket.groupby("region", as_index=False)["sum"]
         .sum()
@@ -386,7 +386,7 @@ def _(basket, pd):
         .reset_index(drop=True)
     )
     basket_totals
-    return (basket_totals,)
+    return
 
 
 if __name__ == "__main__":
