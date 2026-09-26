@@ -176,6 +176,22 @@ def _(
 @app.cell
 def _(mo):
     mo.md(r"""
+    ## Silos
+
+    Data silo definitions: each silo maps to a list of Azure regions.
+    """)
+    return
+
+
+@app.cell
+def _(DATA_DIR, json):
+    silos = json.loads((DATA_DIR / "silos.json").read_text())
+    return (silos,)
+
+
+@app.cell
+def _(mo):
+    mo.md(r"""
     ## Price basket
 
     A configurable basket of resources whose prices are looked up per
@@ -387,6 +403,93 @@ def _(basket, pd):
     )
     basket_totals
     return (basket_totals,)
+
+
+@app.cell
+def _(mo):
+    mo.md(r"""
+    ## Basket scores per silo
+
+    Same computation as the `global_rights` cell in `data_notebook.py`:
+    for every silo, rank the member regions on their basket total
+    (cheapest = rank 1) and compute count, average, and median; every
+    tuple is inserted into `scores.db` with the adjustable KPI name
+    below (default `basket_balanced`).
+    """)
+    return
+
+
+@app.cell
+def _(mo):
+    kpi_input = mo.ui.text(value="basket_balanced", label="KPI")
+    kpi_input
+    return (kpi_input,)
+
+
+@app.cell
+def _():
+    import sqlmodel
+
+    DATABASE_URL = "sqlite:///scores.db"
+    engine = sqlmodel.create_engine(DATABASE_URL)
+    return (engine,)
+
+
+@app.cell
+def _(engine):
+    from sqlmodel import Field, SQLModel, Session, insert
+
+    class ScoreEntry(SQLModel, table=True):
+        __table_args__ = {"extend_existing": True}
+        id: int | None = Field(default=None, primary_key=True)
+        silo: str
+        region: str
+        kpi: str
+        value: float
+        index: float
+        tot_values: int
+        average: float
+        median: float
+
+    SQLModel.metadata.create_all(engine)
+    return ScoreEntry, Session, insert
+
+
+@app.cell
+def _(Session, basket_totals, engine, insert, kpi_input, silos):
+    basket_data = []
+
+    for silo, regions in silos.items():
+        silo_spec = basket_totals[
+            basket_totals["region"].isin(regions)
+        ].copy()
+        silo_spec["rank"] = silo_spec["basket_total"].rank(ascending=True)
+
+        for _index, row in silo_spec.iterrows():
+            basket_data.append(
+                {
+                    "silo": silo,
+                    "region": row["region"],
+                    "kpi": kpi_input.value,
+                    "value": row["basket_total"],
+                    "index": row["rank"],
+                    "tot_values": silo_spec["region"].count(),
+                    "average": silo_spec["basket_total"].mean(),
+                    "median": silo_spec["basket_total"].median(),
+                }
+            )
+        print(
+            f"{kpi_input.value}, {silo}, count={silo_spec['region'].count()}, "
+            f"median={silo_spec['basket_total'].median()}, "
+            f"max={silo_spec['basket_total'].max()}, "
+            f"min={silo_spec['basket_total'].min()}, "
+            f"avg={silo_spec['basket_total'].mean()}"
+        )
+
+    with Session(engine) as session:
+        session.exec(insert(ScoreEntry), params=basket_data)
+        session.commit()
+    return
 
 
 if __name__ == "__main__":
