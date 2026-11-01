@@ -372,7 +372,7 @@ def _(mo):
 def _():
     import sqlmodel
 
-    DATABASE_URL = "sqlite:///scores.db"
+    DATABASE_URL = "sqlite:///data.db"
     engine = sqlmodel.create_engine(DATABASE_URL)
     return (engine,)
 
@@ -465,7 +465,7 @@ def _(ScoreEntry, Session, azure_carbon_intensity, engine, insert, silos):
     for siloc, regionsc in silos.items():
         silo_spec_co2 = azure_carbon_intensity[azure_carbon_intensity["region"].isin(regionsc)]
 
-        silo_spec_co2["rank"] = silo_spec_co2["carbon_intensity_avg24h"].rank(ascending=True)
+        silo_spec_co2["rank"] = silo_spec_co2["carbon_intensity_avg24h"].rank(ascending=True, method='min')
 
         for indexc, rowc in silo_spec_co2.iterrows():
 
@@ -486,26 +486,17 @@ def _(ScoreEntry, Session, azure_carbon_intensity, engine, insert, silos):
         cosession.exec(insert(ScoreEntry), params=co2i_data)
 
         cosession.commit()
-    return math, regionsc
+    return (math,)
 
 
 @app.cell
-def _(
-    ScoreEntry,
-    Session,
-    engine,
-    ged_azure_agg,
-    insert,
-    math,
-    regionsc,
-    silos,
-):
+def _(ScoreEntry, Session, engine, ged_azure_agg, insert, math, silos):
     ged_data = []
 
-    for silog in silos:
-        silo_spec_ged = ged_azure_agg[ged_azure_agg["az_region"].isin(regionsc)]
+    for silog, siloh in silos.items():
+        silo_spec_ged = ged_azure_agg[ged_azure_agg["az_region"].isin(siloh)]
 
-        silo_spec_ged["rank"] = silo_spec_ged["total_events"].rank(ascending=True)
+        silo_spec_ged["rank"] = silo_spec_ged["total_events"].rank(ascending=True, method='min')
 
         for indexg, rowg in silo_spec_ged.iterrows():
 
@@ -544,7 +535,7 @@ def _(
     for silosw, regionss in silos.items():
         silo_spec_sweat = region_temperatures_sweatscore[region_temperatures_sweatscore["Region"].isin(regionss)]
 
-        silo_spec_sweat["rank"] = silo_spec_sweat["SweatScore"].rank(ascending=True)
+        silo_spec_sweat["rank"] = silo_spec_sweat["SweatScore"].rank(ascending=True, method='min')
 
         for indexs, rows in silo_spec_sweat.iterrows():
 

@@ -7,25 +7,25 @@
     {
       "eventtype": "DR",
       "eventid": 1018332,
-      "episodeid": 21,
+      "episodeid": 22,
       "eventname": "Europe-2026",
-      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
-      "description": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
+      "description": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
       "alertlevel": "Orange",
       "alertscore": 2,
       "fromdate": "2025-12-21T00:00:00",
-      "todate": "2026-09-18T00:00:00",
-      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "todate": "2026-09-24T00:00:00",
+      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
       "iso3": "AUT",
       "severitydata": {
-        "severity": 1431152.0,
-        "severitytext": "Medium impact for agricultural drought in 1431152 km2",
+        "severity": 1264372.0,
+        "severitytext": "Medium impact for agricultural drought in 1264372 km2",
         "severityunit": "km2"
       },
       "glide": "DR-2025-000239-ALB",
       "geometry_source": "getgeometry-polygon",
-      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1018332&episodeid=21",
-      "url_report": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=21&eventtype=DR",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1018332&episodeid=22",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=22&eventtype=DR",
       "matched_azure_regions": [
         "austriaeast",
         "belgiumcentral",
@@ -72,25 +72,25 @@
     {
       "eventtype": "DR",
       "eventid": 1018332,
-      "episodeid": 21,
+      "episodeid": 22,
       "eventname": "Europe-2026",
-      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
-      "description": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
+      "description": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
       "alertlevel": "Orange",
       "alertscore": 2,
       "fromdate": "2025-12-21T00:00:00",
-      "todate": "2026-09-18T00:00:00",
-      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "todate": "2026-09-24T00:00:00",
+      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
       "iso3": "AUT",
       "severitydata": {
-        "severity": 1431152.0,
-        "severitytext": "Medium impact for agricultural drought in 1431152 km2",
+        "severity": 1264372.0,
+        "severitytext": "Medium impact for agricultural drought in 1264372 km2",
         "severityunit": "km2"
       },
       "glide": "DR-2025-000239-ALB",
       "geometry_source": "getgeometry-polygon",
-      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1018332&episodeid=21",
-      "url_report": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=21&eventtype=DR",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1018332&episodeid=22",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=22&eventtype=DR",
       "matched_azure_regions": [
         "austriaeast",
         "belgiumcentral",
@@ -192,8 +192,90 @@
     }
   ],
   "canadacentral": [],
-  "canadaeast": [],
+  "canadaeast": [
+    {
+      "eventtype": "TC",
+      "eventid": 1000916,
+      "episodeid": 42,
+      "eventname": "FIONA-22",
+      "name": "Tropical Cyclone FIONA-22",
+      "description": "Tropical Cyclone FIONA-22",
+      "alertlevel": "Red",
+      "alertscore": 3,
+      "fromdate": "2022-09-14T15:00:00",
+      "todate": "2022-09-24T21:00:00",
+      "country": "Canada, Turks and Caicos Islands, Dominican Republic, Puerto Rico",
+      "iso3": "DOM",
+      "severitydata": {
+        "severity": 212.9616,
+        "severitytext": "Tropical Storm (maximum wind speed of 213 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "TC-2022-000314-DOM",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1000916&episodeid=42",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1000916&episodeid=42&eventtype=TC",
+      "matched_azure_regions": [
+        "canadaeast"
+      ]
+    }
+  ],
   "centralindia": [
+    {
+      "eventtype": "TC",
+      "eventid": 1000834,
+      "episodeid": 24,
+      "eventname": "GULAB-21/SHAHEEN-21",
+      "name": "Tropical Cyclone GULAB-21/SHAHEEN-21",
+      "description": "Tropical Cyclone GULAB-21/SHAHEEN-21",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2021-09-24T06:00:00",
+      "todate": "2021-10-03T18:00:00",
+      "country": "Oman",
+      "iso3": "OMN",
+      "severitydata": {
+        "severity": 129.6288,
+        "severitytext": "Tropical Storm (maximum wind speed of 130 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1000834&episodeid=24",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1000834&episodeid=24&eventtype=TC",
+      "matched_azure_regions": [
+        "centralindia",
+        "indiasouthcentral",
+        "westindia"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1000782,
+      "episodeid": 15,
+      "eventname": "TAUKTAE-21",
+      "name": "Tropical Cyclone TAUKTAE-21",
+      "description": "Tropical Cyclone TAUKTAE-21",
+      "alertlevel": "Red",
+      "alertscore": 3,
+      "fromdate": "2021-05-14T06:00:00",
+      "todate": "2021-05-17T18:00:00",
+      "country": "India, Pakistan",
+      "iso3": "IND",
+      "severitydata": {
+        "severity": 222.2208,
+        "severitytext": "Hurricane/Typhoon > 74 mph (maximum wind speed of 222 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "TC-2021-000056-IND",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1000782&episodeid=15",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1000782&episodeid=15&eventtype=TC",
+      "matched_azure_regions": [
+        "centralindia",
+        "westindia"
+      ]
+    },
     {
       "eventtype": "FL",
       "eventid": 1100883,
@@ -257,25 +339,25 @@
     {
       "eventtype": "DR",
       "eventid": 1018332,
-      "episodeid": 21,
+      "episodeid": 22,
       "eventname": "Europe-2026",
-      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
-      "description": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
+      "description": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
       "alertlevel": "Orange",
       "alertscore": 2,
       "fromdate": "2025-12-21T00:00:00",
-      "todate": "2026-09-18T00:00:00",
-      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "todate": "2026-09-24T00:00:00",
+      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
       "iso3": "AUT",
       "severitydata": {
-        "severity": 1431152.0,
-        "severitytext": "Medium impact for agricultural drought in 1431152 km2",
+        "severity": 1264372.0,
+        "severitytext": "Medium impact for agricultural drought in 1264372 km2",
         "severityunit": "km2"
       },
       "glide": "DR-2025-000239-ALB",
       "geometry_source": "getgeometry-polygon",
-      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1018332&episodeid=21",
-      "url_report": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=21&eventtype=DR",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1018332&episodeid=22",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=22&eventtype=DR",
       "matched_azure_regions": [
         "austriaeast",
         "belgiumcentral",
@@ -293,6 +375,32 @@
     }
   ],
   "eastasia": [
+    {
+      "eventtype": "TC",
+      "eventid": 1001305,
+      "episodeid": 47,
+      "eventname": "SAUDEL-26",
+      "name": "Tropical Cyclone SAUDEL-26",
+      "description": "Tropical Cyclone SAUDEL-26",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2026-08-18T12:00:00",
+      "todate": "2026-09-03T00:00:00",
+      "country": "Japan, China, Northern Mariana Islands",
+      "iso3": "CHN",
+      "severitydata": {
+        "severity": 212.9616,
+        "severitytext": "Tropical Storm (maximum wind speed of 213 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001305&episodeid=47",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=47&eventtype=TC",
+      "matched_azure_regions": [
+        "eastasia"
+      ]
+    },
     {
       "eventtype": "TC",
       "eventid": 1001294,
@@ -315,6 +423,58 @@
       "geometry_source": "getgeometry-polygon",
       "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001294&episodeid=13",
       "url_report": "https://www.gdacs.org/report.aspx?eventid=1001294&episodeid=13&eventtype=TC",
+      "matched_azure_regions": [
+        "eastasia"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1001234,
+      "episodeid": 38,
+      "eventname": "FUNG-WONG-25",
+      "name": "Tropical Cyclone FUNG-WONG-25",
+      "description": "Tropical Cyclone FUNG-WONG-25",
+      "alertlevel": "Red",
+      "alertscore": 3,
+      "fromdate": "2025-11-04T06:00:00",
+      "todate": "2025-11-13T12:00:00",
+      "country": "Philippines, China, Japan",
+      "iso3": "PHL",
+      "severitydata": {
+        "severity": 212.9616,
+        "severitytext": "Tropical Depression (maximum wind speed of 213 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001234&episodeid=38",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1001234&episodeid=38&eventtype=TC",
+      "matched_azure_regions": [
+        "eastasia"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1001219,
+      "episodeid": 19,
+      "eventname": "MATMO-25",
+      "name": "Tropical Cyclone MATMO-25",
+      "description": "Tropical Cyclone MATMO-25",
+      "alertlevel": "Red",
+      "alertscore": 3,
+      "fromdate": "2025-10-01T06:00:00",
+      "todate": "2025-10-05T18:00:00",
+      "country": "China, Viet Nam, Philippines",
+      "iso3": "VNM",
+      "severitydata": {
+        "severity": 166.6656,
+        "severitytext": "Hurricane/Typhoon > 74 mph (maximum wind speed of 167 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "TC-2025-000183-VNM",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001219&episodeid=19",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1001219&episodeid=19&eventtype=TC",
       "matched_azure_regions": [
         "eastasia"
       ]
@@ -373,6 +533,32 @@
     },
     {
       "eventtype": "TC",
+      "eventid": 1001206,
+      "episodeid": 8,
+      "eventname": "TAPAH-25",
+      "name": "Tropical Cyclone TAPAH-25",
+      "description": "Tropical Cyclone TAPAH-25",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2025-09-06T06:00:00",
+      "todate": "2025-09-08T00:00:00",
+      "country": "China",
+      "iso3": "CHN",
+      "severitydata": {
+        "severity": 120.3696,
+        "severitytext": "Hurricane/Typhoon > 74 mph (maximum wind speed of 120 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "TC-2025-000160-CHN",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001206&episodeid=8",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1001206&episodeid=8&eventtype=TC",
+      "matched_azure_regions": [
+        "eastasia"
+      ]
+    },
+    {
+      "eventtype": "TC",
       "eventid": 1001181,
       "episodeid": 16,
       "eventname": "WIPHA-25",
@@ -396,33 +582,563 @@
       "matched_azure_regions": [
         "eastasia"
       ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1001124,
+      "episodeid": 43,
+      "eventname": "MAN-YI-24",
+      "name": "Tropical Cyclone MAN-YI-24",
+      "description": "Tropical Cyclone MAN-YI-24",
+      "alertlevel": "Red",
+      "alertscore": 3,
+      "fromdate": "2024-11-09T00:00:00",
+      "todate": "2024-11-19T12:00:00",
+      "country": "Philippines, China, Guam",
+      "iso3": "PHL",
+      "severitydata": {
+        "severity": 259.2576,
+        "severitytext": "Tropical Depression (maximum wind speed of 259 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "TC-2024-000213-PHL",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001124&episodeid=43",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1001124&episodeid=43&eventtype=TC",
+      "matched_azure_regions": [
+        "eastasia"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1001125,
+      "episodeid": 20,
+      "eventname": "TORAJI-24",
+      "name": "Tropical Cyclone TORAJI-24",
+      "description": "Tropical Cyclone TORAJI-24",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2024-11-09T06:00:00",
+      "todate": "2024-11-14T00:00:00",
+      "country": "Philippines, China",
+      "iso3": "PHL",
+      "severitydata": {
+        "severity": 148.1472,
+        "severitytext": "Tropical Depression (maximum wind speed of 148 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "TC-2024-000208-PHL",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001125&episodeid=20",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1001125&episodeid=20&eventtype=TC",
+      "matched_azure_regions": [
+        "eastasia"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1001115,
+      "episodeid": 34,
+      "eventname": "TRAMI-24",
+      "name": "Tropical Cyclone TRAMI-24",
+      "description": "Tropical Cyclone TRAMI-24",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2024-10-20T12:00:00",
+      "todate": "2024-10-28T18:00:00",
+      "country": "Viet Nam, China, Philippines, Cambodia, Laos, Taiwan",
+      "iso3": "KHM",
+      "severitydata": {
+        "severity": 111.1104,
+        "severitytext": "Tropical Depression (maximum wind speed of 111 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "TC-2024-000193-PHL",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001115&episodeid=34",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1001115&episodeid=34&eventtype=TC",
+      "matched_azure_regions": [
+        "eastasia"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1001090,
+      "episodeid": 24,
+      "eventname": "YAGI-24",
+      "name": "Tropical Cyclone YAGI-24",
+      "description": "Tropical Cyclone YAGI-24",
+      "alertlevel": "Red",
+      "alertscore": 3,
+      "fromdate": "2024-09-01T12:00:00",
+      "todate": "2024-09-07T06:00:00",
+      "country": "China, Viet Nam, Philippines",
+      "iso3": "VNM",
+      "severitydata": {
+        "severity": 240.7392,
+        "severitytext": "Hurricane/Typhoon > 74 mph (maximum wind speed of 241 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001090&episodeid=24",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1001090&episodeid=24&eventtype=TC",
+      "matched_azure_regions": [
+        "eastasia"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1001018,
+      "episodeid": 43,
+      "eventname": "KOINU-23",
+      "name": "Tropical Cyclone KOINU-23",
+      "description": "Tropical Cyclone KOINU-23",
+      "alertlevel": "Red",
+      "alertscore": 3,
+      "fromdate": "2023-09-29T12:00:00",
+      "todate": "2023-10-10T00:00:00",
+      "country": "China, Japan, Philippines",
+      "iso3": "CHN",
+      "severitydata": {
+        "severity": 212.9616,
+        "severitytext": "Tropical Depression (maximum wind speed of 213 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "TC-2023-000183-CHN",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001018&episodeid=43",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1001018&episodeid=43&eventtype=TC",
+      "matched_azure_regions": [
+        "eastasia"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1000999,
+      "episodeid": 44,
+      "eventname": "SAOLA-23",
+      "name": "Tropical Cyclone SAOLA-23",
+      "description": "Tropical Cyclone SAOLA-23",
+      "alertlevel": "Red",
+      "alertscore": 3,
+      "fromdate": "2023-08-23T18:00:00",
+      "todate": "2023-09-03T12:00:00",
+      "country": "China, Philippines",
+      "iso3": "CHN",
+      "severitydata": {
+        "severity": 249.9984,
+        "severitytext": "Tropical Depression (maximum wind speed of 250 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "TC-2023-000164-CHN",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1000999&episodeid=44",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1000999&episodeid=44&eventtype=TC",
+      "matched_azure_regions": [
+        "eastasia"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1000937,
+      "episodeid": 24,
+      "eventname": "NESAT-22",
+      "name": "Tropical Cyclone NESAT-22",
+      "description": "Tropical Cyclone NESAT-22",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2022-10-14T18:00:00",
+      "todate": "2022-10-20T12:00:00",
+      "country": "Viet Nam, China, Laos, Cambodia, Philippines",
+      "iso3": "KHM",
+      "severitydata": {
+        "severity": 166.6656,
+        "severitytext": "Tropical Depression (maximum wind speed of 167 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "TC-2022-000339-VNM",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1000937&episodeid=24",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1000937&episodeid=24&eventtype=TC",
+      "matched_azure_regions": [
+        "eastasia"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1000905,
+      "episodeid": 16,
+      "eventname": "MA-ON-22",
+      "name": "Tropical Cyclone MA-ON-22",
+      "description": "Tropical Cyclone MA-ON-22",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2022-08-21T12:00:00",
+      "todate": "2022-08-25T06:00:00",
+      "country": "China, Viet Nam, Laos, Philippines",
+      "iso3": "VNM",
+      "severitydata": {
+        "severity": 111.1104,
+        "severitytext": "Tropical Storm (maximum wind speed of 111 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "TC-2022-000294-PHL",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1000905&episodeid=16",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1000905&episodeid=16&eventtype=TC",
+      "matched_azure_regions": [
+        "eastasia"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1000891,
+      "episodeid": 12,
+      "eventname": "CHABA-22",
+      "name": "Tropical Cyclone CHABA-22",
+      "description": "Tropical Cyclone CHABA-22",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2022-06-29T18:00:00",
+      "todate": "2022-07-02T12:00:00",
+      "country": "China",
+      "iso3": "CHN",
+      "severitydata": {
+        "severity": 138.888,
+        "severitytext": "Tropical Storm (maximum wind speed of 139 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1000891&episodeid=12",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1000891&episodeid=12&eventtype=TC",
+      "matched_azure_regions": [
+        "eastasia"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1000853,
+      "episodeid": 32,
+      "eventname": "RAI-21",
+      "name": "Tropical Cyclone RAI-21",
+      "description": "Tropical Cyclone RAI-21",
+      "alertlevel": "Red",
+      "alertscore": 3,
+      "fromdate": "2021-12-13T00:00:00",
+      "todate": "2021-12-20T18:00:00",
+      "country": "Philippines",
+      "iso3": "PHL",
+      "severitydata": {
+        "severity": 259.2576,
+        "severitytext": "Tropical Storm (maximum wind speed of 259 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "TC-2021-000202-PHL",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1000853&episodeid=32",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1000853&episodeid=32&eventtype=TC",
+      "matched_azure_regions": [
+        "eastasia"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1000839,
+      "episodeid": 18,
+      "eventname": "KOMPASU-21",
+      "name": "Tropical Cyclone KOMPASU-21",
+      "description": "Tropical Cyclone KOMPASU-21",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2021-10-10T06:00:00",
+      "todate": "2021-10-14T06:00:00",
+      "country": "Viet Nam, Laos, China, Philippines",
+      "iso3": "VNM",
+      "severitydata": {
+        "severity": 101.8512,
+        "severitytext": "Tropical Depression (maximum wind speed of 102 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "CE-2021-000162-SOM",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1000839&episodeid=18",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1000839&episodeid=18&eventtype=TC",
+      "matched_azure_regions": [
+        "eastasia"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1000801,
+      "episodeid": 21,
+      "eventname": "CEMPAKA-21",
+      "name": "Tropical Cyclone CEMPAKA-21",
+      "description": "Tropical Cyclone CEMPAKA-21",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2021-07-18T18:00:00",
+      "todate": "2021-07-23T12:00:00",
+      "country": "China",
+      "iso3": "CHN",
+      "severitydata": {
+        "severity": 138.888,
+        "severitytext": "Tropical Depression (maximum wind speed of 139 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "TC-2021-000094-CHN",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1000801&episodeid=21",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1000801&episodeid=21&eventtype=TC",
+      "matched_azure_regions": [
+        "eastasia"
+      ]
     }
   ],
-  "eastus": [],
-  "eastus2": [],
+  "eastus": [
+    {
+      "eventtype": "TC",
+      "eventid": 1001101,
+      "episodeid": 18,
+      "eventname": "HELENE-24",
+      "name": "Tropical Cyclone HELENE-24",
+      "description": "Tropical Cyclone HELENE-24",
+      "alertlevel": "Red",
+      "alertscore": 3,
+      "fromdate": "2024-09-23T15:00:00",
+      "todate": "2024-09-27T21:00:00",
+      "country": "United States, Mexico, Belize",
+      "iso3": "USA",
+      "severitydata": {
+        "severity": 222.2208,
+        "severitytext": "Tropical Depression (maximum wind speed of 222 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001101&episodeid=18",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1001101&episodeid=18&eventtype=TC",
+      "matched_azure_regions": [
+        "eastus",
+        "eastus2"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1001000,
+      "episodeid": 29,
+      "eventname": "IDALIA-23",
+      "name": "Tropical Cyclone IDALIA-23",
+      "description": "Tropical Cyclone IDALIA-23",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2023-08-26T21:00:00",
+      "todate": "2023-09-02T21:00:00",
+      "country": "United States",
+      "iso3": "USA",
+      "severitydata": {
+        "severity": 212.9616,
+        "severitytext": "Tropical Storm (maximum wind speed of 213 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001000&episodeid=29",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1001000&episodeid=29&eventtype=TC",
+      "matched_azure_regions": [
+        "eastus",
+        "eastus2"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1000923,
+      "episodeid": 38,
+      "eventname": "IAN-22",
+      "name": "Tropical Cyclone IAN-22",
+      "description": "Tropical Cyclone IAN-22",
+      "alertlevel": "Red",
+      "alertscore": 3,
+      "fromdate": "2022-09-23T09:00:00",
+      "todate": "2022-10-02T03:00:00",
+      "country": "United States, Cuba",
+      "iso3": "CUB",
+      "severitydata": {
+        "severity": 249.9984,
+        "severitytext": "Tropical Depression (maximum wind speed of 250 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "TC-2022-000320-CUB",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1000923&episodeid=38",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1000923&episodeid=38&eventtype=TC",
+      "matched_azure_regions": [
+        "eastus",
+        "eastus2"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1000795,
+      "episodeid": 39,
+      "eventname": "ELSA-21",
+      "name": "Tropical Cyclone ELSA-21",
+      "description": "Tropical Cyclone ELSA-21",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2021-06-30T21:00:00",
+      "todate": "2021-07-09T21:00:00",
+      "country": "Barbados, Saint Lucia, Martinique, Saint Vincent and the Grenadines, Grenada, Dominica, Dominican Republic, Haiti, Cuba, United States, Jamaica, Trinidad and Tobago, Guadeloupe",
+      "iso3": "VCT",
+      "severitydata": {
+        "severity": 138.888,
+        "severitytext": "Tropical Storm (maximum wind speed of 139 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "TC-2021-000072-HTI",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1000795&episodeid=39",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1000795&episodeid=39&eventtype=TC",
+      "matched_azure_regions": [
+        "eastus",
+        "eastus2"
+      ]
+    }
+  ],
+  "eastus2": [
+    {
+      "eventtype": "TC",
+      "eventid": 1001101,
+      "episodeid": 18,
+      "eventname": "HELENE-24",
+      "name": "Tropical Cyclone HELENE-24",
+      "description": "Tropical Cyclone HELENE-24",
+      "alertlevel": "Red",
+      "alertscore": 3,
+      "fromdate": "2024-09-23T15:00:00",
+      "todate": "2024-09-27T21:00:00",
+      "country": "United States, Mexico, Belize",
+      "iso3": "USA",
+      "severitydata": {
+        "severity": 222.2208,
+        "severitytext": "Tropical Depression (maximum wind speed of 222 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001101&episodeid=18",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1001101&episodeid=18&eventtype=TC",
+      "matched_azure_regions": [
+        "eastus",
+        "eastus2"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1001000,
+      "episodeid": 29,
+      "eventname": "IDALIA-23",
+      "name": "Tropical Cyclone IDALIA-23",
+      "description": "Tropical Cyclone IDALIA-23",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2023-08-26T21:00:00",
+      "todate": "2023-09-02T21:00:00",
+      "country": "United States",
+      "iso3": "USA",
+      "severitydata": {
+        "severity": 212.9616,
+        "severitytext": "Tropical Storm (maximum wind speed of 213 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001000&episodeid=29",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1001000&episodeid=29&eventtype=TC",
+      "matched_azure_regions": [
+        "eastus",
+        "eastus2"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1000923,
+      "episodeid": 38,
+      "eventname": "IAN-22",
+      "name": "Tropical Cyclone IAN-22",
+      "description": "Tropical Cyclone IAN-22",
+      "alertlevel": "Red",
+      "alertscore": 3,
+      "fromdate": "2022-09-23T09:00:00",
+      "todate": "2022-10-02T03:00:00",
+      "country": "United States, Cuba",
+      "iso3": "CUB",
+      "severitydata": {
+        "severity": 249.9984,
+        "severitytext": "Tropical Depression (maximum wind speed of 250 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "TC-2022-000320-CUB",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1000923&episodeid=38",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1000923&episodeid=38&eventtype=TC",
+      "matched_azure_regions": [
+        "eastus",
+        "eastus2"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1000795,
+      "episodeid": 39,
+      "eventname": "ELSA-21",
+      "name": "Tropical Cyclone ELSA-21",
+      "description": "Tropical Cyclone ELSA-21",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2021-06-30T21:00:00",
+      "todate": "2021-07-09T21:00:00",
+      "country": "Barbados, Saint Lucia, Martinique, Saint Vincent and the Grenadines, Grenada, Dominica, Dominican Republic, Haiti, Cuba, United States, Jamaica, Trinidad and Tobago, Guadeloupe",
+      "iso3": "VCT",
+      "severitydata": {
+        "severity": 138.888,
+        "severitytext": "Tropical Storm (maximum wind speed of 139 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "TC-2021-000072-HTI",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1000795&episodeid=39",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1000795&episodeid=39&eventtype=TC",
+      "matched_azure_regions": [
+        "eastus",
+        "eastus2"
+      ]
+    }
+  ],
   "francecentral": [
     {
       "eventtype": "DR",
       "eventid": 1018332,
-      "episodeid": 21,
+      "episodeid": 22,
       "eventname": "Europe-2026",
-      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
-      "description": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
+      "description": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
       "alertlevel": "Orange",
       "alertscore": 2,
       "fromdate": "2025-12-21T00:00:00",
-      "todate": "2026-09-18T00:00:00",
-      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "todate": "2026-09-24T00:00:00",
+      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
       "iso3": "AUT",
       "severitydata": {
-        "severity": 1431152.0,
-        "severitytext": "Medium impact for agricultural drought in 1431152 km2",
+        "severity": 1264372.0,
+        "severitytext": "Medium impact for agricultural drought in 1264372 km2",
         "severityunit": "km2"
       },
       "glide": "DR-2025-000239-ALB",
       "geometry_source": "getgeometry-polygon",
-      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1018332&episodeid=21",
-      "url_report": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=21&eventtype=DR",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1018332&episodeid=22",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=22&eventtype=DR",
       "matched_azure_regions": [
         "austriaeast",
         "belgiumcentral",
@@ -471,25 +1187,25 @@
     {
       "eventtype": "DR",
       "eventid": 1018332,
-      "episodeid": 21,
+      "episodeid": 22,
       "eventname": "Europe-2026",
-      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
-      "description": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
+      "description": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
       "alertlevel": "Orange",
       "alertscore": 2,
       "fromdate": "2025-12-21T00:00:00",
-      "todate": "2026-09-18T00:00:00",
-      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "todate": "2026-09-24T00:00:00",
+      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
       "iso3": "AUT",
       "severitydata": {
-        "severity": 1431152.0,
-        "severitytext": "Medium impact for agricultural drought in 1431152 km2",
+        "severity": 1264372.0,
+        "severitytext": "Medium impact for agricultural drought in 1264372 km2",
         "severityunit": "km2"
       },
       "glide": "DR-2025-000239-ALB",
       "geometry_source": "getgeometry-polygon",
-      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1018332&episodeid=21",
-      "url_report": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=21&eventtype=DR",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1018332&episodeid=22",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=22&eventtype=DR",
       "matched_azure_regions": [
         "austriaeast",
         "belgiumcentral",
@@ -535,6 +1251,87 @@
   ],
   "indiasouthcentral": [
     {
+      "eventtype": "TC",
+      "eventid": 1001232,
+      "episodeid": 11,
+      "eventname": "MONTHA-25",
+      "name": "Tropical Cyclone MONTHA-25",
+      "description": "Tropical Cyclone MONTHA-25",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2025-10-26T12:00:00",
+      "todate": "2025-10-29T00:00:00",
+      "country": "India",
+      "iso3": "IND",
+      "severitydata": {
+        "severity": 83.3328,
+        "severitytext": "Tropical Storm (maximum wind speed of 83 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001232&episodeid=11",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1001232&episodeid=11&eventtype=TC",
+      "matched_azure_regions": [
+        "indiasouthcentral",
+        "southindia"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1001037,
+      "episodeid": 8,
+      "eventname": "MICHAUNG-23",
+      "name": "Tropical Cyclone MICHAUNG-23",
+      "description": "Tropical Cyclone MICHAUNG-23",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2023-12-03T00:00:00",
+      "todate": "2023-12-04T18:00:00",
+      "country": "India",
+      "iso3": "IND",
+      "severitydata": {
+        "severity": 111.1104,
+        "severitytext": "Tropical Storm (maximum wind speed of 111 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001037&episodeid=8",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1001037&episodeid=8&eventtype=TC",
+      "matched_azure_regions": [
+        "indiasouthcentral",
+        "southindia"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1000883,
+      "episodeid": 18,
+      "eventname": "ASANI-22",
+      "name": "Tropical Cyclone ASANI-22",
+      "description": "Tropical Cyclone ASANI-22",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2022-05-07T06:00:00",
+      "todate": "2022-05-11T12:00:00",
+      "country": "India",
+      "iso3": "IND",
+      "severitydata": {
+        "severity": 120.3696,
+        "severitytext": "Tropical Storm (maximum wind speed of 120 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "TC-2022-000229-IND",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1000883&episodeid=18",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1000883&episodeid=18&eventtype=TC",
+      "matched_azure_regions": [
+        "indiasouthcentral",
+        "southindia"
+      ]
+    },
+    {
       "eventtype": "FL",
       "eventid": 1101164,
       "episodeid": 2,
@@ -559,6 +1356,34 @@
       "matched_azure_regions": [
         "indiasouthcentral",
         "southindia"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1000834,
+      "episodeid": 24,
+      "eventname": "GULAB-21/SHAHEEN-21",
+      "name": "Tropical Cyclone GULAB-21/SHAHEEN-21",
+      "description": "Tropical Cyclone GULAB-21/SHAHEEN-21",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2021-09-24T06:00:00",
+      "todate": "2021-10-03T18:00:00",
+      "country": "Oman",
+      "iso3": "OMN",
+      "severitydata": {
+        "severity": 129.6288,
+        "severitytext": "Tropical Storm (maximum wind speed of 130 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1000834&episodeid=24",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1000834&episodeid=24&eventtype=TC",
+      "matched_azure_regions": [
+        "centralindia",
+        "indiasouthcentral",
+        "westindia"
       ]
     },
     {
@@ -624,25 +1449,25 @@
     {
       "eventtype": "DR",
       "eventid": 1018332,
-      "episodeid": 21,
+      "episodeid": 22,
       "eventname": "Europe-2026",
-      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
-      "description": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
+      "description": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
       "alertlevel": "Orange",
       "alertscore": 2,
       "fromdate": "2025-12-21T00:00:00",
-      "todate": "2026-09-18T00:00:00",
-      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "todate": "2026-09-24T00:00:00",
+      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
       "iso3": "AUT",
       "severitydata": {
-        "severity": 1431152.0,
-        "severitytext": "Medium impact for agricultural drought in 1431152 km2",
+        "severity": 1264372.0,
+        "severitytext": "Medium impact for agricultural drought in 1264372 km2",
         "severityunit": "km2"
       },
       "glide": "DR-2025-000239-ALB",
       "geometry_source": "getgeometry-polygon",
-      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1018332&episodeid=21",
-      "url_report": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=21&eventtype=DR",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1018332&episodeid=22",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=22&eventtype=DR",
       "matched_azure_regions": [
         "austriaeast",
         "belgiumcentral",
@@ -660,6 +1485,116 @@
     }
   ],
   "japaneast": [
+    {
+      "eventtype": "TC",
+      "eventid": 1001118,
+      "episodeid": 32,
+      "eventname": "KONG-REY-24",
+      "name": "Tropical Cyclone KONG-REY-24",
+      "description": "Tropical Cyclone KONG-REY-24",
+      "alertlevel": "Red",
+      "alertscore": 3,
+      "fromdate": "2024-10-25T00:00:00",
+      "todate": "2024-11-01T18:00:00",
+      "country": "Philippines, Taiwan, China, Japan",
+      "iso3": "CHN",
+      "severitydata": {
+        "severity": 240.7392,
+        "severitytext": "Tropical Storm (maximum wind speed of 241 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "TC-2024-000200-CHN",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001118&episodeid=32",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1001118&episodeid=32&eventtype=TC",
+      "matched_azure_regions": [
+        "japaneast",
+        "japanwest",
+        "koreasouth"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1001082,
+      "episodeid": 24,
+      "eventname": "AMPIL-24",
+      "name": "Tropical Cyclone AMPIL-24",
+      "description": "Tropical Cyclone AMPIL-24",
+      "alertlevel": "Red",
+      "alertscore": 3,
+      "fromdate": "2024-08-12T12:00:00",
+      "todate": "2024-08-18T06:00:00",
+      "country": "Japan",
+      "iso3": "JPN",
+      "severitydata": {
+        "severity": 212.9616,
+        "severitytext": "Tropical Storm (maximum wind speed of 213 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001082&episodeid=24",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1001082&episodeid=24&eventtype=TC",
+      "matched_azure_regions": [
+        "japaneast"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1000972,
+      "episodeid": 57,
+      "eventname": "MAWAR-23",
+      "name": "Tropical Cyclone MAWAR-23",
+      "description": "Tropical Cyclone MAWAR-23",
+      "alertlevel": "Red",
+      "alertscore": 3,
+      "fromdate": "2023-05-20T00:00:00",
+      "todate": "2023-06-03T00:00:00",
+      "country": "Northern Mariana Islands, Guam, Philippines, Japan, China",
+      "iso3": "GUM",
+      "severitydata": {
+        "severity": 296.2944,
+        "severitytext": "Tropical Storm (maximum wind speed of 296 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1000972&episodeid=57",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1000972&episodeid=57&eventtype=TC",
+      "matched_azure_regions": [
+        "japaneast",
+        "japanwest"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1000915,
+      "episodeid": 29,
+      "eventname": "NANMADOL-22",
+      "name": "Tropical Cyclone NANMADOL-22",
+      "description": "Tropical Cyclone NANMADOL-22",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2022-09-12T18:00:00",
+      "todate": "2022-09-19T18:00:00",
+      "country": "Japan",
+      "iso3": "JPN",
+      "severitydata": {
+        "severity": 249.9984,
+        "severitytext": "Tropical Storm (maximum wind speed of 250 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1000915&episodeid=29",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1000915&episodeid=29&eventtype=TC",
+      "matched_azure_regions": [
+        "japaneast",
+        "japanwest",
+        "koreacentral",
+        "koreasouth"
+      ]
+    },
     {
       "eventtype": "FL",
       "eventid": 1101571,
@@ -687,9 +1622,344 @@
       ]
     }
   ],
-  "japanwest": [],
-  "koreacentral": [],
-  "koreasouth": [],
+  "japanwest": [
+    {
+      "eventtype": "TC",
+      "eventid": 1001118,
+      "episodeid": 32,
+      "eventname": "KONG-REY-24",
+      "name": "Tropical Cyclone KONG-REY-24",
+      "description": "Tropical Cyclone KONG-REY-24",
+      "alertlevel": "Red",
+      "alertscore": 3,
+      "fromdate": "2024-10-25T00:00:00",
+      "todate": "2024-11-01T18:00:00",
+      "country": "Philippines, Taiwan, China, Japan",
+      "iso3": "CHN",
+      "severitydata": {
+        "severity": 240.7392,
+        "severitytext": "Tropical Storm (maximum wind speed of 241 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "TC-2024-000200-CHN",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001118&episodeid=32",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1001118&episodeid=32&eventtype=TC",
+      "matched_azure_regions": [
+        "japaneast",
+        "japanwest",
+        "koreasouth"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1000972,
+      "episodeid": 57,
+      "eventname": "MAWAR-23",
+      "name": "Tropical Cyclone MAWAR-23",
+      "description": "Tropical Cyclone MAWAR-23",
+      "alertlevel": "Red",
+      "alertscore": 3,
+      "fromdate": "2023-05-20T00:00:00",
+      "todate": "2023-06-03T00:00:00",
+      "country": "Northern Mariana Islands, Guam, Philippines, Japan, China",
+      "iso3": "GUM",
+      "severitydata": {
+        "severity": 296.2944,
+        "severitytext": "Tropical Storm (maximum wind speed of 296 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1000972&episodeid=57",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1000972&episodeid=57&eventtype=TC",
+      "matched_azure_regions": [
+        "japaneast",
+        "japanwest"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1000915,
+      "episodeid": 29,
+      "eventname": "NANMADOL-22",
+      "name": "Tropical Cyclone NANMADOL-22",
+      "description": "Tropical Cyclone NANMADOL-22",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2022-09-12T18:00:00",
+      "todate": "2022-09-19T18:00:00",
+      "country": "Japan",
+      "iso3": "JPN",
+      "severitydata": {
+        "severity": 249.9984,
+        "severitytext": "Tropical Storm (maximum wind speed of 250 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1000915&episodeid=29",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1000915&episodeid=29&eventtype=TC",
+      "matched_azure_regions": [
+        "japaneast",
+        "japanwest",
+        "koreacentral",
+        "koreasouth"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1000824,
+      "episodeid": 48,
+      "eventname": "CHANTHU-21",
+      "name": "Tropical Cyclone CHANTHU-21",
+      "description": "Tropical Cyclone CHANTHU-21",
+      "alertlevel": "Red",
+      "alertscore": 3,
+      "fromdate": "2021-09-06T06:00:00",
+      "todate": "2021-09-18T00:00:00",
+      "country": "China, Philippines",
+      "iso3": "CHN",
+      "severitydata": {
+        "severity": 287.0352,
+        "severitytext": "Tropical Depression (maximum wind speed of 287 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "TC-2021-000140-PHL",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1000824&episodeid=48",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1000824&episodeid=48&eventtype=TC",
+      "matched_azure_regions": [
+        "japanwest",
+        "koreasouth"
+      ]
+    }
+  ],
+  "koreacentral": [
+    {
+      "eventtype": "TC",
+      "eventid": 1000986,
+      "episodeid": 59,
+      "eventname": "KHANUN-23",
+      "name": "Tropical Cyclone KHANUN-23",
+      "description": "Tropical Cyclone KHANUN-23",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2023-07-27T06:00:00",
+      "todate": "2023-08-10T18:00:00",
+      "country": "Japan",
+      "iso3": "JPN",
+      "severitydata": {
+        "severity": 222.2208,
+        "severitytext": "Tropical Depression (maximum wind speed of 222 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1000986&episodeid=59",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1000986&episodeid=59&eventtype=TC",
+      "matched_azure_regions": [
+        "koreacentral",
+        "koreasouth"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1000915,
+      "episodeid": 29,
+      "eventname": "NANMADOL-22",
+      "name": "Tropical Cyclone NANMADOL-22",
+      "description": "Tropical Cyclone NANMADOL-22",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2022-09-12T18:00:00",
+      "todate": "2022-09-19T18:00:00",
+      "country": "Japan",
+      "iso3": "JPN",
+      "severitydata": {
+        "severity": 249.9984,
+        "severitytext": "Tropical Storm (maximum wind speed of 250 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1000915&episodeid=29",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1000915&episodeid=29&eventtype=TC",
+      "matched_azure_regions": [
+        "japaneast",
+        "japanwest",
+        "koreacentral",
+        "koreasouth"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1000907,
+      "episodeid": 36,
+      "eventname": "HINNAMNOR-22",
+      "name": "Tropical Cyclone HINNAMNOR-22",
+      "description": "Tropical Cyclone HINNAMNOR-22",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2022-08-28T06:00:00",
+      "todate": "2022-09-06T00:00:00",
+      "country": "Republic of Korea, Japan",
+      "iso3": "JPN",
+      "severitydata": {
+        "severity": 259.2576,
+        "severitytext": "Hurricane/Typhoon > 74 mph (maximum wind speed of 259 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "TC-2022-000301-JPN",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1000907&episodeid=36",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1000907&episodeid=36&eventtype=TC",
+      "matched_azure_regions": [
+        "koreacentral",
+        "koreasouth"
+      ]
+    }
+  ],
+  "koreasouth": [
+    {
+      "eventtype": "TC",
+      "eventid": 1001118,
+      "episodeid": 32,
+      "eventname": "KONG-REY-24",
+      "name": "Tropical Cyclone KONG-REY-24",
+      "description": "Tropical Cyclone KONG-REY-24",
+      "alertlevel": "Red",
+      "alertscore": 3,
+      "fromdate": "2024-10-25T00:00:00",
+      "todate": "2024-11-01T18:00:00",
+      "country": "Philippines, Taiwan, China, Japan",
+      "iso3": "CHN",
+      "severitydata": {
+        "severity": 240.7392,
+        "severitytext": "Tropical Storm (maximum wind speed of 241 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "TC-2024-000200-CHN",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001118&episodeid=32",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1001118&episodeid=32&eventtype=TC",
+      "matched_azure_regions": [
+        "japaneast",
+        "japanwest",
+        "koreasouth"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1000986,
+      "episodeid": 59,
+      "eventname": "KHANUN-23",
+      "name": "Tropical Cyclone KHANUN-23",
+      "description": "Tropical Cyclone KHANUN-23",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2023-07-27T06:00:00",
+      "todate": "2023-08-10T18:00:00",
+      "country": "Japan",
+      "iso3": "JPN",
+      "severitydata": {
+        "severity": 222.2208,
+        "severitytext": "Tropical Depression (maximum wind speed of 222 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1000986&episodeid=59",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1000986&episodeid=59&eventtype=TC",
+      "matched_azure_regions": [
+        "koreacentral",
+        "koreasouth"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1000915,
+      "episodeid": 29,
+      "eventname": "NANMADOL-22",
+      "name": "Tropical Cyclone NANMADOL-22",
+      "description": "Tropical Cyclone NANMADOL-22",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2022-09-12T18:00:00",
+      "todate": "2022-09-19T18:00:00",
+      "country": "Japan",
+      "iso3": "JPN",
+      "severitydata": {
+        "severity": 249.9984,
+        "severitytext": "Tropical Storm (maximum wind speed of 250 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1000915&episodeid=29",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1000915&episodeid=29&eventtype=TC",
+      "matched_azure_regions": [
+        "japaneast",
+        "japanwest",
+        "koreacentral",
+        "koreasouth"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1000907,
+      "episodeid": 36,
+      "eventname": "HINNAMNOR-22",
+      "name": "Tropical Cyclone HINNAMNOR-22",
+      "description": "Tropical Cyclone HINNAMNOR-22",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2022-08-28T06:00:00",
+      "todate": "2022-09-06T00:00:00",
+      "country": "Republic of Korea, Japan",
+      "iso3": "JPN",
+      "severitydata": {
+        "severity": 259.2576,
+        "severitytext": "Hurricane/Typhoon > 74 mph (maximum wind speed of 259 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "TC-2022-000301-JPN",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1000907&episodeid=36",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1000907&episodeid=36&eventtype=TC",
+      "matched_azure_regions": [
+        "koreacentral",
+        "koreasouth"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1000824,
+      "episodeid": 48,
+      "eventname": "CHANTHU-21",
+      "name": "Tropical Cyclone CHANTHU-21",
+      "description": "Tropical Cyclone CHANTHU-21",
+      "alertlevel": "Red",
+      "alertscore": 3,
+      "fromdate": "2021-09-06T06:00:00",
+      "todate": "2021-09-18T00:00:00",
+      "country": "China, Philippines",
+      "iso3": "CHN",
+      "severitydata": {
+        "severity": 287.0352,
+        "severitytext": "Tropical Depression (maximum wind speed of 287 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "TC-2021-000140-PHL",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1000824&episodeid=48",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1000824&episodeid=48&eventtype=TC",
+      "matched_azure_regions": [
+        "japanwest",
+        "koreasouth"
+      ]
+    }
+  ],
   "malaysiawest": [
     {
       "eventtype": "FL",
@@ -720,6 +1990,32 @@
     }
   ],
   "mexicocentral": [
+    {
+      "eventtype": "TC",
+      "eventid": 1001066,
+      "episodeid": 13,
+      "eventname": "ALBERTO-24",
+      "name": "Tropical Cyclone ALBERTO-24",
+      "description": "Tropical Cyclone ALBERTO-24",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2024-06-17T21:00:00",
+      "todate": "2024-06-20T21:00:00",
+      "country": "Guatemala, Mexico, United States, Belize",
+      "iso3": "GTM",
+      "severitydata": {
+        "severity": 83.3328,
+        "severitytext": "Tropical Depression (maximum wind speed of 83 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001066&episodeid=13",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1001066&episodeid=13&eventtype=TC",
+      "matched_azure_regions": [
+        "mexicocentral"
+      ]
+    },
     {
       "eventtype": "DR",
       "eventid": 1014149,
@@ -780,25 +2076,25 @@
     {
       "eventtype": "DR",
       "eventid": 1018332,
-      "episodeid": 21,
+      "episodeid": 22,
       "eventname": "Europe-2026",
-      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
-      "description": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
+      "description": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
       "alertlevel": "Orange",
       "alertscore": 2,
       "fromdate": "2025-12-21T00:00:00",
-      "todate": "2026-09-18T00:00:00",
-      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "todate": "2026-09-24T00:00:00",
+      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
       "iso3": "AUT",
       "severitydata": {
-        "severity": 1431152.0,
-        "severitytext": "Medium impact for agricultural drought in 1431152 km2",
+        "severity": 1264372.0,
+        "severitytext": "Medium impact for agricultural drought in 1264372 km2",
         "severityunit": "km2"
       },
       "glide": "DR-2025-000239-ALB",
       "geometry_source": "getgeometry-polygon",
-      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1018332&episodeid=21",
-      "url_report": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=21&eventtype=DR",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1018332&episodeid=22",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=22&eventtype=DR",
       "matched_azure_regions": [
         "austriaeast",
         "belgiumcentral",
@@ -845,11 +2141,197 @@
       "matched_azure_regions": [
         "southafricanorth"
       ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1001053,
+      "episodeid": 20,
+      "eventname": "FILIPO-24",
+      "name": "Tropical Cyclone FILIPO-24",
+      "description": "Tropical Cyclone FILIPO-24",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2024-03-03T06:00:00",
+      "todate": "2024-03-14T12:00:00",
+      "country": "Mozambique, South Africa, Eswatini, Zimbabwe, Malawi",
+      "iso3": "MOZ",
+      "severitydata": {
+        "severity": 158.33232,
+        "severitytext": "Post-tropical Depression (maximum wind speed of 158 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "TC-2024-000032-MOZ",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001053&episodeid=20",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1001053&episodeid=20&eventtype=TC",
+      "matched_azure_regions": [
+        "southafricanorth"
+      ]
     }
   ],
   "southafricawest": [],
-  "southcentralus": [],
+  "southcentralus": [
+    {
+      "eventtype": "TC",
+      "eventid": 1001067,
+      "episodeid": 43,
+      "eventname": "BERYL-24",
+      "name": "Tropical Cyclone BERYL-24",
+      "description": "Tropical Cyclone BERYL-24",
+      "alertlevel": "Red",
+      "alertscore": 3,
+      "fromdate": "2024-06-28T21:00:00",
+      "todate": "2024-07-09T09:00:00",
+      "country": "Haiti, Grenada, Jamaica, Trinidad and Tobago, Saint Vincent and the Grenadines, Mexico, Belize, United States",
+      "iso3": "JAM",
+      "severitydata": {
+        "severity": 268.5168,
+        "severitytext": "Tropical Depression (maximum wind speed of 269 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001067&episodeid=43",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1001067&episodeid=43&eventtype=TC",
+      "matched_azure_regions": [
+        "southcentralus"
+      ]
+    }
+  ],
   "southindia": [
+    {
+      "eventtype": "TC",
+      "eventid": 1001232,
+      "episodeid": 11,
+      "eventname": "MONTHA-25",
+      "name": "Tropical Cyclone MONTHA-25",
+      "description": "Tropical Cyclone MONTHA-25",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2025-10-26T12:00:00",
+      "todate": "2025-10-29T00:00:00",
+      "country": "India",
+      "iso3": "IND",
+      "severitydata": {
+        "severity": 83.3328,
+        "severitytext": "Tropical Storm (maximum wind speed of 83 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001232&episodeid=11",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1001232&episodeid=11&eventtype=TC",
+      "matched_azure_regions": [
+        "indiasouthcentral",
+        "southindia"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1001130,
+      "episodeid": 7,
+      "eventname": "FENGAL-24",
+      "name": "Tropical Cyclone FENGAL-24",
+      "description": "Tropical Cyclone FENGAL-24",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2024-11-29T18:00:00",
+      "todate": "2024-12-01T06:00:00",
+      "country": "India",
+      "iso3": "IND",
+      "severitydata": {
+        "severity": 92.592,
+        "severitytext": "Tropical Storm (maximum wind speed of 93 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001130&episodeid=7",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1001130&episodeid=7&eventtype=TC",
+      "matched_azure_regions": [
+        "southindia"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1001037,
+      "episodeid": 8,
+      "eventname": "MICHAUNG-23",
+      "name": "Tropical Cyclone MICHAUNG-23",
+      "description": "Tropical Cyclone MICHAUNG-23",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2023-12-03T00:00:00",
+      "todate": "2023-12-04T18:00:00",
+      "country": "India",
+      "iso3": "IND",
+      "severitydata": {
+        "severity": 111.1104,
+        "severitytext": "Tropical Storm (maximum wind speed of 111 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001037&episodeid=8",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1001037&episodeid=8&eventtype=TC",
+      "matched_azure_regions": [
+        "indiasouthcentral",
+        "southindia"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1000950,
+      "episodeid": 10,
+      "eventname": "MANDOUS-22",
+      "name": "Tropical Cyclone MANDOUS-22",
+      "description": "Tropical Cyclone MANDOUS-22",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2022-12-07T18:00:00",
+      "todate": "2022-12-10T00:00:00",
+      "country": "India, Sri Lanka",
+      "iso3": "IND",
+      "severitydata": {
+        "severity": 101.8512,
+        "severitytext": "Tropical Depression (maximum wind speed of 102 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1000950&episodeid=10",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1000950&episodeid=10&eventtype=TC",
+      "matched_azure_regions": [
+        "southindia"
+      ]
+    },
+    {
+      "eventtype": "TC",
+      "eventid": 1000883,
+      "episodeid": 18,
+      "eventname": "ASANI-22",
+      "name": "Tropical Cyclone ASANI-22",
+      "description": "Tropical Cyclone ASANI-22",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2022-05-07T06:00:00",
+      "todate": "2022-05-11T12:00:00",
+      "country": "India",
+      "iso3": "IND",
+      "severitydata": {
+        "severity": 120.3696,
+        "severitytext": "Tropical Storm (maximum wind speed of 120 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "TC-2022-000229-IND",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1000883&episodeid=18",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1000883&episodeid=18&eventtype=TC",
+      "matched_azure_regions": [
+        "indiasouthcentral",
+        "southindia"
+      ]
+    },
     {
       "eventtype": "FL",
       "eventid": 1101164,
@@ -1021,25 +2503,25 @@
     {
       "eventtype": "DR",
       "eventid": 1018332,
-      "episodeid": 21,
+      "episodeid": 22,
       "eventname": "Europe-2026",
-      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
-      "description": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
+      "description": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
       "alertlevel": "Orange",
       "alertscore": 2,
       "fromdate": "2025-12-21T00:00:00",
-      "todate": "2026-09-18T00:00:00",
-      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "todate": "2026-09-24T00:00:00",
+      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
       "iso3": "AUT",
       "severitydata": {
-        "severity": 1431152.0,
-        "severitytext": "Medium impact for agricultural drought in 1431152 km2",
+        "severity": 1264372.0,
+        "severitytext": "Medium impact for agricultural drought in 1264372 km2",
         "severityunit": "km2"
       },
       "glide": "DR-2025-000239-ALB",
       "geometry_source": "getgeometry-polygon",
-      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1018332&episodeid=21",
-      "url_report": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=21&eventtype=DR",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1018332&episodeid=22",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=22&eventtype=DR",
       "matched_azure_regions": [
         "austriaeast",
         "belgiumcentral",
@@ -1060,25 +2542,25 @@
     {
       "eventtype": "DR",
       "eventid": 1018332,
-      "episodeid": 21,
+      "episodeid": 22,
       "eventname": "Europe-2026",
-      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
-      "description": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
+      "description": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
       "alertlevel": "Orange",
       "alertscore": 2,
       "fromdate": "2025-12-21T00:00:00",
-      "todate": "2026-09-18T00:00:00",
-      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "todate": "2026-09-24T00:00:00",
+      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
       "iso3": "AUT",
       "severitydata": {
-        "severity": 1431152.0,
-        "severitytext": "Medium impact for agricultural drought in 1431152 km2",
+        "severity": 1264372.0,
+        "severitytext": "Medium impact for agricultural drought in 1264372 km2",
         "severityunit": "km2"
       },
       "glide": "DR-2025-000239-ALB",
       "geometry_source": "getgeometry-polygon",
-      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1018332&episodeid=21",
-      "url_report": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=21&eventtype=DR",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1018332&episodeid=22",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=22&eventtype=DR",
       "matched_azure_regions": [
         "austriaeast",
         "belgiumcentral",
@@ -1096,109 +2578,30 @@
     }
   ],
   "uaecentral": [],
-  "uaenorth": [
-    {
-      "eventtype": "EQ",
-      "eventid": 1328816,
-      "episodeid": 1451301,
-      "eventname": "",
-      "name": "Earthquake in Islamic Republic of Iran",
-      "description": "Earthquake in Islamic Republic of Iran",
-      "alertlevel": "Orange",
-      "alertscore": 2,
-      "fromdate": "2022-07-01T23:25:14",
-      "todate": "2022-07-01T23:25:14",
-      "country": "Islamic Republic of Iran",
-      "iso3": "IRN",
-      "severitydata": {
-        "severity": 6.0,
-        "severitytext": "Magnitude 6M, Depth:10km",
-        "severityunit": "M"
-      },
-      "glide": "EQ-2022-000248-IRN",
-      "geometry_source": "getgeometry-polygon",
-      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1328816&episodeid=1451301",
-      "url_report": "https://www.gdacs.org/report.aspx?eventid=1328816&episodeid=1451301&eventtype=EQ",
-      "matched_azure_regions": [
-        "uaenorth"
-      ]
-    },
-    {
-      "eventtype": "EQ",
-      "eventid": 1328800,
-      "episodeid": 1451283,
-      "eventname": "",
-      "name": "Earthquake in Islamic Republic of Iran",
-      "description": "Earthquake in Islamic Republic of Iran",
-      "alertlevel": "Orange",
-      "alertscore": 2,
-      "fromdate": "2022-07-01T21:32:07",
-      "todate": "2022-07-01T21:32:07",
-      "country": "Islamic Republic of Iran",
-      "iso3": "IRN",
-      "severitydata": {
-        "severity": 6.0,
-        "severitytext": "Magnitude 6M, Depth:16km",
-        "severityunit": "M"
-      },
-      "glide": "EQ-2022-000248-IRN",
-      "geometry_source": "getgeometry-polygon",
-      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1328800&episodeid=1451283",
-      "url_report": "https://www.gdacs.org/report.aspx?eventid=1328800&episodeid=1451283&eventtype=EQ",
-      "matched_azure_regions": [
-        "uaenorth"
-      ]
-    },
-    {
-      "eventtype": "EQ",
-      "eventid": 1328006,
-      "episodeid": 1450328,
-      "eventname": "",
-      "name": "Earthquake in Islamic Republic of Iran",
-      "description": "Earthquake in Islamic Republic of Iran",
-      "alertlevel": "Orange",
-      "alertscore": 2,
-      "fromdate": "2022-06-25T03:37:13",
-      "todate": "2022-06-25T03:37:13",
-      "country": "Islamic Republic of Iran",
-      "iso3": "IRN",
-      "severitydata": {
-        "severity": 5.6,
-        "severitytext": "Magnitude 5.6M, Depth:10km",
-        "severityunit": "M"
-      },
-      "glide": "EQ-2022-000237-IRN",
-      "geometry_source": "getgeometry-polygon",
-      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=EQ&eventid=1328006&episodeid=1450328",
-      "url_report": "https://www.gdacs.org/report.aspx?eventid=1328006&episodeid=1450328&eventtype=EQ",
-      "matched_azure_regions": [
-        "uaenorth"
-      ]
-    }
-  ],
+  "uaenorth": [],
   "uksouth": [
     {
       "eventtype": "DR",
       "eventid": 1018332,
-      "episodeid": 21,
+      "episodeid": 22,
       "eventname": "Europe-2026",
-      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
-      "description": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
+      "description": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
       "alertlevel": "Orange",
       "alertscore": 2,
       "fromdate": "2025-12-21T00:00:00",
-      "todate": "2026-09-18T00:00:00",
-      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "todate": "2026-09-24T00:00:00",
+      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
       "iso3": "AUT",
       "severitydata": {
-        "severity": 1431152.0,
-        "severitytext": "Medium impact for agricultural drought in 1431152 km2",
+        "severity": 1264372.0,
+        "severitytext": "Medium impact for agricultural drought in 1264372 km2",
         "severityunit": "km2"
       },
       "glide": "DR-2025-000239-ALB",
       "geometry_source": "getgeometry-polygon",
-      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1018332&episodeid=21",
-      "url_report": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=21&eventtype=DR",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1018332&episodeid=22",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=22&eventtype=DR",
       "matched_azure_regions": [
         "austriaeast",
         "belgiumcentral",
@@ -1219,25 +2622,25 @@
     {
       "eventtype": "DR",
       "eventid": 1018332,
-      "episodeid": 21,
+      "episodeid": 22,
       "eventname": "Europe-2026",
-      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
-      "description": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
+      "description": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
       "alertlevel": "Orange",
       "alertscore": 2,
       "fromdate": "2025-12-21T00:00:00",
-      "todate": "2026-09-18T00:00:00",
-      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "todate": "2026-09-24T00:00:00",
+      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
       "iso3": "AUT",
       "severitydata": {
-        "severity": 1431152.0,
-        "severitytext": "Medium impact for agricultural drought in 1431152 km2",
+        "severity": 1264372.0,
+        "severitytext": "Medium impact for agricultural drought in 1264372 km2",
         "severityunit": "km2"
       },
       "glide": "DR-2025-000239-ALB",
       "geometry_source": "getgeometry-polygon",
-      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1018332&episodeid=21",
-      "url_report": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=21&eventtype=DR",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1018332&episodeid=22",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=22&eventtype=DR",
       "matched_azure_regions": [
         "austriaeast",
         "belgiumcentral",
@@ -1259,25 +2662,25 @@
     {
       "eventtype": "DR",
       "eventid": 1018332,
-      "episodeid": 21,
+      "episodeid": 22,
       "eventname": "Europe-2026",
-      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
-      "description": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "name": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
+      "description": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
       "alertlevel": "Orange",
       "alertscore": 2,
       "fromdate": "2025-12-21T00:00:00",
-      "todate": "2026-09-18T00:00:00",
-      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, , ",
+      "todate": "2026-09-24T00:00:00",
+      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ",
       "iso3": "AUT",
       "severitydata": {
-        "severity": 1431152.0,
-        "severitytext": "Medium impact for agricultural drought in 1431152 km2",
+        "severity": 1264372.0,
+        "severitytext": "Medium impact for agricultural drought in 1264372 km2",
         "severityunit": "km2"
       },
       "glide": "DR-2025-000239-ALB",
       "geometry_source": "getgeometry-polygon",
-      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1018332&episodeid=21",
-      "url_report": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=21&eventtype=DR",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=DR&eventid=1018332&episodeid=22",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=22&eventtype=DR",
       "matched_azure_regions": [
         "austriaeast",
         "belgiumcentral",
@@ -1324,6 +2727,34 @@
   "westindia": [
     {
       "eventtype": "TC",
+      "eventid": 1000834,
+      "episodeid": 24,
+      "eventname": "GULAB-21/SHAHEEN-21",
+      "name": "Tropical Cyclone GULAB-21/SHAHEEN-21",
+      "description": "Tropical Cyclone GULAB-21/SHAHEEN-21",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2021-09-24T06:00:00",
+      "todate": "2021-10-03T18:00:00",
+      "country": "Oman",
+      "iso3": "OMN",
+      "severitydata": {
+        "severity": 129.6288,
+        "severitytext": "Tropical Storm (maximum wind speed of 130 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1000834&episodeid=24",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1000834&episodeid=24&eventtype=TC",
+      "matched_azure_regions": [
+        "centralindia",
+        "indiasouthcentral",
+        "westindia"
+      ]
+    },
+    {
+      "eventtype": "TC",
       "eventid": 1000782,
       "episodeid": 15,
       "eventname": "TAUKTAE-21",
@@ -1345,6 +2776,7 @@
       "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1000782&episodeid=15",
       "url_report": "https://www.gdacs.org/report.aspx?eventid=1000782&episodeid=15&eventtype=TC",
       "matched_azure_regions": [
+        "centralindia",
         "westindia"
       ]
     },
@@ -1380,6 +2812,33 @@
   ],
   "westus": [
     {
+      "eventtype": "TC",
+      "eventid": 1000993,
+      "episodeid": 22,
+      "eventname": "HILARY-23",
+      "name": "Tropical Cyclone HILARY-23",
+      "description": "Tropical Cyclone HILARY-23",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2023-08-16T15:00:00",
+      "todate": "2023-08-21T21:00:00",
+      "country": "Mexico",
+      "iso3": "MEX",
+      "severitydata": {
+        "severity": 231.48,
+        "severitytext": "Tropical Depression (maximum wind speed of 231 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "TC-2023-000150-MEX",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1000993&episodeid=22",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1000993&episodeid=22&eventtype=TC",
+      "matched_azure_regions": [
+        "westus",
+        "westus3"
+      ]
+    },
+    {
       "eventtype": "DR",
       "eventid": 1014139,
       "episodeid": 23,
@@ -1408,5 +2867,33 @@
     }
   ],
   "westus2": [],
-  "westus3": []
+  "westus3": [
+    {
+      "eventtype": "TC",
+      "eventid": 1000993,
+      "episodeid": 22,
+      "eventname": "HILARY-23",
+      "name": "Tropical Cyclone HILARY-23",
+      "description": "Tropical Cyclone HILARY-23",
+      "alertlevel": "Orange",
+      "alertscore": 2,
+      "fromdate": "2023-08-16T15:00:00",
+      "todate": "2023-08-21T21:00:00",
+      "country": "Mexico",
+      "iso3": "MEX",
+      "severitydata": {
+        "severity": 231.48,
+        "severitytext": "Tropical Depression (maximum wind speed of 231 km/h)",
+        "severityunit": "km/h"
+      },
+      "glide": "TC-2023-000150-MEX",
+      "geometry_source": "getgeometry-polygon",
+      "url_geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1000993&episodeid=22",
+      "url_report": "https://www.gdacs.org/report.aspx?eventid=1000993&episodeid=22&eventtype=TC",
+      "matched_azure_regions": [
+        "westus",
+        "westus3"
+      ]
+    }
+  ]
 }

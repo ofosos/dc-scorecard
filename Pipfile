@@ -8,12 +8,12 @@ pdftext = "*"
 gdacs-api = "*"
 pandas = "*"
 numpy = "*"
-geopandas = "*"
 requests = "*"
 azure-identity = "*"
 azure-mgmt-compute = "*"
 marimo = {extras = ["recommended"], version = "*"}
 sqlmodel = "*"
+geopandas = "*"
 
 [dev-packages]
 

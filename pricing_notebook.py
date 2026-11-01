@@ -56,7 +56,7 @@ def _(DATA_DIR, json, pd):
         json.loads((DATA_DIR / "az_regions_annotated.json").read_text()), sep="_"
     )
     az_regions_annotated
-    return (az_regions_annotated,)
+    return
 
 
 @app.cell
@@ -391,7 +391,7 @@ def _(mo):
 
 
 @app.cell
-def _(basket, pd):
+def _(basket):
     basket_totals = (
         basket.groupby("region", as_index=False)["sum"]
         .sum()
@@ -428,7 +428,7 @@ def _(mo):
 def _():
     import sqlmodel
 
-    DATABASE_URL = "sqlite:///scores.db"
+    DATABASE_URL = "sqlite:///data.db"
     engine = sqlmodel.create_engine(DATABASE_URL)
     return (engine,)
 
@@ -461,7 +461,7 @@ def _(ScoreEntry, Session, basket_totals, engine, insert, kpi_input, silos):
         silo_spec = basket_totals[
             basket_totals["region"].isin(regions)
         ].copy()
-        silo_spec["rank"] = silo_spec["basket_total"].rank(ascending=True)
+        silo_spec["rank"] = silo_spec["basket_total"].rank(ascending=True, method='min')
 
         for _index, row in silo_spec.iterrows():
             basket_data.append(
