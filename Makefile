@@ -4,6 +4,10 @@ PYTHON ?= python3
 
 .PHONY: all clean
 
+SILO_JSONS = afri.json amer.json asia.json asean.json au.json eea.json \
+             euro.json eu27.json global.json me.json merco.json \
+             nafta.json noa.json opec.json us.json
+
 all: az_regions_annotated.json \
      ilo_azure_regions.csv \
      global_rights_azure_regions.csv \
@@ -11,6 +15,7 @@ all: az_regions_annotated.json \
      gdacs_events_by_region.json \
      region_temperatures.json \
      region_temperatures_sweatscore.csv \
+     $(SILO_JSONS) \
      compute_prices_availability.csv \
      blob_storage_pricing.csv \
      block_storage_pricing.csv \
@@ -41,6 +46,9 @@ region_temperatures.json: max_temperatures_region.py az_regions_annotated.json
 region_temperatures_sweatscore.csv: sweat_score.py region_temperatures.json
 	$(PYTHON) sweat_score.py
 
+$(SILO_JSONS) &: silos_geo_annotations.py silos.json az_regions_annotated.json
+	$(PYTHON) silos_geo_annotations.py
+
 compute_prices_availability.csv: compute_prices_availability.py az_regions_annotated.json
 	$(PYTHON) compute_prices_availability.py
 
@@ -70,6 +78,7 @@ clean:
 	      gdacs_events_by_region.json.error.log \
 	      region_temperatures.json \
 	      region_temperatures_sweatscore.csv \
+	      $(SILO_JSONS) \
 	      compute_prices_availability.csv \
 	      blob_storage_pricing.csv \
 	      block_storage_pricing.csv \

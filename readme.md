@@ -29,6 +29,23 @@ Script: `az_regions_annotate.py`
 
 Output: `az_regions_annotated.json`
 
+## Silo geodata and annotations
+
+One map annotation file per data silo: each `<silo>.json` (e.g.
+`afri.json`) is a compact array of `{"title", "lat", "lng",
+"description"}` objects for every Azure region in the silo, with the
+region display name, coordinates and physical location
+(e.g. Johannesburg) taken from `az_regions_annotated.json`.
+
+Script: `silos_geo_annotations.py`
+
+Inputs: `silos.json`, `az_regions_annotated.json`
+
+Output: one `<silo>.json` per silo (`afri.json`, `amer.json`, `asia.json`,
+`asean.json`, `au.json`, `eea.json`, `euro.json`, `eu27.json`,
+`global.json`, `me.json`, `merco.json`, `nafta.json`, `noa.json`,
+`opec.json`, `us.json`)
+
 
 ## ILO conventions
 
@@ -182,6 +199,7 @@ files (the 274 MB GED event extract is unzipped to
 ## Outputs
 
  - `az_regions_annotated.json` AZ regions with ISO country code and coords
+ - `<silo>.json` per-silo geodata and annotations (title, lat, lng, description)
  - `region_temperatures_sweatscore.csv` sweat score (high temps)
  - `ilo_azure_regions.csv` signed ILO core conventions
  - `global_rights_azure_regions.csv` ITUC global rights index
