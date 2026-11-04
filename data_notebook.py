@@ -264,23 +264,6 @@ def _(DATA_DIR, json, pd):
 
 
 @app.cell
-def _(DATA_DIR, json, mo):
-    gdac_swagger = json.loads((DATA_DIR / "gdac-swagger.json").read_text())
-    mo.md(
-        f"""
-        ## gdac_swagger
-
-        GDACS API OpenAPI specification — `{gdac_swagger["info"]["title"]}`,
-        version `{gdac_swagger["info"]["version"]}`,
-        {len(gdac_swagger["paths"])} endpoint paths.
-
-        Loaded as the Python dict `gdac_swagger`.
-        """
-    )
-    return
-
-
-@app.cell
 def _(mo):
     mo.md(r"""
     ## Dataset overview
@@ -288,6 +271,45 @@ def _(mo):
     Rows and columns of every dataset loaded above.
     """)
     return
+
+
+@app.cell
+def _(mo):
+    mo.md(r"""
+    ## Pricing datasets
+
+    Compute (VM availability and prices), blob storage, block storage
+    (managed disk) and Files pricing matrices per Azure region.
+    """)
+    return
+
+
+@app.cell
+def _(DATA_DIR, pd):
+    compute_prices_availability = pd.read_csv(DATA_DIR / "compute_prices_availability.csv")
+    compute_prices_availability
+    return (compute_prices_availability,)
+
+
+@app.cell
+def _(DATA_DIR, pd):
+    blob_storage_pricing = pd.read_csv(DATA_DIR / "blob_storage_pricing.csv")
+    blob_storage_pricing
+    return (blob_storage_pricing,)
+
+
+@app.cell
+def _(DATA_DIR, pd):
+    block_storage_pricing = pd.read_csv(DATA_DIR / "block_storage_pricing.csv")
+    block_storage_pricing
+    return (block_storage_pricing,)
+
+
+@app.cell
+def _(DATA_DIR, pd):
+    files_pricing = pd.read_csv(DATA_DIR / "files_pricing.csv")
+    files_pricing
+    return (files_pricing,)
 
 
 @app.cell
@@ -561,7 +583,40 @@ def _(
 
 @app.cell
 def _(gdacs_events):
-    gdacs_events.groupby('region').agg(total=('eventid','count'))
+    gdacs_agg = gdacs_events.groupby('region')['region'].agg(['count'])
+    gdacs_agg["region"] = gdacs_agg.index
+    gdacs_agg.info()
+    return (gdacs_agg,)
+
+
+@app.cell
+def _(ScoreEntry, Session, engine, gdacs_agg, insert, math, silos):
+    gdacs_data = []
+
+    for silogdacs, regiongdacs in silos.items():
+        silo_spec_gdacs = gdacs_agg[gdacs_agg["region"].isin(regiongdacs)]
+
+        silo_spec_gdacs["rank"] = silo_spec_gdacs["count"].rank(ascending=True, method='min')
+
+        for indexgd, rowgd in silo_spec_gdacs.iterrows():
+
+            if not math.isnan(rowgd["count"]):
+                gdacs_data.append(ScoreEntry(
+                    silo=silogdacs,
+                    region=rowgd["region"], 
+                    kpi="natural_disaster", 
+                    value=rowgd["count"], 
+                    index=rowgd["rank"],
+                    tot_values=silo_spec_gdacs['count'].count(),
+                    average=silo_spec_gdacs['count'].mean(),
+                    median=silo_spec_gdacs['count'].median(),
+                ))
+        print(f"co2i, {silogdacs}, count={silo_spec_gdacs['region'].count()}, median={silo_spec_gdacs['count'].median()}, max={silo_spec_gdacs['count'].max()}, min={silo_spec_gdacs['count'].min()}, avg={silo_spec_gdacs['count'].mean()}")
+
+    with Session(engine) as gdacssession:
+        gdacssession.exec(insert(ScoreEntry), params=gdacs_data)
+
+        gdacssession.commit()
     return
 
 

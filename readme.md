@@ -99,6 +99,22 @@ Shapely, each Azure region is buffered into a true WGS84 geodesic circle
 exact circle) and events are assigned with a single `geopandas.sjoin`
 spatial join (`predicate="intersects"`).
 
+## GDACS - SQLite
+
+Selected GDACS events per Azure region, loaded into the `gdacsevent`
+table of `data.db` from `gdacs_events_by_region.json`: region (Azure
+datacenter), event id, event name, alert level, from/to date (ISO
+timestamps as reported by GDACS), GLIDE number (NULL when not
+available) and the report URL. An event appears once per matched
+region. The table is fully reloaded on each run, keyed on
+(region, eventid).
+
+Script: `gdacs_to_db.py`
+
+Input: `gdacs_events_by_region.json`
+
+Output: `data.db` (table `gdacsevent`)
+
 ## GED data
 
 Armed conflict.
@@ -109,6 +125,22 @@ The point/circle intersection and the per-region matching use GeoPandas
 spatial joins against WGS84 geodesic circles (geodesic densification via
 `pyproj.Geod`); distances are WGS84 geodesic distances (`pyproj.Geod.inv`),
 replacing the haversine approximation.
+
+## GED - SQLite
+
+Selected GED events per Azure region, loaded into the `gedevent` table
+of `data.db` from `ged-azure.csv`: region (Azure datacenter), event id
+and relid, date (day of `date_start`), type of violence, and one
+succinct source field (first source office) plus its headline (first
+source headline). Events without a region coded are dropped. The table
+is fully reloaded on each run, keyed on (region, id).
+
+Script: `ged_to_db.py`
+
+Input: `ged-azure.csv`
+
+Output: `data.db` (table `gedevent`)
+
 
 ## Azure VM availability and prices
 
@@ -184,17 +216,42 @@ Output: `pricing-summary.md`
 
 `make` regenerates all generated CSV/JSON outputs in dependency
 order: annotating the Azure regions first, then the per-topic data
-files that read it, and finally `pricing-summary.md` from the four
-pricing matrices. Each data file has its own make target, so `make
-files_pricing.csv` or `make pricing-summary.md` rebuilds just that
-file plus its dependencies. `make clean` removes the generated data
-files (the 274 MB GED event extract is unzipped to
-`GEDEvent_v26_1.csv`, which is git-ignored).
+files that read it, then `pricing-summary.md` from the four pricing
+matrices, and finally the two marimo notebooks. Each data file has
+its own make target, so `make files_pricing.csv` or `make
+pricing-summary.md` rebuilds just that file plus its dependencies.
+`make clean` removes the generated data files (the 274 MB GED event
+extract is unzipped to `GEDEvent_v26_1.csv`, which is git-ignored).
+
+`azure_carbon_intensity.csv` is not part of `make all`: it requires
+the `EMAPS_TOKEN` environment variable (Electricity Maps API). Build
+it separately with `make azure_carbon_intensity.csv`; the data
+notebook reads it but never rebuilds it.
+
+Targets that need the Pipenv environment (marimo, pandas, geopandas,
+...) are run with `make PYTHON="pipenv run python3"`.
+
+## Marimo notebooks
+
+The marimo notebooks are executed headlessly by the Makefile via
+`marimo export html` (all cells run; the score tables are materialized
+into `data.db` as a side effect) and exported as read-only HTML:
+
+ - `data_notebook.py` -> `data_notebook.html`: loads every JSON/CSV
+   dataset in the repository and materializes the silo/region mapping
+   and KPI score entries (carbon intensity, sweat score, global
+   rights, natural disasters, armed conflict) into `data.db`.
+ - `pricing_notebook.py` -> `pricing_notebook.html`: pricing baskets
+   and per-silo score entries from the four pricing matrices.
+
+Re-running a notebook appends another copy of its score rows to
+`data.db` (the notebooks insert without clearing).
 
 ## Requirements
 
  - Azure CLI
  - Python w/ Pipenv
+ - marimo (for the notebook targets)
 
 ## Outputs
 
@@ -211,3 +268,4 @@ files (the 274 MB GED event extract is unzipped to
  - `block_storage_pricing.csv` block storage (managed disk) price per GB (performance/redundancy)
  - `files_pricing.csv` Azure Files price per GB (performance/redundancy)
  - `pricing-summary.md` per-offering pricing statistics across regions
+ - `data_notebook.html` / `pricing_notebook.html` marimo notebooks, run headlessly and exported as HTML

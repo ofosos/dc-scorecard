@@ -20,7 +20,9 @@ all: az_regions_annotated.json \
      blob_storage_pricing.csv \
      block_storage_pricing.csv \
      files_pricing.csv \
-     pricing-summary.md
+     pricing-summary.md \
+     data_notebook.html \
+     pricing_notebook.html
 
 az_regions_annotated.json: az_regions_annotate.py az_regions.json
 	$(PYTHON) az_regions_annotate.py
@@ -64,6 +66,26 @@ files_pricing.csv: files_pricing.py az_regions_annotated.json
 pricing-summary.md: pricing_summary.py compute_prices_availability.csv blob_storage_pricing.csv block_storage_pricing.csv files_pricing.csv
 	$(PYTHON) pricing_summary.py
 
+# Marimo notebooks: run headlessly via `marimo export html` (all cells are
+# executed; score tables are materialized into data.db as a side effect).
+# azure_carbon_intensity.csv is not a prerequisite: it is token-gated
+# (EMAPS_TOKEN, like `make all`) and only read, never rebuilt here.
+data_notebook.html: data_notebook.py \
+                    ged-azure.csv ged-azure-agg.csv \
+                    global-rights-index.csv global_rights_azure_regions.csv \
+                    ilo-core-conventions.csv ilo_azure_regions.csv \
+                    region_temperatures.json region_temperatures_sweatscore.csv \
+                    gdacs_events_by_region.json silos.json \
+                    compute_prices_availability.csv blob_storage_pricing.csv \
+                    block_storage_pricing.csv files_pricing.csv \
+                    az_regions.json az_regions_annotated.json
+	$(PYTHON) -m marimo export html data_notebook.py -o $@ -f
+
+pricing_notebook.html: pricing_notebook.py az_regions_annotated.json \
+                       compute_prices_availability.csv blob_storage_pricing.csv \
+                       block_storage_pricing.csv files_pricing.csv silos.json
+	$(PYTHON) -m marimo export html pricing_notebook.py -o $@ -f
+
 azure_carbon_intensity.csv: carbon-intensity.py
 	$(PYTHON) carbon-intensity.py
 
@@ -84,4 +106,5 @@ clean:
 	      block_storage_pricing.csv \
 	      files_pricing.csv \
 	      pricing-summary.md \
+	      data_notebook.html pricing_notebook.html \
 	      azure_carbon_intensity.csv
